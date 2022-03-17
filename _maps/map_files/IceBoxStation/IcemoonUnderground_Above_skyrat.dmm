@@ -9891,13 +9891,6 @@
 "yH" = (
 /turf/closed/wall/r_wall,
 /area/mine/laborcamp/security)
-"yI" = (
-/obj/machinery/door/firedoor,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron,
-/area/security/prison)
 "yJ" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -9934,6 +9927,13 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port)
+"yP" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron,
+/area/security/prison)
 "yQ" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/floor/plating/asteroid/snow/icemoon,
@@ -13310,10 +13310,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
-"Hr" = (
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron,
-/area/security/prison)
 "Hs" = (
 /obj/effect/turf_decal/trimline/green/filled/warning{
 	dir = 1
@@ -15113,6 +15109,7 @@
 "LX" = (
 /obj/machinery/duct,
 /obj/structure/extinguisher_cabinet/directional/south,
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/security/prison)
 "LY" = (
@@ -49211,8 +49208,8 @@ VV
 VV
 VV
 VV
-yI
-Hr
+jB
+OQ
 So
 So
 RA
@@ -49982,7 +49979,7 @@ VV
 ml
 Kv
 VV
-jB
+yP
 LX
 So
 So
