@@ -6,8 +6,8 @@ var/list/obj/effect/step_trigger/advanced/STEP_TELEPORTERS = list()
 	var/stopper = 1 // stops throwers
 	var/id = null			//id of this bump_teleporter.
 	var/id_target = null	//id of bump_teleporter which this moves you to.
-	invisibility = 101 // nope cant see this shit
-	anchored = 1
+	invisibility = INVISIBILITY_ABSTRACT // nope cant see this shit
+	anchored = TRUE
 
 /obj/effect/step_trigger/advanced/proc/Trigger(var/atom/movable/A)
 	for(var/obj/effect/step_trigger/advanced/ST in STEP_TELEPORTERS)
