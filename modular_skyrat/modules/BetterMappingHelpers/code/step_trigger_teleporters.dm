@@ -141,3 +141,11 @@ var/list/obj/effect/step_trigger/advanced/STEP_TELEPORTERS = list()
 		if(once)
 			qdel(src)
 
+//Underground to stairs.
+/obj/effect/step_trigger/advanced/underground_to_transition_1_A
+	id = "underground_to_transition_1_A"
+	id_target = "underground_to_transition_2_A"
+
+/obj/effect/step_trigger/advanced/underground_to_transition_2_A
+	id = "underground_to_transition_2_A"
+	id_target = "underground_to_transition_1_A"
