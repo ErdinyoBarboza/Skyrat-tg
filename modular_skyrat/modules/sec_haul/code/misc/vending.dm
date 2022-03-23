@@ -71,6 +71,11 @@
 	premium = list( /obj/item/clothing/under/rank/security/officer/formal = 3,
 					/obj/item/clothing/suit/security/officer = 3,
 					/obj/item/clothing/head/beret/sec/navyofficer = 3)
+	contraband = list(/obj/item/clothing/head/helmet/stormtrooper = 2,
+					/obj/item/clothing/suit/armor/stormtrooper = 2,
+					/obj/item/clothing/shoes/combat/stormtrooper = 2,
+					/obj/item/clothing/gloves/combat/peacekeeper/stormtrooper = 2,
+					)
 	refill_canister = /obj/item/vending_refill/wardrobe/peacekeeper_wardrobe
 	payment_department = ACCOUNT_SEC
 	light_color = COLOR_MODERATE_BLUE
