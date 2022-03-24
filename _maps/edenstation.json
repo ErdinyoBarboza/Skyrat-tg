@@ -1,0 +1,52 @@
+{
+	"version": 1,
+	"map_name": "Eden Colony Base",
+	"map_path": "map_files/EdenStation",
+	"map_file": [
+		"EdenStation_Below.dmm",
+		"EdenStation_Above.dmm",
+		"EdenStation.dmm"
+	],
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"shuttles": {
+		"cargo": "cargo_skyrat",
+		"ferry": "ferry_fancy",
+		"whiteship": "whiteship_box",
+		"emergency": "emergency_box"
+	},
+	"traits": [
+		{
+			"Up": 1,
+			"Mining": true,
+			"Station": false,
+			"Linkage": null,
+			"Gravity": true,
+			"Baseturf": "/turf/open/misc/dirt/jungle/dark"
+		},
+		{
+			"Down": -1,
+			"Up": 1,
+			"Mining": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Baseturf": "/turf/open/misc/sandy_dirt/planet"
+		},
+		{
+			"Down": -1,
+			"Mining": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Baseturf": "/turf/open/misc/grass/jungle/planet"
+		}
+	],
+	"minetype": "none",
+	"job_changes": {
+		"cook": {
+			"additional_cqc_areas": ["/area/service/kitchen/diner"]
+		},
+		"captain": {
+			"special_charter": "colony"
+		}
+	}
+}

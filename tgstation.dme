@@ -4413,6 +4413,8 @@
 #include "modular_skyrat\master_files\code\datums\id_trim\jobs.dm"
 #include "modular_skyrat\master_files\code\datums\id_trim\solfed.dm"
 #include "modular_skyrat\master_files\code\datums\id_trim\syndicate.dm"
+#include "modular_skyrat\master_files\code\datums\mapgen\EdenJungleGenerator.dm"
+#include "modular_skyrat\master_files\code\datums\mapgen\biomes\EdenBiome.dm"
 #include "modular_skyrat\master_files\code\datums\martial\cqcplus.dm"
 #include "modular_skyrat\master_files\code\datums\mutations\chameleon.dm"
 #include "modular_skyrat\master_files\code\datums\quirks\_quirk.dm"
