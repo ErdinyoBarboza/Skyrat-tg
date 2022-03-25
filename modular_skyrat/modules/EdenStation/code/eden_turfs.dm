@@ -1,8 +1,4 @@
-/turf/open/misc/dirt/rocky
-	name = "rocky ground"
-	icon_state = "rockyash"
-	base_icon_state = "rocky_ash"
-	footstep = FOOTSTEP_FLOOR
-	barefootstep = FOOTSTEP_HARD_BAREFOOT
-	clawfootstep = FOOTSTEP_HARD_CLAW
-	heavyfootstep = FOOTSTEP_GENERIC_HEAVY
+/turf/open/misc/ashplanet/rocky/planet
+	slowdown = 1
+	initial_gas_mix = OPENTURF_DEFAULT_ATMOS
+	planetary_atmos = TRUE

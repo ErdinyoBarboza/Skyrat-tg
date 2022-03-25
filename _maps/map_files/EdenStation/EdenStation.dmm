@@ -194,6 +194,18 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"hh" = (
+/obj/docking_port/stationary{
+	dir = 8;
+	dwidth = 1;
+	height = 13;
+	id = "arrivals_stationary";
+	name = "arrivals";
+	roundstart_template = null;
+	width = 5
+	},
+/turf/open/misc/grass/jungle/planet,
+/area/space)
 "hk" = (
 /obj/effect/turf_decal/bot,
 /obj/machinery/conveyor_switch/oneway{
@@ -32345,7 +32357,7 @@ xD
 xD
 xD
 xD
-xD
+hh
 xD
 xD
 xD
