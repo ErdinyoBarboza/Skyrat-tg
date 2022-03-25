@@ -23,7 +23,7 @@
 
 /datum/biome/eden_water
 	turf_type = /turf/open/water/jungle
-	flora_types = list(/obj/structure/flora/ausbushes/reedbush)
+	flora_types = list(/obj/structure/flora/ausbushes/reedbush, /obj/structure/flora/ausbushes/leafybush)
 	flora_density = 15
 
 /datum/biome/eden_mountain
