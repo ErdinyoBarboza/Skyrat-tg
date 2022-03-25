@@ -989,6 +989,13 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/space)
+"Sc" = (
+/obj/effect/step_transporter{
+	id = "A";
+	id_target = "B"
+	},
+/turf/open/misc/grass/jungle/planet,
+/area/space)
 "Sk" = (
 /obj/structure/railing/corner,
 /obj/structure/railing/corner{
@@ -40074,7 +40081,7 @@ xD
 xD
 xD
 Dj
-xD
+Sc
 xD
 xD
 xD

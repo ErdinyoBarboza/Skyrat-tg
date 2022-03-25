@@ -204,6 +204,13 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"ot" = (
+/obj/effect/step_transporter{
+	id = "B";
+	id_target = "A"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "pj" = (
 /obj/machinery/airalarm/directional/north,
 /obj/machinery/vending/cigarette,
@@ -28431,7 +28438,7 @@ vq
 vq
 xT
 vq
-vq
+ot
 EU
 Lz
 oi
