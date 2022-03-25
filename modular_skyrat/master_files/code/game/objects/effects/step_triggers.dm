@@ -5,20 +5,13 @@ var/list/obj/effect/step_trigger/transition/STEP_TELEPORTERS = list()
 	var/id = null			//id of this bump_teleporter.
 	var/id_target = null	//id of bump_teleporter which this moves you to.
 
-/obj/effect/step_trigger/transition/proc/Trigger(atom/movable/A)
-	for(var/obj/effect/step_trigger/ST in STEP_TELEPORTERS)
+/obj/effect/step_trigger/transition/Trigger(atom/movable/A)
+	for(var/obj/effect/step_trigger/transition/ST in STEP_TELEPORTERS)
 		if(ST.id == src.id_target)
 			A.loc = ST.loc	//Teleport to location with correct id.
 			return
 	return 0
 
-/obj/effect/step_trigger/transition/Crossed(H as mob|obj)
-	..()
-	if(!H)
-		return
-	if(isobserver(H) && !(isghost(H) && affect_ghosts))
-		return
-	Trigger(H)
 
 /obj/effect/step_trigger/transition/New()
 	..()
