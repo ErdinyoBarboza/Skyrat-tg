@@ -318,6 +318,10 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/wood,
 /area/space)
+"gt" = (
+/obj/machinery/computer/shuttle/arrivals/recall,
+/turf/open/floor/iron/shuttle/arrivals,
+/area/space)
 "gw" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /turf/open/floor/iron/freezer,
@@ -1841,6 +1845,12 @@
 /obj/structure/closet/secure_closet/personal/cabinet,
 /turf/open/floor/wood,
 /area/space)
+"Jn" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1
+	},
+/turf/open/floor/iron/shuttle/arrivals,
+/area/space)
 "Jv" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 9
@@ -2472,6 +2482,12 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron,
 /area/space)
+"WV" = (
+/obj/structure/fence{
+	dir = 8
+	},
+/turf/open/misc/dirt/jungle/dark,
+/area/space)
 "WY" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood,
@@ -2662,6 +2678,10 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
+/area/space)
+"ZX" = (
+/obj/structure/fence/door,
+/turf/open/misc/dirt/jungle/dark,
 /area/space)
 
 (1,1,1) = {"
@@ -46733,9 +46753,9 @@ iV
 iV
 Ui
 Pu
+RL
 Pu
-Pu
-Pu
+RL
 Pu
 RL
 Pu
@@ -46988,7 +47008,7 @@ iV
 iV
 iV
 iV
-VT
+WV
 ru
 ru
 ru
@@ -46996,7 +47016,7 @@ ru
 ru
 ru
 ru
-VT
+WV
 Tx
 Tx
 Tx
@@ -47502,7 +47522,7 @@ iV
 iV
 iV
 iV
-VT
+WV
 ru
 ru
 ru
@@ -47768,7 +47788,7 @@ ru
 ru
 ru
 ru
-Kc
+Jn
 tD
 mW
 ky
@@ -48016,7 +48036,7 @@ iV
 iV
 iV
 iV
-VT
+WV
 ru
 ru
 ru
@@ -48025,7 +48045,7 @@ ru
 ru
 ru
 ru
-Kc
+Jn
 Kc
 Kc
 Kc
@@ -48282,7 +48302,7 @@ ru
 ru
 ru
 ru
-Kc
+Jn
 Kc
 Kc
 Kc
@@ -48530,7 +48550,7 @@ iV
 iV
 iV
 iV
-VT
+WV
 ru
 ru
 ru
@@ -48539,7 +48559,7 @@ ru
 ru
 ru
 ru
-Kc
+Jn
 Kc
 Kc
 Kc
@@ -48800,7 +48820,7 @@ ah
 ps
 kq
 Pj
-Kc
+gt
 Kc
 YN
 sn
@@ -49044,7 +49064,7 @@ iV
 iV
 iV
 iV
-VT
+WV
 ru
 ru
 ru
@@ -49053,7 +49073,7 @@ ru
 ru
 ru
 ru
-Kc
+Jn
 Kc
 Kc
 Kc
@@ -49310,7 +49330,7 @@ ru
 ru
 ru
 ru
-Kc
+Jn
 Kc
 Kc
 Kc
@@ -49558,7 +49578,7 @@ iV
 iV
 iV
 iV
-VT
+WV
 ru
 ru
 ru
@@ -49567,7 +49587,7 @@ ru
 ru
 ru
 ru
-Kc
+Jn
 Kc
 Kc
 Kc
@@ -49824,7 +49844,7 @@ ru
 ru
 ru
 ru
-Kc
+Jn
 sd
 vS
 ky
@@ -50072,7 +50092,7 @@ iV
 iV
 iV
 iV
-VT
+WV
 ru
 ru
 ru
@@ -50586,7 +50606,7 @@ iV
 iV
 iV
 iV
-VT
+WV
 ru
 ru
 ru
@@ -50594,7 +50614,7 @@ ru
 ru
 ru
 ru
-VT
+ZX
 Tx
 Tx
 Tx
@@ -50845,11 +50865,11 @@ iV
 iV
 Uo
 Pu
+RL
 Pu
+RL
 Pu
-Pu
-Pu
-Pu
+RL
 Pu
 aY
 Tx
