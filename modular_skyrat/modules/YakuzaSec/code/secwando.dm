@@ -5,21 +5,23 @@
 	var/harmdamage = 0
 	var/isLethal = FALSE
 	var/isPremium = FALSE
-	var/datum/action/shin_kick/shinkick = new/datum/action/shin_kick()
-	var/datum/action/spin_kick/spinkick = new/datum/action/spin_kick()
+	var/datum/action/cooldown/mob_cooldown/shin_kick/shinkick = new/datum/action/cooldown/mob_cooldown/shin_kick()
+	var/datum/action/cooldown/mob_cooldown/spin_kick/spinkick = new/datum/action/cooldown/mob_cooldown/spin_kick()
 
-/datum/action/shin_kick
+/datum/action/cooldown/mob_cooldown/shin_kick
 	name = "Shin Kick - Kick the victim in the shins, slowing them down for a moment."
 	icon_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "legsweep"
+	cooldown_time = 10 SECONDS
 
-/datum/action/spin_kick
+/datum/action/cooldown/mob_cooldown/spin_kick
 	name = "Shin Kick - Kick the victim in the shins, slowing them down for a moment."
 	icon_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "neckchop"
+	cooldown_time = 30 SECONDS
 
 
-/datum/action/shin_kick/Trigger(trigger_flags)
+/datum/action/cooldown/mob_cooldown/shin_kick/Trigger(trigger_flags)
 	if(owner.incapacitated())
 		to_chat(owner, span_warning("You can't use [name] while you're incapacitated."))
 		return
@@ -30,7 +32,7 @@
 		owner.visible_message(span_danger("[owner] assumes the Shin Kick stance!"), "<b><i>Your next attack will be a Shin Kick.</i></b>")
 		owner.mind.martial_art.streak = "shin_kick"
 
-/datum/action/spin_kick/Trigger(trigger_flags)
+/datum/action/cooldown/mob_cooldown/spin_kick/Trigger(trigger_flags)
 	if(owner.incapacitated())
 		to_chat(owner, span_warning("You can't use [name] while you're incapacitated."))
 		return
@@ -38,16 +40,16 @@
 		owner.visible_message(span_danger("[owner] assumes a neutral stance."), "<b><i>Your next attack is cleared.</i></b>")
 		owner.mind.martial_art.streak = ""
 	else
-		owner.visible_message(span_danger("[owner] assumes the Neck Chop stance!"), "<b><i>Your next attack will be a Neck Chop.</i></b>")
+		owner.visible_message(span_danger("[owner] assumes the Spin Kick stance!"), "<b><i>Your next attack will be a Spin Kick.</i></b>")
 		owner.mind.martial_art.streak = "spin_kick"
 
 /datum/martial_art/secwando/teach(mob/living/owner, make_temporary=FALSE)
 	if(..())
 		to_chat(owner, span_userdanger("You know the arts of [name]!"))
 		to_chat(owner, span_danger("Place your cursor over a move at the top of the screen to see what it does."))
-		shinkick.Grant(owner)
 		if(isPremium)
 			spinkick.Grant(owner)
+		shinkick.Grant(owner)
 
 /datum/martial_art/secwando/on_remove(mob/living/owner)
 	to_chat(owner, span_userdanger("You suddenly forget the arts of [name]..."))
@@ -75,10 +77,12 @@
 					span_userdanger("Your shins are painfully kicked by [attacker]!"), span_hear("You hear a sickening sound of flesh hitting flesh!"), null, attacker)
 	to_chat(attacker, span_danger("You kick [defender] in the shins!"))
 	playsound(get_turf(attacker), 'sound/effects/hit_kick.ogg', 50, TRUE, -1)
-	defender.apply_damage(rand(20, 30), STAMINA, affecting, armor_block)
-	defender.Knockdown(60)
+	defender.apply_damage(rand(10, 20), STAMINA, affecting, armor_block)
+	if(!defender.has_movespeed_modifier(/datum/movespeed_modifier/shove))
+		defender.add_movespeed_modifier(/datum/movespeed_modifier/shove) // maybe define a slightly more severe/longer slowdown for this
+		addtimer(CALLBACK(defender, /mob/living/carbon/proc/clear_shove_slowdown), SHOVE_SLOWDOWN_LENGTH * 2)
 	log_combat(attacker, defender, "shin kicked")
-
+	shinkick.StartCooldown()
 	return TRUE
 
 /datum/martial_art/secwando/proc/spin_kick(mob/living/attacker, mob/living/defender)//is actually lung punch
@@ -91,6 +95,7 @@
 	defender.adjustOxyLoss(10)
 	log_combat(attacker, defender, "quickchoked")
 	dance_rotate(attacker, CALLBACK(attacker, /mob.proc/dance_flip))
+	spinkick.StartCooldown()
 	return TRUE
 
 /datum/martial_art/secwando/grab_act(mob/living/attacker, mob/living/defender)
