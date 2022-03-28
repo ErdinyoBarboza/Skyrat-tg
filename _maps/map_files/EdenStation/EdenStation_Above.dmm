@@ -5,6 +5,11 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"aE" = (
+/turf/open/floor/iron/stairs/medium{
+	dir = 8
+	},
+/area/space)
 "aL" = (
 /obj/machinery/icecream_vat,
 /obj/effect/turf_decal/bot/left,
@@ -81,6 +86,11 @@
 /obj/effect/turf_decal/trimline/purple/corner{
 	dir = 8
 	},
+/turf/open/floor/iron,
+/area/space)
+"fo" = (
+/obj/structure/stairs/east,
+/obj/structure/railing,
 /turf/open/floor/iron,
 /area/space)
 "gm" = (
@@ -165,6 +175,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/space)
+"kK" = (
+/obj/structure/railing,
+/turf/open/floor/iron/stairs/medium{
+	dir = 8
+	},
+/area/space)
 "mt" = (
 /obj/structure/cable/multilayer/multiz,
 /obj/effect/decal/cleanable/dirt,
@@ -203,13 +219,6 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/space)
-"ot" = (
-/obj/effect/step_transporter{
-	id = "B";
-	id_target = "A"
-	},
-/turf/open/floor/iron/dark,
 /area/space)
 "pj" = (
 /obj/machinery/airalarm/directional/north,
@@ -699,6 +708,14 @@
 	},
 /turf/open/floor/iron/freezer,
 /area/space)
+"OA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/west,
+/turf/open/floor/iron/smooth,
+/area/space)
 "OF" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Service Maintenance";
@@ -769,6 +786,10 @@
 	dir = 10
 	},
 /turf/open/floor/iron/freezer,
+/area/space)
+"TU" = (
+/obj/structure/stairs/east,
+/turf/open/floor/iron,
 /area/space)
 "UF" = (
 /obj/machinery/door/airlock{
@@ -28438,7 +28459,7 @@ vq
 vq
 xT
 vq
-ot
+vq
 EU
 Lz
 oi
@@ -37161,10 +37182,10 @@ bG
 bG
 bG
 bG
-bG
-bG
-bG
-bG
+EU
+EU
+EU
+EU
 bG
 bG
 bG
@@ -37397,6 +37418,11 @@ bG
 bG
 bG
 bG
+EU
+jB
+aE
+kK
+EU
 bG
 bG
 bG
@@ -37413,15 +37439,10 @@ bG
 bG
 bG
 bG
-bG
-bG
-bG
-bG
-bG
-bG
-bG
-bG
-bG
+EU
+OA
+mt
+EU
 bG
 bG
 bG
@@ -37654,6 +37675,11 @@ bG
 bG
 bG
 bG
+EU
+nN
+TU
+fo
+EU
 bG
 bG
 bG
@@ -37670,15 +37696,10 @@ bG
 bG
 bG
 bG
-bG
-bG
-bG
-bG
-bG
-bG
-bG
-bG
-bG
+EU
+NI
+Jv
+EU
 bG
 bG
 bG
@@ -37911,6 +37932,11 @@ bG
 bG
 bG
 bG
+EU
+EU
+EU
+EU
+EU
 bG
 bG
 bG
@@ -37927,15 +37953,10 @@ bG
 bG
 bG
 bG
-bG
-bG
-bG
-bG
-bG
-bG
-bG
-bG
-bG
+EU
+ue
+kq
+EU
 bG
 bG
 bG
@@ -38189,10 +38210,10 @@ bG
 bG
 bG
 bG
-bG
-bG
-bG
-bG
+EU
+EU
+EU
+EU
 bG
 bG
 bG
