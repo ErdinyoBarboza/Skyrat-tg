@@ -4,27 +4,99 @@
 	var/disarmdamage = 0
 	var/harmdamage = 0
 	var/isLethal = FALSE
+	var/isPremium = FALSE
+	var/datum/action/shin_kick/shinkick = new/datum/action/shin_kick()
+	var/datum/action/spin_kick/spinkick = new/datum/action/spin_kick()
+
+/datum/action/shin_kick
+	name = "Shin Kick - Kick the victim in the shins, slowing them down for a moment."
+	icon_icon = 'icons/mob/actions/actions_items.dmi'
+	button_icon_state = "legsweep"
+
+/datum/action/spin_kick
+	name = "Shin Kick - Kick the victim in the shins, slowing them down for a moment."
+	icon_icon = 'icons/mob/actions/actions_items.dmi'
+	button_icon_state = "neckchop"
+
+
+/datum/action/shin_kick/Trigger(trigger_flags)
+	if(owner.incapacitated())
+		to_chat(owner, span_warning("You can't use [name] while you're incapacitated."))
+		return
+	if (owner.mind.martial_art.streak == "shin_kick")
+		owner.visible_message(span_danger("[owner] assumes a neutral stance."), "<b><i>Your next attack is cleared.</i></b>")
+		owner.mind.martial_art.streak = ""
+	else
+		owner.visible_message(span_danger("[owner] assumes the Shin Kick stance!"), "<b><i>Your next attack will be a Shin Kick.</i></b>")
+		owner.mind.martial_art.streak = "shin_kick"
+
+/datum/action/spin_kick/Trigger(trigger_flags)
+	if(owner.incapacitated())
+		to_chat(owner, span_warning("You can't use [name] while you're incapacitated."))
+		return
+	if (owner.mind.martial_art.streak == "spin_kick")
+		owner.visible_message(span_danger("[owner] assumes a neutral stance."), "<b><i>Your next attack is cleared.</i></b>")
+		owner.mind.martial_art.streak = ""
+	else
+		owner.visible_message(span_danger("[owner] assumes the Neck Chop stance!"), "<b><i>Your next attack will be a Neck Chop.</i></b>")
+		owner.mind.martial_art.streak = "spin_kick"
+
+/datum/martial_art/secwando/teach(mob/living/owner, make_temporary=FALSE)
+	if(..())
+		to_chat(owner, span_userdanger("You know the arts of [name]!"))
+		to_chat(owner, span_danger("Place your cursor over a move at the top of the screen to see what it does."))
+		shinkick.Grant(owner)
+		if(isPremium)
+			spinkick.Grant(owner)
+
+/datum/martial_art/secwando/on_remove(mob/living/owner)
+	to_chat(owner, span_userdanger("You suddenly forget the arts of [name]..."))
+	shinkick.Remove(owner)
+	spinkick.Remove(owner)
 
 /datum/martial_art/secwando/proc/check_streak(mob/living/attacker, mob/living/defender)
-	// switch(streak)
-	// 	if("neck_chop")
-	// 		streak = ""
-	// 		neck_chop(attacker, defender)
-	// 		return TRUE
-	// 	if("leg_sweep")
-	// 		streak = ""
-	// 		leg_sweep(attacker, defender)
-	// 		return TRUE
-	// 	if("quick_choke")//is actually lung punch
-	// 		streak = ""
-	// 		quick_choke(attacker, defender)
-	// 		return TRUE
+	switch(streak)
+		if("spin_kick")
+			streak = ""
+			spin_kick(attacker, defender)
+			return TRUE
+		if("shin_kick")
+			streak = ""
+			shin_kick(attacker, defender)
+			return TRUE
 	return FALSE
+
+/datum/martial_art/secwando/proc/shin_kick(mob/living/attacker, mob/living/defender)
+	if(defender.stat || defender.IsParalyzed())
+		return FALSE
+	var/obj/item/bodypart/affecting = defender.get_bodypart(BODY_ZONE_CHEST)
+	var/armor_block = defender.run_armor_check(affecting, MELEE)
+	defender.visible_message(span_warning("[attacker] kicks [defender] in the shins!"), \
+					span_userdanger("Your shins are painfully kicked by [attacker]!"), span_hear("You hear a sickening sound of flesh hitting flesh!"), null, attacker)
+	to_chat(attacker, span_danger("You kick [defender] in the shins!"))
+	playsound(get_turf(attacker), 'sound/effects/hit_kick.ogg', 50, TRUE, -1)
+	defender.apply_damage(rand(20, 30), STAMINA, affecting, armor_block)
+	defender.Knockdown(60)
+	log_combat(attacker, defender, "shin kicked")
+
+	return TRUE
+
+/datum/martial_art/secwando/proc/spin_kick(mob/living/attacker, mob/living/defender)//is actually lung punch
+	defender.visible_message(span_warning("[attacker] pounds [defender] on the chest!"), \
+					span_userdanger("Your chest is slammed by [attacker]! You can't breathe!"), span_hear("You hear a sickening sound of flesh hitting flesh!"), COMBAT_MESSAGE_RANGE, attacker)
+	to_chat(attacker, span_danger("You pound [defender] on the chest!"))
+	playsound(get_turf(attacker), 'sound/effects/hit_punch.ogg', 50, TRUE, -1)
+	if(defender.losebreath <= 10)
+		defender.losebreath = clamp(defender.losebreath + 5, 0, 10)
+	defender.adjustOxyLoss(10)
+	log_combat(attacker, defender, "quickchoked")
+	dance_rotate(attacker, CALLBACK(attacker, /mob.proc/dance_flip))
+	return TRUE
 
 /datum/martial_art/secwando/grab_act(mob/living/attacker, mob/living/defender)
 	if(check_streak(attacker, defender))
 		return TRUE
-	log_combat(attacker, defender, "grabbed (Krav Maga)")
+	log_combat(attacker, defender, "grabbed (Secwando)")
 	..()
 
 /datum/martial_art/secwando/harm_act(mob/living/attacker, mob/living/defender)
@@ -78,7 +150,7 @@
 		defender.apply_damage(rand(10, 15) + disarmdamage, STAMINA, affecting, armor_block)
 		log_combat(attacker, defender, "stomped nonlethally")
 	if(prob(defender.getStaminaLoss()) && defender.stat < UNCONSCIOUS)
-		defender.visible_message(span_warning("[defender] sputters and recoils in pain!"), span_userdanger("You recoil in pain as you are jabbed in a nerve!"))
+		defender.visible_message(span_warning("[defender] sputters and recoils in pain!"), span_userdanger("You recoil in pain as you are jabbed in a joint!"))
 		defender.drop_all_held_items()
 	return TRUE
 
@@ -89,6 +161,7 @@
 	var/glovedisarmdamage = 5
 	var/gloveharmdamage = 5
 	var/lethality = FALSE
+	var/premium = FALSE
 
 /obj/item/clothing/gloves/secwando/equipped(mob/user, slot)
 	. = ..()
@@ -97,6 +170,7 @@
 		style.disarmdamage = glovedisarmdamage
 		style.harmdamage = gloveharmdamage
 		style.isLethal = lethality
+		style.isPremium = premium
 
 /obj/item/clothing/gloves/secwando/dropped(mob/user)
 	. = ..()
@@ -119,3 +193,4 @@
 /obj/item/clothing/gloves/secwando/sec/lethal
 	glovedisarmdamage = 60
 	lethality = TRUE
+	premium = TRUE
