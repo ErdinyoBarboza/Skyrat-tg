@@ -15,7 +15,7 @@
 	cooldown_time = 10 SECONDS
 
 /datum/action/cooldown/mob_cooldown/spin_kick
-	name = "Low Kick - Kick the victim in the shins, slowing them down for a moment."
+	name = "Spin Kick - A risky finisher that has a chance to take-out already tired targets, however if they are not tired there is a chance to miss and fall."
 	icon_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "neckchop"
 	cooldown_time = 30 SECONDS
@@ -103,12 +103,11 @@
 		playsound(get_turf(attacker), 'sound/effects/hit_punch.ogg', 50, TRUE, -1)
 		log_combat(attacker, defender, "spinkick KO")
 		dance_rotate(attacker, CALLBACK(attacker, /mob.proc/dance_flip))
-		//defender.throw_at(throw_target, 1, 14, attacker)
 		headko.force_wound_upwards(/datum/wound/blunt/moderate)
 		defender.StaminaKnockdown(100)
 		defender.Paralyze(6 SECONDS)
 		defender.adjustOrganLoss(ORGAN_SLOT_BRAIN, 15, 150)
-		addtimer(CALLBACK(defender, defender.throw_at(throw_target, 1, 14, attacker)), 20)
+		addtimer(CALLBACK(defender, defender.throw_at(throw_target, 1, 5, attacker)), 20)
 	else if(prob(80 - defender.getStaminaLoss()) && defender.stat < UNCONSCIOUS)
 		defender.visible_message(span_warning("[attacker] spins in the air and tries to kick [defender] however [defender] dodges out of the way and [attacker] falls!"), \
 				span_userdanger("You dodge the spinkick of [attacker] last second!"), span_hear("You hear a sickening sound of flesh hitting flesh!"), COMBAT_MESSAGE_RANGE, attacker)
@@ -202,10 +201,12 @@
 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/hands.dmi'
 	icon_state = "secwando"
 	var/datum/martial_art/secwando/style = new
+	var/isBroken = FALSE
 	var/glovedisarmdamage = 10
 	var/gloveharmdamage = 10
 	var/lethality = FALSE
 	var/premium = FALSE
+	var/currentuser
 	resistance_flags = NONE
 	cold_protection = HANDS
 	min_cold_protection_temperature = GLOVES_MIN_TEMP_PROTECT
@@ -214,7 +215,7 @@
 
 /obj/item/clothing/gloves/secwando/equipped(mob/user, slot)
 	. = ..()
-	if(slot == ITEM_SLOT_GLOVES)
+	if(!isBroken && slot == ITEM_SLOT_GLOVES)
 		style.isLethal = lethality
 		style.isPremium = premium
 		style.teach(user, TRUE)
@@ -227,6 +228,49 @@
 	if(user.get_item_by_slot(ITEM_SLOT_GLOVES) == src)
 		style.remove(user)
 
+/obj/item/clothing/gloves/secwando/proc/burntout(mob/user)
+	style.remove(user)
+
+/obj/item/clothing/gloves/secwando/proc/Fried(mob/living/wearer)
+	wearer.StaminaKnockdown(80)
+	wearer.Paralyze(2 SECONDS)
+	to_chat(wearer, span_danger("Your [src] overload as your muscles contract involuntarily!"))
+
+/obj/item/clothing/gloves/secwando/emp_act(severity)
+	. = ..()
+	var/mob/M = loc
+	if(. & EMP_PROTECT_SELF)
+		return
+	if(!isBroken)
+		isBroken = TRUE
+		if(ismob(loc))
+			to_chat(M,span_warning("[src]'s nanochips short out!"))
+			burntout(M)
+			if(severity >= EMP_HEAVY)
+				Fried(M)
+
+/obj/item/clothing/gloves/secwando/attackby(obj/item/I, mob/user, params)
+	if((isBroken == TRUE) && istype(I, /obj/item/stack/cable_coil))
+		var/obj/item/stack/cable_coil/C = I
+		to_chat(user,span_notice("You begin to repair the nanochips on [src] with [C]."))
+		if(do_after(user, 2 SECONDS, src))
+			C.use(1)
+			isBroken = FALSE
+			to_chat(user,span_notice("You repair the nanochips on [src] with [C]."))
+		else to_chat(user,span_notice("You fail to repair the nanochips on [src]!"))
+
+/obj/item/clothing/gloves/secwando/emag_act(mob/user)
+	if(obj_flags & EMAGGED)
+		return
+	playsound(src, SFX_SPARKS, 100, TRUE, SHORT_RANGE_SOUND_EXTRARANGE)
+	obj_flags |= EMAGGED
+	to_chat(user, span_notice("You override the safety restrictions of the nanochips!"))
+	glovedisarmdamage += 5
+	gloveharmdamage += 5
+	lethality = TRUE
+	desc += "The safety indicators on the nanochip seems to be broken!"
+
+
 /obj/item/clothing/gloves/secwando/sec // Default Gloves given to security
 	glovedisarmdamage = 5
 	gloveharmdamage = 5
@@ -234,9 +278,14 @@
 
 /obj/item/clothing/gloves/secwando/sec/premium
 	premium = TRUE
+	name = "premium secwando gloves"
+	desc = "These gloves can teach you to perform Secwando using nanochips. \
+			Premium nanochips allow the user to throw spinning kicks."
 
 /obj/item/clothing/gloves/secwando/sec/lite
 	lethality = FALSE
+	name = "lite secwando gloves"
+	desc = "These gloves can teach you to perform Secwando using nanochips. \
+			Lite variant of the gloves prevent the user from doing direct lethal damage."
 
-
-
+/obj/item/clothing/gloves/secwando/ghetto
