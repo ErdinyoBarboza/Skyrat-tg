@@ -43,6 +43,8 @@
 	species_language_holder = /datum/language_holder/vox
 	changesource_flags = MIRROR_BADMIN | WABBAJACK | MIRROR_MAGIC | MIRROR_PRIDE | ERT_SPAWN | RACE_SWAP | SLIME_EXTRACT
 	learnable_languages = list(/datum/language/common, /datum/language/vox, /datum/language/schechi)
+	meat = /obj/item/food/meat/slab/human/mutant/chicken
+
 
 /datum/species/vox/pre_equip_species_outfit(datum/job/job, mob/living/carbon/human/equipping, visuals_only)
 	. = ..()
@@ -76,3 +78,10 @@
 	if(BMS)
 		markings = assemble_body_markings_from_set(BMS, passed_features, src)
 	return markings
+
+/obj/item/food/meat/slab/human/mutant/chicken
+	icon_state = "birdmeat"
+	desc = "Just like the good old days. Remember to wash your hands!"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 6)
+	tastes = list("chicken" = 1)
+	venue_value = FOOD_MEAT_MUTANT_RARE

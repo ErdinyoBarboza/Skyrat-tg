@@ -50,3 +50,7 @@
 	species_language_holder = /datum/language_holder/teshari
 	body_size_restricted = TRUE
 	learnable_languages = list(/datum/language/common, /datum/language/vox, /datum/language/schechi)
+	meat = /obj/item/food/meat/slab/human/mutant/chicken/tesh
+
+/obj/item/food/meat/slab/human/mutant/chicken/tesh
+	desc = "Its completely boneless. Remember to wash your hands!"
