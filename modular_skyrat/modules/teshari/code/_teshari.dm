@@ -54,3 +54,18 @@
 
 /obj/item/food/meat/slab/human/mutant/chicken/tesh
 	desc = "Its completely boneless. Remember to wash your hands!"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/teshspice = 1)
+
+/datum/reagent/consumable/teshspice
+	name = "Teshari Flavoring"
+	description = "A flavor that is native to Teshari. Most races say it tastes just like chicken but Tajarans swear by it."
+	taste_description = "chicken"
+
+/datum/mood_event/favorite_food/teshari
+	description = "This subtle flavor... I love it."
+	mood_change = 2
+
+/datum/reagent/consumable/teshspice/on_mob_life(mob/living/carbon/M)
+	if(istajaran(M))
+		SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "teshari meat", /datum/mood_event/favorite_food/teshari, src)
+	return ..()
