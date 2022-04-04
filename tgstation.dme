@@ -4731,6 +4731,7 @@
 #include "modular_skyrat\modules\bsa_overhaul\code\bsa_computer.dm"
 #include "modular_skyrat\modules\bsrpd\code\bsrpd.dm"
 #include "modular_skyrat\modules\bulletrebalance\code\sniper.dm"
+#include "modular_skyrat\modules\cannibalismexpanded\code\cannibalfood.dm"
 #include "modular_skyrat\modules\cargo\code\goodies.dm"
 #include "modular_skyrat\modules\cargo\code\packs.dm"
 #include "modular_skyrat\modules\cargo_teleporter\code\cargo_teleporter.dm"

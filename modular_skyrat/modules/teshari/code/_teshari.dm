@@ -68,4 +68,5 @@
 /datum/reagent/consumable/teshspice/on_mob_life(mob/living/carbon/M)
 	if(istajaran(M))
 		SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "teshari meat", /datum/mood_event/favorite_food/teshari, src)
+		to_chat(M, span_rose("I really, really enjoyed eating that."))
 	return ..()
