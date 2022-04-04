@@ -4,7 +4,7 @@
 	icon = 'modular_skyrat/modules/cannibalismexpanded/icons/cannibalism.dmi'
 	icon_state = "voxbucket"
 	bite_consumption = 3
-	food_reagents = list(/datum/reagent/consumable/cooking_oil = 2, /datum/reagent/consumable/nutriment/protein = 12, /datum/reagent/consumable/nutriment/vitamin = 4)
+	food_reagents = list(/datum/reagent/consumable/cooking_oil = 2, /datum/reagent/consumable/nutriment/protein = 18, /datum/reagent/consumable/nutriment/vitamin = 4)
 	tastes = list("chicken" = 4, "fried batter" = 2, "skrek" = 1)
 	junkiness = 25
 	foodtypes = MEAT | FRIED
@@ -32,9 +32,9 @@
 	icon = 'modular_skyrat/modules/cannibalismexpanded/icons/cannibalism.dmi'
 	icon_state = "teshnuggs"
 	bite_consumption = 3
-	food_reagents = list(/datum/reagent/consumable/cooking_oil = 2, /datum/reagent/consumable/nutriment/protein = 8, /datum/reagent/consumable/nutriment/vitamin = 4, /datum/reagent/consumable/teshspice = 4)
+	food_reagents = list(/datum/reagent/consumable/cooking_oil = 2, /datum/reagent/consumable/nutriment/protein = 8, /datum/reagent/consumable/nutriment/vitamin = 10, /datum/reagent/consumable/teshspice = 4)
 	tastes = list("chicken" = 4, "cheesy and herby goodness" = 2, "nuggies" = 2, "skree" = 1)
-	junkiness = 25
+	junkiness = 10
 	foodtypes = MEAT | FRIED
 	w_class = WEIGHT_CLASS_SMALL
 	venue_value = FOOD_PRICE_LEGENDARY
@@ -50,7 +50,6 @@
 		/datum/reagent/consumable/blackpepper = 5,
 		/obj/item/food/grown/herbs = 1,
 		/obj/item/food/butter = 1,
-		/datum/reagent/consumable/astrotame = 2, // We add some MSG
 	)
-	result = /obj/item/food/voxbucket
+	result = /obj/item/food/teshnuggs
 	subcategory = CAT_MEAT
