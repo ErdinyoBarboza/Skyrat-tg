@@ -289,3 +289,19 @@
 			Lite variant of the gloves prevent the user from doing direct lethal damage."
 
 /obj/item/clothing/gloves/secwando/ghetto
+	glovedisarmdamage = 4
+	gloveharmdamage = 4
+	lethality = TRUE
+	name = "makeshift secwando gloves"
+	desc = "Makeshift gloves with added padding and circuitry. \
+			It seems to be capable of teaching you to perform Secwando. \
+			However it seems to be far less capable then the original products."
+
+/obj/item/clothing/gloves/secwando/maintwando
+	premium = TRUE
+	lethality = TRUE
+	name = "maintwando gloves"
+	desc = "A pair of padded gloves with wiring attached to it that has been handcrafted. \
+			These gloves can teach you to perform Advanced Secwando using nanochips."
+	glovedisarmdamage = 8 // Better for your hard work
+	gloveharmdamage = 6
