@@ -1,5 +1,4 @@
-		attack_verb_continuous_on = list("smacks", "strikes", "cracks", "beats"), \
-		attack_verb_simple_on = list("smack", "strike", "crack", "beat"))
+/obj/item/melee
 	item_flags = NEEDS_PERMIT
 
 /obj/item/melee/proc/check_martial_counter(mob/living/carbon/human/target, mob/living/carbon/human/user)
