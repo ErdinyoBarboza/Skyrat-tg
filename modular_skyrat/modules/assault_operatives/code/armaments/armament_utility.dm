@@ -9,14 +9,6 @@
 	item_type = /obj/item/storage/box/nri_survival_pack
 	cost = 1
 
-/datum/armament_entry/assault_operatives/utility/ration_pack
-	item_type = /obj/item/storage/box/rations
-	cost = 1
-
-/datum/armament_entry/assault_operatives/utility/nightvisions
-	item_type = /obj/item/clothing/glasses/night
-	cost = 3
-
 /datum/armament_entry/assault_operatives/utility/thermals
 	item_type = /obj/item/clothing/glasses/thermal
 	cost = 5
@@ -37,21 +29,17 @@
 	description = "Disrupts electronics."
 	cost = 3
 
-/datum/armament_entry/assault_operatives/utility/toolbox
-	item_type = /obj/item/storage/toolbox/syndicate
+/datum/armament_entry/assault_operatives/utility/pouch
+	item_type = /obj/item/storage/bag/ammo
 	cost = 1
 
-/datum/armament_entry/assault_operatives/utility
+/datum/armament_entry/assault_operatives/utility/toolbox
 	item_type = /obj/item/storage/toolbox/syndicate
 	cost = 1
 
 /datum/armament_entry/assault_operatives/utility/dehy_carp
 	item_type = /obj/item/toy/plush/carpplushie/dehy_carp
 	cost = 1
-
-/datum/armament_entry/assault_operatives/utility/eshield
-	item_type = /obj/item/shield/energy
-	cost = 5
 
 /datum/armament_entry/assault_operatives/utility/tactical_shield
 	item_type = /obj/item/shield/riot/pointman
@@ -62,10 +50,6 @@
 	item_type = /obj/item/clothing/shoes/chameleon/noslip
 	description = "No-slip chameleon shoes, for when you plan on running through hell and back."
 	cost = 2
-
-/datum/armament_entry/assault_operatives/utility/suppressor
-	item_type = /obj/item/suppressor
-	cost = 1
 
 /datum/armament_entry/assault_operatives/utility/holoparasite
 	item_type = /obj/item/guardiancreator/tech/choose/traitor
@@ -84,3 +68,14 @@
 	description = "Based on a Nanotrasen model, this powerful tool can be used as both a crowbar and a pair of wirecutters. \
 	In its crowbar configuration, it can be used to force open airlocks. Very useful for entering the station or its departments."
 	cost = 3
+
+/datum/armament_entry/assault_operatives/utility/jammer
+	name = "Radio Jammer"
+	description = "When activated, this cell powered device will block all outgoing radio communication."
+	item_type = /obj/item/jammer
+	cost = 4
+	
+/datum/armament_entry/assault_operatives/utility/deluxe_id
+	name = "Deluxe Agent ID Card"
+	item_type = /obj/item/card/id/advanced/chameleon/black
+	cost = 5
