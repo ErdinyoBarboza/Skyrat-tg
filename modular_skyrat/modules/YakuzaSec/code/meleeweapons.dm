@@ -13,6 +13,7 @@
 	stealthy_audio = TRUE
 	w_class = WEIGHT_CLASS_NORMAL
 	damtype = BRUTE
+	var/broken = FALSE
 
 
 	/// The color of this ejitte based sword, for use in editing the icon_state.
@@ -35,10 +36,10 @@
 	// SKYRAT EDIT ADD START
 
 	/// The sound played when the item is turned on
-	var/enable_sound = 'sound/weapons/saberon.ogg'
+	var/enable_sound = SFX_SPARKS
 
 	/// The sound played when the item is turned off
-	var/disable_sound = 'sound/weapons/saberoff.ogg'
+	var/disable_sound = SFX_SPARKS
 
 	// SKYRAT EDIT ADD END
 
@@ -61,12 +62,13 @@
 		sharpness_on = active_sharpness, \
 		hitsound_on = active_hitsound, \
 		w_class_on = active_w_class, \
-		attack_verb_continuous_on = list("attacks", "slashes", "stabs", "slices", "tears", "lacerates", "rips", "dices", "cuts"), \
-		attack_verb_simple_on = list("attack", "slash", "stab", "slice", "tear", "lacerate", "rip", "dice", "cut"))
+		attack_verb_continuous_on = list("stuns", "winds", "reprimands", "suppresses"), \
+		attack_verb_simple_on = list("stun", "wind", "reprimand", "suppress"))
 	RegisterSignal(src, COMSIG_TRANSFORMING_ON_TRANSFORM, .proc/on_transform)
 
 /obj/item/melee/ejitte/add_blood_DNA(list/blood_dna)
-	return FALSE
+	if(active)
+		return FALSE
 
 /obj/item/melee/ejitte/process(delta_time)
 	if(heat)
@@ -97,6 +99,8 @@
  */
 /obj/item/melee/ejitte/proc/on_transform(obj/item/source, mob/user, active)
 	SIGNAL_HANDLER
+	if(broken)
+		return
 
 	blade_active = active
 	if(active)
@@ -112,3 +116,11 @@
 	playsound(user ? user : src, active ? 'sound/weapons/saberon.ogg' : 'sound/weapons/saberoff.ogg', 35, TRUE)
 	set_light_on(active)
 	return COMPONENT_NO_DEFAULT_MESSAGE
+
+/obj/item/melee/ejitte/emp_act(severity)
+	. = ..()
+	if(active)
+		do_transform()
+		broken = TRUE
+	else
+		broken = TRUE
