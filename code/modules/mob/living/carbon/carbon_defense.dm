@@ -114,16 +114,15 @@
 	var/message_verb_continuous = length(I.attack_verb_continuous) ? "[pick(I.attack_verb_continuous)]" : "attacks"
 	var/message_verb_simple = length(I.attack_verb_simple) ? "[pick(I.attack_verb_simple)]" : "attack"
 	//SKYRAT EDIT ADDITION BEGIN
-	if(I.force && !user.combat_mode)
-		if(!length(I.attack_verb_simple) && !length(I.attack_verb_continuous))
-			var/random = rand(1,2)
-			switch(random)
-				if(1)
-					message_verb_continuous = "<font color='#ee00ff'>glances</font>"
-					message_verb_simple = "<font color='#ee00ff'>glance</font>"
-				if(2)
-					message_verb_continuous = "<font color='#ee00ff'>maims</font>"
-					message_verb_simple = "<font color='#ee00ff'>maim</font>"
+	if(I.force && !user.combat_mode && !length(I.attack_verb_simple) && !length(I.attack_verb_continuous))
+		var/random = rand(1,2)
+		switch(random)
+			if(1)
+				message_verb_continuous = "<font color='#ee00ff'>glances</font>"
+				message_verb_simple = "<font color='#ee00ff'>glance</font>"
+			if(2)
+				message_verb_continuous = "<font color='#ee00ff'>maims</font>"
+				message_verb_simple = "<font color='#ee00ff'>maim</font>"
 	//SKYRAT EDIT ADDITION END
 
 	var/extra_wound_details = ""
