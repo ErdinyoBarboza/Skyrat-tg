@@ -124,6 +124,7 @@
 			to_chat(user,span_notice("You repair the electronics on [src] with [C]."))
 			desc = initial(desc)
 			if(obj_flags & EMAGGED)
+				desc += "The safety inhibitors have been overriden. Lethal mode is engaged!"
 		else to_chat(user,span_notice("You fail to repair the electronics on [src]!"))
 
 /obj/item/melee/ebokken/emag_act(mob/user)
