@@ -1,3 +1,4 @@
+// ENERGY BOKKEN
 /obj/item/melee/ebokken
 	//icon = 'icons/obj/transforming_ebokken.dmi'
 	name = "\improper CAT-AN4"
@@ -137,3 +138,5 @@
 	if(blade_active)
 		attack_self(src)
 	desc += "The safety inhibitors have been overriden. Lethal mode is engaged!"
+
+// NIGHTSTICK
