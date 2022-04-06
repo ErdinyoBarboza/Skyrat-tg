@@ -200,6 +200,7 @@
 	icon = 'modular_skyrat/master_files/icons/obj/clothing/gloves.dmi'
 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/hands.dmi'
 	icon_state = "secwando"
+	inhand_icon_state = "fightgloves"
 	var/datum/martial_art/secwando/style = new
 	var/isBroken = FALSE
 	var/glovedisarmdamage = 10
@@ -207,7 +208,6 @@
 	var/lethality = FALSE
 	var/premium = FALSE
 	var/currentuser
-	resistance_flags = NONE
 	cold_protection = HANDS
 	min_cold_protection_temperature = GLOVES_MIN_TEMP_PROTECT
 	heat_protection = HANDS
@@ -246,6 +246,7 @@
 		if(ismob(loc))
 			to_chat(M,span_warning("[src]'s nanochips short out!"))
 			burntout(M)
+			desc += "It's nanochips seem to be fried and can be repaired with <b>cable coil</b>."
 			if(severity >= EMP_HEAVY)
 				Fried(M)
 
@@ -257,6 +258,9 @@
 			C.use(1)
 			isBroken = FALSE
 			to_chat(user,span_notice("You repair the nanochips on [src] with [C]."))
+			desc = initial(desc)
+			if(obj_flags & EMAGGED)
+				desc += "The safety indicators on the nanochip seems to be broken!"
 		else to_chat(user,span_notice("You fail to repair the nanochips on [src]!"))
 
 /obj/item/clothing/gloves/secwando/emag_act(mob/user)
