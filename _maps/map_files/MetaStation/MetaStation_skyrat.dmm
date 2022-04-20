@@ -6983,6 +6983,12 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron,
 /area/hallway/primary/port)
+"bBn" = (
+/obj/structure/chair/stool/directional/west,
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
+/area/space)
 "bBq" = (
 /obj/structure/rack,
 /obj/effect/spawner/random/maintenance/two,
@@ -10374,6 +10380,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/medical/medbay/central)
+"csM" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/iron,
+/area/space)
 "ctd" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/delivery,
@@ -20721,6 +20731,12 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/science/mixing/launch)
+"fFC" = (
+/obj/structure/window/reinforced/tinted,
+/turf/open/floor/iron/dark/side{
+	dir = 4
+	},
+/area/space)
 "fFD" = (
 /obj/structure/cable,
 /obj/machinery/photocopier,
@@ -31287,6 +31303,15 @@
 /obj/effect/landmark/start/scientist,
 /turf/open/floor/engine,
 /area/science/misc_lab/range)
+"jYc" = (
+/obj/structure/window/reinforced/tinted{
+	dir = 1
+	},
+/obj/structure/chair/stool/directional/west,
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
+/area/space)
 "jYA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -34907,6 +34932,12 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron,
 /area/hallway/primary/central)
+"lqq" = (
+/obj/structure/chair/stool/directional/east,
+/turf/open/floor/iron/dark/side{
+	dir = 4
+	},
+/area/space)
 "lqt" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 8
@@ -36154,6 +36185,16 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/cargo/warehouse)
+"lOd" = (
+/obj/machinery/door/airlock/external{
+	name = "Security External Airlock";
+	req_access_txt = "1"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
 "lOe" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/machinery/vending/games,
@@ -49511,6 +49552,12 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/dark,
 /area/engineering/atmospherics_engine)
+"qJF" = (
+/obj/machinery/turnstile{
+	req_one_access_txt = "2;63;80"
+	},
+/turf/open/floor/iron,
+/area/space)
 "qKh" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/engine,
@@ -53568,6 +53615,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/hallway/secondary/command)
+"soc" = (
+/obj/machinery/turnstile{
+	dir = 1;
+	req_one_access_txt = "2;63;81"
+	},
+/turf/open/floor/iron,
+/area/space)
 "soe" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/white/line{
@@ -55094,6 +55148,14 @@
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron,
 /area/construction/storage_wing)
+"sUu" = (
+/obj/structure/window/reinforced/tinted{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 4
+	},
+/area/space)
 "sUD" = (
 /obj/machinery/airalarm/directional/west,
 /obj/structure/rack,
@@ -59899,6 +59961,13 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/white,
 /area/security/prison)
+"uIz" = (
+/obj/structure/window/reinforced/tinted,
+/obj/structure/chair/stool/directional/west,
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
+/area/space)
 "uIX" = (
 /obj/effect/turf_decal/trimline/purple/corner,
 /obj/item/radio/intercom/directional/south,
@@ -61188,6 +61257,16 @@
 	},
 /turf/open/floor/iron,
 /area/security/checkpoint/engineering)
+"vic" = (
+/obj/machinery/light/small/directional/north,
+/obj/structure/sign/warning/vacuum/external{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
 "vio" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
@@ -67616,6 +67695,16 @@
 /obj/effect/landmark/start/depsec/science,
 /turf/open/floor/iron,
 /area/security/checkpoint/science)
+"xDC" = (
+/obj/machinery/door/airlock/external{
+	name = "Security External Airlock";
+	req_access_txt = "1"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
 "xDH" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/security/glass{
@@ -90632,7 +90721,7 @@ pgD
 pgD
 pgD
 pgD
-pgD
+aaH
 pgD
 pgD
 pgD
@@ -90889,11 +90978,11 @@ pgD
 pgD
 pgD
 pgD
-pgD
-pgD
-pgD
-pgD
-pgD
+aaH
+lqq
+fFC
+sUu
+lqq
 aaH
 aaa
 aaa
@@ -91146,11 +91235,11 @@ pgD
 pgD
 pgD
 pgD
-pgD
-pgD
-pgD
-pgD
-pgD
+aaH
+csM
+csM
+csM
+csM
 aaH
 aaa
 aaa
@@ -91403,11 +91492,11 @@ pgD
 pgD
 pgD
 pgD
-pgD
-pgD
-pgD
-pgD
-pgD
+aaH
+bBn
+uIz
+jYc
+bBn
 aaH
 aaa
 aaa
@@ -91660,7 +91749,7 @@ pgD
 pgD
 pgD
 pgD
-pgD
+aaH
 pgD
 pgD
 pgD
@@ -91917,7 +92006,7 @@ pgD
 pgD
 pgD
 pgD
-pgD
+aaH
 pgD
 pgD
 pgD
@@ -92170,15 +92259,15 @@ pgD
 pgD
 pgD
 pgD
+aaH
+aaH
+aaH
+aaH
+aaH
+aaH
+aaH
 pgD
 pgD
-aaH
-aaH
-aaH
-aaH
-aaH
-aaH
-aaH
 aaH
 puE
 cAx
@@ -92427,16 +92516,16 @@ pgD
 pgD
 pgD
 pgD
-pgD
-pgD
 aaH
 lAh
 foG
 uFg
-uFg
 eEG
 cvO
 osQ
+pgD
+pgD
+aaH
 lnM
 exn
 lPz
@@ -92684,16 +92773,16 @@ pgD
 pgD
 pgD
 pgD
-pgD
-pgD
 aaH
 osQ
 osQ
 uFg
 uFg
 uFg
-uFg
 osQ
+pgD
+pgD
+aaH
 dZE
 exn
 pDO
@@ -92941,16 +93030,16 @@ pgD
 pgD
 pgD
 pgD
-pgD
-pgD
 aaH
 lAh
 foG
 uFg
-uFg
 aBs
 xRi
 osQ
+pgD
+pgD
+aaH
 ltZ
 mus
 ajm
@@ -93198,16 +93287,16 @@ pgD
 pgD
 pgD
 pgD
-pgD
-pgD
 aaH
 osQ
 osQ
 uFg
-uFg
 eEG
 cvO
 osQ
+pgD
+pgD
+pgD
 pgD
 uvb
 ajm
@@ -93455,16 +93544,16 @@ pgD
 pgD
 pgD
 pgD
-pgD
-pgD
 aaH
 lAh
 foG
 uFg
 uFg
 uFg
-uFg
 osQ
+pgD
+pgD
+pgD
 pgD
 uvb
 ajm
@@ -93712,16 +93801,16 @@ pgD
 pgD
 pgD
 pgD
-pgD
-pgD
 aaH
 osQ
 osQ
 uFg
-uFg
 aBs
 xRi
 osQ
+pgD
+pgD
+pgD
 pgD
 uvb
 ajm
@@ -93969,8 +94058,6 @@ pgD
 pgD
 pgD
 pgD
-pgD
-pgD
 aaH
 vVY
 osQ
@@ -93978,7 +94065,9 @@ uFg
 osQ
 osQ
 osQ
-osQ
+pgD
+pgD
+pgD
 pgD
 uvb
 ajm
@@ -94226,7 +94315,7 @@ pgD
 pgD
 pgD
 pgD
-pgD
+qJF
 pgD
 pgD
 pgD
@@ -94483,9 +94572,9 @@ pgD
 pgD
 pgD
 pgD
-pgD
-pgD
 aaH
+pgD
+pgD
 pgD
 pgD
 pgD
@@ -94740,7 +94829,7 @@ pgD
 pgD
 pgD
 pgD
-pgD
+soc
 pgD
 pgD
 pgD
@@ -94988,19 +95077,19 @@ pgD
 pgD
 pgD
 pgD
-pgD
-pgD
-pgD
-osQ
-osQ
-osQ
-osQ
-osQ
-osQ
-osQ
-osQ
 aaH
 aaH
+aaH
+aaH
+aaH
+aaH
+aaH
+aaH
+aaH
+aaH
+pgD
+pgD
+pgD
 pgD
 pgD
 pgD
@@ -95245,10 +95334,7 @@ pgD
 pgD
 pgD
 pgD
-pgD
-pgD
-pgD
-osQ
+aaH
 pOb
 qfm
 nAn
@@ -95258,6 +95344,9 @@ qPt
 sOl
 fBh
 oXJ
+pgD
+pgD
+pgD
 pgD
 pgD
 ltZ
@@ -95502,10 +95591,7 @@ pgD
 pgD
 pgD
 pgD
-pgD
-pgD
-pgD
-osQ
+aaH
 pOb
 mrc
 uLm
@@ -95515,7 +95601,10 @@ niO
 xnv
 rSX
 aaH
-aaH
+pgD
+pgD
+pgD
+pgD
 ltZ
 ltZ
 aaa
@@ -95759,10 +95848,7 @@ pgD
 pgD
 pgD
 pgD
-pgD
-pgD
-pgD
-osQ
+aaH
 pOb
 wSU
 qsj
@@ -95772,8 +95858,11 @@ vpu
 faf
 fOk
 aaH
-aaa
-aaa
+lOd
+aaH
+aaH
+ltZ
+ltZ
 aaa
 aaa
 lMJ
@@ -96016,10 +96105,7 @@ pgD
 pgD
 pgD
 pgD
-pgD
-pgD
-pgD
-osQ
+aaH
 pOb
 dow
 pPf
@@ -96029,6 +96115,9 @@ aaH
 aaH
 aaH
 aaH
+vic
+osQ
+aaa
 aaa
 aaa
 aaa
@@ -96279,12 +96368,12 @@ aaH
 aaH
 aaH
 aaH
-aaH
-aaH
-aaH
 aaa
 aaa
 aaa
+osQ
+xDC
+osQ
 aaa
 aaa
 aaa
