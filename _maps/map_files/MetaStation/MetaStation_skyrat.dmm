@@ -824,6 +824,14 @@
 /obj/effect/spawner/random/maintenance/two,
 /turf/open/floor/plating,
 /area/maintenance/fore)
+"ahY" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced/tinted,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
 "aif" = (
 /obj/machinery/door/poddoor/massdriver_trash,
 /obj/structure/fans/tiny,
@@ -68922,6 +68930,9 @@
 /area/service/hydroponics/garden)
 "yaq" = (
 /obj/structure/table/reinforced,
+/obj/structure/window/reinforced/tinted{
+	dir = 1
+	},
 /obj/structure/window/reinforced{
 	dir = 4
 	},
@@ -90993,7 +91004,7 @@ pgD
 pgD
 aaH
 bZG
-yaq
+ahY
 yaq
 mVr
 aaH
