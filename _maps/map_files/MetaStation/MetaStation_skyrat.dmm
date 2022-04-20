@@ -8830,6 +8830,11 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/primary/central)
+"bZG" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/left/directional/east,
+/turf/open/floor/iron,
+/area/space)
 "bZH" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Starboard Bow Solar Access";
@@ -10380,10 +10385,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/medical/medbay/central)
-"csM" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/iron,
-/area/space)
 "ctd" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/delivery,
@@ -39432,6 +39433,11 @@
 "mVk" = (
 /turf/closed/wall,
 /area/cargo/warehouse)
+"mVr" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/right/directional/east,
+/turf/open/floor/iron,
+/area/space)
 "mVs" = (
 /obj/machinery/light_switch/directional/west,
 /obj/effect/turf_decal/tile/yellow{
@@ -68914,6 +68920,13 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron,
 /area/service/hydroponics/garden)
+"yaq" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
 "yaC" = (
 /obj/structure/cable,
 /turf/open/floor/plating/airless,
@@ -89692,13 +89705,13 @@ pgD
 pgD
 pgD
 aaH
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+aaH
+aaH
+aaH
+aaH
+aaH
+aaH
+aaH
 aaa
 aaa
 aaa
@@ -89948,13 +89961,13 @@ pgD
 pgD
 pgD
 pgD
+pgD
+pgD
 aaH
-aaH
-aaH
-aaH
-aaH
-aaH
-aaH
+pgD
+pgD
+pgD
+pgD
 aaH
 aaa
 aaa
@@ -90464,7 +90477,7 @@ pgD
 pgD
 pgD
 pgD
-pgD
+aaH
 pgD
 pgD
 pgD
@@ -90722,10 +90735,10 @@ pgD
 pgD
 pgD
 aaH
-pgD
-pgD
-pgD
-pgD
+lqq
+fFC
+sUu
+lqq
 aaH
 aaa
 aaa
@@ -90979,10 +90992,10 @@ pgD
 pgD
 pgD
 aaH
-lqq
-fFC
-sUu
-lqq
+bZG
+yaq
+yaq
+mVr
 aaH
 aaa
 aaa
@@ -91236,10 +91249,10 @@ pgD
 pgD
 pgD
 aaH
-csM
-csM
-csM
-csM
+bBn
+uIz
+jYc
+bBn
 aaH
 aaa
 aaa
@@ -91493,10 +91506,10 @@ pgD
 pgD
 pgD
 aaH
-bBn
-uIz
-jYc
-bBn
+pgD
+pgD
+pgD
+pgD
 aaH
 aaa
 aaa
@@ -91749,7 +91762,7 @@ pgD
 pgD
 pgD
 pgD
-aaH
+pgD
 pgD
 pgD
 pgD
@@ -92267,7 +92280,7 @@ aaH
 aaH
 aaH
 pgD
-pgD
+aaH
 aaH
 puE
 cAx
