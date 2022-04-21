@@ -421,8 +421,13 @@
 /turf/open/floor/iron/showroomfloor,
 /area/space)
 "ql" = (
-/obj/machinery/vending/cola/shamblers,
-/turf/open/space/basic,
+/obj/machinery/vending/cola/shamblers{
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 10
+	},
+/turf/open/floor/carpet/purple,
 /area/space)
 "qr" = (
 /obj/machinery/icecream_vat,
@@ -637,8 +642,11 @@
 /turf/open/floor/iron/textured_large,
 /area/space)
 "zH" = (
-/obj/machinery/vending/sustenance,
-/turf/open/space/basic,
+/obj/machinery/vending/sustenance/syndie{
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/carpet/purple,
 /area/space)
 "AC" = (
 /turf/open/floor/iron/dark/textured_edge{
