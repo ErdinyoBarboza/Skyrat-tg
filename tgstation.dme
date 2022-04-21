@@ -5280,6 +5280,7 @@
 #include "modular_skyrat\modules\mapping\code\tools.dm"
 #include "modular_skyrat\modules\mapping\code\turf_decals.dm"
 #include "modular_skyrat\modules\mapping\code\turnstile.dm"
+#include "modular_skyrat\modules\mapping\code\vending.dm"
 #include "modular_skyrat\modules\mapping\code\vgdecals.dm"
 #include "modular_skyrat\modules\mapping\code\wardrobes.dm"
 #include "modular_skyrat\modules\marines\code\miscellaneous.dm"
