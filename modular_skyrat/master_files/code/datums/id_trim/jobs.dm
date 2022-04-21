@@ -24,6 +24,10 @@
 
 	access |= list(ACCESS_ENTER_GENPOP, ACCESS_LEAVE_GENPOP)
 
+/datum/id_trim/job/detective/New()
+	. = ..()
+	access |= list(ACCESS_SECURITY)
+
 /datum/id_trim/job/atmospheric_technician
 	extra_access = list(ACCESS_TECH_STORAGE)
 	minimal_access = list(ACCESS_ATMOSPHERICS, ACCESS_AUX_BASE, ACCESS_CONSTRUCTION, ACCESS_ENGINE, ACCESS_ENGINE_EQUIP, ACCESS_EXTERNAL_AIRLOCKS, ACCESS_MAINT_TUNNELS, ACCESS_MECH_ENGINE,
