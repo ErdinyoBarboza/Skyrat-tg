@@ -365,16 +365,6 @@
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/iron,
 /area/ruin/syndicate_lava_base/medbay)
-"fv" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 8
-	},
-/obj/machinery/disposal/bin,
-/obj/structure/disposalpipe/trunk{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/ruin/syndicate_lava_base/testlab)
 "fF" = (
 /obj/machinery/skill_station,
 /turf/open/floor/iron,
@@ -942,7 +932,7 @@
 /turf/open/floor/plating/lavaland_atmos,
 /area/ruin/syndicate_lava_base/cargo)
 "no" = (
-/turf/open/space/basic,
+/turf/open/floor/iron/dark,
 /area/ruin/syndicate_lava_base/testlab)
 "np" = (
 /obj/structure/lattice/catwalk,
@@ -1165,7 +1155,6 @@
 /area/ruin/syndicate_lava_base/medbay)
 "qU" = (
 /obj/machinery/smartfridge/chemistry/virology/preloaded,
-/obj/structure/window/reinforced/survival_pod,
 /turf/open/floor/iron/dark,
 /area/ruin/syndicate_lava_base/testlab)
 "rf" = (
@@ -2100,7 +2089,9 @@
 /turf/open/floor/iron,
 /area/ruin/syndicate_lava_base/cargo)
 "Fm" = (
-/turf/open/space/basic,
+/turf/open/floor/iron{
+	icon = 'icons/turf/floors.dmi'
+	},
 /area/ruin/syndicate_lava_base/bar)
 "Ft" = (
 /obj/effect/turf_decal/vg_decals/department/bar{
@@ -2376,7 +2367,6 @@
 /area/ruin/syndicate_lava_base/cargo)
 "Kh" = (
 /obj/machinery/computer/pandemic,
-/obj/structure/window/reinforced/survival_pod,
 /turf/open/floor/iron/dark,
 /area/ruin/syndicate_lava_base/testlab)
 "Ko" = (
@@ -2915,7 +2905,7 @@
 	id = "interdynescience";
 	req_access_txt = "150"
 	},
-/turf/open/space/basic,
+/turf/open/floor/iron/dark,
 /area/ruin/syndicate_lava_base/testlab)
 "RK" = (
 /obj/effect/turf_decal/tile/bar{
@@ -3056,7 +3046,7 @@
 	ai_controller = null;
 	faction = list("neutral","Syndicate")
 	},
-/turf/open/space/basic,
+/turf/open/floor/iron/dark,
 /area/ruin/syndicate_lava_base/testlab)
 "Tx" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
@@ -3257,15 +3247,6 @@
 "WW" = (
 /turf/open/floor/iron,
 /area/ruin/syndicate_lava_base/bar)
-"WY" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/machinery/door/window/survival_pod{
-	req_access_txt = "150"
-	},
-/turf/open/floor/iron/dark,
-/area/ruin/syndicate_lava_base/testlab)
 "Xf" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -3340,9 +3321,6 @@
 /turf/open/floor/wood,
 /area/ruin/syndicate_lava_base/cargo)
 "XV" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
 /obj/structure/chair/office/light{
 	dir = 8
 	},
@@ -3386,9 +3364,6 @@
 /area/ruin/syndicate_lava_base/testlab)
 "Yk" = (
 /obj/structure/table/glass,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 4
-	},
 /obj/structure/reagent_dispensers/wall/virusfood/directional/west,
 /obj/item/book/manual/wiki/infections{
 	pixel_y = 7
@@ -3404,10 +3379,6 @@
 /turf/open/floor/iron/white,
 /area/ruin/syndicate_lava_base/medbay)
 "Yu" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 4
-	},
-/obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/west{
 	req_access = list(150)
 	},
@@ -3437,7 +3408,6 @@
 "YF" = (
 /obj/machinery/light/directional/north,
 /obj/structure/table/glass,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/item/clothing/glasses/hud/health,
 /obj/item/reagent_containers/dropper{
 	pixel_y = -6
@@ -3462,10 +3432,6 @@
 /turf/open/floor/wood,
 /area/ruin/syndicate_lava_base/dormitories)
 "YW" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
-/obj/structure/disposalpipe/segment,
 /obj/structure/table/glass,
 /obj/item/reagent_containers/spray/cleaner{
 	pixel_x = 10
@@ -3969,7 +3935,7 @@ RJ
 OW
 YF
 XV
-WY
+no
 no
 no
 no
@@ -4027,7 +3993,7 @@ no
 no
 OW
 YW
-fv
+no
 Kh
 no
 no
@@ -5513,12 +5479,12 @@ WW
 QQ
 ky
 Tx
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
+WW
+WW
+WW
+WW
+WW
+WW
 Tx
 ab
 ab
@@ -5572,12 +5538,12 @@ WM
 QQ
 ml
 Tx
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
+WW
+WW
+WW
+WW
+WW
+WW
 Tx
 ab
 ab
@@ -5630,13 +5596,13 @@ Tx
 To
 QQ
 WW
+WW
+WW
+WW
 Fm
 Fm
 Fm
-Fm
-Fm
-Fm
-Fm
+WW
 Tx
 ab
 ab
@@ -5689,13 +5655,13 @@ Tx
 Jq
 QQ
 WW
+WW
+WW
+WW
 Fm
 Fm
 Fm
-Fm
-Fm
-Fm
-Fm
+WW
 Tx
 ab
 ab
@@ -5748,13 +5714,13 @@ kL
 WW
 Rx
 WW
+WW
+WW
+WW
 Fm
 Fm
 Fm
-Fm
-Fm
-Fm
-Fm
+WW
 Tx
 ab
 ab
@@ -5807,13 +5773,13 @@ kL
 WW
 Rx
 WW
+WW
+WW
+WW
 Fm
 Fm
 Fm
-Fm
-Fm
-Fm
-Fm
+WW
 Tx
 ab
 ab
@@ -5866,13 +5832,13 @@ kL
 WW
 Rx
 Nf
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
+WW
+WW
+WW
+WW
+WW
+WW
+WW
 Tx
 ab
 ab
@@ -5925,13 +5891,13 @@ Tx
 Gb
 QQ
 Tq
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
+WW
+WW
+WW
+WW
+WW
+WW
+WW
 Tx
 ab
 ab
