@@ -1,4 +1,8 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ac" = (
+/obj/machinery/smartfridge,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/space)
 "ag" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark/smooth_large,
@@ -13,14 +17,46 @@
 	dir = 4
 	},
 /area/space)
+"aC" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/cloth/ten,
+/turf/open/floor/iron/textured_large,
+/area/space)
 "aD" = (
 /obj/machinery/cryopod/quiet{
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"aH" = (
+/obj/machinery/door/airlock/research{
+	name = "Science Division";
+	req_access_txt = "150"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron,
+/area/space)
+"aN" = (
+/obj/effect/spawner/liquids_spawner,
+/obj/machinery/light/floor,
+/turf/open/floor/iron/pool,
+/area/space)
 "aS" = (
 /turf/open/floor/carpet/blue,
+/area/space)
+"aT" = (
+/obj/machinery/airalarm/directional/east{
+	req_access = list(150)
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"aY" = (
+/obj/machinery/atmospherics/components/binary/thermomachine/freezer/on{
+	dir = 4;
+	initialize_directions = 4;
+	name = "euthanization chamber freezer"
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "aZ" = (
 /obj/structure/weightmachine/stacklifter,
@@ -29,18 +65,18 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"ba" = (
+/obj/effect/turf_decal/siding/yellow{
+	dir = 4
+	},
+/turf/open/floor/iron/textured_large,
+/area/space)
 "bg" = (
 /obj/structure/window/reinforced/survival_pod{
 	dir = 1
 	},
 /obj/structure/chair/sofa/bench/right,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
-"bk" = (
-/obj/structure/sign/barsign{
-	req_access = list(150)
-	},
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/space)
 "bp" = (
 /obj/structure/sign/poster/contraband/syndicate_pistol{
@@ -52,6 +88,32 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"bF" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
+/turf/open/floor/iron/telecomms,
+/area/space)
+"bS" = (
+/turf/open/floor/iron/telecomms,
+/area/space)
+"bT" = (
+/obj/structure/frame/machine,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"bY" = (
+/obj/machinery/door/airlock/research{
+	name = "Xenobiology Lab";
+	req_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/dark/side,
+/area/space)
 "ce" = (
 /turf/open/floor/iron/textured_large,
 /area/space)
@@ -60,6 +122,18 @@
 /obj/structure/cable,
 /obj/structure/table/wood/fancy/red,
 /turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"cl" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/engine,
 /area/space)
 "cx" = (
 /obj/structure/chair/stool/bar{
@@ -71,6 +145,35 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"cR" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron,
+/area/space)
+"cX" = (
+/obj/effect/turf_decal/siding/yellow/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/textured_large,
+/area/space)
+"dg" = (
+/obj/machinery/hydroponics/constructable,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"dE" = (
+/obj/structure/table/glass,
+/obj/item/storage/box/syringes{
+	pixel_x = 5;
+	pixel_y = 10
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/item/storage/bag/xeno,
+/turf/open/floor/wood,
+/area/space)
 "dJ" = (
 /obj/machinery/vending/boozeomat/syndicate_access,
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
@@ -80,11 +183,66 @@
 /obj/machinery/computer/security/telescreen/entertainment/directional/east,
 /turf/open/floor/wood,
 /area/space)
+"dO" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
+"dV" = (
+/obj/structure/table/wood,
+/obj/item/clothing/glasses/sunglasses,
+/turf/open/floor/wood,
+/area/space)
+"dW" = (
+/obj/structure/table/glass,
+/obj/item/storage/box/stockparts/deluxe{
+	pixel_x = -6;
+	pixel_y = 11
+	},
+/obj/item/storage/box/stockparts/deluxe{
+	pixel_x = 8;
+	pixel_y = 5
+	},
+/obj/item/storage/box/beakers/bluespace,
+/turf/open/floor/iron,
+/area/space)
+"dY" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/door/window/survival_pod{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
 "ef" = (
 /obj/machinery/airalarm/directional/east{
 	req_access = list(150)
 	},
 /turf/open/floor/iron/textured_large,
+/area/space)
+"ek" = (
+/obj/structure/table/glass,
+/obj/item/storage/box/monkeycubes/syndicate{
+	pixel_y = 5
+	},
+/obj/item/storage/box/monkeycubes/syndicate{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/slime_extract/grey{
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/slime_extract/grey,
+/obj/item/slime_extract/grey{
+	pixel_x = 2;
+	pixel_y = -2
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/wood,
 /area/space)
 "eN" = (
 /obj/structure/flora/rock/pile,
@@ -93,6 +251,15 @@
 	reagent_list = list(/datum/reagent/water = 600)
 	},
 /turf/open/misc/asteroid,
+/area/space)
+"eS" = (
+/obj/effect/turf_decal/siding/wideplating{
+	dir = 1
+	},
+/obj/machinery/door/airlock/maintenance_hatch{
+	req_access_txt = "150"
+	},
+/turf/open/floor/iron/textured_large,
 /area/space)
 "eU" = (
 /obj/machinery/button/door{
@@ -104,6 +271,11 @@
 /turf/open/floor/iron/dark/smooth_corner{
 	dir = 8
 	},
+/area/space)
+"eV" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/turf/open/floor/wood,
 /area/space)
 "eW" = (
 /obj/machinery/door/airlock/maintenance_hatch{
@@ -139,6 +311,16 @@
 /obj/structure/table/wood/fancy/orange,
 /obj/effect/spawner/random/food_or_drink/snack,
 /turf/open/floor/iron/dark,
+/area/space)
+"gz" = (
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/space)
+"gG" = (
+/obj/machinery/chem_master/condimaster{
+	name = "BrewMaster 3000"
+	},
+/turf/open/floor/iron/dark/smooth_large,
 /area/space)
 "gH" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
@@ -182,6 +364,12 @@
 	},
 /turf/open/floor/wood,
 /area/space)
+"gZ" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/space)
 "hf" = (
 /obj/machinery/light/directional/west,
 /obj/structure/table/wood,
@@ -203,6 +391,37 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/space)
+"hv" = (
+/obj/structure/table/glass,
+/obj/machinery/reagentgrinder{
+	pixel_y = 6
+	},
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 5
+	},
+/obj/structure/window/reinforced/survival_pod{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/wood,
+/area/space)
+"hO" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/camera/xray{
+	c_tag = "Xenobio West";
+	dir = 8;
+	network = list("fsci")
+	},
+/turf/open/floor/engine,
+/area/space)
 "hR" = (
 /obj/structure/closet/secure_closet/freezer/meat{
 	req_access = list(150)
@@ -211,6 +430,15 @@
 /area/space)
 "hS" = (
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/space)
+"hW" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/door/window/survival_pod{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/turf/open/floor/iron/dark/smooth_large,
 /area/space)
 "id" = (
 /turf/open/floor/iron/dark/smooth_edge{
@@ -240,11 +468,30 @@
 	dir = 8
 	},
 /area/space)
+"iv" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/door/airlock/grunge{
+	name = "Corporate Lawyer";
+	req_access_txt = "151"
+	},
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/wood,
+/area/space)
 "iy" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
 	},
 /turf/open/floor/carpet/blue,
+/area/space)
+"iD" = (
+/obj/structure/window/reinforced/survival_pod,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 4
+	},
+/turf/open/floor/engine,
 /area/space)
 "iL" = (
 /obj/machinery/chem_dispenser/pizzeria,
@@ -266,6 +513,12 @@
 	reagent_list = list(/datum/reagent/water = 600)
 	},
 /turf/open/misc/asteroid,
+/area/space)
+"ka" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/turf/open/floor/engine,
 /area/space)
 "ks" = (
 /obj/structure/table/wood/fancy/red,
@@ -329,6 +582,12 @@
 "lA" = (
 /turf/open/floor/iron/dark/smooth_edge,
 /area/space)
+"lB" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/light/directional/north,
+/turf/open/floor/wood,
+/area/space)
 "lD" = (
 /obj/machinery/door/morgue,
 /turf/open/floor/iron/dark/textured_large,
@@ -364,6 +623,34 @@
 	dir = 4
 	},
 /area/space)
+"nz" = (
+/obj/structure/chair/office/light{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/space)
+"nH" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/space)
+"nK" = (
+/obj/structure/chair/plastic{
+	dir = 8
+	},
+/turf/open/floor/iron/textured_large,
+/area/space)
+"nN" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/door/window/survival_pod{
+	dir = 8
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
 "oa" = (
 /obj/machinery/light/directional/east,
 /obj/structure/noticeboard/directional/north{
@@ -394,6 +681,10 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/space)
+"oX" = (
+/obj/effect/spawner/liquids_spawner,
+/turf/open/floor/iron/pool,
+/area/space)
 "pd" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -404,11 +695,22 @@
 	},
 /turf/template_noop,
 /area/space)
+"pe" = (
+/obj/machinery/hydroponics/constructable,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
 "pj" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Showers"
 	},
 /turf/open/floor/iron/textured_large,
+/area/space)
+"pl" = (
+/obj/machinery/door/airlock/multi_tile/glass{
+	name = "Hydroponics";
+	req_access_txt = "150"
+	},
+/turf/open/floor/iron/dark/smooth_large,
 /area/space)
 "pu" = (
 /obj/structure/closet/secure_closet/freezer/meat{
@@ -417,8 +719,32 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/space)
+"pI" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/space)
+"pR" = (
+/obj/machinery/vending/hydronutrients,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
 "pU" = (
 /turf/open/floor/iron/showroomfloor,
+/area/space)
+"qb" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/camera/xray{
+	c_tag = "Xenobio East";
+	dir = 4;
+	network = list("fsci")
+	},
+/turf/open/floor/engine,
 /area/space)
 "ql" = (
 /obj/machinery/vending/cola/shamblers{
@@ -437,6 +763,14 @@
 /obj/structure/table/wood/fancy/red,
 /obj/item/food/grown/harebell,
 /turf/open/floor/carpet/neon/simple/red/nodots,
+/area/space)
+"rb" = (
+/obj/structure/window/reinforced/survival_pod,
+/turf/open/floor/engine,
+/area/space)
+"rd" = (
+/obj/structure/frame/machine,
+/turf/open/floor/iron/dark/smooth_large,
 /area/space)
 "rr" = (
 /obj/structure/cable,
@@ -468,6 +802,18 @@
 /obj/effect/turf_decal/siding/thinplating,
 /turf/open/floor/iron/showroomfloor,
 /area/space)
+"rJ" = (
+/obj/machinery/light/directional/north,
+/obj/structure/rack/shelf,
+/turf/open/floor/iron/textured_large,
+/area/space)
+"rU" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron,
+/area/space)
 "rZ" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -480,6 +826,14 @@
 /area/space)
 "si" = (
 /turf/open/floor/iron/dark/textured_large,
+/area/space)
+"sG" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron,
 /area/space)
 "sK" = (
 /turf/open/floor/iron/dark/smooth_corner,
@@ -499,6 +853,10 @@
 	id_tag = "TESBattlespire";
 	name = "Dormitory"
 	},
+/turf/open/floor/wood,
+/area/space)
+"te" = (
+/obj/machinery/processor/slime,
 /turf/open/floor/wood,
 /area/space)
 "th" = (
@@ -534,6 +892,14 @@
 /obj/machinery/computer/security/telescreen/entertainment/directional/west,
 /turf/open/floor/wood,
 /area/space)
+"tE" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
+	dir = 8;
+	external_pressure_bound = 120;
+	name = "server vent"
+	},
+/turf/open/floor/iron/telecomms,
+/area/space)
 "uc" = (
 /obj/machinery/airalarm/directional/north{
 	req_access = list(150)
@@ -544,6 +910,9 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/textured_large,
 /area/space)
+"uD" = (
+/turf/open/floor/engine,
+/area/space)
 "uM" = (
 /obj/structure/chair/sofa/corp,
 /turf/open/floor/iron/dark,
@@ -551,6 +920,12 @@
 "uX" = (
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
+/area/space)
+"uZ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/iron,
 /area/space)
 "vg" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
@@ -567,6 +942,20 @@
 	},
 /turf/open/floor/wood,
 /area/space)
+"vx" = (
+/obj/structure/table/glass,
+/obj/item/storage/box/rndboards{
+	pixel_y = 4
+	},
+/turf/open/floor/iron,
+/area/space)
+"vD" = (
+/obj/machinery/door/poddoor{
+	id = "interdynescience"
+	},
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/plating,
+/area/space)
 "vT" = (
 /obj/structure/window/reinforced/survival_pod,
 /obj/structure/chair/sofa/bench/right{
@@ -582,6 +971,22 @@
 	name = "Changing Room"
 	},
 /turf/open/floor/wood,
+/area/space)
+"wb" = (
+/obj/machinery/cell_charger_multi,
+/obj/structure/table/glass,
+/obj/item/stock_parts/cell/bluespace,
+/obj/machinery/airalarm/directional/west{
+	req_access = list(150)
+	},
+/turf/open/floor/iron,
+/area/space)
+"we" = (
+/obj/structure/window/reinforced/survival_pod,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/turf/open/floor/engine,
 /area/space)
 "wl" = (
 /obj/structure/sign/poster/contraband/syndicate_recruitment{
@@ -614,6 +1019,21 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"wY" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 4
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/engine,
+/area/space)
+"xl" = (
+/obj/structure/table/glass,
+/obj/machinery/reagentgrinder{
+	desc = "Used to grind things up into raw materials and liquids.";
+	pixel_y = 5
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
 "xC" = (
 /turf/open/floor/iron/kitchen,
 /area/space)
@@ -623,12 +1043,34 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/wood,
 /area/space)
+"xZ" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/space)
+"yd" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/wood,
+/area/space)
+"yi" = (
+/obj/effect/turf_decal/siding/yellow,
+/turf/open/floor/iron/textured_large,
+/area/space)
 "yj" = (
 /obj/structure/drain/big,
 /turf/open/floor/iron/textured_large,
 /area/space)
 "yo" = (
 /turf/open/floor/wood,
+/area/space)
+"yy" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north{
+	req_access = list(150)
+	},
+/turf/open/floor/iron,
 /area/space)
 "zb" = (
 /obj/structure/dresser,
@@ -637,9 +1079,33 @@
 	},
 /turf/open/floor/wood,
 /area/space)
+"ze" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/door/window/survival_pod{
+	dir = 4
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
 "zl" = (
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron/textured_large,
+/area/space)
+"zt" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
+/turf/open/floor/iron/telecomms,
+/area/space)
+"zB" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/machinery/door/airlock/grunge{
+	name = "Corporate Lawyer";
+	req_access_txt = "151"
+	},
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/wood,
 /area/space)
 "zH" = (
 /obj/machinery/vending/sustenance/syndie{
@@ -647,6 +1113,28 @@
 	},
 /obj/effect/turf_decal/siding/thinplating/dark,
 /turf/open/floor/carpet/purple,
+/area/space)
+"zL" = (
+/obj/item/storage/toolbox/syndicate,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron,
+/area/space)
+"zQ" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/monkey_recycler,
+/turf/open/floor/iron/dark,
+/area/space)
+"Av" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/turf/open/floor/iron/telecomms,
 /area/space)
 "AC" = (
 /turf/open/floor/iron/dark/textured_edge{
@@ -666,12 +1154,39 @@
 	},
 /turf/open/floor/iron/grimy,
 /area/space)
+"AO" = (
+/obj/structure/chair/office/light,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"Bk" = (
+/obj/machinery/seed_extractor,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
 "Bo" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
 /obj/effect/spawner/random/vending/snackvend,
 /turf/open/floor/wood,
+/area/space)
+"Bp" = (
+/obj/machinery/chem_dispenser/mutagensaltpeter,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"Bq" = (
+/obj/machinery/hydroponics/constructable,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"Bu" = (
+/obj/structure/table,
+/obj/item/book/manual/wiki/cooking_to_serve_man,
+/obj/item/kitchen/rollingpin,
+/obj/item/knife,
+/turf/open/floor/iron/kitchen,
 /area/space)
 "Bz" = (
 /obj/structure/table/wood,
@@ -695,6 +1210,13 @@
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron/dark,
 /area/space)
+"BO" = (
+/obj/machinery/hydroponics/constructable,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
 "BU" = (
 /obj/machinery/washing_machine,
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -705,10 +1227,17 @@
 	},
 /turf/open/floor/carpet/purple,
 /area/space)
-"Cp" = (
-/obj/structure/table,
-/obj/item/book/manual/wiki/cooking_to_serve_man,
-/turf/open/floor/iron/kitchen,
+"BV" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron,
+/area/space)
+"Cg" = (
+/obj/structure/rack/shelf,
+/turf/open/floor/iron/textured_large,
 /area/space)
 "Cx" = (
 /obj/machinery/airalarm/directional/west{
@@ -724,15 +1253,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"Cz" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/textured_large,
+/area/space)
 "CC" = (
 /obj/structure/cable,
 /turf/open/floor/iron/dark/textured_edge,
-/area/space)
-"CD" = (
-/obj/structure/sink/kitchen{
-	dir = 1
-	},
-/turf/open/floor/iron/kitchen,
 /area/space)
 "CM" = (
 /obj/machinery/door/airlock/public/glass{
@@ -782,6 +1309,13 @@
 	name = "Chapel"
 	},
 /turf/open/floor/iron/dark/textured_large,
+/area/space)
+"DV" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/plating,
 /area/space)
 "DW" = (
 /obj/structure/window/reinforced/survival_pod{
@@ -836,9 +1370,19 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/textured_large,
 /area/space)
+"Fa" = (
+/obj/machinery/autolathe/hacked,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
 "Fb" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/kitchen,
+/area/space)
+"Ff" = (
+/obj/effect/turf_decal/siding/yellow{
+	dir = 1
+	},
+/turf/open/floor/iron/textured_large,
 /area/space)
 "Fi" = (
 /obj/machinery/light/directional/west,
@@ -865,6 +1409,10 @@
 /obj/machinery/light/directional/east,
 /obj/structure/cable,
 /turf/open/floor/carpet,
+/area/space)
+"FG" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/floor/wood,
 /area/space)
 "FK" = (
 /obj/item/toy/cards/deck/kotahi{
@@ -900,6 +1448,10 @@
 /obj/item/reagent_containers/food/condiment/soymilk,
 /obj/item/storage/fancy/egg_box,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/space)
+"Gm" = (
+/obj/machinery/biogenerator,
+/turf/open/floor/iron/dark/smooth_large,
 /area/space)
 "Gz" = (
 /obj/structure/table,
@@ -941,6 +1493,27 @@
 "GU" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/space)
+"GW" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
+/obj/structure/window/reinforced/survival_pod{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/space)
+"GZ" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = 12
+	},
+/obj/structure/reagent_dispensers/watertank/high,
+/obj/item/reagent_containers/glass/bucket,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
 "Hg" = (
 /turf/template_noop,
 /area/space)
@@ -950,6 +1523,15 @@
 	},
 /obj/structure/table,
 /turf/open/floor/iron/kitchen,
+/area/space)
+"Hq" = (
+/turf/open/floor/iron/white,
+/area/space)
+"HL" = (
+/obj/item/stack/cable_coil,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
 "HT" = (
 /obj/structure/chair/office{
@@ -973,12 +1555,25 @@
 	},
 /turf/open/misc/asteroid,
 /area/space)
+"Ip" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/space)
 "Ir" = (
 /obj/item/food/fries{
 	pixel_y = 2
 	},
 /obj/structure/cable,
 /obj/structure/table/wood/fancy/red,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"IC" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/door/window/survival_pod{
+	dir = 8
+	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/space)
 "IP" = (
@@ -997,9 +1592,24 @@
 /obj/structure/flora/tree/jungle/small,
 /turf/open/floor/grass,
 /area/space)
+"IR" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/light/directional/east,
+/obj/machinery/door/window/survival_pod{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
 "IY" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/iron/dark/textured_large,
+/area/space)
+"Jb" = (
+/obj/structure/filingcabinet,
+/obj/machinery/airalarm/directional/north{
+	req_access = list(150)
+	},
+/turf/open/floor/wood,
 /area/space)
 "Jl" = (
 /obj/machinery/deepfryer,
@@ -1007,6 +1617,13 @@
 	req_access = list(150)
 	},
 /turf/open/floor/iron/kitchen,
+/area/space)
+"Jn" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/engine,
 /area/space)
 "Jp" = (
 /obj/effect/turf_decal/siding/wood{
@@ -1040,6 +1657,10 @@
 /obj/effect/spawner/random/food_or_drink/donkpockets,
 /turf/open/floor/iron/kitchen,
 /area/space)
+"Jz" = (
+/obj/machinery/smartfridge/extract/preloaded,
+/turf/open/floor/wood,
+/area/space)
 "JT" = (
 /obj/structure/chair{
 	dir = 4
@@ -1051,6 +1672,20 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark/smooth_large,
 /area/space)
+"Ka" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/door/window/survival_pod{
+	dir = 1
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"Kf" = (
+/obj/structure/frame/computer{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
 "Kz" = (
 /obj/effect/turf_decal/siding/wideplating{
 	dir = 1
@@ -1060,6 +1695,25 @@
 	},
 /obj/structure/flora/junglebush/large,
 /turf/open/floor/grass,
+/area/space)
+"KB" = (
+/obj/structure/table/wood,
+/obj/item/laser_pointer/upgraded{
+	desc = "It's labelled 'Felinid Obliteration Device'. Fancy?"
+	},
+/turf/open/floor/wood,
+/area/space)
+"KP" = (
+/obj/item/watertank,
+/obj/item/grenade/chem_grenade/antiweed,
+/obj/item/reagent_containers/spray/plantbgone{
+	pixel_x = 11
+	},
+/obj/item/reagent_containers/spray/plantbgone{
+	pixel_x = 11
+	},
+/obj/structure/table/glass,
+/turf/open/floor/iron/dark/smooth_large,
 /area/space)
 "KU" = (
 /obj/structure/chair/stool{
@@ -1093,6 +1747,34 @@
 	dir = 8
 	},
 /area/space)
+"Lw" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/window/survival_pod{
+	dir = 1;
+	req_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"Lx" = (
+/obj/machinery/door/airlock/maintenance/external{
+	req_access_txt = "150"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/space)
+"LU" = (
+/obj/effect/turf_decal/siding/yellow/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/textured_large,
+/area/space)
 "Ma" = (
 /obj/item/storage/fancy/cigarettes/cigpack_syndicate,
 /obj/structure/cable,
@@ -1120,6 +1802,10 @@
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron/dark,
 /area/space)
+"MD" = (
+/obj/structure/cable,
+/turf/open/floor/wood,
+/area/space)
 "MH" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Chapel Office";
@@ -1127,8 +1813,18 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/space)
+"MJ" = (
+/obj/machinery/firealarm/directional/east{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/space)
 "MT" = (
 /turf/open/floor/carpet/neon/simple/red/nodots,
+/area/space)
+"Nm" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron,
 /area/space)
 "Np" = (
 /turf/open/floor/iron/dark,
@@ -1157,6 +1853,25 @@
 	id = "interdynecream"
 	},
 /turf/open/floor/iron/dark/textured_large,
+/area/space)
+"NZ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/computer/camera_advanced/xenobio{
+	dir = 8
+	},
+/obj/structure/window/reinforced/survival_pod{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/space)
+"Od" = (
+/obj/machinery/vending/hydroseeds,
+/turf/open/floor/iron/dark/smooth_large,
 /area/space)
 "Oe" = (
 /obj/machinery/door/airlock/grunge{
@@ -1207,11 +1922,49 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/space)
-"OT" = (
-/obj/structure/table,
-/obj/item/knife,
-/obj/item/kitchen/rollingpin,
-/turf/open/floor/iron/kitchen,
+"Pq" = (
+/obj/effect/turf_decal/siding/yellow/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/textured_large,
+/area/space)
+"Pw" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/space)
+"PF" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/turf/open/floor/iron/telecomms,
+/area/space)
+"PI" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/space)
+"PK" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/space)
+"Qk" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	external_pressure_bound = 140;
+	name = "server vent";
+	pressure_checks = 0
+	},
+/turf/open/floor/iron/telecomms,
 /area/space)
 "Qt" = (
 /obj/effect/turf_decal/siding/wideplating{
@@ -1223,6 +1976,27 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /turf/open/floor/iron/dark/textured_large,
+/area/space)
+"QA" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = 11;
+	pixel_y = -5
+	},
+/turf/open/floor/iron/kitchen,
+/area/space)
+"QK" = (
+/obj/structure/sign/poster/contraband/grey_tide{
+	pixel_x = 32
+	},
+/turf/open/floor/wood,
+/area/space)
+"QM" = (
+/obj/structure/sink{
+	pixel_y = 20
+	},
+/obj/effect/mob_spawn/ghost_role/human/ds2/syndicate/service,
+/turf/open/floor/iron/dark/smooth_large,
 /area/space)
 "QO" = (
 /obj/effect/turf_decal/siding/wideplating{
@@ -1240,6 +2014,11 @@
 	},
 /turf/open/floor/wood,
 /area/space)
+"QW" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/telecomms,
+/area/space)
 "Rn" = (
 /obj/structure/window/reinforced/survival_pod,
 /obj/structure/chair/sofa/bench/left{
@@ -1249,6 +2028,10 @@
 	req_access = list(150)
 	},
 /turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"Rp" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/turf/open/floor/iron,
 /area/space)
 "Rv" = (
 /obj/effect/turf_decal/siding/wood{
@@ -1291,6 +2074,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"RT" = (
+/obj/structure/sign/barsign/syndie,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/space)
 "Si" = (
 /obj/effect/turf_decal/siding/wideplating{
 	dir = 1
@@ -1300,6 +2087,18 @@
 	},
 /obj/structure/flora/ausbushes/sunnybush,
 /turf/open/floor/grass,
+/area/space)
+"SA" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/door/window/survival_pod{
+	dir = 4;
+	req_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
 /area/space)
 "SW" = (
 /obj/structure/window/reinforced/survival_pod{
@@ -1352,6 +2151,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark/textured_large,
 /area/space)
+"UP" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron,
+/area/space)
 "UZ" = (
 /obj/structure/flora/ocean/seaweed,
 /obj/machinery/light/directional/east,
@@ -1359,6 +2162,12 @@
 	reagent_list = list(/datum/reagent/water = 600)
 	},
 /turf/open/misc/asteroid,
+/area/space)
+"Vm" = (
+/obj/effect/turf_decal/siding/yellow{
+	dir = 8
+	},
+/turf/open/floor/iron/textured_large,
 /area/space)
 "Vs" = (
 /obj/structure/reagent_dispensers/cooking_oil,
@@ -1371,6 +2180,9 @@
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron/dark,
 /area/space)
+"VD" = (
+/turf/closed/wall/r_wall/syndicate,
+/area/space)
 "Wh" = (
 /obj/machinery/light/directional/west,
 /obj/structure/mirror/directional/north,
@@ -1379,6 +2191,25 @@
 "Wk" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/textured_large,
+/area/space)
+"Ws" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/machinery/button/door/directional/west{
+	id = "interdynescience";
+	req_access_txt = "150"
+	},
+/turf/open/floor/iron,
+/area/space)
+"Wv" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
+/turf/open/floor/engine,
 /area/space)
 "Wy" = (
 /obj/effect/turf_decal/siding/wideplating{
@@ -1413,11 +2244,28 @@
 	},
 /turf/open/floor/iron/textured_large,
 /area/space)
+"Xc" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
+/turf/open/floor/iron/telecomms,
+/area/space)
 "Xh" = (
 /obj/structure/chair/sofa/corp/corner{
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
+/area/space)
+"Xk" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 4
+	},
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
+/turf/open/floor/engine,
 /area/space)
 "XJ" = (
 /obj/structure/table/wood,
@@ -1437,11 +2285,30 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/space)
+"XN" = (
+/obj/effect/turf_decal/siding/yellow/corner,
+/turf/open/floor/iron/textured_large,
+/area/space)
 "Yl" = (
 /obj/structure/punching_bag{
 	desc = "Only good thing NT is, a punchbag..."
 	},
 /turf/open/floor/carpet/blue,
+/area/space)
+"Ym" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/box/beakers{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/box/syringes,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"Yn" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
 "Yx" = (
 /obj/machinery/shower{
@@ -1493,6 +2360,17 @@
 	},
 /turf/open/floor/grass,
 /area/space)
+"Zp" = (
+/obj/structure/rack,
+/obj/item/cultivator,
+/obj/item/shovel/spade,
+/obj/item/hatchet,
+/obj/item/plant_analyzer,
+/obj/item/geneshears,
+/obj/item/gun/energy/floragun,
+/obj/item/secateurs,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
 "Zr" = (
 /obj/structure/cable,
 /turf/open/floor/iron/textured_large,
@@ -1507,6 +2385,11 @@
 	},
 /obj/structure/closet/secure_closet/personal/cabinet,
 /turf/open/floor/wood,
+/area/space)
+"ZN" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/dark,
 /area/space)
 
 (1,1,1) = {"
@@ -2796,30 +3679,30 @@ YI
 YI
 YI
 YI
-GU
-GU
-GU
-GU
-GU
-GU
-GU
-eW
-GU
-GU
-GU
-GU
-GU
-GU
-GU
-GU
-GU
-GU
-GU
-GU
-GU
-Np
-Np
-Np
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -2913,35 +3796,35 @@ YI
 YI
 YI
 YI
-Hg
-mX
-Hg
-Hg
-pd
-GU
-DT
-GU
-JT
-GU
-Xh
-Fi
-uX
-GU
-Cx
-hf
-rt
-GU
-Cx
-hf
-rt
-GU
-Cx
-hf
-rt
-GU
-Np
-Np
-Np
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -3035,35 +3918,35 @@ YI
 YI
 YI
 YI
-Hg
-GU
-GU
-GU
-GU
-GU
-kN
-GU
-lD
-GU
-uM
-GH
-uX
-GU
-yo
-yo
-yo
-GU
-yo
-yo
-yo
-GU
-yo
-yo
-yo
-GU
-Np
-Np
-Np
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -3158,34 +4041,34 @@ YI
 YI
 YI
 YI
-GU
-sK
-ir
-YX
-ir
-ir
-ir
-ar
-GU
-ig
-gl
-uX
-GU
-yo
-ZM
-dL
-GU
-yo
-Lj
-dL
-GU
-yo
-Ol
-dL
-GU
-Np
-Np
-kS
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -3280,34 +4163,34 @@ YI
 YI
 YI
 YI
-gf
-wq
-MT
-MT
-Np
-WV
-WV
-lA
-GU
-lq
-AC
-rr
-GU
-gT
-GU
-GU
-GU
-rZ
-GU
-GU
-GU
-td
-GU
-GU
-GU
-Np
-Np
-Np
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -3402,34 +4285,34 @@ YI
 YI
 YI
 YI
-gf
-wq
-MT
-ks
-id
-Dd
-Dd
-YO
-DU
-Ga
-Ga
-Oi
-Ga
-Ga
-Ga
-Ga
-Ga
-Ga
-Ga
-Ga
-CO
-Ga
-Ga
-Ga
-oW
-Np
-Np
-Np
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -3524,34 +4407,34 @@ YI
 YI
 YI
 YI
-gf
-wq
-MT
-oS
-MT
-MT
-MT
-MT
-gf
-Ga
-Ga
-Oi
-Ga
-Ga
-Ga
-Ga
-Ga
-Ga
-Ga
-Ga
-Ga
-Ga
-Ga
-Ga
-gH
-Np
-Np
-Np
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -3646,46 +4529,46 @@ YI
 YI
 YI
 YI
-gf
-wq
-MT
-qy
-Lv
-Mj
-Mj
-Do
-kw
-Oi
-Oi
-Oi
-Oi
-Oi
-Oi
-Oi
-FB
-Oi
-Oi
-Oi
-Oi
-Oi
-Oi
-Oi
-Uw
-Np
-Np
-Np
-GU
-GU
-GU
-gH
-GU
-GU
-gH
-GU
-GU
-gH
-GU
-GU
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -3768,46 +4651,46 @@ YI
 YI
 YI
 YI
-gf
-wq
-MT
-MT
-uX
-Dd
-Dd
-lA
-GU
-Jr
-Jr
-Jr
-GU
-Rv
-GU
-GU
-GU
-vv
-GU
-GU
-GU
-FO
-GU
-GU
-GU
-Np
-Np
-Np
-mD
-GU
-Ui
-Jt
-Lo
-bg
-Jt
-Rn
-bg
-Jt
-iq
-GU
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -3890,46 +4773,46 @@ YI
 YI
 YI
 YI
-GU
-eU
-id
-IP
-gN
-id
-id
-Er
-GU
-RB
-Np
-Np
-GU
-yo
-Rx
-tv
-GU
-yo
-EU
-tv
-GU
-yo
-TK
-tv
-GU
-Np
-Np
-Np
-jx
-GU
-DW
-Jt
-vT
-DW
-Jt
-vT
-DW
-Jt
-vT
-GU
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -4011,47 +4894,47 @@ YI
 YI
 YI
 YI
-Hg
-GU
-GU
-tt
-GU
-GU
-GU
-MH
-GU
-GU
-ga
-Np
-aD
-GU
-yo
-yo
-yo
-GU
-yo
-yo
-yo
-GU
-yo
-yo
-yo
-GU
-Np
-Np
-Np
-Jp
-GU
-Cy
-Cy
-Cy
-Cy
-Cy
-Cy
-Cy
-Cy
-bp
-GU
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -4133,47 +5016,47 @@ YI
 YI
 YI
 YI
-Hg
-GU
-NX
-si
-GU
-Nq
-si
-si
-aq
-GU
-SW
-SW
-SW
-GU
-zb
-xN
-Rw
-GU
-zb
-xN
-Rw
-GU
-zb
-xN
-Rw
-GU
-Np
-Np
-Np
-Bo
-GU
-EJ
-EJ
-EJ
-EJ
-EJ
-EJ
-EJ
-VC
-EJ
-GU
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -4255,47 +5138,47 @@ YI
 YI
 YI
 YI
-Hg
-gf
-HY
-si
-GU
-IY
-Mh
-AM
-HX
-GU
-GU
-GU
-GU
-GU
-GU
-GU
-GU
-GU
-GU
-GU
-GU
-GU
-GU
-GU
-GU
-GU
-gS
-gH
-gS
-GU
-GU
-cx
-cx
-cx
-cx
-cx
-WC
-EJ
-FK
-EJ
-CM
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -4377,47 +5260,47 @@ YI
 YI
 YI
 YI
-Hg
-gf
-hs
-ag
-tt
-si
-wr
-XJ
-Bz
-GU
-Hg
-Hg
-Hg
-mX
-Hg
-Hg
-GU
-Gz
-lh
-GU
-Wh
-QT
-GU
-Wh
-QT
-GU
-ce
-ce
-ce
-Wy
-GU
-Ma
-Ir
-Ec
-Js
-cj
-gM
-BH
-KU
-BH
-vg
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -4499,47 +5382,47 @@ YI
 YI
 YI
 YI
-Hg
-GU
-GU
-GU
-GU
-WU
-wr
-Db
-HT
-GU
-Hg
-Hg
-Hg
-mX
-Hg
-Hg
-GU
-Ej
-pU
-GU
-yo
-il
-GU
-yo
-il
-GU
-zl
-ce
-ce
-QO
-GU
-Ns
-HY
-HY
-HY
-oG
-lb
-EJ
-EJ
-EJ
-sQ
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -4625,43 +5508,43 @@ YI
 YI
 YI
 YI
-GU
-GU
-GU
-GU
-GU
-GU
-Hg
-GU
-GU
-GU
-GU
-GU
-GU
-GU
-Oe
-GU
-vU
-GU
-GU
-vU
-GU
-GU
-ce
-ce
-ce
-Zm
-GU
-oa
-HY
-HY
-HY
-ts
-wD
-EJ
-EJ
-Mk
-bk
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -4753,37 +5636,37 @@ YI
 YI
 YI
 YI
-Hg
-GU
-aZ
-hj
-BA
-hj
-AD
-gH
-Zr
-YB
-ce
-ce
-ul
-ce
-ce
-ne
-ce
-ce
-ce
-IQ
-GU
-dJ
-fo
-kO
-mM
-GU
-gH
-gH
-gH
-gH
-GU
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -4876,36 +5759,36 @@ YI
 YI
 YI
 YI
-GU
-nt
-nt
-nt
-nt
-nt
-gH
-Zr
-ce
-ce
-Os
-BU
-GK
-ce
-GU
-ce
-ce
-ce
-Si
-GU
-iL
-xC
-xC
-Fb
-GU
-jB
-eN
-Ib
-UZ
-GU
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -4998,36 +5881,36 @@ YI
 YI
 YI
 YI
-gH
-Np
-Dg
-rr
-rr
-rr
-rv
-Zr
-ce
-ce
-ce
-Wk
-ce
-ef
-ne
-ce
-ce
-ce
-GR
-GU
-wm
-xC
-xC
-TN
+YI
+YI
+YI
+YI
 GU
 GU
 GU
 GU
 GU
-GU
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -5120,36 +6003,36 @@ YI
 YI
 YI
 YI
-gH
-Np
-CC
-Ry
-iy
-iy
-gH
-ce
-ce
-WW
+YI
+YI
+YI
+YI
 GU
+Jb
+PI
+yo
 GU
-pj
-GU
-GU
-ky
-ce
-ce
-Zd
-GU
-wm
-xC
-xC
-Cp
-GU
-Gk
-Or
-hS
-Ot
-GU
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -5242,36 +6125,36 @@ YI
 YI
 YI
 YI
+YI
+YI
+YI
+YI
 GU
-ql
-CC
-hk
-Yl
-aS
-gH
-zl
-ce
-WW
-GU
-rC
-ce
-Yx
-GU
-uc
-ce
-ce
-Kz
-GU
-Hi
-xC
-xC
-CD
-GU
-hS
-hS
-hS
-Tq
-GU
+dV
+KB
+yo
+zB
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -5344,56 +6227,56 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
 GU
-zH
-CC
-XL
-aS
-aS
-gH
-ce
-ce
-WW
 GU
-TS
-yj
-Yx
 GU
-zl
-ce
-ce
-th
 GU
-Jl
-xC
-xC
-xC
-mM
-hS
-hS
-hS
-qr
 GU
+GU
+GU
+eW
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+Np
+Np
+Np
+GU
+yd
+nH
+yo
+GU
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -5461,61 +6344,61 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+Hg
+mX
+Hg
+Hg
+pd
 GU
+DT
 GU
-Qt
+JT
 GU
+Xh
+Fi
+uX
 GU
+Cx
+hf
+rt
 GU
+Cx
+hf
+rt
 GU
-ce
-ce
-WW
+Cx
+hf
+rt
 GU
-rC
-Wk
-Yx
+Np
+Np
+Np
 GU
-ce
-ce
-ce
-th
+eV
+MD
+yo
 GU
-wl
-OT
-Fq
-Jy
-GU
-pu
-hR
-hS
-Vs
-GU
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -5583,61 +6466,61 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-GU
-EV
-gH
-EV
+Hg
 GU
 GU
 GU
 GU
 GU
-EV
-gH
-EV
+kN
 GU
+lD
 GU
+uM
+GH
+uX
 GU
+yo
+yo
+yo
 GU
+yo
+yo
+yo
 GU
+yo
+yo
+yo
 GU
+Np
+Np
+Np
 GU
+FG
+MD
+QK
 GU
-GU
-GU
-GU
-GU
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
+YI
 YI
 YI
 YI
@@ -5706,39 +6589,39 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+sK
+ir
+YX
+ir
+ir
+ir
+ar
+GU
+ig
+gl
+uX
+GU
+yo
+ZM
+dL
+GU
+yo
+Lj
+dL
+GU
+yo
+Ol
+dL
+GU
+Np
+Np
+kS
+GU
+GU
+iv
+GU
+GU
 YI
 YI
 YI
@@ -5828,49 +6711,49 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+gf
+wq
+MT
+MT
+Np
+WV
+WV
+lA
+GU
+lq
+AC
+rr
+GU
+gT
+GU
+GU
+GU
+rZ
+GU
+GU
+GU
+td
+GU
+GU
+GU
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
 YI
 YI
 YI
@@ -5950,49 +6833,49 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+gf
+wq
+MT
+ks
+id
+Dd
+Dd
+YO
+DU
+Ga
+Ga
+Oi
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+CO
+Ga
+Ga
+Ga
+oW
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
 YI
 YI
 YI
@@ -6072,49 +6955,49 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+gf
+wq
+MT
+oS
+MT
+MT
+MT
+MT
+gf
+Ga
+Ga
+Oi
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+gH
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
+Np
 YI
 YI
 YI
@@ -6194,49 +7077,49 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+gf
+wq
+MT
+qy
+Lv
+Mj
+Mj
+Do
+kw
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+FB
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Uw
+Np
+Np
+Np
+GU
+GU
+GU
+gH
+GU
+GU
+gH
+GU
+GU
+gH
+GU
+GU
+Np
+Np
+Np
 YI
 YI
 YI
@@ -6316,49 +7199,49 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+gf
+wq
+MT
+MT
+uX
+Dd
+Dd
+lA
+GU
+Jr
+Jr
+Jr
+GU
+Rv
+GU
+GU
+GU
+vv
+GU
+GU
+GU
+FO
+GU
+GU
+GU
+Np
+Np
+Np
+mD
+GU
+Ui
+Jt
+Lo
+bg
+Jt
+Rn
+bg
+Jt
+iq
+GU
+Np
+Np
+Np
 YI
 YI
 YI
@@ -6438,49 +7321,49 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+eU
+id
+IP
+gN
+id
+id
+Er
+GU
+RB
+Np
+Np
+GU
+yo
+Rx
+tv
+GU
+yo
+EU
+tv
+GU
+yo
+TK
+tv
+GU
+Np
+Np
+Np
+jx
+GU
+DW
+Jt
+vT
+DW
+Jt
+vT
+DW
+Jt
+vT
+GU
+Np
+Np
+Np
 YI
 YI
 YI
@@ -6559,50 +7442,50 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+Hg
+GU
+GU
+tt
+GU
+GU
+GU
+MH
+GU
+GU
+ga
+Np
+aD
+GU
+yo
+yo
+yo
+GU
+yo
+yo
+yo
+GU
+yo
+yo
+yo
+GU
+Np
+Np
+Np
+Jp
+GU
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+Cy
+bp
+GU
+Np
+Np
+Np
 YI
 YI
 YI
@@ -6681,50 +7564,50 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+Hg
+GU
+NX
+si
+GU
+Nq
+si
+si
+aq
+GU
+SW
+SW
+SW
+GU
+zb
+xN
+Rw
+GU
+zb
+xN
+Rw
+GU
+zb
+xN
+Rw
+GU
+Np
+Np
+Np
+Bo
+GU
+EJ
+EJ
+EJ
+EJ
+EJ
+EJ
+EJ
+VC
+EJ
+GU
+Np
+Np
+Np
 YI
 YI
 YI
@@ -6803,50 +7686,50 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+Hg
+gf
+HY
+si
+GU
+IY
+Mh
+AM
+HX
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+gS
+gH
+gS
+GU
+GU
+cx
+cx
+cx
+cx
+cx
+WC
+EJ
+FK
+EJ
+CM
+Np
+Np
+Np
 YI
 YI
 YI
@@ -6925,50 +7808,50 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+Hg
+gf
+hs
+ag
+tt
+si
+wr
+XJ
+Bz
+GU
+Hg
+Hg
+Hg
+mX
+Hg
+Hg
+GU
+Gz
+lh
+GU
+Wh
+QT
+GU
+Wh
+QT
+GU
+ce
+ce
+ce
+Wy
+GU
+Ma
+Ir
+Ec
+Js
+cj
+gM
+BH
+KU
+BH
+vg
+Np
+Np
+Np
 YI
 YI
 YI
@@ -7047,50 +7930,50 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+Hg
+GU
+GU
+GU
+GU
+WU
+wr
+Db
+HT
+GU
+Hg
+Hg
+Hg
+mX
+Hg
+Hg
+GU
+Ej
+pU
+GU
+yo
+il
+GU
+yo
+il
+GU
+zl
+ce
+ce
+QO
+GU
+Ns
+HY
+HY
+HY
+oG
+lb
+EJ
+EJ
+EJ
+sQ
+Np
+Np
+Np
 YI
 YI
 YI
@@ -7173,46 +8056,46 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+GU
+GU
+GU
+GU
+GU
+Hg
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+Oe
+GU
+vU
+GU
+GU
+vU
+GU
+GU
+ce
+ce
+ce
+Zm
+GU
+oa
+HY
+HY
+HY
+ts
+wD
+EJ
+EJ
+Mk
+RT
+Np
+Np
+Np
 YI
 YI
 YI
@@ -7301,40 +8184,40 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+Hg
+GU
+aZ
+hj
+BA
+hj
+AD
+gH
+Zr
+YB
+ce
+ce
+ul
+ce
+ce
+ne
+ce
+ce
+ce
+IQ
+GU
+dJ
+fo
+kO
+mM
+GU
+gH
+gH
+gH
+gH
+GU
+Np
+Np
+Np
 YI
 YI
 YI
@@ -7424,39 +8307,39 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+nt
+nt
+nt
+nt
+nt
+gH
+Zr
+ce
+ce
+Os
+BU
+GK
+ce
+GU
+ce
+ce
+ce
+Si
+GU
+iL
+xC
+xC
+Fb
+GU
+jB
+eN
+Ib
+UZ
+GU
+Np
+Np
+Np
 YI
 YI
 YI
@@ -7546,39 +8429,39 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+gH
+Np
+Dg
+rr
+rr
+rr
+rv
+Zr
+ce
+ce
+ce
+Wk
+ce
+ef
+ne
+ce
+ce
+ce
+GR
+GU
+wm
+xC
+xC
+TN
+GU
+GU
+GU
+GU
+GU
+GU
+Np
+Np
+Np
 YI
 YI
 YI
@@ -7668,39 +8551,39 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+gH
+Np
+CC
+Ry
+iy
+iy
+gH
+ce
+ce
+WW
+GU
+GU
+pj
+GU
+GU
+ky
+ce
+ce
+Zd
+GU
+wm
+xC
+xC
+Bu
+GU
+Gk
+Or
+hS
+Ot
+GU
+Np
+Np
+Np
 YI
 YI
 YI
@@ -7790,39 +8673,39 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+ql
+CC
+hk
+Yl
+aS
+gH
+zl
+ce
+WW
+GU
+rC
+ce
+Yx
+GU
+uc
+ce
+ce
+Kz
+GU
+Hi
+xC
+xC
+Fq
+GU
+hS
+hS
+hS
+Tq
+GU
+Np
+Np
+Np
 YI
 YI
 YI
@@ -7912,39 +8795,39 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+zH
+CC
+XL
+aS
+aS
+gH
+ce
+ce
+WW
+GU
+TS
+yj
+Yx
+GU
+zl
+ce
+ce
+th
+GU
+Jl
+xC
+xC
+xC
+mM
+hS
+hS
+hS
+qr
+GU
+Np
+Np
+Np
 YI
 YI
 YI
@@ -8034,39 +8917,39 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+GU
+Qt
+GU
+GU
+GU
+GU
+ce
+ce
+WW
+GU
+rC
+Wk
+Yx
+GU
+ce
+ce
+ce
+th
+GU
+wl
+xC
+QA
+Jy
+GU
+pu
+hR
+hS
+Vs
+GU
+Np
+Np
+Np
 YI
 YI
 YI
@@ -8162,33 +9045,33 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+GU
+EV
+gH
+EV
+GU
+GU
+GU
+GU
+GU
+EV
+gH
+EV
+GU
+GU
+HY
+ac
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+Np
+Np
+Np
 YI
 YI
 YI
@@ -8285,32 +9168,32 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+ce
+ce
+ce
+ce
+ce
+ul
+ce
+ce
+ce
+ce
+ce
+GU
+hW
+HY
+Ym
+gG
+pe
+dY
+dY
+dY
+xl
+GU
+Np
+Np
+Np
 YI
 YI
 YI
@@ -8407,32 +9290,32 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+zl
+yj
+ce
+ce
+ce
+ce
+ce
+ce
+ce
+yj
+Cz
+GU
+ze
+Hq
+Hq
+Hq
+Hq
+Hq
+Hq
+Hq
+KP
+GU
+Np
+Np
+Np
 YI
 YI
 YI
@@ -8529,32 +9412,32 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+ce
+ce
+XN
+ba
+ba
+ba
+ba
+ba
+cX
+ce
+ce
+GU
+BO
+Hq
+Bk
+Gm
+pR
+Od
+Bp
+Hq
+Hq
+pl
+Np
+Np
+Np
 YI
 YI
 YI
@@ -8651,32 +9534,32 @@ YI
 YI
 YI
 YI
+eS
+ce
+ce
+yi
+oX
+oX
+oX
+oX
+oX
+Ff
+ce
+ce
+GU
+QM
+Hq
 YI
 YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+Hq
+Hq
+HY
+Np
+Np
+Np
 YI
 YI
 YI
@@ -8773,32 +9656,32 @@ YI
 YI
 YI
 YI
+GU
+ce
+ce
+yi
+oX
+aN
+oX
+aN
+oX
+Ff
+ce
+ce
+GU
+dg
+Hq
+Hq
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+Hq
+Hq
+AO
+Lw
+Np
+Np
+Np
 YI
 YI
 YI
@@ -8895,32 +9778,32 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+ce
+ce
+yi
+oX
+oX
+oX
+oX
+oX
+Ff
+ce
+ce
+GU
+nN
+Hq
+Hq
+Hq
+Hq
+Hq
+Hq
+Hq
+Bq
+GU
+Np
+Np
+Np
 YI
 YI
 YI
@@ -9017,29 +9900,29 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+ce
+ce
+yi
+oX
+oX
+oX
+oX
+oX
+Ff
+ce
+ce
+GU
+IC
+Hq
+Hq
+Hq
+Hq
+Hq
+Hq
+Hq
+IC
+GU
 YI
 YI
 YI
@@ -9139,29 +10022,29 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+ky
+ce
+yi
+oX
+oX
+aN
+oX
+oX
+Ff
+ce
+ce
+GU
+GZ
+aT
+pe
+IR
+dY
+dY
+Ka
+Zp
+IC
+GU
 YI
 YI
 YI
@@ -9261,29 +10144,29 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+ce
+ce
+yi
+oX
+oX
+aN
+oX
+oX
+Ff
+ce
+ce
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
 YI
 YI
 YI
@@ -9383,19 +10266,19 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+ce
+ce
+yi
+oX
+oX
+oX
+oX
+oX
+Ff
+ce
+ce
+GU
 YI
 YI
 YI
@@ -9505,19 +10388,19 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+ce
+ce
+yi
+oX
+oX
+oX
+oX
+oX
+Ff
+ce
+ce
+GU
 YI
 YI
 YI
@@ -9627,19 +10510,19 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+ce
+ce
+yi
+oX
+aN
+oX
+aN
+oX
+Ff
+ce
+ce
+GU
 YI
 YI
 YI
@@ -9749,19 +10632,19 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+ce
+ce
+yi
+oX
+oX
+oX
+oX
+oX
+Ff
+ce
+ce
+GU
 YI
 YI
 YI
@@ -9871,19 +10754,19 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+aC
+ce
+Pq
+Vm
+Vm
+Vm
+Vm
+Vm
+LU
+ce
+ce
+GU
 YI
 YI
 YI
@@ -9993,19 +10876,19 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+rJ
+yj
+ce
+ce
+ce
+ce
+ce
+ce
+ce
+yj
+Cz
+GU
 YI
 YI
 YI
@@ -10115,19 +10998,19 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+Cg
+ce
+ce
+nK
+ce
+Wk
+ce
+ce
+ce
+ce
+ce
+GU
 YI
 YI
 YI
@@ -10237,19 +11120,19 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+GU
+gH
+gH
+gH
+gH
+GU
+gH
+gH
+gH
+gH
+GU
+GU
 YI
 YI
 YI
@@ -12559,15 +13442,15 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+GU
+VD
 YI
 YI
 YI
@@ -12675,21 +13558,21 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+GU
+vD
+vD
+vD
+GU
+GU
+Jz
+te
+dE
+hO
+rb
+Ip
+uD
+GU
 YI
 YI
 YI
@@ -12797,21 +13680,21 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+wb
+dW
+vx
+hj
+Ws
+GU
+lB
+nz
+ek
+GW
+iD
+Xk
+wY
+GU
 YI
 YI
 YI
@@ -12919,21 +13802,21 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+vD
+Rp
+dO
+dO
+dO
+BV
+GU
+SA
+NZ
+hv
+cl
+we
+Wv
+ka
+GU
 YI
 YI
 YI
@@ -13041,21 +13924,21 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+vD
+UP
+Kf
+rd
+rd
+zL
+GU
+ZN
+Np
+zQ
+GW
+iD
+Xk
+xZ
+GU
 YI
 YI
 YI
@@ -13163,21 +14046,21 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+yy
+gz
+Yn
+HL
+sG
+bY
+ZN
+Np
+aY
+cl
+we
+Wv
+ka
+GU
 YI
 YI
 YI
@@ -13285,21 +14168,21 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+vD
+UP
+rd
+bT
+Fa
+pI
+GU
+Qk
+Xc
+bF
+GW
+iD
+Xk
+xZ
+GU
 YI
 YI
 YI
@@ -13407,21 +14290,21 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+vD
+PK
+gZ
+Pw
+gZ
+rU
+GU
+QW
+Av
+zt
+cl
+we
+Wv
+Jn
+GU
 YI
 YI
 YI
@@ -13529,21 +14412,21 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+cR
+Nm
+uZ
+hj
+MJ
+GU
+bS
+PF
+tE
+qb
+rb
+Ip
+uD
+GU
 YI
 YI
 YI
@@ -13651,21 +14534,21 @@ YI
 YI
 YI
 YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+GU
+GU
+aH
+DV
+aH
+GU
+GU
+Lx
+GU
+GU
+GU
+GU
+GU
+GU
+GU
 YI
 YI
 YI

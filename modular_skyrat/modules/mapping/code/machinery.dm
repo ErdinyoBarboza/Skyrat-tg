@@ -85,3 +85,11 @@
 
 /obj/item/circuitboard/machine/chem_dispenser/pizzeria
 	build_path = /obj/machinery/chem_dispenser/pizzeria
+
+/*------------DS-3 BAR SIGN-------------------*/
+/obj/structure/sign/barsign/syndie
+	req_access = list(ACCESS_SYNDICATE)
+
+/obj/structure/sign/barsign/syndie/Initialize(mapload)
+	. = ..()
+	set_sign(new /datum/barsign/hiddensigns/syndibarsign)
