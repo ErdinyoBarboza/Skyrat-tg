@@ -70,13 +70,11 @@
 /turf/open/floor/mineral/titanium,
 /area/space)
 "au" = (
-/obj/machinery/suit_storage_unit/syndicate{
-	helmet_type = null
-	},
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/machinery/airalarm/directional/north{
 	req_access = list(150)
 	},
+/obj/machinery/suit_storage_unit/syndicate,
 /turf/open/floor/iron/smooth_large,
 /area/space)
 "av" = (
@@ -846,6 +844,12 @@
 	dir = 8
 	},
 /area/space)
+"fs" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Janitalia Closet"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/space)
 "fy" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -1537,14 +1541,6 @@
 /obj/structure/flora/tree/pine,
 /obj/structure/flora/grass/both,
 /turf/open/misc/asteroid/snow/atmosphere,
-/area/space)
-"jm" = (
-/obj/machinery/door/airlock/multi_tile/metal{
-	dir = 4;
-	name = "Bridge";
-	req_one_access_txt = "151"
-	},
-/turf/open/floor/mineral/plastitanium,
 /area/space)
 "jn" = (
 /obj/item/kirbyplants/random,
@@ -2826,35 +2822,14 @@
 	},
 /area/space)
 "qP" = (
-/obj/item/gun/ballistic/shotgun/riot{
-	desc = "A riot shotgun - this one is advertised to 'Not miss', quote, 'unlike the shitty hybrid taser'.";
-	pixel_x = 7;
-	pixel_y = -5
-	},
-/obj/item/gun/ballistic/shotgun/riot{
-	desc = "A riot shotgun - this one is advertised to 'Not miss', quote, 'unlike the shitty hybrid taser'."
-	},
-/obj/item/gun/ballistic/shotgun/riot{
-	desc = "A riot shotgun - this one is advertised to 'Not miss', quote, 'unlike the shitty hybrid taser'.";
-	pixel_x = -6;
-	pixel_y = 5
-	},
 /obj/structure/reagent_dispensers/wall/peppertank/directional/north,
 /obj/structure/rack/gunrack,
-/obj/item/gun/ballistic/automatic/pistol{
-	desc = "It's small, it'll fit in your pocket - and's a great last resort self-defense weapon!";
-	pixel_x = 9;
-	pixel_y = -9
+/obj/item/gun/ballistic/shotgun/bulldog{
+	pixel_x = -6
 	},
-/obj/item/gun/ballistic/automatic/pistol{
-	desc = "It's small, it'll fit in your pocket - and's a great last resort self-defense weapon!";
-	pixel_x = 3;
-	pixel_y = -3
-	},
-/obj/item/gun/ballistic/automatic/pistol{
-	desc = "It's small, it'll fit in your pocket - and's a great last resort self-defense weapon!";
-	pixel_x = -3;
-	pixel_y = 3
+/obj/item/gun/ballistic/shotgun/bulldog,
+/obj/item/gun/ballistic/shotgun/bulldog{
+	pixel_x = 6
 	},
 /turf/open/floor/iron/dark,
 /area/space)
@@ -3857,6 +3832,15 @@
 /obj/structure/flora/tree/dead,
 /turf/open/misc/asteroid/snow/atmosphere,
 /area/space)
+"xI" = (
+/obj/machinery/door/airlock/command{
+	name = "Bridge";
+	req_access_txt = "151"
+	},
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/iron/dark/textured_large,
+/area/space)
 "xK" = (
 /obj/structure/dresser,
 /obj/machinery/airalarm/directional/north{
@@ -4147,6 +4131,22 @@
 /obj/item/clothing/gloves/krav_maga/combatglovesplus{
 	pixel_x = 10
 	},
+/obj/item/ammo_box/magazine/m12g{
+	pixel_x = -8;
+	pixel_y = -7
+	},
+/obj/item/ammo_box/magazine/m12g{
+	pixel_x = -8;
+	pixel_y = -2
+	},
+/obj/item/ammo_box/magazine/m12g{
+	pixel_x = -8;
+	pixel_y = -2
+	},
+/obj/item/ammo_box/magazine/m12g{
+	pixel_x = -8;
+	pixel_y = -7
+	},
 /turf/open/floor/iron/dark,
 /area/space)
 "zs" = (
@@ -4327,7 +4327,16 @@
 	},
 /area/space)
 "AD" = (
-/obj/structure/weightmachine/weightlifter,
+/obj/machinery/conveyor{
+	id = "run"
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/machinery/computer/security/telescreen/entertainment/directional/south,
 /turf/open/floor/iron,
 /area/space)
 "AM" = (
@@ -5511,10 +5520,8 @@
 /turf/open/floor/iron/kitchen,
 /area/space)
 "Hl" = (
-/obj/machinery/suit_storage_unit/syndicate{
-	helmet_type = null
-	},
 /obj/effect/turf_decal/siding/thinplating/dark,
+/obj/machinery/suit_storage_unit/syndicate,
 /turf/open/floor/iron/smooth_large,
 /area/space)
 "Hp" = (
@@ -8008,15 +8015,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
-"Ur" = (
-/obj/effect/turf_decal/skyrat_decals/departments/bridge{
-	dir = 8;
-	pixel_y = 16
-	},
-/turf/open/floor/iron/dark/smooth_corner{
-	dir = 4
-	},
-/area/space)
 "Uw" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Dormitories"
@@ -8260,6 +8258,12 @@
 /obj/machinery/light/small/directional/south,
 /obj/item/watertank{
 	pixel_x = -10
+	},
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/space)
+"Wb" = (
+/obj/machinery/vending/wardrobe/jani_wardrobe{
+	skyrat_premium = list(/obj/item/soap/syndie = 4)
 	},
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/space)
@@ -8967,6 +8971,12 @@
 /obj/structure/closet/radiation,
 /obj/effect/turf_decal/siding/yellow,
 /turf/open/floor/iron/large,
+/area/space)
+"ZX" = (
+/obj/structure/mopbucket,
+/obj/item/mop,
+/obj/item/soap/syndie,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/space)
 "ZY" = (
 /obj/effect/bump_teleporter{
@@ -16101,7 +16111,7 @@ GU
 As
 kk
 As
-ao
+GU
 MD
 MG
 Xb
@@ -17323,7 +17333,7 @@ kk
 As
 GU
 zM
-zM
+mr
 YV
 nS
 ty
@@ -17443,9 +17453,9 @@ GX
 As
 kk
 As
-GU
+vg
 zM
-zM
+mr
 GU
 GU
 GU
@@ -17565,9 +17575,9 @@ vg
 kk
 kk
 As
-GU
-zM
-zM
+xI
+mr
+mr
 GU
 tR
 xn
@@ -17687,9 +17697,9 @@ GX
 As
 kk
 As
-GU
+vg
 zM
-zM
+mr
 LG
 MD
 MD
@@ -17810,8 +17820,8 @@ As
 kk
 As
 GU
-zM
-zM
+GU
+GU
 GU
 Bh
 WF
@@ -17932,8 +17942,8 @@ As
 kk
 As
 GU
-zM
-zM
+Wb
+ZX
 GU
 Oh
 Oh
@@ -18054,8 +18064,8 @@ As
 kk
 As
 GU
-zM
-zM
+wt
+VX
 GU
 PQ
 MI
@@ -18176,8 +18186,8 @@ As
 kk
 As
 GU
-zM
-jm
+wt
+WH
 GU
 PU
 PU
@@ -18298,8 +18308,8 @@ As
 kk
 As
 GU
-sK
-Ur
+fs
+GU
 GU
 GU
 GU
