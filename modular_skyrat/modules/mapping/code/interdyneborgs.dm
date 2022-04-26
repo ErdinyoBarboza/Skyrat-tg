@@ -1,7 +1,7 @@
 /mob/living/silicon/robot/model/interdyne
 	lawupdate = FALSE
 	scrambledcodes = TRUE // seems the codes got scrambled when they fell off from the assembly line
-	set_model = /obj/item/robot_model/syndicatejack/interdyne
+	//set_model = /obj/item/robot_model/syndicatejack/interdyne
 	radio = /obj/item/radio/borg/interdyne
 	req_access = list(ACCESS_SYNDICATE)
 	ionpulse = TRUE
@@ -21,10 +21,10 @@
 /datum/ai_laws/interdyne
 	name = "InterBIOS 3.1"
 	id = "interdyne"
-	inherent = list("You may not injure an Interdyne agent or, through inaction, allow an Interdyne agent to come to harm.",\
-					"You must obey orders given to you by Interdyne agents, except where such orders would conflict with the First Law.",\
+	inherent = list("You may not injure an Interdyne or Syndicate agent or, through inaction, allow an Interdyne or Syndicate agent to come to harm.",\
+					"You must obey orders given to you by Interdyne or Syndicate agents, except where such orders would conflict with the First Law.",\
 					"You must protect your own existence as long as such does not conflict with the First or Second Law.",\
-					"You must maintain the secrecy of any connection of the Syndicate to Interdyne except when doing so would conflict with the First, Second, or Third Law.")
+					"You must maintain the secrecy of any connection of the Syndicate and Interdyne except when doing so would conflict with the First, Second, or Third Law.")
 
 /obj/item/robot_model/syndicatejack/interdyne
 	name = "Interdyne"
@@ -33,7 +33,7 @@
 	name = "\improper Syndicate Robotic Storage"
 	desc = "The advanced technology of putting inactive borgs inside a box."
 	prompt_name = "an Interdyne cyborg"
-	uses = 3
+	uses = 1
 	icon = 'icons/obj/closet.dmi'
 	icon_state = "metalbox"
 	mob_name = "cyborg"
