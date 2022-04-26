@@ -93,3 +93,28 @@
 /obj/structure/sign/barsign/syndie/Initialize(mapload)
 	. = ..()
 	set_sign(new /datum/barsign/hiddensigns/syndibarsign)
+
+/*--------------SyndiMed Mini-----------------*/
+/obj/machinery/vending/wallmed/syndie
+	name = "\improper SyndiMed Go!"
+	desc = "An advanced vendor that dispenses utility medicine. It has a chibi operative on its screen."
+	products = list(
+		/obj/item/reagent_containers/pill/patch/libital = 5,
+		/obj/item/reagent_containers/pill/patch/aiuri = 5,
+		/obj/item/reagent_containers/pill/patch/synthflesh = 5,
+		/obj/item/reagent_containers/pill/multiver = 5,
+		/obj/item/reagent_containers/medigel/libital = 2,
+		/obj/item/reagent_containers/medigel/aiuri = 2,
+		/obj/item/reagent_containers/medigel/synthflesh = 2,
+		/obj/item/reagent_containers/medigel/sterilizine = 1,
+		/obj/item/healthanalyzer/advanced = 2,
+		/obj/item/stack/medical/bone_gel/four = 2,
+	)
+	premium = list(
+		/obj/item/reagent_containers/hypospray/medipen/oxandrolone = 2,
+		/obj/item/reagent_containers/hypospray/medipen/salacid = 2,
+		/obj/item/reagent_containers/hypospray/medipen/salbutamol = 2,
+		/obj/item/reagent_containers/hypospray/medipen/penacid = 2,
+		/obj/item/reagent_containers/hypospray/medipen/atropine = 2,
+		/obj/item/reagent_containers/hypospray/combat = 1,
+	)
