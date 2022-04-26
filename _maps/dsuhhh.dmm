@@ -250,6 +250,10 @@
 	},
 /turf/open/misc/asteroid/snow/atmosphere,
 /area/space)
+"bj" = (
+/obj/machinery/light/cold/no_nightlight/directional/west,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "bn" = (
 /obj/machinery/airalarm/directional/east{
 	req_access = list(150)
@@ -453,6 +457,13 @@
 	},
 /obj/machinery/light/small/red/directional/west,
 /turf/open/floor/mineral/titanium/tiled/yellow,
+/area/space)
+"cO" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 6
+	},
+/obj/effect/mob_spawn/ghost_role/robot/interdyne,
+/turf/open/floor/carpet/red,
 /area/space)
 "cQ" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -780,6 +791,10 @@
 "fd" = (
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/titanium,
+/area/space)
+"fe" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "fh" = (
 /obj/effect/turf_decal/siding/wideplating/dark,
@@ -1496,6 +1511,12 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/space)
+"jb" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "jc" = (
 /obj/effect/turf_decal/trimline/red,
 /obj/effect/turf_decal/box/corners,
@@ -1664,6 +1685,34 @@
 	},
 /turf/open/floor/engine,
 /area/space)
+"kb" = (
+/obj/structure/table/reinforced,
+/obj/item/assembly/flash/hypnotic{
+	desc = "A modified flash device, programmed to emit a sequence of subliminal flashes that can send a vulnerable target into a hypnotic trance.";
+	name = "hypnoflash";
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/item/assembly/flash/hypnotic{
+	desc = "A modified flash device, programmed to emit a sequence of subliminal flashes that can send a vulnerable target into a hypnotic trance.";
+	name = "hypnoflash";
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/structure/reagent_dispensers/wall/peppertank/directional/south,
+/obj/item/reagent_containers/glass/bottle/morphine{
+	pixel_x = -7;
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/glass/bottle/morphine{
+	pixel_x = -7
+	},
+/obj/item/reagent_containers/spray/syndicate{
+	pixel_x = 8;
+	pixel_y = -5
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "kc" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Tool Closet"
@@ -1705,6 +1754,13 @@
 	dir = 6
 	},
 /turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"kp" = (
+/obj/structure/chair/sofa/corp/left,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 5
+	},
+/turf/open/floor/carpet/red,
 /area/space)
 "kq" = (
 /obj/effect/turf_decal/siding/wideplating/dark,
@@ -1897,6 +1953,13 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"lt" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "lu" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -2004,6 +2067,12 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/space)
+"mb" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "mc" = (
 /obj/machinery/implantchair/brainwash{
 	objective = "You are a Syndicate Agent. Follow your superiors orders."
@@ -2028,6 +2097,10 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured_large,
+/area/space)
+"mr" = (
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "mt" = (
 /obj/machinery/door/firedoor,
@@ -2175,6 +2248,12 @@
 "nm" = (
 /turf/open/misc/asteroid/snow/atmosphere,
 /area/space)
+"nn" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/end{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "no" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -2293,6 +2372,13 @@
 	pixel_y = 26
 	},
 /turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"ob" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 9
+	},
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "oc" = (
 /obj/machinery/rnd/destructive_analyzer,
@@ -2506,6 +2592,15 @@
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/mineral/titanium,
+/area/space)
+"pI" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/dark/textured_half{
+	dir = 8
+	},
 /area/space)
 "pJ" = (
 /obj/structure/railing{
@@ -2959,6 +3054,13 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"su" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 10
+	},
+/obj/effect/mob_spawn/ghost_role/robot/interdyne,
+/turf/open/floor/carpet/red,
+/area/space)
 "sw" = (
 /obj/structure/table/reinforced,
 /obj/item/syndicatedetonator{
@@ -3067,6 +3169,13 @@
 	},
 /turf/open/floor/grass,
 /area/space)
+"tk" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "tn" = (
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_smooth,
@@ -3135,6 +3244,13 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"tG" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "tM" = (
 /turf/open/floor/iron/stairs/old{
@@ -3239,6 +3355,14 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"uo" = (
+/obj/effect/turf_decal/caution/stand_clear,
+/obj/machinery/door/poddoor/shutters{
+	id = "Skynet_interdyne";
+	name = "Mech Bay"
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
 "ut" = (
 /obj/structure/extinguisher_cabinet/directional/west,
 /turf/open/floor/iron/dark/textured_large,
@@ -3294,6 +3418,16 @@
 	dir = 9
 	},
 /turf/open/floor/plating,
+/area/space)
+"uT" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "uX" = (
 /obj/structure/cable,
@@ -3696,6 +3830,11 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/space)
+"xB" = (
+/obj/machinery/autolathe/hacked,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
 "xC" = (
 /turf/open/floor/iron/kitchen,
 /area/space)
@@ -3763,6 +3902,11 @@
 	pixel_y = 32
 	},
 /turf/open/floor/wood/tile,
+/area/space)
+"xU" = (
+/obj/machinery/mecha_part_fabricator/maint,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/mineral/plastitanium/red,
 /area/space)
 "xY" = (
 /obj/structure/table/wood,
@@ -3931,12 +4075,34 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark/smooth_large,
 /area/space)
+"zf" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/neutral,
+/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/suit/apron/surgical,
+/obj/item/clothing/mask/surgical,
+/obj/item/mmi/syndie,
+/obj/item/mmi/syndie,
+/obj/item/mmi/syndie,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
 "zg" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
 	dir = 4
 	},
 /turf/open/floor/plating/snowed/icemoon,
+/area/space)
+"zi" = (
+/obj/machinery/mech_bay_recharge_port,
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/structure/sign/warning/nosmoking{
+	pixel_x = -28
+	},
+/turf/open/floor/plating,
 /area/space)
 "zl" = (
 /obj/machinery/light/directional/north,
@@ -4040,6 +4206,11 @@
 /obj/effect/turf_decal/siding/thinplating/dark,
 /turf/open/floor/carpet/purple,
 /area/space)
+"zI" = (
+/obj/machinery/recharge_station,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
 "zJ" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -4128,6 +4299,13 @@
 /turf/open/floor/iron/dark/textured_half{
 	dir = 8
 	},
+/area/space)
+"Av" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/circuit/red,
 /area/space)
 "AB" = (
 /obj/effect/turf_decal/siding/wideplating{
@@ -4413,6 +4591,14 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/space)
+"BP" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "Skynet_interdyne";
+	name = "Mech Bay"
+	},
+/obj/effect/turf_decal/caution/stand_clear,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
 "BR" = (
 /turf/closed/indestructible/fakedoor{
 	name = "BUNKER 4337"
@@ -4461,6 +4647,58 @@
 /obj/structure/flora/grass/both,
 /obj/structure/railing,
 /turf/open/misc/asteroid/snow/atmosphere,
+/area/space)
+"Cp" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Ct" = (
+/obj/structure/table/reinforced,
+/obj/item/borg/upgrade/transform/syndicatejack{
+	name = "borg module picker (Interdyne)";
+	new_model = /obj/item/robot_model/syndicatejack/interdyne;
+	pixel_x = -6;
+	pixel_y = -6
+	},
+/obj/item/borg/upgrade/transform/syndicatejack{
+	name = "borg module picker (Interdyne)";
+	new_model = /obj/item/robot_model/syndicatejack/interdyne;
+	pixel_x = -4;
+	pixel_y = -4
+	},
+/obj/item/borg/upgrade/transform/syndicatejack{
+	name = "borg module picker (Interdyne)";
+	new_model = /obj/item/robot_model/syndicatejack/interdyne;
+	pixel_x = -2;
+	pixel_y = -2
+	},
+/obj/item/borg/upgrade/transform/syndicatejack{
+	name = "borg module picker (Interdyne)";
+	new_model = /obj/item/robot_model/syndicatejack/interdyne
+	},
+/obj/item/borg/upgrade/transform/syndicatejack{
+	name = "borg module picker (Interdyne)";
+	new_model = /obj/item/robot_model/syndicatejack/interdyne;
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/item/borg/upgrade/transform/syndicatejack{
+	name = "borg module picker (Interdyne)";
+	new_model = /obj/item/robot_model/syndicatejack/interdyne;
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/item/ai_module/syndicate{
+	pixel_x = -11;
+	pixel_y = 10
+	},
+/obj/item/ai_module/core/full{
+	law_id = "interdyne";
+	name = "InterBIOS 3.1 Lawset Module";
+	pixel_x = -4;
+	pixel_y = 13
+	},
+/turf/open/floor/mineral/plastitanium/red,
 /area/space)
 "Cx" = (
 /obj/machinery/airalarm/directional/west{
@@ -4672,6 +4910,15 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/space)
+"Eg" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/structure/table/optable{
+	name = "Robotics Operating Table"
+	},
+/obj/effect/turf_decal/bot,
+/obj/machinery/light/directional/south,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
 "Eh" = (
 /obj/effect/turf_decal/stripes/end{
 	dir = 8
@@ -4772,6 +5019,10 @@
 /obj/machinery/recharger,
 /turf/open/floor/iron/dark/textured_large,
 /area/space)
+"Ey" = (
+/obj/effect/turf_decal/loading_area,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
 "EJ" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron/dark,
@@ -4861,6 +5112,11 @@
 	pixel_y = 8
 	},
 /turf/open/floor/iron/kitchen,
+/area/space)
+"Fu" = (
+/obj/structure/table/reinforced,
+/obj/item/card/emag,
+/turf/open/floor/mineral/plastitanium/red,
 /area/space)
 "Fx" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
@@ -4969,6 +5225,13 @@
 	},
 /turf/open/lava/plasma/ice_moon,
 /area/space)
+"FZ" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "Ga" = (
 /turf/open/floor/carpet,
 /area/space)
@@ -5069,6 +5332,13 @@
 /obj/machinery/atmospherics/components/trinary/mixer/airmix/inverse,
 /turf/open/floor/plating,
 /area/space)
+"Gx" = (
+/obj/structure/chair/sofa/corp/right,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 9
+	},
+/turf/open/floor/carpet/red,
+/area/space)
 "Gz" = (
 /obj/structure/table,
 /obj/item/book/manual/wiki/infections{
@@ -5123,6 +5393,7 @@
 /area/space)
 "GO" = (
 /obj/machinery/stasis,
+/obj/machinery/iv_drip,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "GP" = (
@@ -5755,6 +6026,14 @@
 	},
 /turf/open/misc/asteroid,
 /area/space)
+"Kd" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/textured_half{
+	dir = 8
+	},
+/area/space)
 "Kj" = (
 /obj/machinery/door/window/survival_pod{
 	dir = 1;
@@ -5782,6 +6061,13 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/tiled/yellow,
+/area/space)
+"Kv" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/circuit/red,
 /area/space)
 "Kx" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -5945,6 +6231,13 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
+/area/space)
+"Lz" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "LA" = (
 /obj/structure/fence/cut/large{
@@ -6740,6 +7033,18 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"PK" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/dark/textured_half{
+	dir = 8
+	},
+/area/space)
+"PM" = (
+/obj/machinery/implantchair/brainwash{
+	objective = "You are a Syndicate Agent. Follow your superiors orders."
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "PO" = (
 /obj/effect/turf_decal/tile/red/half,
 /obj/effect/turf_decal/tile/red/half{
@@ -6752,6 +7057,13 @@
 "PQ" = (
 /obj/structure/table/wood,
 /obj/machinery/light/directional/north,
+/turf/open/floor/carpet/red,
+/area/space)
+"PR" = (
+/obj/structure/chair/sofa/corp,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
 /turf/open/floor/carpet/red,
 /area/space)
 "PS" = (
@@ -6862,6 +7174,19 @@
 /area/space)
 "Ql" = (
 /turf/open/floor/circuit/red,
+/area/space)
+"Qm" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/machinery/button/door/directional/south{
+	id = "Skynet_interdyne";
+	name = "Mech Bay Door Control";
+	req_access_txt = "150"
+	},
+/turf/open/floor/iron/dark/textured_half{
+	dir = 8
+	},
 /area/space)
 "Qo" = (
 /obj/structure/table,
@@ -7171,6 +7496,22 @@
 /area/space)
 "RA" = (
 /obj/structure/table/reinforced,
+/obj/item/clothing/ears/earmuffs,
+/obj/item/clothing/ears/earmuffs,
+/obj/item/clothing/mask/muzzle/breath,
+/obj/item/clothing/mask/muzzle/breath,
+/obj/item/clothing/glasses/blindfold,
+/obj/item/clothing/glasses/blindfold,
+/obj/item/storage/box/syringes{
+	pixel_x = 11;
+	pixel_y = 4
+	},
+/obj/item/storage/box/syndie_kit/chemical{
+	pixel_x = 6
+	},
+/obj/machinery/vending/wallmed/syndie{
+	pixel_y = -32
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "RB" = (
@@ -7264,6 +7605,18 @@
 /obj/structure/weightmachine/weightlifter,
 /turf/open/floor/mineral/titanium,
 /area/space)
+"Sh" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/door/airlock/research{
+	name = "Robotics Division";
+	req_access_txt = "150"
+	},
+/obj/effect/decal/cleanable/oil/slippery,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
 "Si" = (
 /obj/effect/turf_decal/siding/wideplating{
 	dir = 1
@@ -7334,6 +7687,13 @@
 "Sw" = (
 /obj/machinery/vending/tool,
 /turf/open/floor/mineral/titanium/yellow,
+/area/space)
+"Sx" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "Sy" = (
 /obj/effect/turf_decal/stripes/line{
@@ -7501,6 +7861,11 @@
 "Tx" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
+/area/space)
+"TB" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/mob_spawn/ghost_role/robot/interdyne,
+/turf/open/floor/carpet/red,
 /area/space)
 "TD" = (
 /obj/effect/turf_decal/siding/thinplating{
@@ -7870,6 +8235,15 @@
 /obj/structure/flora/ocean/seaweed,
 /turf/open/misc/asteroid,
 /area/space)
+"VQ" = (
+/obj/machinery/mech_bay_recharge_port,
+/obj/machinery/airalarm/directional/west,
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/space)
 "VV" = (
 /obj/effect/turf_decal/skyrat_decals/syndicate/bottom/middle,
 /turf/open/floor/mineral/plastitanium/red,
@@ -8131,6 +8505,12 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/mineral/titanium,
 /area/space)
+"XB" = (
+/obj/machinery/stasis,
+/obj/machinery/iv_drip,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "XD" = (
 /obj/structure/chair/office{
 	dir = 4
@@ -8375,6 +8755,13 @@
 "YO" = (
 /turf/open/floor/iron/dark/smooth_corner{
 	dir = 1
+	},
+/area/space)
+"YR" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/textured_half{
+	dir = 8
 	},
 /area/space)
 "YT" = (
@@ -15487,8 +15874,8 @@ yc
 zM
 zM
 zM
-zM
-zM
+bj
+fe
 RA
 LN
 YI
@@ -15611,7 +15998,7 @@ zM
 zM
 zM
 zM
-RA
+kb
 LN
 YI
 YI
@@ -15729,11 +16116,11 @@ GU
 LN
 Oo
 LN
-GO
+XB
 zM
 GO
 zM
-zM
+PM
 LN
 YI
 YI
@@ -16706,10 +17093,10 @@ tV
 uX
 tN
 GU
-ca
-ca
-ca
-ca
+xU
+Ey
+tG
+YI
 ca
 YI
 YI
@@ -16828,10 +17215,10 @@ GU
 Ph
 GU
 GU
+xB
+nn
 YI
-YI
-YI
-YI
+Eg
 ca
 YI
 YI
@@ -16950,10 +17337,10 @@ ZT
 rf
 be
 GU
-YI
-YI
-YI
-YI
+xU
+Ey
+tG
+zf
 ca
 YI
 YI
@@ -17072,10 +17459,10 @@ WJ
 UW
 iY
 GU
-YI
-YI
-YI
-YI
+Fu
+ob
+uT
+FZ
 ca
 YI
 YI
@@ -17194,10 +17581,10 @@ ZT
 rf
 Ow
 GU
-YI
-YI
-YI
-YI
+Ct
+Lz
+Gx
+su
 ca
 YI
 YI
@@ -17316,10 +17703,10 @@ gH
 Li
 gH
 GU
-YI
-YI
-YI
-YI
+sT
+tk
+PR
+TB
 ca
 YI
 YI
@@ -17435,13 +17822,13 @@ kP
 GU
 GU
 As
-As
-As
-YI
-YI
-YI
-YI
-YI
+Kd
+YR
+Sh
+Sx
+mr
+kp
+cO
 ca
 YI
 YI
@@ -17557,13 +17944,13 @@ Xo
 lv
 GU
 As
-As
-As
-YI
-YI
-YI
-YI
-YI
+Kd
+PK
+uo
+mb
+mr
+Cp
+cU
 ca
 YI
 YI
@@ -17679,13 +18066,13 @@ Xo
 Kj
 GU
 As
-As
-As
-YI
-YI
-YI
-YI
-YI
+Kd
+PK
+uo
+lt
+mr
+WI
+zI
 ca
 YI
 YI
@@ -17801,13 +18188,13 @@ Gc
 Vv
 GU
 As
-As
-As
-YI
-YI
-YI
-YI
-YI
+Kd
+pI
+BP
+mb
+mr
+WI
+zI
 ca
 YI
 YI
@@ -17923,13 +18310,13 @@ GU
 GU
 GU
 As
-As
-As
-YI
-YI
-YI
-YI
-YI
+Kd
+Qm
+GU
+GU
+mr
+jb
+GU
 ca
 YI
 YI
@@ -18047,11 +18434,11 @@ ZS
 si
 si
 si
-YI
-YI
-YI
-YI
-YI
+GU
+zi
+Av
+Kv
+VQ
 ca
 YI
 YI
