@@ -92,12 +92,6 @@
 	},
 /turf/open/floor/mineral/titanium/yellow,
 /area/space)
-"aD" = (
-/obj/machinery/cryopod/quiet{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/space)
 "aI" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -905,9 +899,7 @@
 /area/space)
 "ga" = (
 /obj/machinery/light/directional/north,
-/obj/machinery/cryopod/quiet{
-	dir = 8
-	},
+/obj/machinery/cryopod/quiet,
 /turf/open/floor/iron/dark,
 /area/space)
 "gb" = (
@@ -2565,6 +2557,12 @@
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/titanium,
 /area/space)
+"po" = (
+/obj/machinery/cryopod/quiet,
+/turf/open/floor/iron/dark/textured_edge{
+	dir = 8
+	},
+/area/space)
 "pu" = (
 /obj/structure/closet/secure_closet/freezer/meat{
 	req_access = list(150)
@@ -2780,6 +2778,16 @@
 	pixel_y = 5
 	},
 /turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"qx" = (
+/obj/machinery/vending/tool,
+/obj/structure/sign/poster/contraband/soviet_propaganda{
+	pixel_x = -32
+	},
+/obj/structure/sign/poster/contraband/soviet_propaganda{
+	pixel_x = -32
+	},
+/turf/open/floor/mineral/titanium/yellow,
 /area/space)
 "qy" = (
 /obj/structure/table/wood/fancy/red,
@@ -3949,6 +3957,15 @@
 "yo" = (
 /turf/open/floor/wood,
 /area/space)
+"yr" = (
+/obj/structure/rack,
+/obj/item/storage/toolbox/mechanical/old,
+/obj/structure/sign/poster/contraband/pwr_game{
+	pixel_y = 32
+	},
+/obj/machinery/light/small/red/directional/east,
+/turf/open/floor/mineral/titanium/yellow,
+/area/space)
 "yt" = (
 /obj/effect/turf_decal/siding/wideplating{
 	dir = 6
@@ -4230,6 +4247,10 @@
 	},
 /obj/effect/turf_decal/stripes/box,
 /turf/open/floor/mineral/titanium/tiled,
+/area/space)
+"zU" = (
+/obj/item/stack/sheet/cardboard/fifty,
+/turf/open/floor/mineral/titanium/yellow,
 /area/space)
 "Ad" = (
 /obj/structure/cable,
@@ -6521,10 +6542,6 @@
 /obj/machinery/power/apc/auto_name/directional/east,
 /turf/open/floor/wood,
 /area/space)
-"Nl" = (
-/obj/structure/lattice,
-/turf/open/misc/asteroid/snow/atmosphere,
-/area/space)
 "Np" = (
 /turf/open/floor/iron/dark,
 /area/space)
@@ -7765,12 +7782,6 @@
 	dir = 8
 	},
 /turf/open/floor/engine/o2,
-/area/space)
-"SW" = (
-/obj/structure/window/reinforced/survival_pod{
-	dir = 8
-	},
-/turf/open/floor/grass,
 /area/space)
 "SY" = (
 /obj/effect/turf_decal/siding/purple,
@@ -18776,7 +18787,7 @@ Dd
 Dd
 lA
 GU
-Jr
+po
 Jr
 Jr
 GU
@@ -19022,7 +19033,7 @@ GU
 GU
 ga
 Np
-aD
+Np
 GU
 yo
 yo
@@ -19142,9 +19153,9 @@ si
 si
 aq
 GU
-SW
-SW
-SW
+YI
+YI
+YI
 GU
 zb
 xN
@@ -19265,7 +19276,7 @@ AM
 HX
 GU
 GU
-GU
+YI
 GU
 GU
 GU
@@ -19386,12 +19397,12 @@ wr
 XJ
 Bz
 GU
-nm
-nm
-nm
-Nl
-nm
-nm
+qx
+Xd
+GU
+Np
+Np
+Np
 GU
 Gz
 lh
@@ -19508,12 +19519,12 @@ wr
 Db
 HT
 GU
-nm
-nm
-nm
-Nl
-nm
-nm
+yr
+zU
+GU
+Np
+Np
+Np
 GU
 Ej
 pU
@@ -19630,7 +19641,7 @@ GU
 GU
 GU
 GU
-nm
+GU
 GU
 GU
 GU
