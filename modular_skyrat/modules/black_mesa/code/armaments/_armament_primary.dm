@@ -1,3 +1,5 @@
+#define ARMAMENT_SUBCATEGORY_SHOTGUN "Shotguns"
+
 /datum/armament_entry/hecu/primary
 	category = ARMAMENT_CATEGORY_PRIMARY
 	category_item_limit = 4

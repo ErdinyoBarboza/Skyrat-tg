@@ -133,7 +133,7 @@
 
 	// SKYRAT EDIT ADDITION
 	/// Do we use a random appearance for this ghost role?
-	var/random_appearance = TRUE
+	var/random_appearance = FALSE
 	/// Can we use our loadout for this role?
 	var/loadout_enabled = FALSE
 	/// Can we use our quirks for this role?
@@ -160,7 +160,7 @@
 		return
 	// SKYRAT EDIT ADDITION
 	if(restricted_species && !(user.client?.prefs?.read_preference(/datum/preference/choiced/species) in restricted_species))
-		balloon_alert(user, "incorrect species!")
+		to_chat(user, span_warning("You cannot use this role because you are not the correct species!"))
 		return
 	// SKYRAT EDIT END
 	if(prompt_ghost)

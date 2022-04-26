@@ -25,8 +25,6 @@
 	righthand_file = 'modular_skyrat/modules/modular_weapons/icons/mob/inhands/weapons/64x_guns_right.dmi'
 	pixel_x = -8
 	inhand_icon_state = "revolving"
-	company_flag = COMPANY_IZHEVSK
-	dirt_modifier = 0.75
 
 /obj/item/gun/ballistic/revolver/rifle/improvised
 	name = "\improper Improvised .38 Revolving Rifle"
@@ -35,7 +33,6 @@
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev38	//TAs far as improvised weapons go, this is fairly decent, this isn't half bad.
 	fire_delay = 15
 	recoil = 1
-	company_flag = null
 
 /obj/item/gun/ballistic/revolver/rifle/gold
 	name = "\improper .45 Revolving Rifle"

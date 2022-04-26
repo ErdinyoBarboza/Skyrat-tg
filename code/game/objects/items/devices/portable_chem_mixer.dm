@@ -48,7 +48,7 @@
 			return
 		replace_beaker(user, B)
 		update_appearance()
-		ui_interact(user)
+		updateUsrDialog()
 		return
 	return ..()
 

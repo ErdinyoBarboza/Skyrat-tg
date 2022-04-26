@@ -113,7 +113,6 @@
 #include "species_config_sanity.dm"
 #include "species_unique_id.dm"
 #include "species_whitelists.dm"
-#include "stack_singular_name.dm"
 #include "stomach.dm"
 #include "strippable.dm"
 #include "subsystem_init.dm"

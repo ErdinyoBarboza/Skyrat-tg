@@ -394,7 +394,7 @@ GLOBAL_DATUM_INIT(ahelp_tickets, /datum/admin_help_tickets, new)
 	. += " (<A HREF='?_src_=holder;[HrefToken(TRUE)];ahelp=[ref_src];ahelp_action=icissue'>IC</A>)"
 	. += " (<A HREF='?_src_=holder;[HrefToken(TRUE)];ahelp=[ref_src];ahelp_action=close'>CLOSE</A>)"
 	. += " (<A HREF='?_src_=holder;[HrefToken(TRUE)];ahelp=[ref_src];ahelp_action=resolve'>RSLVE</A>)"
-	. += " (<A HREF='?_src_=holder;[HrefToken(TRUE)];ahelp=[ref_src];ahelp_action=handle_issue'>HANDLE</A>)" //SKYRAT EDIT ADDITION - ADMIN
+	. += " (<A HREF='?_src_=holder;[HrefToken(TRUE)];ahelp=[ref_src];ahelp_action=handleissue'>HANDLE</A>)" //SKYRAT EDIT ADDITION - ADMIN
 	. += " (<A HREF='?_src_=holder;[HrefToken(TRUE)];ahelp=[ref_src];ahelp_action=pingmute'>PING MUTE</A>)" //SKYRAT EDIT
 
 //private
@@ -671,10 +671,8 @@ GLOBAL_DATUM_INIT(ahelp_tickets, /datum/admin_help_tickets, new)
 		if("reject")
 			Reject()
 		if("reply")
-			// SKYRAT EDIT START - ADMIN HANDLE
-			if(handle_issue())
-				usr?.client.cmd_ahelp_reply(initiator)
-			// SKYRAT EDIT END
+			HandleIssue() /// SKYRAT EDIT ADDITION - ADMIN HANDLE
+			usr.client.cmd_ahelp_reply(initiator)
 		if("icissue")
 			ICIssue()
 		if("close")
@@ -684,8 +682,8 @@ GLOBAL_DATUM_INIT(ahelp_tickets, /datum/admin_help_tickets, new)
 		if("reopen")
 			Reopen()
 		//SKYRAT EDIT ADDITION BEING - ADMIN
-		if("handle_issue")
-			handle_issue()
+		if("handleissue")
+			HandleIssue()
 		if("pingmute")
 			ticket_ping_stop = !ticket_ping_stop
 			SSblackbox.record_feedback("tally", "ahelp_stats", 1, "pingmute")

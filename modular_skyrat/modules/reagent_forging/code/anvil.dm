@@ -49,7 +49,7 @@
 		return FALSE
 
 /obj/structure/reagent_anvil/hammer_act(mob/living/user, obj/item/tool)
-	playsound(src, 'modular_skyrat/modules/reagent_forging/sound/forge.ogg', 50, TRUE, ignore_walls = FALSE)
+	playsound(src, 'modular_skyrat/modules/reagent_forging/sound/forge.ogg', 50, TRUE)
 	var/obj/item/forging/incomplete/search_incomplete_src = locate(/obj/item/forging/incomplete) in contents
 	if(!search_incomplete_src)
 		return FALSE

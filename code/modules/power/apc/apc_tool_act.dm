@@ -217,7 +217,6 @@
 			locked = !locked
 			to_chat(user, span_notice("You [ locked ? "lock" : "unlock"] the APC interface."))
 			update_appearance()
-			if(!locked)
-				ui_interact(user)
+			updateUsrDialog()
 		else
 			to_chat(user, span_warning("Access denied."))

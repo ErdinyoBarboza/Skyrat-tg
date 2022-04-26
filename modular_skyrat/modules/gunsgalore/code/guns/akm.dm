@@ -21,8 +21,7 @@
 	load_empty_sound = 'modular_skyrat/modules/gunsgalore/sound/guns/interact/ltrifle_magin.ogg'
 	eject_sound = 'modular_skyrat/modules/gunsgalore/sound/guns/interact/ltrifle_magout.ogg'
 	alt_icons = TRUE
-	dirt_modifier = 0.75
-	company_flag = COMPANY_IZHEVSK
+	realistic = TRUE
 
 /obj/item/ammo_box/magazine/akm
 	name = "\improper AKM magazine"

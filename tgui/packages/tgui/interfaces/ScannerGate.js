@@ -111,10 +111,6 @@ const TARGET_SPECIES_LIST = [
     name: 'Hemophage',
     value: 'hemophage',
   },
-  {
-    name: 'Snail',
-    value: 'snail',
-  },
 ];
 
 const TARGET_GENDER_LIST = [

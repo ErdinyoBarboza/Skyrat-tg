@@ -1446,8 +1446,6 @@
 		choices += list("[initial(current_option_type.name)]" = option_image)
 
 	var/pick = show_radial_menu(user, src, choices, radius = 36, require_near = TRUE)
-	if(!pick)
-		return
 
 	StartProcessingAtom(user, processed_object, choices_to_options[pick])
 
@@ -2236,6 +2234,6 @@
  * * caller- The movable we're checking pass flags for, if we're making any such checks
  **/
 /atom/proc/CanAStarPass(obj/item/card/id/ID, to_dir, atom/movable/caller)
-	if(caller && (caller.pass_flags & pass_flags_self))
+	if(istype(caller) && (caller.pass_flags & pass_flags_self))
 		return TRUE
 	. = !density

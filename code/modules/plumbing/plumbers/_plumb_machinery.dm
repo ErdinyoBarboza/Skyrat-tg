@@ -21,7 +21,6 @@
 	set_anchored(bolt)
 	create_reagents(buffer, reagent_flags)
 	AddComponent(/datum/component/simple_rotation)
-	interaction_flags_machine |= INTERACT_MACHINE_OFFLINE
 
 /obj/machinery/plumbing/examine(mob/user)
 	. = ..()

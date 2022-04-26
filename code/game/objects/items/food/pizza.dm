@@ -23,9 +23,9 @@
 
 /obj/item/food/pizza/MakeProcessable()
 	if (slice_type)
-		AddElement(/datum/element/processable, TOOL_KNIFE, slice_type, 6, 30, table_required = TRUE)
-		AddElement(/datum/element/processable, TOOL_SAW, slice_type, 6, 45, table_required = TRUE)
-		AddElement(/datum/element/processable, TOOL_SCALPEL, slice_type, 6, 60, table_required = TRUE)
+		AddElement(/datum/element/processable, TOOL_KNIFE, slice_type, 6, 30)
+		AddElement(/datum/element/processable, TOOL_SAW, slice_type, 6, 45)
+		AddElement(/datum/element/processable, TOOL_SCALPEL, slice_type, 6, 60)
 
 // Pizza Slice
 /obj/item/food/pizzaslice
@@ -35,9 +35,12 @@
 	w_class = WEIGHT_CLASS_SMALL
 	decomp_type = /obj/item/food/pizzaslice/moldy
 
+//SKYRAT EDIT REMOVAL BEGIN
+/*
 /obj/item/food/pizzaslice/MakeProcessable()
-	AddElement(/datum/element/processable, TOOL_ROLLINGPIN, /obj/item/stack/sheet/pizza, 1, 10, table_required = TRUE)
-
+	AddElement(/datum/element/processable, TOOL_ROLLINGPIN, /obj/item/stack/sheet/pizza, 1, 10)
+*/
+//SKYRAT EDIT REMOVAL END
 
 /obj/item/food/pizza/margherita
 	name = "pizza margherita"

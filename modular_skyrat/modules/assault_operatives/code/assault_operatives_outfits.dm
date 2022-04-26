@@ -4,6 +4,7 @@
 /datum/outfit/assaultops
 	name = "Assault Ops - Default"
 
+	mask = /obj/item/clothing/mask/gas/alt
 	uniform = /obj/item/clothing/under/syndicate/camo
 	shoes = /obj/item/clothing/shoes/combat
 	gloves =  /obj/item/clothing/gloves/combat

@@ -1,9 +1,7 @@
 /datum/sprite_accessory/genital
 	special_render_case = TRUE
-	special_colorize = TRUE
 	var/associated_organ_slot
-	/// If true, then there should be a variant in the icon file that's slightly pinkier to match human base colors.
-	var/has_skintone_shading = FALSE
+	var/uses_skintones
 	///Where the genital is on the body. If clothing doesn't cover it, it shows up!
 	var/genital_location = GROIN
 
@@ -22,14 +20,12 @@
 		else
 			return TRUE
 
-/datum/sprite_accessory/genital/get_special_render_state(mob/living/carbon/human/human)
-	var/obj/item/organ/genital/genital = human.getorganslot(associated_organ_slot)
-	return "[genital?.sprite_suffix]"
-
-/datum/sprite_accessory/genital/get_special_render_colour(mob/living/carbon/human/human, render_state)
-	var/obj/item/organ/genital/genital = human.getorganslot(associated_organ_slot)
-	if(genital?.uses_skin_color && human.dna.species.use_skintones)
-		return skintone2hex(human.skin_tone)
+/datum/sprite_accessory/genital/get_special_render_state(mob/living/carbon/human/H)
+	var/obj/item/organ/genital/gen = H.getorganslot(associated_organ_slot)
+	if(gen)
+		return  "[gen.sprite_suffix]"
+	else
+		return null
 
 /datum/sprite_accessory/genital/penis
 	icon = 'modular_skyrat/master_files/icons/mob/sprite_accessory/genitals/penis_onmob.dmi'
@@ -78,7 +74,7 @@
 	name = "Human"
 	color_src = USE_ONE_COLOR
 	default_color = DEFAULT_SKIN_OR_PRIMARY
-	has_skintone_shading = TRUE
+	uses_skintones = TRUE
 	can_have_sheath = FALSE
 
 /datum/sprite_accessory/genital/penis/nondescript
@@ -156,7 +152,7 @@
 /datum/sprite_accessory/genital/testicles/pair
 	name = "Pair"
 	icon_state = "pair"
-	has_skintone_shading = TRUE
+	uses_skintones = TRUE
 
 /datum/sprite_accessory/genital/testicles/internal
 	name = "Internal"
@@ -179,6 +175,14 @@
 	if(H.underwear != "Nude" && !(H.underwear_visibility & UNDERWEAR_HIDE_UNDIES))
 		return TRUE
 	. = ..()
+
+
+/datum/sprite_accessory/genital/vagina/get_special_render_state(mob/living/carbon/human/H)
+	var/obj/item/organ/genital/gen = H.getorganslot(associated_organ_slot)
+	if(gen)
+		return "[gen.sprite_suffix]"
+	else
+		return null
 
 /datum/sprite_accessory/genital/vagina/none
 	icon_state = "none"
@@ -268,7 +272,7 @@
 	always_color_customizable = TRUE
 	default_color = DEFAULT_SKIN_OR_PRIMARY
 	relevent_layers = list(BODY_BEHIND_LAYER, BODY_FRONT_LAYER)
-	has_skintone_shading = TRUE
+	uses_skintones = TRUE
 	genital_location = CHEST
 	genetic = TRUE
 

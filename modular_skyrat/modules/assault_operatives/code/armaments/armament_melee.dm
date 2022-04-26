@@ -1,5 +1,9 @@
 
 // MELEE WEAPONS
+#define ARMAMENT_CATEGORY_MELEE "Melee Weapons"
+#define ARMAMENT_CATEGORY_MELEE_LIMIT 1
+#define ARMAMENT_SUBCATEGORY_MELEE_LETHAL "Lethal Weaponry"
+#define ARMAMENT_SUBCATEGORY_MELEE_NONLETHAL "Non-Lethal Weaponry"
 
 /datum/armament_entry/assault_operatives/melee
 	category = ARMAMENT_CATEGORY_MELEE
@@ -10,15 +14,15 @@
 
 /datum/armament_entry/assault_operatives/melee/lethal/survival_knife
 	item_type = /obj/item/knife/combat/survival
-	cost = 2
+	cost = 5
 
 /datum/armament_entry/assault_operatives/melee/lethal/combat_knife
 	item_type = /obj/item/knife/combat
-	cost = 3
+	cost = 6
 
 /datum/armament_entry/assault_operatives/melee/lethal/energy
 	item_type = /obj/item/melee/energy/sword/saber
-	cost = 7
+	cost = 10
 
 /datum/armament_entry/assault_operatives/melee/nonlethal
 	subcategory = ARMAMENT_SUBCATEGORY_MELEE_NONLETHAL
@@ -29,5 +33,5 @@
 
 /datum/armament_entry/assault_operatives/melee/nonlethal/baton_telescopic
 	item_type = /obj/item/melee/baton/telescopic
-	cost = 4
+	cost = 5
 

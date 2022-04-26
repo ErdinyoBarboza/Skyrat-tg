@@ -23,6 +23,9 @@
 		stack_trace("No products specified for armament")
 		return COMPONENT_INCOMPATIBLE
 
+	if(!isatom(parent))
+		return COMPONENT_INCOMPATIBLE
+
 	parent_atom = parent
 
 	products = required_products

@@ -15,7 +15,6 @@
 	the fresh air of Earth. These thoughts are dispelled by yet another recollection of how you got here... "
 	spawner_job_path = /datum/job/hermit
 	quirks_enabled = TRUE // SKYRAT EDIT ADDITION - ghost role loadouts
-	random_appearance = FALSE // SKYRAT EDIT ADDITION
 
 /obj/effect/mob_spawn/ghost_role/human/hermit/Initialize(mapload)
 	. = ..()
@@ -82,7 +81,6 @@
 	spawner_job_path = /datum/job/beach_bum
 	outfit = /datum/outfit/beachbum
 	quirks_enabled = TRUE // SKYRAT EDIT ADDITION - ghost role loadouts
-	random_appearance = FALSE // SKYRAT EDIT ADDITION
 
 /obj/effect/mob_spawn/ghost_role/human/beach/lifeguard
 	you_are_text = "You're a spunky lifeguard!"
@@ -123,7 +121,6 @@
 	flavour_text = "Time to mix drinks and change lives. Smoking space drugs makes it easier to understand your patrons' odd dialect."
 	spawner_job_path = /datum/job/space_bartender
 	outfit = /datum/outfit/spacebartender
-	random_appearance = FALSE // SKYRAT EDIT ADDITION
 
 /datum/outfit/spacebartender
 	name = "Space Bartender"
@@ -159,7 +156,6 @@
 	Estimated time of last contact: Deployment, 5000 millennia ago."
 	spawner_job_path = /datum/job/lifebringer
 	restricted_species = list(/datum/species/pod) //SKYRAT EDIT ADDITION
-	random_appearance = FALSE // SKYRAT EDIT ADDITION
 
 /obj/effect/mob_spawn/ghost_role/human/seed_vault/Initialize(mapload)
 	. = ..()
@@ -228,7 +224,6 @@
 	var/datum/team/ashwalkers/team
 	var/obj/structure/ash_walker_eggshell/eggshell
 	restricted_species = list(/datum/species/lizard/ashwalker) //SKYRAT EDIT ADDITION
-	random_appearance = FALSE // SKYRAT EDIT ADDITION
 
 /obj/effect/mob_spawn/ghost_role/human/ash_walker/Destroy()
 	eggshell = null
@@ -286,7 +281,6 @@
 	spawner_job_path = /datum/job/lavaland_syndicate
 	loadout_enabled = TRUE // SKYRAT EDIT ADDITION - ghost role loadouts
 	quirks_enabled = TRUE // SKYRAT EDIT ADDITION - ghost role loadouts
-	random_appearance = FALSE // SKYRAT EDIT ADDITION
 
 /obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/special(mob/living/new_spawn)
 	. = ..()

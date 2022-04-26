@@ -80,7 +80,7 @@
 		var/obj/item/stack/F = .
 		F.set_greyscale(greyscale_colors)
 
-/obj/item/stack/shibari_rope/can_merge(obj/item/stack/check, inhand = TRUE)
+/obj/item/stack/shibari_rope/can_merge(obj/item/stack/check)
 	if(check.greyscale_colors == greyscale_colors)
 		return ..()
 	else

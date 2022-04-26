@@ -86,8 +86,8 @@
 	return TRUE
 
 /obj/structure/railing/CanAStarPass(obj/item/card/id/ID, to_dir, atom/movable/caller)
-	if(!(to_dir & dir))
-		return TRUE
+	if (to_dir & dir)
+		return FALSE
 	return ..()
 
 /obj/structure/railing/proc/on_exit(datum/source, atom/movable/leaving, direction)

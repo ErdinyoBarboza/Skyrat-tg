@@ -45,12 +45,6 @@ export const CargoContent = (props, context) => {
             onClick={() => setTab('requests')}>
             Requests ({requests.length})
           </Tabs.Tab>
-          <Tabs.Tab
-            icon="clipboard-list"
-            selected={tab === 'gun_window'}
-            onClick={() => act('gun_window')}>
-            Gun Requisitions
-          </Tabs.Tab>
           {!requestonly && (
             <>
               <Tabs.Tab
@@ -83,9 +77,6 @@ export const CargoContent = (props, context) => {
       )}
       {tab === 'help' && (
         <CargoHelp />
-      )}
-      {tab === 'gun_window' && (
-        tab === 'catalog'
       )}
     </Box>
   );

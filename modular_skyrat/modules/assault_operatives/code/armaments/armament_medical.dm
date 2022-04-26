@@ -1,3 +1,8 @@
+#define ARMAMENT_CATEGORY_MEDICAL "Medical Supplies"
+#define ARMAMENT_CATEGORY_MEDICAL_LIMIT 5
+#define ARMAMENT_SUBCATEGORY_MEDKIT "Medkits"
+#define ARMAMENT_SUBCATEGORY_INJECTOR "Injectors"
+
 /datum/armament_entry/assault_operatives/medical
 	category = ARMAMENT_CATEGORY_MEDICAL
 	category_item_limit = ARMAMENT_CATEGORY_MEDICAL_LIMIT
@@ -27,7 +32,7 @@
 
 /datum/armament_entry/assault_operatives/medical/medkit/tactical
 	item_type = /obj/item/storage/medkit/tactical
-	cost = 3
+	cost = 5
 
 /datum/armament_entry/assault_operatives/medical/surgery_bag
 	item_type = /obj/item/storage/backpack/duffelbag/syndie/surgery
@@ -58,11 +63,11 @@
 
 /datum/armament_entry/assault_operatives/medical/injector/stimulant
 	item_type = /obj/item/reagent_containers/hypospray/medipen/stimulants
-	cost = 2
+	cost = 3
 
 /datum/armament_entry/assault_operatives/medical/injector/bag
 	item_type = /obj/item/storage/bag/medpens
-	cost = 4
+	cost = 6
 
 /datum/armament_entry/assault_operatives/medical/beamgun
 	item_type = /obj/item/gun/medbeam

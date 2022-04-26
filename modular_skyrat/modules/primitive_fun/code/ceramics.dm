@@ -54,7 +54,6 @@
 	icon = 'modular_skyrat/modules/primitive_fun/icons/prim_fun.dmi'
 	icon_state = "clay"
 	merge_type = /obj/item/stack/clay
-	singular_name = "glob of clay"
 
 /datum/export/ceramics
 	cost = CARGO_CRATE_VALUE * 2

@@ -269,9 +269,14 @@
 					SSblackbox.LogAhelp(recipient.current_ticket.id, "Ticket Opened", msg, recipient.ckey, src.ckey)
 
 				//SKYRAT EDIT ADDITION BEGIN - ADMIN
-				// Basically, if we realized that we shouldn't've been handling the ticket, let's bail. Otherwise, we just change who's handling it.
-				if(!recipient.current_ticket.handle_issue())
-					return
+				if(recipient.current_ticket.handler)
+					if(recipient.current_ticket.handler != usr.ckey)
+						var/response = tgui_alert(usr, "This ticket is already being handled by [recipient.current_ticket.handler]. Do you want to continue?", "Ticket already assigned", list("Yes", "No"))
+
+						if(response == "No")
+							return
+				else
+					recipient.current_ticket.HandleIssue()
 				//SKYRAT EDIT ADDITION END
 
 				to_chat(recipient,

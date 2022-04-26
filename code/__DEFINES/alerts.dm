@@ -35,6 +35,7 @@
 
 //drunk alerts
 #define ALERT_DRUNK "drunk"
+#define ALERT_HIGH "high"
 
 /** Alien related */
 #define ALERT_XENO_FIRE "alien_fire"

@@ -1,11 +1,19 @@
-/**Dizziness
- * Increases stealth
- * Lowers resistance
- * Decreases stage speed considerably
- * Slightly reduces transmissibility
- * Intense Level
- * Bonus: Shakes the affected mob's screen for short periods.
- */
+/*
+//////////////////////////////////////
+
+Dizziness
+
+	Hidden.
+	Lowers resistance considerably.
+	Decreases stage speed.
+	Reduced transmittability
+	Intense Level.
+
+Bonus
+	Shakes the affected mob's screen for short periods.
+
+//////////////////////////////////////
+*/
 
 /datum/symptom/dizzy // Not the egg
 
@@ -47,4 +55,4 @@
 			if(M.dizziness <= 70)
 				M.dizziness += 30
 			if(power >= 2)
-				M.set_timed_status_effect(80 SECONDS, /datum/status_effect/drugginess)
+				M.set_drugginess(40)

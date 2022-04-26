@@ -60,10 +60,6 @@
 	name = "Mining Station EVA"
 	icon_state = "mining_eva"
 
-/area/mine/eva/lower
-	name = "Mining Station Lower EVA"
-	icon_state = "mining_eva"
-
 /area/mine/maintenance
 	name = "Mining Station Communications"
 
