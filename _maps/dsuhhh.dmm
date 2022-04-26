@@ -5121,6 +5121,10 @@
 /obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden,
 /turf/open/floor/iron/dark,
 /area/space)
+"GO" = (
+/obj/machinery/stasis,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "GP" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/siding/red/corner{
@@ -7164,6 +7168,10 @@
 	dir = 9
 	},
 /turf/open/floor/carpet/blue,
+/area/space)
+"RA" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "RB" = (
 /obj/machinery/computer/cryopod{
@@ -12912,8 +12920,8 @@ GU
 GU
 GU
 LN
-ZY
-yc
+YI
+YI
 YI
 YI
 YI
@@ -13034,8 +13042,8 @@ Ip
 uD
 GU
 LN
-LN
-LN
+YI
+YI
 YI
 YI
 YI
@@ -15352,14 +15360,14 @@ LN
 Tc
 Tc
 LN
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+LN
+LN
+LN
+LN
+LN
+LN
+LN
+LN
 LN
 YI
 YI
@@ -15474,14 +15482,14 @@ LN
 LN
 LN
 LN
-YI
-YI
-YI
-YI
-YI
-YI
-YI
-YI
+ZY
+yc
+zM
+zM
+zM
+zM
+zM
+RA
 LN
 YI
 YI
@@ -15599,11 +15607,11 @@ GU
 LN
 LN
 LN
-YI
-YI
-YI
-YI
-YI
+zM
+zM
+zM
+zM
+RA
 LN
 YI
 YI
@@ -15721,11 +15729,11 @@ GU
 LN
 Oo
 LN
-YI
-YI
-YI
-YI
-YI
+GO
+zM
+GO
+zM
+zM
 LN
 YI
 YI
