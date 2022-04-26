@@ -59,44 +59,58 @@
 /area/ruin/syndicate_lava_base/engineering
 	name = "Interdyne Engineering" // SKYRAT EDIT STEALTH INTERDYNE
 	always_unpowered = FALSE // SKYRAT EDIT ADDITION - SYNDIEBROKE
+	icon_state = "engine"
 
 /area/ruin/syndicate_lava_base/medbay
 	name = "Interdyne Medbay" // SKYRAT EDIT STEALTH INTERDYNE
 	always_unpowered = FALSE // SKYRAT EDIT ADDITION - SYNDIEBROKE
+	icon_state = "medbay"
 
 /area/ruin/syndicate_lava_base/arrivals
 	name = "Interdyne Arrivals" // SKYRAT EDIT STEALTH INTERDYNE
+	always_unpowered = FALSE // SKYRAT EDIT ADDITION - SYNDIEBROKE
+	icon_state = "entry"
 
 /area/ruin/syndicate_lava_base/bar
 	name = "\improper Interdyne Bar" // SKYRAT EDIT STEALTH INTERDYNE
 	always_unpowered = FALSE // SKYRAT EDIT ADDITION - SYNDIEBROKE
+	icon_state = "bar"
 
 /area/ruin/syndicate_lava_base/main
 	name = "\improper Interdyne Primary Hallway" // SKYRAT EDIT STEALTH INTERDYNE
 	always_unpowered = FALSE // SKYRAT EDIT ADDITION - SYNDIEBROKE
+	icon_state = "hallC"
 
 /area/ruin/syndicate_lava_base/cargo
 	name = "\improper Interdyne Cargo Bay" // SKYRAT EDIT STEALTH INTERDYNE
 	always_unpowered = FALSE // SKYRAT EDIT ADDITION - SYNDIEBROKE
+	icon_state = "cargo_bay"
 
 /area/ruin/syndicate_lava_base/chemistry
-	name = "Interdyne Chemistry" // SKYRAT EDIT STEALTH INTERDYNE
+	name = "\improper Interdyne Chemistry" // SKYRAT EDIT STEALTH INTERDYNE
+	always_unpowered = FALSE // SKYRAT EDIT ADDITION - SYNDIEBROKE
+	icon_state = "chem"
 
 /area/ruin/syndicate_lava_base/virology
-	name = "Interdyne Virology" // SKYRAT EDIT STEALTH INTERDYNE
+	name = "\improper Interdyne Virology" // SKYRAT EDIT STEALTH INTERDYNE
 	always_unpowered = FALSE // SKYRAT EDIT ADDITION - SYNDIEBROKE
+	icon_state = "virology"
 
 /area/ruin/syndicate_lava_base/testlab
 	name = "\improper Interdyne Experimentation Lab" // SKYRAT EDIT STEALTH INTERDYNE
 	area_flags = XENOBIOLOGY_COMPATIBLE //SKYRAT EDIT ADDITION - MAPPING
 	always_unpowered = FALSE // SKYRAT EDIT ADDITION - SYNDIEBROKE
+	icon_state = "exp_lab"
 
 /area/ruin/syndicate_lava_base/dormitories
 	name = "\improper Interdyne Dormitories" // SKYRAT EDIT STEALTH INTERDYNE
 	always_unpowered = FALSE // SKYRAT EDIT ADDITION - SYNDIEBROKE
+	icon_state = "dorms"
 
 /area/ruin/syndicate_lava_base/telecomms
 	name = "\improper Interdyne Telecommunications" // SKYRAT EDIT STEALTH INTERDYNE
+	always_unpowered = FALSE // SKYRAT EDIT ADDITION - SYNDIEBROKE
+	icon_state = "tcomsatcham"
 
 //Xeno Nest
 

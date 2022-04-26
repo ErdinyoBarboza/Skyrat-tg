@@ -2005,7 +2005,9 @@
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/space)
 "mc" = (
-/obj/machinery/implantchair/brainwash,
+/obj/machinery/implantchair/brainwash{
+	objective = "You are a Syndicate Agent. Follow your superiors orders."
+	},
 /turf/open/space/basic,
 /area/space)
 "me" = (
@@ -7219,6 +7221,12 @@
 	req_access_txt = "150"
 	},
 /turf/open/floor/iron/dark/smooth_corner,
+/area/space)
+"RS" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium/red,
 /area/space)
 "RT" = (
 /obj/structure/sign/barsign/syndie,
@@ -13505,7 +13513,7 @@ wt
 LN
 iI
 dr
-Xf
+RS
 nU
 gH
 cl
@@ -14612,7 +14620,7 @@ Ch
 Vr
 uD
 LN
-LN
+YI
 YI
 YI
 YI
@@ -14734,7 +14742,7 @@ GU
 uD
 LS
 LN
-LN
+YI
 YI
 YI
 YI
@@ -14856,7 +14864,7 @@ Ch
 Ih
 uD
 LN
-LN
+YI
 YI
 YI
 YI
@@ -14978,7 +14986,7 @@ LN
 zp
 zp
 LN
-LN
+YI
 YI
 YI
 YI
@@ -15100,7 +15108,7 @@ LN
 vM
 vM
 LN
-LN
+YI
 YI
 YI
 YI
@@ -15222,7 +15230,7 @@ LN
 nf
 nf
 LN
-LN
+YI
 YI
 YI
 YI
@@ -15344,7 +15352,7 @@ LN
 Tc
 Tc
 LN
-LN
+YI
 YI
 YI
 YI
@@ -15466,7 +15474,7 @@ LN
 LN
 LN
 LN
-LN
+YI
 YI
 YI
 YI
@@ -15713,11 +15721,11 @@ GU
 LN
 Oo
 LN
-LN
-LN
-LN
-LN
-LN
+YI
+YI
+YI
+YI
+YI
 LN
 YI
 YI
@@ -15835,12 +15843,12 @@ GU
 LN
 WN
 oM
-GU
-GU
-GU
-GU
-GU
-ca
+LN
+LN
+LN
+LN
+LN
+LN
 YI
 YI
 YI
@@ -16933,7 +16941,7 @@ GU
 ZT
 rf
 be
-gH
+GU
 YI
 YI
 YI
@@ -17055,7 +17063,7 @@ GU
 WJ
 UW
 iY
-gH
+GU
 YI
 YI
 YI
@@ -17177,7 +17185,7 @@ GU
 ZT
 rf
 Ow
-gH
+GU
 YI
 YI
 YI
