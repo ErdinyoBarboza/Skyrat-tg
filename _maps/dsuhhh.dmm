@@ -2105,6 +2105,23 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/space)
+"lY" = (
+/obj/effect/bump_teleporter{
+	id = "ds_blacksite-chute05"
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/effect/turf_decal/loading_area,
+/obj/structure/disposaloutlet{
+	density = 0;
+	pixel_y = 25
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
 "mb" = (
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/structure/cable,
@@ -2114,12 +2131,6 @@
 	req_access_txt = "150"
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
-"mc" = (
-/obj/machinery/implantchair/brainwash{
-	objective = "You are a Syndicate Agent. Follow your superiors orders."
-	},
-/turf/open/space/basic,
 /area/space)
 "me" = (
 /obj/machinery/light/directional/north,
@@ -3727,6 +3738,13 @@
 /obj/structure/table/reinforced,
 /obj/machinery/recharger,
 /turf/open/floor/carpet,
+/area/space)
+"wB" = (
+/obj/effect/bump_teleporter{
+	id = "ds_blacksite-chute02";
+	id_target = "ds_blacksite-chute03"
+	},
+/turf/open/space/basic,
 /area/space)
 "wC" = (
 /obj/machinery/computer/mechpad{
@@ -5547,11 +5565,6 @@
 /obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden,
 /turf/open/floor/iron/dark,
 /area/space)
-"GO" = (
-/obj/machinery/stasis,
-/obj/machinery/iv_drip,
-/turf/open/floor/mineral/plastitanium,
-/area/space)
 "GP" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/siding/red/corner{
@@ -6514,6 +6527,12 @@
 	dir = 1
 	},
 /area/space)
+"Mf" = (
+/obj/effect/bump_teleporter{
+	id = "ds_blacksite-chute03"
+	},
+/turf/open/space/basic,
+/area/space)
 "Mh" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 9
@@ -6943,6 +6962,28 @@
 	dir = 1
 	},
 /area/space)
+"On" = (
+/obj/structure/table/reinforced,
+/obj/item/surgicaldrill,
+/obj/item/stack/medical/bruise_pack{
+	pixel_x = 8;
+	pixel_y = -5
+	},
+/obj/item/reagent_containers/hypospray/medipen/tuberculosiscure{
+	desc = "A neferious autoinjector that injects an extremely painful compound. Has 2 uses.";
+	list_reagents = list(/datum/reagent/inverse/lidocaine = 20);
+	name = "PAIN autoinjector";
+	pixel_x = -4;
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/hypospray/medipen/tuberculosiscure{
+	desc = "A neferious autoinjector that injects an extremely painful compound. Has 2 uses.";
+	list_reagents = list(/datum/reagent/inverse/lidocaine = 20);
+	name = "PAIN autoinjector";
+	pixel_y = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "Oo" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 4
@@ -7050,6 +7091,12 @@
 	dir = 4
 	},
 /turf/open/floor/iron/smooth_half,
+/area/space)
+"OM" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
+	dir = 1
+	},
+/turf/closed/indestructible/syndicate,
 /area/space)
 "OO" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -7732,6 +7779,17 @@
 	},
 /obj/machinery/vending/wallmed/syndie{
 	pixel_y = -32
+	},
+/obj/item/reagent_containers/chem_pack{
+	pixel_x = -8;
+	pixel_y = -6
+	},
+/obj/item/reagent_containers/chem_pack{
+	pixel_x = -8
+	},
+/obj/item/reagent_containers/blood/universal{
+	pixel_x = -8;
+	pixel_y = 5
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
@@ -8518,6 +8576,13 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/space)
+"Ws" = (
+/obj/effect/bump_teleporter{
+	id = "ds_blacksite-chute04";
+	id_target = "ds_blacksite-chute05"
+	},
+/turf/open/space/basic,
+/area/space)
 "Wt" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 10
@@ -8666,6 +8731,12 @@
 	pixel_x = -32
 	},
 /turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"Xg" = (
+/obj/effect/bump_teleporter{
+	id = "ds_blacksite-chute01"
+	},
+/turf/open/space/basic,
 /area/space)
 "Xh" = (
 /obj/structure/chair/sofa/corp/corner{
@@ -13392,7 +13463,7 @@ ca
 ca
 ca
 ca
-ca
+LN
 LN
 LN
 LN
@@ -13514,8 +13585,8 @@ GU
 GU
 GU
 GU
-GU
 LN
+YI
 YI
 YI
 YI
@@ -13636,8 +13707,8 @@ hO
 rb
 Ip
 uD
-GU
 LN
+YI
 YI
 YI
 YI
@@ -13758,9 +13829,9 @@ GW
 iD
 Xk
 wY
-GU
 LN
-mc
+YI
+YI
 YI
 YI
 YI
@@ -13880,8 +13951,8 @@ cl
 we
 Wv
 ka
-GU
 LN
+YI
 YI
 YI
 YI
@@ -14002,8 +14073,8 @@ GW
 iD
 Xk
 xZ
-GU
 LN
+YI
 YI
 YI
 YI
@@ -14124,8 +14195,8 @@ cl
 we
 Wv
 ka
-GU
 LN
+YI
 YI
 YI
 YI
@@ -14246,8 +14317,8 @@ GW
 iD
 Xk
 xZ
-GU
 LN
+YI
 YI
 YI
 YI
@@ -14368,8 +14439,8 @@ cl
 we
 Wv
 Jn
-GU
 LN
+YI
 YI
 YI
 YI
@@ -14490,8 +14561,8 @@ qb
 rb
 Ip
 uD
-GU
 LN
+YI
 YI
 YI
 YI
@@ -16046,8 +16117,8 @@ nm
 nm
 nm
 GU
-um
-yc
+YI
+YI
 YI
 YI
 YI
@@ -16168,8 +16239,8 @@ nm
 nm
 nm
 GU
-GU
-GU
+YI
+YI
 YI
 YI
 YI
@@ -16199,10 +16270,10 @@ GU
 GU
 QP
 oT
-GU
 LN
 LN
 LN
+zM
 zM
 zM
 zM
@@ -16321,15 +16392,15 @@ MG
 GU
 cz
 Tm
-GU
 LN
 Oo
 LN
+lY
+zM
 XB
 zM
-GO
-zM
 PM
+On
 LN
 YI
 YI
@@ -16443,9 +16514,9 @@ yo
 GU
 xF
 PJ
-GU
 LN
 WN
+OM
 oM
 LN
 LN
@@ -16656,10 +16727,10 @@ nm
 nm
 nm
 GU
+yc
+GU
 YI
-YI
-YI
-YI
+GU
 YI
 GU
 GU
@@ -16778,10 +16849,10 @@ nm
 nm
 nm
 GU
+um
+GU
 YI
-YI
-YI
-YI
+GU
 YI
 GU
 Ta
@@ -21327,12 +21398,12 @@ RQ
 As
 As
 As
-YI
-YI
-YI
-YI
-YI
-ca
+gp
+LN
+LN
+LN
+LN
+LN
 YI
 YI
 YI
@@ -21449,12 +21520,12 @@ HR
 As
 As
 As
+cZ
+tz
+LN
 YI
 YI
-YI
-YI
-YI
-ca
+LN
 YI
 YI
 YI
@@ -21571,12 +21642,12 @@ Lw
 As
 As
 Xa
+LN
+LN
+LN
 YI
-YI
-YI
-YI
-YI
-ca
+Xg
+LN
 YI
 YI
 YI
@@ -21694,11 +21765,11 @@ LN
 AZ
 LN
 LN
+wB
 YI
 YI
 YI
-YI
-ca
+LN
 YI
 YI
 YI
@@ -21816,11 +21887,11 @@ UE
 UE
 UE
 LN
-YI
-YI
-YI
-YI
-ca
+LN
+LN
+LN
+LN
+LN
 YI
 YI
 YI
@@ -21938,11 +22009,11 @@ UE
 UE
 UE
 LN
+Mf
 YI
 YI
-YI
-YI
-ca
+Ws
+LN
 YI
 YI
 YI
@@ -22060,11 +22131,11 @@ LN
 LN
 LN
 LN
-ca
-ca
-ca
-ca
-ca
+LN
+LN
+LN
+LN
+LN
 YI
 YI
 YI
