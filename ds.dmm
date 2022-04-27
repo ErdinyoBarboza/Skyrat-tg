@@ -13,7 +13,7 @@
 /obj/effect/bump_teleporter{
 	id = "ds_blacksite-chute03"
 	},
-/turf/open/floor/iron/textured_large,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
 "al" = (
 /obj/machinery/door/airlock/security/old/glass{
@@ -131,6 +131,9 @@
 /area/space)
 "bp" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/end,
+/obj/structure/chair/office/light{
+	dir = 8
+	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/space)
 "bq" = (
@@ -1026,6 +1029,12 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
+/area/space)
+"ik" = (
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "il" = (
 /obj/effect/turf_decal/siding/wideplating{
@@ -2147,6 +2156,14 @@
 /obj/effect/spawner/random/food_or_drink/refreshing_beverage,
 /turf/open/floor/iron/dark,
 /area/space)
+"qU" = (
+/obj/machinery/door/airlock/survival_pod/glass{
+	name = "Interdyne Transfer"
+	},
+/turf/open/floor/iron/dark/textured_half{
+	dir = 8
+	},
+/area/space)
 "qV" = (
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/space)
@@ -2400,7 +2417,7 @@
 /obj/effect/bump_teleporter{
 	id = "ds_blacksite-chute01"
 	},
-/turf/open/floor/iron/textured_large,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
 "sH" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -2822,7 +2839,7 @@
 	id = "ds_blacksite-chute04";
 	id_target = "ds_blacksite-chute05"
 	},
-/turf/open/floor/iron/textured_large,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
 "wV" = (
 /obj/machinery/power/apc/auto_name/directional/south,
@@ -2850,6 +2867,10 @@
 	},
 /obj/structure/lattice,
 /turf/open/space/basic,
+/area/space)
+"xi" = (
+/obj/effect/decal/cleanable/blood/gibs/limb,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "xj" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden,
@@ -3015,8 +3036,10 @@
 /turf/open/floor/carpet/red,
 /area/space)
 "yn" = (
-/obj/machinery/computer/camera_advanced/xenobio,
 /obj/structure/noticeboard/directional/east,
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 5
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "yo" = (
@@ -3649,7 +3672,7 @@
 /obj/effect/turf_decal/stripes/end{
 	dir = 4
 	},
-/obj/machinery/processor/slime,
+/obj/machinery/monkey_recycler,
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/space)
 "Dl" = (
@@ -4592,6 +4615,13 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"JC" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/end,
+/obj/structure/chair/office/light{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
 "JK" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
@@ -4714,6 +4744,9 @@
 /area/space)
 "KC" = (
 /obj/machinery/light/cold/directional/west,
+/obj/machinery/computer/camera_advanced/xenobio{
+	dir = 4
+	},
 /turf/open/floor/mineral/titanium/tiled,
 /area/space)
 "KD" = (
@@ -5300,7 +5333,7 @@
 	id = "ds_blacksite-chute-origin";
 	id_target = "ds_blacksite-chute01"
 	},
-/turf/open/floor/plating/elevatorshaft,
+/turf/open/floor/plating,
 /area/space)
 "Pi" = (
 /turf/closed/indestructible/opsglass,
@@ -5456,10 +5489,8 @@
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "Qy" = (
-/obj/structure/chair/office/light{
-	dir = 1
-	},
 /obj/machinery/light/cold/directional/east,
+/obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "Qz" = (
@@ -6069,7 +6100,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/mineral/plastitanium/red,
+/turf/open/floor/plating,
 /area/space)
 "VA" = (
 /obj/machinery/light/directional/east,
@@ -6151,7 +6182,7 @@
 	id = "ds_blacksite-chute02";
 	id_target = "ds_blacksite-chute03"
 	},
-/turf/open/floor/iron/textured_large,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
 "Wf" = (
 /obj/structure/window/reinforced/survival_pod{
@@ -6532,7 +6563,9 @@
 /obj/effect/turf_decal/stripes/end{
 	dir = 8
 	},
-/obj/machinery/monkey_recycler,
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/effect/decal/cleanable/blood/innards,
+/obj/effect/decal/cleanable/blood/gibs/core,
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/space)
 "Zk" = (
@@ -7215,7 +7248,7 @@ RQ
 Gk
 Oo
 tM
-bp
+JC
 Na
 Co
 NZ
@@ -7332,8 +7365,8 @@ zx
 pE
 TP
 WN
-sW
-sW
+ik
+xi
 Zd
 Na
 Br
@@ -10592,8 +10625,8 @@ RV
 bP
 Mu
 RQ
-AC
-AC
+KD
+KD
 RQ
 "}
 (68,1,1) = {"
@@ -10651,7 +10684,7 @@ QR
 RQ
 RQ
 RQ
-AC
+KD
 sz
 RQ
 "}
@@ -10679,7 +10712,7 @@ RQ
 RQ
 RQ
 RQ
-RV
+qU
 RQ
 RQ
 pM
@@ -10709,9 +10742,9 @@ Dv
 RQ
 RQ
 Wc
-AC
-AC
-AC
+KD
+KD
+KD
 RQ
 "}
 (70,1,1) = {"
@@ -10827,8 +10860,8 @@ DZ
 DZ
 RQ
 ah
-AC
-AC
+KD
+KD
 wT
 RQ
 "}
