@@ -791,6 +791,12 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/space)
+"gO" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "gR" = (
 /obj/machinery/computer/crew/syndie{
 	dir = 8
@@ -988,6 +994,12 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/blue,
 /area/space)
+"hG" = (
+/obj/machinery/light/cold/directional/north,
+/turf/open/floor/iron/dark/textured_half{
+	dir = 8
+	},
+/area/space)
 "hJ" = (
 /obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
@@ -1111,6 +1123,7 @@
 /turf/open/floor/iron/textured_large,
 /area/space)
 "iz" = (
+/obj/machinery/light/cold/directional/west,
 /turf/open/floor/iron/dark/red/corner{
 	dir = 8
 	},
@@ -1716,6 +1729,10 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"nL" = (
+/obj/machinery/sleeper/old,
+/turf/closed/indestructible/rock/snow,
+/area/space)
 "nO" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -2054,6 +2071,15 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/space)
+"qh" = (
+/obj/effect/spawner/liquids_spawner{
+	reagent_list = list(/datum/reagent/water = 600)
+	},
+/turf/open/floor/iron/pool{
+	icon = 'icons/turf/floors/catwalk_plating.dmi';
+	icon_state = "darkiron_above"
+	},
+/area/space)
 "qj" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/ordnance_mixing_input{
 	dir = 1
@@ -2369,6 +2395,16 @@
 	dir = 5
 	},
 /turf/open/floor/wood,
+/area/space)
+"rY" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/structure/chair/sofa/bench/right{
+	dir = 8
+	},
+/obj/machinery/light/cold/directional/east,
+/turf/open/floor/mineral/titanium,
 /area/space)
 "sc" = (
 /obj/structure/railing,
@@ -2717,6 +2753,19 @@
 	set_luminosity = 4
 	},
 /turf/open/misc/asteroid/snow/atmosphere,
+/area/space)
+"vi" = (
+/obj/effect/mob_spawn/ghost_role/human/ds2/prisoner{
+	dir = 8;
+	icon_state = "oldpod"
+	},
+/obj/effect/spawner/liquids_spawner{
+	reagent_list = list(/datum/reagent/water = 600)
+	},
+/turf/open/floor/iron/pool{
+	icon = 'icons/turf/floors/catwalk_plating.dmi';
+	icon_state = "darkiron_above"
+	},
 /area/space)
 "vn" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -3334,6 +3383,16 @@
 	},
 /turf/open/misc/asteroid/snow/atmosphere,
 /area/space)
+"zR" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 4
+	},
+/obj/machinery/computer/cryopod{
+	pixel_y = 28;
+	req_one_access = list(150)
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "zT" = (
 /obj/machinery/atmospherics/miner/oxygen,
 /obj/machinery/light/directional/east,
@@ -3903,6 +3962,10 @@
 /obj/machinery/processor/slime,
 /turf/open/floor/mineral/plastitanium/red,
 /area/space)
+"DQ" = (
+/obj/machinery/light/cold/directional/east,
+/turf/open/floor/iron/dark/textured_half,
+/area/space)
 "DW" = (
 /obj/structure/cable,
 /turf/open/floor/iron/dark/smooth_edge,
@@ -3921,6 +3984,10 @@
 	},
 /obj/structure/chair/office{
 	dir = 4
+	},
+/mob/living/simple_animal/hostile/syndimouse{
+	desc = "A decorated operative now assigned desk duty.";
+	name = "Frank"
 	},
 /turf/open/floor/iron,
 /area/space)
@@ -4145,9 +4212,6 @@
 "FP" = (
 /obj/structure/bed/dogbed,
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/pet/dog/dobermann{
-	name = "Bobert"
-	},
 /turf/open/floor/wood,
 /area/space)
 "FT" = (
@@ -4391,6 +4455,7 @@
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 4
 	},
+/obj/machinery/light/cold/directional/west,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "Hf" = (
@@ -4605,6 +4670,12 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium,
+/area/space)
+"ID" = (
+/obj/machinery/light/cold/directional/south,
+/turf/open/floor/iron/dark/textured_half{
+	dir = 8
+	},
 /area/space)
 "IF" = (
 /obj/machinery/chem_dispenser/drinks/fullupgrade{
@@ -5013,6 +5084,10 @@
 	},
 /turf/open/floor/iron/grimy,
 /area/space)
+"LB" = (
+/obj/machinery/light/cold/directional/west,
+/turf/open/floor/iron/dark/textured_half,
+/area/space)
 "LC" = (
 /obj/structure/table,
 /obj/item/stack/sheet/plastitaniumglass{
@@ -5391,6 +5466,7 @@
 	color = "#fc0303";
 	dir = 8
 	},
+/obj/machinery/light/cold/directional/east,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "Oe" = (
@@ -5851,6 +5927,18 @@
 "RC" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet/red,
+/area/space)
+"RD" = (
+/obj/machinery/cryopod/quiet{
+	dir = 8
+	},
+/obj/effect/spawner/liquids_spawner{
+	reagent_list = list(/datum/reagent/water = 600)
+	},
+/turf/open/floor/iron/pool{
+	icon = 'icons/turf/floors/catwalk_plating.dmi';
+	icon_state = "darkiron_above"
+	},
 /area/space)
 "RF" = (
 /obj/effect/turf_decal/stripes/line{
@@ -6335,6 +6423,12 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible,
 /turf/open/floor/iron/dark,
 /area/space)
+"VX" = (
+/obj/machinery/light/cold/directional/west,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/space)
 "VZ" = (
 /obj/machinery/hydroponics/constructable,
 /obj/structure/window/reinforced/survival_pod{
@@ -6730,6 +6824,7 @@
 /obj/machinery/computer/mechpad{
 	dir = 1
 	},
+/obj/machinery/light/cold/directional/south,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "YY" = (
@@ -6906,12 +7001,12 @@ Cn
 Cn
 Cn
 Cn
-Cn
-Cn
-Cn
-Cn
-Cn
-Cn
+nL
+RQ
+RQ
+RQ
+RQ
+RQ
 Cn
 Cn
 Cn
@@ -6966,11 +7061,11 @@ pJ
 Cn
 Cn
 Cn
-Cn
-Cn
-Cn
-Cn
-Cn
+RQ
+sW
+sW
+sW
+RQ
 pJ
 pJ
 pJ
@@ -7025,11 +7120,11 @@ pJ
 Cn
 Cn
 Cn
-Cn
-Cn
-Cn
-Cn
-Cn
+RQ
+zR
+gO
+gO
+RQ
 pJ
 kK
 NZ
@@ -7084,11 +7179,11 @@ RQ
 Cn
 Cn
 Cn
-Cn
-Cn
-Cn
-Cn
-Cn
+RQ
+qh
+qh
+qh
+RQ
 pJ
 Hv
 mv
@@ -7144,10 +7239,10 @@ RQ
 RQ
 RQ
 RQ
-Cn
-Cn
-Cn
-Cn
+RD
+qh
+vi
+RQ
 pJ
 Ki
 TF
@@ -7203,10 +7298,10 @@ qV
 qV
 qV
 RQ
-pJ
-pJ
-pJ
-pJ
+RQ
+RQ
+RQ
+RQ
 dD
 Hv
 mv
@@ -8556,7 +8651,7 @@ Yh
 VN
 Dx
 pJ
-RV
+hG
 hK
 RV
 pJ
@@ -9207,7 +9302,7 @@ fm
 pJ
 RV
 hK
-RV
+ID
 pJ
 jd
 Qc
@@ -9340,7 +9435,7 @@ vH
 pJ
 RV
 bm
-RV
+ID
 pJ
 fL
 pJ
@@ -9448,7 +9543,7 @@ iR
 iR
 iR
 iR
-iR
+LB
 iR
 iR
 iR
@@ -9572,7 +9667,7 @@ iR
 iR
 iR
 iR
-iR
+DQ
 iR
 Iq
 Iq
@@ -9620,7 +9715,7 @@ pJ
 pJ
 RV
 RV
-RV
+ID
 pJ
 pJ
 pJ
@@ -10223,7 +10318,7 @@ XI
 pG
 Sb
 pJ
-RV
+hG
 RV
 RV
 AC
@@ -10553,7 +10648,7 @@ Yc
 ac
 iY
 iY
-iY
+VX
 iY
 iY
 iY
@@ -10636,7 +10731,7 @@ Bu
 Bu
 vD
 pJ
-RV
+hG
 RV
 RV
 AC
@@ -10852,7 +10947,7 @@ iY
 iY
 iY
 iY
-ge
+rY
 IZ
 pJ
 AC
