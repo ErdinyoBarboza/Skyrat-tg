@@ -262,6 +262,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"bx" = (
+/obj/effect/landmark/event_spawn,
+/turf/open/floor/iron/recharge_floor,
+/area/space)
 "bA" = (
 /obj/effect/turf_decal/siding/blue{
 	dir = 1
@@ -339,6 +343,19 @@
 	dir = 1
 	},
 /turf/open/floor/engine,
+/area/space)
+"cp" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/machinery/button/door/directional/south{
+	id = "Skynet_interdyne";
+	name = "Mech Bay Door Control";
+	pixel_y = 24;
+	req_access_txt = "150"
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "cq" = (
 /obj/effect/turf_decal/tile/bar,
@@ -521,6 +538,12 @@
 /obj/machinery/light/cold/directional/north,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"dd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/circuit/red,
+/area/space)
 "dg" = (
 /obj/machinery/hydroponics/constructable,
 /obj/structure/window/reinforced/survival_pod{
@@ -611,6 +634,13 @@
 /obj/machinery/computer/security/telescreen/entertainment/directional/east,
 /turf/open/floor/wood,
 /area/space)
+"dN" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "dQ" = (
 /obj/effect/turf_decal/siding/purple{
 	dir = 1
@@ -694,6 +724,13 @@
 /obj/item/storage/secure/safe/directional/east,
 /turf/open/floor/iron/dark,
 /area/space)
+"en" = (
+/obj/machinery/computer/operating{
+	dir = 1;
+	name = "Robotics Operating Computer"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
 "et" = (
 /obj/machinery/computer/apc_control{
 	dir = 1;
@@ -743,6 +780,11 @@
 	},
 /obj/structure/flora/tree/dead,
 /turf/open/misc/asteroid/snow/atmosphere,
+/area/space)
+"eA" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/structure/cable,
+/turf/open/floor/circuit/red,
 /area/space)
 "eI" = (
 /obj/structure/cable,
@@ -875,6 +917,23 @@
 	dir = 6
 	},
 /turf/open/floor/plating,
+/area/space)
+"fR" = (
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/directional/west,
+/obj/machinery/computer/mechpad{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner,
+/obj/machinery/button/door/directional/south{
+	id = "Skynet_launch";
+	name = "Mech Bay Door Control"
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "fU" = (
 /obj/effect/turf_decal/siding/thinplating{
@@ -1508,10 +1567,8 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/space)
 "jb" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
-	dir = 8
-	},
-/turf/open/floor/mineral/plastitanium,
+/obj/structure/cable,
+/turf/open/floor/iron/recharge_floor,
 /area/space)
 "jc" = (
 /obj/effect/turf_decal/trimline/red,
@@ -1941,13 +1998,6 @@
 	},
 /turf/open/floor/plating,
 /area/space)
-"lt" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/plastitanium,
-/area/space)
 "lu" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -2056,8 +2106,12 @@
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/space)
 "mb" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
+/obj/effect/decal/cleanable/oil/slippery,
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/corner,
+/obj/machinery/door/airlock/research{
+	name = "Mech Bay";
+	req_access_txt = "150"
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
@@ -2371,6 +2425,13 @@
 "oc" = (
 /obj/machinery/rnd/destructive_analyzer,
 /turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"od" = (
+/obj/effect/landmark/start/roboticist,
+/obj/structure/cable,
+/turf/open/floor/circuit/green{
+	luminosity = 2
+	},
 /area/space)
 "oh" = (
 /obj/machinery/light/small/directional/south,
@@ -2860,6 +2921,12 @@
 	dir = 8
 	},
 /turf/open/floor/plating/icemoon,
+/area/space)
+"qV" = (
+/obj/machinery/computer/mechpad{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "qW" = (
 /obj/effect/turf_decal/stripes/end{
@@ -3383,6 +3450,11 @@
 "uD" = (
 /turf/open/floor/engine,
 /area/space)
+"uF" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/turf/open/floor/iron/recharge_floor,
+/area/space)
 "uM" = (
 /obj/structure/chair/sofa/corp,
 /turf/open/floor/iron/dark,
@@ -3424,6 +3496,13 @@
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/titanium,
 /area/space)
+"vc" = (
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/circuit/red,
+/area/space)
 "vd" = (
 /obj/structure/railing{
 	dir = 1
@@ -3435,6 +3514,11 @@
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /obj/structure/cable,
 /turf/open/floor/plating,
+/area/space)
+"vi" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "vn" = (
 /obj/effect/turf_decal/siding/thinplating,
@@ -3504,6 +3588,13 @@
 	reagent_list = list(/datum/reagent/water = 600)
 	},
 /turf/open/misc/asteroid,
+/area/space)
+"vL" = (
+/obj/machinery/mech_bay_recharge_port{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
 /area/space)
 "vM" = (
 /obj/machinery/atmospherics/components/unary/passive_vent{
@@ -3637,6 +3728,12 @@
 /obj/machinery/recharger,
 /turf/open/floor/carpet,
 /area/space)
+"wC" = (
+/obj/machinery/computer/mechpad{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "wD" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -3683,6 +3780,15 @@
 	uses = 2
 	},
 /turf/open/floor/mineral/plastitanium,
+/area/space)
+"wN" = (
+/obj/machinery/door/airlock/research{
+	name = "Robotics Division";
+	req_access_txt = "150"
+	},
+/obj/effect/decal/cleanable/oil/slippery,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/smooth_large,
 /area/space)
 "wO" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -3949,6 +4055,11 @@
 "yj" = (
 /obj/structure/drain/big,
 /turf/open/floor/iron/textured_large,
+/area/space)
+"yk" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/cable,
+/turf/open/floor/circuit/red,
 /area/space)
 "ym" = (
 /obj/machinery/computer/crew/syndie,
@@ -4247,6 +4358,15 @@
 	},
 /obj/effect/turf_decal/stripes/box,
 /turf/open/floor/mineral/titanium/tiled,
+/area/space)
+"zT" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/circuit/green{
+	luminosity = 2
+	},
 /area/space)
 "zU" = (
 /obj/item/stack/sheet/cardboard/fifty,
@@ -5402,6 +5522,12 @@
 	},
 /turf/open/misc/asteroid/snow/atmosphere,
 /area/space)
+"GG" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/circuit/red,
+/area/space)
 "GH" = (
 /obj/structure/table/wood/fancy/orange,
 /obj/effect/spawner/random/food_or_drink/refreshing_beverage,
@@ -6016,6 +6142,14 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"JQ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "JT" = (
 /obj/structure/chair{
 	dir = 4
@@ -6239,6 +6373,15 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/space)
+"Lp" = (
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/circuit/green{
+	luminosity = 2
+	},
+/area/space)
 "Lv" = (
 /obj/structure/cable,
 /turf/open/floor/iron/dark/smooth_edge{
@@ -6343,6 +6486,18 @@
 /turf/open/floor/iron/smooth_half{
 	dir = 4
 	},
+/area/space)
+"LZ" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/mechpad,
+/turf/open/floor/iron/dark,
 /area/space)
 "Ma" = (
 /obj/item/storage/fancy/cigarettes/cigpack_syndicate,
@@ -6616,6 +6771,13 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium,
+/area/space)
+"NN" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/circuit/red,
 /area/space)
 "NO" = (
 /obj/structure/bed/dogbed/mcgriff{
@@ -6960,6 +7122,17 @@
 /obj/item/food/grown/apple,
 /turf/open/floor/plastic,
 /area/space)
+"OY" = (
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 4
+	},
+/obj/machinery/light/directional/north,
+/obj/item/radio/intercom/directional/north,
+/obj/structure/cable,
+/turf/open/floor/circuit/green{
+	luminosity = 2
+	},
+/area/space)
 "Pb" = (
 /obj/structure/table/wood,
 /obj/item/paicard,
@@ -7021,6 +7194,22 @@
 	pixel_x = -32
 	},
 /turf/open/floor/iron,
+/area/space)
+"Po" = (
+/obj/machinery/mech_bay_recharge_port,
+/obj/structure/sign/warning/nosmoking{
+	pixel_x = -28
+	},
+/obj/machinery/camera/directional/north{
+	c_tag = "Mech Bay";
+	name = "science camera";
+	network = list("ss13","rd")
+	},
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/plating,
 /area/space)
 "Px" = (
 /obj/machinery/vending/cigarette/syndicate,
@@ -7176,6 +7365,14 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
+/area/space)
+"Qf" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "Qg" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
@@ -7629,18 +7826,6 @@
 /obj/structure/weightmachine/weightlifter,
 /turf/open/floor/mineral/titanium,
 /area/space)
-"Sh" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/machinery/door/airlock/research{
-	name = "Robotics Division";
-	req_access_txt = "150"
-	},
-/obj/effect/decal/cleanable/oil/slippery,
-/obj/structure/cable,
-/turf/open/floor/iron/dark/smooth_large,
-/area/space)
 "Si" = (
 /obj/effect/turf_decal/siding/wideplating{
 	dir = 1
@@ -7711,13 +7896,6 @@
 "Sw" = (
 /obj/machinery/vending/tool,
 /turf/open/floor/mineral/titanium/yellow,
-/area/space)
-"Sx" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
-	},
-/obj/structure/cable,
-/turf/open/floor/mineral/plastitanium,
 /area/space)
 "Sy" = (
 /obj/effect/turf_decal/stripes/line{
@@ -8244,6 +8422,10 @@
 /obj/structure/flora/ocean/seaweed,
 /turf/open/misc/asteroid,
 /area/space)
+"VN" = (
+/obj/machinery/mechpad,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "VQ" = (
 /obj/machinery/mech_bay_recharge_port,
 /obj/machinery/airalarm/directional/west,
@@ -8299,6 +8481,12 @@
 /obj/machinery/light/directional/west,
 /obj/structure/mirror/directional/north,
 /turf/open/floor/wood,
+/area/space)
+"Wj" = (
+/obj/structure/cable,
+/turf/open/floor/circuit/green{
+	luminosity = 2
+	},
 /area/space)
 "Wk" = (
 /obj/machinery/light/directional/east,
@@ -16996,7 +17184,7 @@ GU
 GU
 GU
 GU
-ca
+GU
 YI
 YI
 YI
@@ -17117,8 +17305,8 @@ GU
 xU
 Ey
 tG
-YI
-ca
+en
+GU
 YI
 YI
 YI
@@ -17238,9 +17426,9 @@ GU
 GU
 xB
 nn
-YI
+WI
 Eg
-ca
+GU
 YI
 YI
 YI
@@ -17362,7 +17550,7 @@ xU
 Ey
 tG
 zf
-ca
+GU
 YI
 YI
 YI
@@ -17484,7 +17672,7 @@ Fu
 ob
 uT
 FZ
-ca
+GU
 YI
 YI
 YI
@@ -17606,7 +17794,7 @@ Ct
 Lz
 Gx
 su
-ca
+GU
 YI
 YI
 YI
@@ -17728,7 +17916,7 @@ sT
 tk
 PR
 TB
-ca
+GU
 YI
 YI
 YI
@@ -17844,13 +18032,13 @@ GU
 GU
 As
 Kd
-YR
-Sh
-Sx
+YI
+gH
+zM
 mr
 kp
 cO
-ca
+GU
 YI
 YI
 YI
@@ -17966,18 +18154,18 @@ lv
 GU
 As
 Kd
-PK
-uo
-mb
+YI
+wN
 mr
-Cp
+vi
 cU
-ca
+cU
+GU
 YI
 YI
-YI
-YI
-YI
+Po
+zT
+VQ
 YI
 YI
 ca
@@ -18088,18 +18276,18 @@ Kj
 GU
 As
 Kd
-PK
-uo
-lt
+YI
+gH
 mr
 WI
 zI
-ca
+zI
+GU
 YI
 YI
-YI
-YI
-YI
+uF
+od
+bx
 YI
 YI
 YI
@@ -18210,18 +18398,18 @@ Vv
 GU
 As
 Kd
-pI
-BP
+YI
+GU
 mb
-mr
-WI
-zI
-ca
+GU
+GU
+GU
+GU
 YI
 YI
-YI
-YI
-YI
+OY
+Wj
+Lp
 YI
 YI
 YI
@@ -18332,13 +18520,13 @@ GU
 GU
 As
 Kd
-Qm
+YR
 GU
-GU
-mr
+Qf
+vc
 jb
+vL
 GU
-ca
 YI
 YI
 YI
@@ -18454,13 +18642,13 @@ ZS
 ZS
 si
 si
-si
+PK
+uo
+dN
+eA
+dd
+dd
 GU
-zi
-Av
-Kv
-VQ
-ca
 YI
 YI
 YI
@@ -18576,18 +18764,18 @@ ZS
 ZS
 si
 si
-si
+PK
+uo
+JQ
+yk
+VN
+qV
+GU
 YI
 YI
 YI
-YI
-YI
-ca
-YI
-YI
-YI
-YI
-YI
+LZ
+fR
 YI
 YI
 YI
@@ -18698,13 +18886,13 @@ ZS
 ZS
 si
 si
-si
-YI
-YI
-YI
-YI
-YI
-ca
+pI
+BP
+dN
+NN
+GG
+GG
+GU
 YI
 YI
 YI
@@ -18820,13 +19008,13 @@ GU
 GU
 As
 As
-As
-YI
-YI
-YI
-YI
-YI
-ca
+Qm
+GU
+cp
+vc
+jb
+vL
+GU
 YI
 YI
 YI
@@ -18943,12 +19131,12 @@ GU
 As
 As
 As
-YI
-YI
-YI
-YI
-YI
-ca
+GU
+GU
+GU
+GU
+GU
+GU
 YI
 YI
 YI
@@ -19193,10 +19381,10 @@ YI
 YI
 YI
 ca
-YI
-YI
-YI
-YI
+zi
+Av
+Kv
+VQ
 YI
 YI
 YI
@@ -19682,10 +19870,10 @@ YI
 YI
 ca
 YI
-YI
-YI
-YI
-YI
+zM
+Cp
+cU
+cU
 YI
 YI
 YI
@@ -19804,10 +19992,10 @@ YI
 YI
 ca
 YI
-YI
-YI
-YI
-YI
+wC
+WI
+zI
+zI
 YI
 YI
 YI
