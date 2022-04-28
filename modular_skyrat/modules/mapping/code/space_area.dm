@@ -26,6 +26,11 @@
 	name = "\improper DS-2" //If DS-1 is so great...
 	icon_state = "syndie-elite"
 
+/area/ruin/space/has_grav/skyrat/interdynefob/outside
+	name = "\improper DS-2 Outer Periphery"
+	icon_state = "green"
+	ambience_index = AMBIENCE_MINING
+
 //Cargo
 /area/ruin/space/has_grav/skyrat/interdynefob/cargo
 	name = "\improper DS-2 Cargo"
@@ -87,6 +92,18 @@
 	name = "\improper DS-2 Long-Term Brig"
 	icon_state = "sec_prison"
 
+/area/ruin/space/has_grav/skyrat/interdynefob/security/prison/quarters
+	name = "\improper DS-2 Long-Term Storage"
+	icon_state = "prison_upper"
+
+/area/ruin/space/has_grav/skyrat/interdynefob/security/prison/deep
+	name = "\improper DS-2 Long-Term Quarters"
+	icon_state = "prison_upper"
+
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec
+	name = "\improper DS-2 Security Checkpoint"
+	icon_state = "customs_point"
+
 //Service
 /area/ruin/space/has_grav/skyrat/interdynefob/service
 	name = "\improper DS-2 Service Wing"
@@ -95,6 +112,14 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/service/diner
 	name = "\improper DS-2 Diner"
 	icon_state = "cafeteria"
+
+/area/ruin/space/has_grav/skyrat/interdynefob/service/kitchen
+	name = "\improper DS-2 Kitchen"
+	icon_state = "kitchen"
+
+/area/ruin/space/has_grav/skyrat/interdynefob/service/freezer
+	name = "\improper DS-2 Cold Room"
+	icon_state = "kitchen_cold"
 
 /area/ruin/space/has_grav/skyrat/interdynefob/service/chapel
 	name = "\improper DS-2 Chapel"
@@ -123,6 +148,10 @@
 //Hallways
 /area/ruin/space/has_grav/skyrat/interdynefob/halls
 	name = "\improper DS-2 Central Halls"
+	icon_state = "hallC"
+
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer
+	name = "\improper DS-2 Transfer Hub"
 	icon_state = "hallC"
 
 //Engineering
@@ -174,15 +203,15 @@
 
 /area/ruin/space/has_grav/skyrat/interdynefob/research/robotics
 	name = "\improper DS-2 Robotics Divison"
-	icon_state = "research"
+	icon_state = "robotics"
 
 /area/ruin/space/has_grav/skyrat/interdynefob/research/toxins
-	name = "\improper DS-2 Research"
-	icon_state = "research"
+	name = "\improper DS-2 Toxins Lab"
+	icon_state = "ord_mix"
 
 /area/ruin/space/has_grav/skyrat/interdynefob/research/xenobio
-	name = "\improper DS-2 Research"
-	icon_state = "research"
+	name = "\improper DS-2 Xenobiology"
+	icon_state = "xenobio"
 	area_flags = HIDDEN_AREA | BLOBS_ALLOWED | UNIQUE_AREA | NO_ALERTS | XENOBIOLOGY_COMPATIBLE
 
 //Medbay

@@ -83,7 +83,7 @@
 "aL" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/skyrat/interdynefob)
+/area/ruin/space/has_grav/skyrat/interdynefob/hiddenmaints)
 "aM" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
@@ -265,7 +265,7 @@
 	pixel_x = -5
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/skyrat/interdynefob)
+/area/ruin/space/has_grav/skyrat/interdynefob/hiddenmaints)
 "ci" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -289,7 +289,7 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/service/dorms)
 "cp" = (
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/skyrat/interdynefob)
+/area/ruin/space/has_grav/skyrat/interdynefob/hiddenmaints)
 "cr" = (
 /turf/open/floor/iron/dark/smooth_corner{
 	dir = 1
@@ -340,7 +340,7 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/skyrat/interdynefob)
+/area/ruin/space/has_grav/skyrat/interdynefob/hiddenmaints)
 "cF" = (
 /obj/item/stack/sheet/cardboard/fifty,
 /turf/open/floor/mineral/titanium/yellow,
@@ -633,7 +633,7 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/service/dorms/lockerroom)
 "fc" = (
 /turf/open/floor/mineral/titanium/tiled/yellow,
-/area/ruin/space/has_grav/skyrat/interdynefob)
+/area/ruin/space/has_grav/skyrat/interdynefob/hiddenmaints)
 "fd" = (
 /obj/structure/chair{
 	dir = 4
@@ -1025,6 +1025,9 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/skyrat/interdynefob/bridge/cl)
+"hy" = (
+/turf/closed/indestructible/syndicate,
+/area/ruin/space/has_grav/skyrat/interdynefob/medbay)
 "hB" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -1419,7 +1422,7 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/medbay)
 "lf" = (
 /obj/structure/cable,
 /turf/open/floor/iron/dark/red/side{
@@ -2129,7 +2132,7 @@
 /turf/open/floor/iron/smooth_half{
 	dir = 1
 	},
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/medbay)
 "pP" = (
 /obj/machinery/recharge_station,
 /obj/effect/turf_decal/bot,
@@ -2567,7 +2570,7 @@
 /turf/closed/indestructible/fakedoor{
 	name = "BUNKER 4337"
 	},
-/area/ruin/space/has_grav/skyrat/interdynefob)
+/area/ruin/space/has_grav/skyrat/interdynefob/hiddenmaints)
 "sw" = (
 /obj/effect/turf_decal/siding/thinplating/corner{
 	dir = 8
@@ -2649,7 +2652,7 @@
 /obj/structure/chair/office/light,
 /obj/machinery/light/cold/directional/east,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/medbay)
 "sI" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/machinery/atmospherics/pipe/smart/simple/purple/visible{
@@ -2673,7 +2676,7 @@
 "sX" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/skyrat/interdynefob)
+/area/ruin/space/has_grav/skyrat/interdynefob/hiddenmaints)
 "sY" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /obj/machinery/atmospherics/pipe/smart/simple/general/visible,
@@ -3011,6 +3014,9 @@
 /obj/item/folder/syndicate/red,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/bridge/vault)
+"vS" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/space/has_grav/skyrat/interdynefob/medbay)
 "vT" = (
 /obj/structure/cable,
 /turf/open/floor/iron/textured_large,
@@ -3265,7 +3271,7 @@
 /obj/machinery/iv_drip,
 /obj/item/reagent_containers/blood/universal,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/medbay)
 "xL" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /turf/open/floor/plating,
@@ -3676,7 +3682,7 @@
 /obj/item/bedsheet/medical,
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/medbay)
 "AA" = (
 /obj/machinery{
 	desc = "For when it all gets too much to bear. Do not taunt.";
@@ -4037,7 +4043,7 @@
 	pixel_x = 13
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/medbay)
 "Dk" = (
 /obj/effect/turf_decal/stripes/end{
 	dir = 4
@@ -4865,7 +4871,7 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/engineering)
 "Io" = (
 /turf/open/floor/mineral/plastitanium/red,
-/area/ruin/space/has_grav/skyrat/interdynefob)
+/area/ruin/space/has_grav/skyrat/interdynefob/hiddenmaints)
 "Iq" = (
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/halls)
@@ -5535,7 +5541,7 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/skyrat/interdynefob)
+/area/ruin/space/has_grav/skyrat/interdynefob/hiddenmaints)
 "MS" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 9
@@ -5862,7 +5868,7 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "Pi" = (
 /turf/closed/indestructible/opsglass,
-/area/ruin/space/has_grav/skyrat/interdynefob)
+/area/ruin/space/has_grav/skyrat/interdynefob/hiddenmaints)
 "Pk" = (
 /obj/machinery/door/window/survival_pod{
 	req_access_txt = "150"
@@ -5892,7 +5898,7 @@
 	pixel_y = 6
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/skyrat/interdynefob)
+/area/ruin/space/has_grav/skyrat/interdynefob/hiddenmaints)
 "Px" = (
 /obj/machinery/atmospherics/pipe/smart/simple/general/visible{
 	dir = 5
@@ -7169,7 +7175,7 @@
 /obj/effect/turf_decal/stripes/box,
 /obj/structure/closet/emcloset,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/skyrat/interdynefob)
+/area/ruin/space/has_grav/skyrat/interdynefob/hiddenmaints)
 "Zd" = (
 /obj/effect/turf_decal/stripes/end{
 	dir = 8
@@ -7290,7 +7296,7 @@
 	dir = 6
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/medbay)
 "ZY" = (
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/armory)
@@ -7781,9 +7787,9 @@ Nb
 Nb
 Nb
 Nb
-ng
-ng
-ng
+OS
+OS
+OS
 Nb
 MI
 MI
@@ -7839,11 +7845,11 @@ Nb
 Nb
 Nb
 Nb
-ng
-ng
+OS
+OS
 Io
-ng
-ng
+OS
+OS
 MI
 va
 AP
@@ -7897,13 +7903,13 @@ Nb
 Nb
 Nb
 Nb
-ng
-ng
+OS
+OS
 Io
 Io
 Io
-ng
-ng
+OS
+OS
 AP
 Xr
 Xt
@@ -7955,15 +7961,15 @@ Nb
 Nb
 Nb
 Nb
-ng
-ng
+OS
+OS
 Io
 Io
 Io
 Io
 Io
-ng
-ng
+OS
+OS
 AP
 AP
 Po
@@ -8014,7 +8020,7 @@ Nb
 Nb
 Nb
 Nb
-ng
+OS
 Io
 Io
 Io
@@ -8022,8 +8028,8 @@ Io
 Io
 Io
 Io
-ng
-ng
+OS
+OS
 AP
 NR
 qk
@@ -8073,16 +8079,16 @@ Nb
 Nb
 Nb
 Nb
-ng
-ng
-ng
-ng
+OS
+OS
+OS
+OS
 st
-ng
+OS
 Io
 Io
 Io
-ng
+OS
 AP
 Po
 qk
@@ -8133,15 +8139,15 @@ Nb
 Nb
 Nb
 MI
-ng
-ng
+OS
+OS
 sX
 cp
-ng
-ng
+OS
+OS
 st
-ng
-ng
+OS
+OS
 NQ
 Po
 qk
@@ -8193,14 +8199,14 @@ Nb
 MI
 qk
 HR
-ng
+OS
 aL
 MQ
 cD
-ng
+OS
 fc
 Zc
-ng
+OS
 sc
 Po
 qk
@@ -8252,14 +8258,14 @@ MI
 qk
 HR
 qk
-ng
+OS
 Pv
 cg
-ng
-ng
+OS
+OS
 st
-ng
-ng
+OS
+OS
 sc
 Po
 qk
@@ -8311,10 +8317,10 @@ qk
 qk
 Fy
 qk
-ng
+OS
 Pi
 Pi
-ng
+OS
 rs
 rs
 rs
@@ -8370,10 +8376,10 @@ rg
 zI
 rg
 rg
-ng
+OS
 RP
 xJ
-ng
+OS
 RP
 RP
 Bh
@@ -11339,9 +11345,9 @@ RQ
 RQ
 qU
 RQ
-pJ
+vS
 pM
-pJ
+vS
 pJ
 pJ
 pJ
@@ -11516,9 +11522,9 @@ RQ
 RQ
 RQ
 RQ
-RQ
-RQ
-RQ
+hy
+hy
+hy
 RQ
 RQ
 RQ
