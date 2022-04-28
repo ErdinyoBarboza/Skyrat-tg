@@ -98,7 +98,7 @@
 
 /area/ruin/syndicate_lava_base/testlab
 	name = "\improper Interdyne Experimentation Lab" // SKYRAT EDIT STEALTH INTERDYNE
-	area_flags = XENOBIOLOGY_COMPATIBLE //SKYRAT EDIT ADDITION - MAPPING
+	area_flags = HIDDEN_AREA | BLOBS_ALLOWED | UNIQUE_AREA | NO_ALERTS | XENOBIOLOGY_COMPATIBLE //SKYRAT EDIT ADDITION - MAPPING
 	always_unpowered = FALSE // SKYRAT EDIT ADDITION - SYNDIEBROKE
 	icon_state = "exp_lab"
 
