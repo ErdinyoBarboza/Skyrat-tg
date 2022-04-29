@@ -93,11 +93,11 @@
 	icon_state = "sec_prison"
 
 /area/ruin/space/has_grav/skyrat/interdynefob/security/prison/quarters
-	name = "\improper DS-2 Long-Term Storage"
+	name = "\improper DS-2 Long-Term Quarters"
 	icon_state = "prison_upper"
 
 /area/ruin/space/has_grav/skyrat/interdynefob/security/prison/deep
-	name = "\improper DS-2 Long-Term Quarters"
+	name = "\improper DS-2 Long-Term Storage"
 	icon_state = "prison_upper"
 
 /area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec
