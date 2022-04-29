@@ -25,6 +25,7 @@
 /area/ruin/space/has_grav/skyrat/interdynefob
 	name = "\improper DS-2" //If DS-1 is so great...
 	icon_state = "syndie-elite"
+	area_flags = UNIQUE_AREA | NOTELEPORT
 
 /area/ruin/space/has_grav/skyrat/interdynefob/outside
 	name = "\improper DS-2 Outer Periphery"
@@ -234,7 +235,6 @@
 	name = "//ERR:NULL_ENTRY"
 	icon_state = "interrogation"
 	requires_power = FALSE
-	area_flags = HIDDEN_AREA | BLOBS_ALLOWED | UNIQUE_AREA | NO_ALERTS | NOTELEPORT
 //End Of DS2
 
 /area/ruin/space/has_grav/shuttle8532engineering
