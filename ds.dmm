@@ -2,7 +2,7 @@
 "ac" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "ae" = (
 /turf/open/floor/iron/textured_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/dorms/lockerroom)
@@ -73,7 +73,7 @@
 /turf/open/floor/plating/elevatorshaft{
 	name = "launching pad"
 	},
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "aI" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
 	dir = 1
@@ -161,8 +161,9 @@
 /obj/machinery/light/cold/directional/east,
 /obj/machinery/vending/snack/teal,
 /obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/east,
 /turf/open/floor/catwalk_floor/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "bv" = (
 /obj/structure/window/reinforced/survival_pod{
 	dir = 1
@@ -193,7 +194,7 @@
 	},
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "bC" = (
 /obj/structure/window/reinforced/survival_pod{
 	dir = 4
@@ -301,7 +302,7 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "cv" = (
 /obj/structure/table/glass/plasmaglass,
 /obj/item/plunger{
@@ -503,7 +504,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "dZ" = (
 /obj/effect/bump_teleporter{
 	id = "ds_blacksite_transfer";
@@ -812,7 +813,7 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "gf" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/skyrat/interdynefob/security)
@@ -827,6 +828,15 @@
 /obj/structure/cable,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/skyrat/interdynefob/research/robotics)
+"gl" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/machinery/cryopod/quiet{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth_large,
+/area/ruin/space/has_grav/skyrat/interdynefob/service/dorms)
 "gm" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -837,13 +847,13 @@
 	networks = list("nukie")
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "gn" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "gr" = (
 /obj/machinery/vending/dorms,
 /obj/effect/turf_decal/siding/thinplating/dark/end,
@@ -905,7 +915,7 @@
 /turf/open/floor/iron/dark/textured_half{
 	dir = 4
 	},
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "gY" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 9
@@ -948,7 +958,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "hf" = (
 /obj/machinery/atmospherics/components/trinary/mixer/airmix/inverse,
 /turf/open/floor/plating,
@@ -1036,8 +1046,9 @@
 	},
 /obj/machinery/recharger,
 /obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/south,
 /turf/open/floor/iron,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "hq" = (
 /obj/structure/sign/poster/contraband/power{
 	pixel_y = 32
@@ -1108,7 +1119,7 @@
 "hL" = (
 /obj/structure/cable,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "hM" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
 	dir = 4
@@ -1284,7 +1295,7 @@
 /turf/open/floor/iron/smooth_half{
 	dir = 1
 	},
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "jd" = (
 /obj/machinery/vending/wardrobe/jani_wardrobe{
 	skyrat_premium = list(/obj/item/soap/syndie = 4)
@@ -1334,6 +1345,12 @@
 "jo" = (
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/skyrat/interdynefob/bridge/cl)
+"jz" = (
+/obj/machinery/light/directional/east,
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/skyrat/interdynefob/service/dorms/lockerroom)
 "jB" = (
 /obj/structure/cable,
 /turf/open/floor/iron/dark/smooth_large,
@@ -1402,6 +1419,12 @@
 	},
 /obj/structure/closet/secure_closet/personal/cabinet,
 /turf/open/floor/wood,
+/area/ruin/space/has_grav/skyrat/interdynefob/service/dorms)
+"ko" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark/textured_edge{
+	dir = 8
+	},
 /area/ruin/space/has_grav/skyrat/interdynefob/service/dorms)
 "kq" = (
 /obj/machinery/light/directional/south,
@@ -1489,6 +1512,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
 	},
+/obj/structure/cable,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/skyrat/interdynefob/medbay)
 "lf" = (
@@ -1871,6 +1895,9 @@
 	pixel_y = -28;
 	req_one_access = list(150)
 	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
 /turf/open/floor/iron/smooth_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/dorms)
 "nn" = (
@@ -1930,7 +1957,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "nO" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -2107,7 +2134,7 @@
 	name = "Secuirty Shutters"
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "oY" = (
 /obj/structure/flora/tree/pine,
 /obj/structure/flora/grass/both,
@@ -2139,7 +2166,7 @@
 	},
 /obj/machinery/door/window/right/directional/east,
 /turf/open/floor/iron,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "pf" = (
 /turf/closed/indestructible/syndicate,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/hydroponics)
@@ -2245,10 +2272,17 @@
 /obj/machinery/door/airlock/medical{
 	name = "Medbay"
 	},
+/obj/structure/cable,
 /turf/open/floor/iron/smooth_half{
 	dir = 1
 	},
 /area/ruin/space/has_grav/skyrat/interdynefob/medbay)
+"pO" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark/side{
+	dir = 4
+	},
+/area/ruin/space/has_grav/skyrat/interdynefob/service/dorms/fitness)
 "pP" = (
 /obj/machinery/recharge_station,
 /obj/effect/turf_decal/bot,
@@ -2397,7 +2431,7 @@
 /turf/open/floor/plating/elevatorshaft{
 	name = "launching pad"
 	},
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "qG" = (
 /obj/structure/sink{
 	dir = 8;
@@ -2418,7 +2452,7 @@
 /turf/open/floor/iron/smooth_half{
 	dir = 4
 	},
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "qJ" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 5
@@ -2482,7 +2516,7 @@
 /turf/open/floor/iron/dark/textured_half{
 	dir = 8
 	},
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "qV" = (
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/ruin/space/has_grav/skyrat/interdynefob/halls)
@@ -2568,7 +2602,7 @@
 "rv" = (
 /obj/machinery/vending/cigarette/syndicate,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "rw" = (
 /turf/open/floor/iron/dark/smooth_corner{
 	dir = 4
@@ -2596,7 +2630,7 @@
 	name = "Security Shutters"
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "rI" = (
 /obj/effect/mob_spawn/ghost_role/human/ds2/syndicate/enginetech{
 	dir = 8;
@@ -2645,7 +2679,7 @@
 	},
 /obj/machinery/light/cold/directional/east,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "sc" = (
 /obj/structure/railing,
 /turf/open/floor/catwalk_floor/iron_smooth{
@@ -3007,6 +3041,9 @@
 /obj/structure/flora/rock/icy,
 /turf/open/misc/asteroid/snow/atmosphere,
 /area/ruin/space/has_grav/skyrat/interdynefob)
+"vb" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "vd" = (
 /obj/effect/turf_decal/siding/wideplating/dark,
 /obj/effect/turf_decal/siding/wideplating/dark{
@@ -3120,8 +3157,12 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/hydroponics)
+"vE" = (
+/turf/closed/indestructible/syndicate,
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "vF" = (
 /obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/south,
 /turf/open/floor/iron/dark/textured_edge{
 	dir = 4
 	},
@@ -3304,7 +3345,7 @@
 /turf/open/floor/iron/dark/textured_half{
 	dir = 4
 	},
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "xf" = (
 /obj/structure/cable,
 /turf/open/floor/carpet,
@@ -3626,7 +3667,7 @@
 	},
 /obj/structure/extinguisher_cabinet/directional/west,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "za" = (
 /obj/structure/chair/stool/bar{
 	dir = 4
@@ -3907,7 +3948,7 @@
 	pixel_y = 31
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "Ba" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/dorms/fitness)
@@ -4125,6 +4166,17 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/armory)
+"CB" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Fitness"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/skyrat/interdynefob/halls)
 "CC" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -4133,13 +4185,13 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "CD" = (
 /obj/structure/chair/sofa/bench/right{
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "CE" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/skyrat/interdynefob/medbay/chem)
@@ -4161,6 +4213,9 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/hiddenmaints)
+"CT" = (
+/turf/closed/indestructible/syndicate,
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "CU" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Long Term Storage"
@@ -4168,6 +4223,8 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/prison/deep)
 "CW" = (
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/structure/cable,
 /turf/open/floor/mineral/titanium/yellow,
 /area/ruin/space/has_grav/skyrat/interdynefob/toolstorage)
 "CX" = (
@@ -4207,6 +4264,8 @@
 /obj/item/stack/spacecash/c200{
 	pixel_x = 13
 	},
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/south,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/skyrat/interdynefob/medbay)
 "Dk" = (
@@ -4230,6 +4289,11 @@
 /obj/effect/turf_decal/skyrat_decals/syndicate/middle/left,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/skyrat/interdynefob/bridge)
+"Dr" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/west,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/skyrat/interdynefob/service/dorms/fitness)
 "Du" = (
 /turf/open/floor/iron/dark/red/side{
 	dir = 1
@@ -4360,7 +4424,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/iron,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "Ee" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
@@ -4430,7 +4494,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "EH" = (
 /obj/effect/turf_decal/trimline/red,
 /obj/effect/turf_decal/trimline/red,
@@ -4594,7 +4658,7 @@
 /turf/open/floor/iron/smooth_half{
 	dir = 4
 	},
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "FP" = (
 /obj/structure/bed/dogbed,
 /obj/effect/decal/cleanable/dirt,
@@ -4656,6 +4720,10 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/skyrat/interdynefob/medbay/chem)
+"Gc" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/skyrat/interdynefob/service/dorms)
 "Gd" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Showers"
@@ -4857,6 +4925,10 @@
 /obj/machinery/light/cold/directional/west,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/skyrat/interdynefob/bridge)
+"He" = (
+/obj/structure/cable,
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/skyrat/interdynefob/halls)
 "Hf" = (
 /obj/structure/window/reinforced/survival_pod{
 	name = "Tinted Window";
@@ -4921,6 +4993,9 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/research/robotics)
 "Ho" = (
 /obj/machinery/cryopod/quiet{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
 	},
 /turf/open/floor/iron/smooth_large,
@@ -5088,7 +5163,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/item/kirbyplants/random,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "IA" = (
 /obj/machinery/computer/atmos_alert{
 	dir = 1
@@ -5192,7 +5267,7 @@
 	pixel_y = -32
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "Ja" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
@@ -5208,7 +5283,7 @@
 /turf/open/floor/iron/smooth_half{
 	dir = 4
 	},
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "Jh" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -5236,7 +5311,7 @@
 	pixel_y = -32
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "Ju" = (
 /obj/structure/closet/secure_closet/freezer/meat{
 	req_access = list(150)
@@ -5359,7 +5434,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "Ka" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Fitness"
@@ -5411,7 +5486,7 @@
 /obj/item/assembly/flash/handheld,
 /obj/structure/cable,
 /turf/open/floor/iron,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "Ks" = (
 /obj/machinery/door/morgue{
 	req_access_txt = "150"
@@ -5427,7 +5502,7 @@
 	pixel_x = 32
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "Ky" = (
 /obj/machinery/conveyor/auto{
 	dir = 1
@@ -5460,7 +5535,7 @@
 /turf/open/floor/iron/smooth_half{
 	dir = 4
 	},
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "KL" = (
 /obj/effect/turf_decal/siding/wideplating{
 	dir = 1
@@ -5487,7 +5562,7 @@
 /turf/open/floor/iron/dark/textured_half{
 	dir = 4
 	},
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "KV" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/skyrat/interdynefob/halls)
@@ -5496,7 +5571,7 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "Lc" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /obj/structure/cable,
@@ -5514,7 +5589,7 @@
 /obj/structure/rack,
 /obj/item/restraints/handcuffs/cable/pink,
 /turf/open/floor/iron,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "Li" = (
 /obj/structure/window/reinforced/survival_pod,
 /obj/structure/chair/sofa/bench/left{
@@ -5603,7 +5678,7 @@
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "LK" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -5637,7 +5712,7 @@
 	pixel_y = -32
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "Mb" = (
 /turf/open/floor/iron/dark/textured_edge{
 	dir = 4
@@ -5645,7 +5720,7 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/service/dorms)
 "Mc" = (
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "Mj" = (
 /obj/structure/bed/dogbed/renault{
 	name = "Rhials' bed"
@@ -5831,10 +5906,18 @@
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "Nb" = (
 /turf/closed/indestructible/rock/snow,
 /area/ruin/space/has_grav/skyrat/interdynefob)
+"Nc" = (
+/obj/machinery/door/airlock/grunge{
+	name = "Lockers"
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/cable,
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/skyrat/interdynefob/service/dorms/lockerroom)
 "Ne" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -5858,6 +5941,9 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/skyrat/interdynefob/research/xenobio)
+"Nu" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "Nz" = (
 /obj/machinery/door/airlock/vault{
 	req_access_txt = "151"
@@ -6033,7 +6119,7 @@
 /obj/item/papercutter,
 /obj/structure/cable,
 /turf/open/floor/iron,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "OB" = (
 /obj/machinery/light/directional/west,
 /obj/structure/table/wood,
@@ -6056,7 +6142,7 @@
 	},
 /obj/structure/closet/cardboard/metal,
 /turf/open/floor/iron,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "OG" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /turf/open/floor/plating,
@@ -6082,6 +6168,8 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/research/xenobio)
 "OW" = (
 /obj/machinery/light/directional/west,
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/west,
 /turf/open/floor/iron/textured_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/dorms/lockerroom)
 "OY" = (
@@ -6703,11 +6791,12 @@
 /obj/machinery/light/cold/directional/south,
 /obj/item/kirbyplants/random,
 /turf/open/floor/iron,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "Tg" = (
 /obj/machinery/airalarm/directional/east{
 	req_access = list(150)
 	},
+/obj/structure/cable,
 /turf/open/floor/iron/textured_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/dorms/lockerroom)
 "Ts" = (
@@ -6763,6 +6852,7 @@
 	name = "Pool"
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/cable,
 /turf/open/floor/iron/textured_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/dorms/lockerroom)
 "TB" = (
@@ -6829,6 +6919,12 @@
 /obj/structure/table/wood,
 /turf/open/floor/iron/dark/smooth_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/diner)
+"TY" = (
+/obj/structure/cable,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "Ub" = (
 /obj/structure/fence/corner{
 	dir = 6
@@ -6953,7 +7049,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/iron,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
 "Vl" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 1
@@ -7005,6 +7101,7 @@
 /obj/machinery/vending/wardrobe/syndie_wardrobe{
 	onstation = 0
 	},
+/obj/structure/cable,
 /turf/open/floor/carpet/purple,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/dorms/lockerroom)
 "VJ" = (
@@ -7051,7 +7148,7 @@
 /turf/open/floor/iron/smooth_half{
 	dir = 1
 	},
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "VZ" = (
 /obj/machinery/hydroponics/constructable,
 /obj/structure/window/reinforced/survival_pod{
@@ -7179,7 +7276,7 @@
 /obj/machinery/light/cold/directional/west,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "Xc" = (
 /turf/open/floor/iron/dark/smooth_corner{
 	dir = 8
@@ -7344,7 +7441,7 @@
 "Yc" = (
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "Yh" = (
 /obj/machinery/door/window/survival_pod{
 	dir = 1;
@@ -7447,7 +7544,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "YO" = (
 /obj/machinery/atmospherics/components/binary/thermomachine/freezer,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -7587,7 +7684,7 @@
 	},
 /obj/item/kirbyplants/random,
 /turf/open/floor/mineral/titanium,
-/area/space)
+/area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
 "ZI" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -7628,6 +7725,7 @@
 /obj/machinery/door/airlock/hatch{
 	name = "Tool Closet"
 	},
+/obj/structure/cable,
 /turf/open/floor/mineral/titanium/yellow,
 /area/ruin/space/has_grav/skyrat/interdynefob/toolstorage)
 
@@ -7842,9 +7940,9 @@ bq
 bq
 bq
 Yn
-Cn
-Cn
-Cn
+Nb
+Nb
+Nb
 BJ
 qh
 qh
@@ -10364,8 +10462,8 @@ mh
 HS
 oL
 uP
-uP
-uP
+ko
+GD
 GD
 Lp
 GD
@@ -10380,7 +10478,7 @@ GD
 GD
 GD
 RV
-RV
+hK
 ID
 KV
 bD
@@ -10423,7 +10521,7 @@ cJ
 fX
 oL
 RE
-RE
+Gc
 Ho
 GD
 ZT
@@ -10439,7 +10537,7 @@ ey
 Gv
 GD
 RV
-RV
+hK
 RV
 Vn
 bD
@@ -10482,7 +10580,7 @@ zX
 oL
 oL
 aU
-RE
+Gc
 nm
 GD
 ZT
@@ -10498,7 +10596,7 @@ ZT
 ZT
 GD
 RV
-RV
+hK
 RV
 EN
 bD
@@ -10541,8 +10639,8 @@ Eo
 FB
 oL
 RE
-RE
-Ho
+Gc
+gl
 GD
 cl
 Mn
@@ -10557,7 +10655,7 @@ Mn
 RI
 GD
 RV
-RV
+hK
 RV
 VS
 bD
@@ -10616,8 +10714,8 @@ GD
 GD
 GD
 RV
-RV
-RV
+hK
+hK
 TV
 bD
 Ig
@@ -10676,7 +10774,7 @@ lA
 HY
 FH
 Ai
-FH
+CB
 KV
 bD
 za
@@ -10734,8 +10832,8 @@ IH
 MH
 HY
 Rk
-Rk
-Rk
+He
+He
 Hu
 bD
 fJ
@@ -10793,7 +10891,7 @@ Ru
 HY
 HY
 qz
-Rk
+He
 Rk
 mf
 bD
@@ -10838,7 +10936,7 @@ Yq
 Yq
 Ba
 ol
-Cc
+Dr
 GK
 Cc
 qL
@@ -10852,7 +10950,7 @@ ae
 ae
 fb
 Rk
-Rk
+He
 Rk
 by
 bD
@@ -10897,7 +10995,7 @@ Yq
 Yq
 Ba
 tn
-tn
+pO
 tn
 tn
 tn
@@ -10911,7 +11009,7 @@ gr
 ae
 HY
 Rk
-Rk
+He
 Rk
 KL
 XY
@@ -10962,15 +11060,15 @@ Nm
 Nm
 Ka
 vT
-ae
-ae
-ae
-IX
-ae
+vT
+vT
+vT
+jz
+vT
 Tg
-fb
-Rk
-Rk
+Nc
+He
+He
 Rk
 il
 XY
@@ -11021,7 +11119,7 @@ fR
 fR
 xL
 ae
-ae
+vT
 av
 HY
 HY
@@ -11080,7 +11178,7 @@ dF
 rp
 xL
 cZ
-ae
+vT
 av
 HY
 XB
@@ -11139,7 +11237,7 @@ rp
 rp
 xL
 ae
-ae
+vT
 av
 HY
 PV
@@ -11198,7 +11296,7 @@ Ba
 Ba
 Ba
 ly
-ae
+vT
 av
 HY
 XB
@@ -11243,13 +11341,13 @@ Yq
 Yq
 Yq
 Yq
-pJ
-pJ
+Nu
+Nu
 Na
 Na
 Na
 Na
-pJ
+Nu
 AW
 WX
 bA
@@ -11316,11 +11414,11 @@ iY
 iY
 VX
 iY
-iY
+TY
 iY
 yX
 CD
-pJ
+vb
 AC
 pJ
 Hr
@@ -11375,11 +11473,11 @@ iY
 iY
 iY
 iY
-iY
+TY
 iY
 gn
 Jq
-pJ
+vb
 AC
 AC
 AC
@@ -11420,13 +11518,13 @@ Yq
 Yq
 Yq
 Yq
-pJ
-pJ
+Nu
+Nu
 Na
 he
 pe
 Na
-pJ
+Nu
 dY
 EG
 Iz
@@ -11434,11 +11532,11 @@ iY
 iY
 iY
 iY
-iY
+TY
 iY
 ge
 ct
-pJ
+vb
 AC
 AC
 AC
@@ -11485,7 +11583,7 @@ Ox
 nI
 JZ
 Le
-pJ
+Nu
 KX
 YH
 Iz
@@ -11493,11 +11591,11 @@ iY
 iY
 iY
 iY
-iY
+TY
 iY
 CC
 LV
-pJ
+vb
 AC
 AC
 AC
@@ -11552,11 +11650,11 @@ iY
 iY
 iY
 iY
-iY
+TY
 iY
 gn
 Mc
-pJ
+vb
 AC
 AC
 AC
@@ -11603,7 +11701,7 @@ Kx
 JZ
 Ed
 Td
-pJ
+Nu
 rv
 bt
 ZD
@@ -11611,11 +11709,11 @@ iY
 iY
 iY
 iY
-iY
+TY
 iY
 rY
 IZ
-pJ
+vb
 AC
 AC
 AC
@@ -11656,25 +11754,25 @@ yg
 yg
 mD
 Yq
-RQ
-RQ
-RQ
+CT
+CT
+CT
 gm
 Kp
 hp
-RQ
-RQ
-RQ
-RQ
-RQ
+CT
+vE
+vE
+vE
+vE
 qU
-RQ
+vE
 vS
 pM
 vS
-pJ
-pJ
-pJ
+vb
+vb
+vb
 AC
 AC
 AC
@@ -11717,17 +11815,17 @@ Ko
 MI
 RQ
 AC
-RQ
-RQ
-RQ
-RQ
-RQ
+CT
+CT
+CT
+CT
+CT
 AC
 AC
 AC
-RQ
+vE
 qF
-RQ
+vE
 xK
 kV
 Dj
@@ -11784,9 +11882,9 @@ AC
 AC
 AC
 AC
-RQ
+vE
 aH
-RQ
+vE
 Aw
 sH
 ZV
@@ -11843,9 +11941,9 @@ RQ
 RQ
 RQ
 RQ
-RQ
-RQ
-RQ
+vE
+vE
+vE
 hy
 hy
 hy
