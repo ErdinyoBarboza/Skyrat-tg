@@ -423,21 +423,6 @@
 /obj/machinery/door/morgue,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/chapel)
-"cW" = (
-/obj/structure/flora/ausbushes/ywflowers{
-	pixel_y = -2
-	},
-/obj/structure/flora/ausbushes/brflowers{
-	pixel_y = -2
-	},
-/obj/effect/turf_decal/siding/wideplating{
-	dir = 10
-	},
-/obj/structure/railing{
-	dir = 10
-	},
-/turf/open/floor/grass,
-/area/space)
 "cY" = (
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 1
@@ -2280,12 +2265,6 @@
 "ou" = (
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
-"ow" = (
-/obj/structure/flora/tree/jungle/small,
-/obj/effect/turf_decal/siding/wideplating,
-/obj/structure/railing,
-/turf/open/floor/grass,
-/area/space)
 "oy" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/structure/table/optable{
@@ -3274,12 +3253,6 @@
 "uh" = (
 /turf/open/floor/iron/dark/smooth_corner,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/chapel)
-"uk" = (
-/obj/structure/flora/junglebush/c,
-/obj/effect/turf_decal/siding/wideplating,
-/obj/structure/railing,
-/turf/open/floor/grass,
-/area/space)
 "ul" = (
 /obj/structure/railing{
 	dir = 4
@@ -4221,15 +4194,11 @@
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
 "Ad" = (
-/obj/structure/rack,
-/obj/item/wrench{
-	desc = "A little smidgeon of Freon...";
-	name = "Freon"
-	},
 /obj/machinery/light/cold/directional/west,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
 	},
+/obj/machinery/research/anomaly_refinery,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/skyrat/interdynefob/research/toxins)
 "Ae" = (
@@ -4291,6 +4260,10 @@
 	pixel_x = -5
 	},
 /obj/structure/cable,
+/obj/item/wrench{
+	desc = "A little smidgeon of Freon...";
+	name = "Freon"
+	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/skyrat/interdynefob/research/toxins)
 "As" = (
@@ -5295,6 +5268,13 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/skyrat/interdynefob/halls)
+"Gf" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/textured_half{
+	dir = 8
+	},
+/area/ruin/space/has_grav/skyrat/interdynefob/halls)
 "Gg" = (
 /obj/structure/window/reinforced/survival_pod{
 	name = "Tinted Window";
@@ -5397,30 +5377,11 @@
 "GD" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/dorms)
-"GF" = (
-/obj/machinery/airalarm/directional/north{
-	req_access = list(150)
-	},
-/obj/structure/flora/ausbushes/brflowers{
-	pixel_y = -2
-	},
-/obj/effect/turf_decal/siding/wideplating,
-/obj/structure/railing,
-/turf/open/floor/grass,
-/area/space)
 "GH" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/closed/indestructible/syndicate,
 /area/ruin/space/has_grav/skyrat/interdynefob/research/xenobio)
-"GI" = (
-/obj/structure/flora/ausbushes/ywflowers{
-	pixel_y = -2
-	},
-/obj/effect/turf_decal/siding/wideplating,
-/obj/structure/railing,
-/turf/open/floor/grass,
-/area/space)
 "GJ" = (
 /obj/item/watertank,
 /obj/item/grenade/chem_grenade/antiweed,
@@ -6631,16 +6592,6 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/skyrat/interdynefob/research/xenobio)
-"Nt" = (
-/obj/effect/mob_spawn/ghost_role/human/ds2/syndicate{
-	uses = 4
-	},
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/ruin/space/has_grav/skyrat/interdynefob/hiddenmaints)
 "Nu" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
@@ -8263,11 +8214,6 @@
 /obj/item/gun/energy/temperature/security{
 	pixel_y = 3
 	},
-/obj/machinery/camera/xray{
-	c_tag = "DS-2 Armory";
-	dir = 1;
-	network = list("fsci")
-	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/armory)
 "Xt" = (
@@ -8397,20 +8343,6 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/security)
-"Yk" = (
-/obj/machinery/light/directional/north,
-/obj/structure/flora/ausbushes/sunnybush{
-	pixel_y = 6
-	},
-/obj/effect/turf_decal/siding/wideplating{
-	dir = 6
-	},
-/obj/structure/railing{
-	dir = 6
-	},
-/obj/structure/sign/poster/contraband/random/directional/north,
-/turf/open/floor/grass,
-/area/space)
 "Yl" = (
 /obj/effect/turf_decal/siding/wideplating{
 	dir = 4
@@ -8686,13 +8618,6 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/ruin/space/has_grav/skyrat/interdynefob/research/toxins)
-"ZO" = (
-/obj/machinery/light/directional/north,
-/obj/structure/flora/junglebush/large,
-/obj/effect/turf_decal/siding/wideplating,
-/obj/structure/railing,
-/turf/open/floor/grass,
-/area/space)
 "ZQ" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /turf/open/floor/plating,
@@ -9155,7 +9080,7 @@ XK
 "}
 (8,1,1) = {"
 FZ
-Nt
+Wh
 td
 gM
 FZ
@@ -11090,7 +11015,7 @@ hN
 Ej
 NY
 sf
-RV
+Gf
 bm
 bm
 dI
@@ -12081,7 +12006,7 @@ Nc
 He
 He
 Rk
-nj
+ok
 XY
 SL
 Yy
@@ -12140,7 +12065,7 @@ HY
 Rk
 Rk
 Rk
-ok
+Zl
 XY
 Cf
 Yy
@@ -12199,7 +12124,7 @@ HY
 Rk
 Rk
 Rk
-Zl
+hg
 XY
 Cf
 Yy
@@ -12258,7 +12183,7 @@ HY
 PK
 Rk
 Py
-hg
+TD
 XY
 UA
 Yy
@@ -12317,7 +12242,7 @@ HY
 Rk
 Rk
 Rk
-TD
+cI
 XY
 WW
 Yy
@@ -12373,10 +12298,10 @@ HY
 HY
 HY
 HY
-Rk
-Rk
-Rk
-cI
+Hr
+Ai
+Hr
+KV
 XY
 yo
 ZW
@@ -12430,12 +12355,12 @@ iY
 yX
 CD
 vb
-uk
-pJ
-Hr
-Ai
-Hr
-KV
+AC
+AC
+AC
+AC
+AC
+AC
 XY
 XY
 zU
@@ -12489,7 +12414,7 @@ iY
 gn
 Jq
 vb
-Yk
+AC
 AC
 AC
 AC
@@ -12666,7 +12591,7 @@ iY
 gn
 Mc
 vb
-cW
+AC
 AC
 AC
 AC
@@ -12725,7 +12650,7 @@ iY
 rY
 IZ
 vb
-ow
+AC
 AC
 AC
 AC
@@ -12784,7 +12709,7 @@ vS
 vb
 vb
 vb
-GF
+AC
 AC
 AC
 AC
@@ -12843,7 +12768,7 @@ Dj
 pJ
 AC
 AC
-ZO
+AC
 AC
 AC
 AC
@@ -12902,7 +12827,7 @@ ZV
 pJ
 AC
 AC
-GI
+AC
 AC
 AC
 AC
