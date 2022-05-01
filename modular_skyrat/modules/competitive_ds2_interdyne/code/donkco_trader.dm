@@ -17,12 +17,17 @@
 	)
 	wanted_items = list(
 		/obj/item/reagent_containers/food/condiment/milk = 1000,
-		/obj/item/stack/sheet/mineral/plasma = CARGO_CRATE_VALUE * 0.4
+		/obj/item/stack/sheet/mineral/plasma = CARGO_CRATE_VALUE * 0.4,
+		/obj/item/stack/sheet/mineral/silver = CARGO_CRATE_VALUE * 0.1,
+		/obj/item/stack/sheet/mineral/gold = CARGO_CRATE_VALUE * 0.25,
+		/obj/item/stack/sheet/mineral/uranium = CARGO_CRATE_VALUE * 0.2,
+		/obj/item/stack/sheet/mineral/titanium = CARGO_CRATE_VALUE * 0.25,
+		/obj/item/stack/sheet/mineral/diamond = CARGO_CRATE_VALUE,
 	)
-	itemrejectphrase = "Sorry, I'm not a fan of anything you're showing me. Give me something better and we'll talk."
-	itemsellcancelphrase = "Remember, we are always willing to buy more."
-	itemsellacceptphrase = "Pleasure doing business with you."
-	interestedphrase = "Donk Co. would like to buy that off from you."
+	itemrejectphrase = "No exportable item detected, please try again later with a different item."
+	itemsellcancelphrase = "Donk Co. is always willing to export more."
+	itemsellacceptphrase = "Have a Donktastic day!"
+	interestedphrase = "Exportable item detected. Would you like to exchange it?"
 	buyphrase = "Have a Donktastic day!"
 	nocashphrase = "Failed to detect currency. Please ensure your holocredits are in-hand."
 	icon_state = "mrbones"
