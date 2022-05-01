@@ -1,0 +1,545 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"as" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/medkit/regular,
+/turf/open/floor/iron/shuttle/exploration/corner,
+/area/shuttle/mining/large/advanced)
+"ax" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "5,9"
+	},
+/area/shuttle/mining/large/advanced)
+"bv" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/mining_large{
+	icon_state = "0,3"
+	},
+/area/shuttle/mining/large/advanced)
+"cf" = (
+/obj/structure/cable,
+/turf/open/floor/iron/shuttle/exploration/invertcorner_side_flipped{
+	dir = 8
+	},
+/area/shuttle/mining/large/advanced)
+"cI" = (
+/obj/structure/cable,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron/shuttle/exploration/side{
+	dir = 1
+	},
+/area/shuttle/mining/large/advanced)
+"cL" = (
+/obj/effect/turf_decal/shuttle/exploration/hazardstripe,
+/obj/structure/cable,
+/turf/open/floor/iron/shuttle/exploration/doubleinvertcorner{
+	dir = 1
+	},
+/area/shuttle/mining/large/advanced)
+"ec" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "0,5"
+	},
+/area/shuttle/mining/large/advanced)
+"ej" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/mining_large{
+	icon_state = "1,0"
+	},
+/area/shuttle/mining/large/advanced)
+"eG" = (
+/obj/machinery/door/airlock/mining{
+	name = "Mining Shuttle Cockpit"
+	},
+/turf/open/floor/iron/shuttle/exploration/textured_flat,
+/area/shuttle/mining/large/advanced)
+"fR" = (
+/obj/machinery/status_display/evac,
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "2,5"
+	},
+/area/shuttle/mining/large/advanced)
+"gj" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "0,1"
+	},
+/area/shuttle/mining/large/advanced)
+"hc" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "1,5"
+	},
+/area/shuttle/mining/large/advanced)
+"hn" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/mining_large{
+	icon_state = "0,0"
+	},
+/area/shuttle/mining/large/advanced)
+"iX" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/mining_large,
+/area/shuttle/mining/large/advanced)
+"je" = (
+/obj/effect/turf_decal/shuttle/exploration/hazardstripe,
+/turf/open/floor/iron/shuttle/exploration/doubleinvertcorner{
+	dir = 1
+	},
+/area/shuttle/mining/large/advanced)
+"kb" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "4,1"
+	},
+/area/shuttle/mining/large/advanced)
+"kp" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "4,0"
+	},
+/area/shuttle/mining/large/advanced)
+"kY" = (
+/obj/structure/table/reinforced,
+/obj/item/screwdriver{
+	pixel_y = 18
+	},
+/obj/item/stock_parts/cell/high,
+/turf/open/floor/iron/shuttle/exploration/side{
+	dir = 8
+	},
+/area/shuttle/mining/large/advanced)
+"lf" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/emergency,
+/turf/open/floor/iron/shuttle/exploration/side,
+/area/shuttle/mining/large/advanced)
+"lw" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/external/ruin{
+	name = "Mining Shuttle External Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/docking_port/mobile{
+	dwidth = 3;
+	height = 10;
+	id = "mining";
+	name = "mining shuttle";
+	port_direction = 2;
+	width = 7
+	},
+/turf/open/floor/iron/shuttle/exploration/flat,
+/area/shuttle/mining/large/advanced)
+"mp" = (
+/obj/effect/turf_decal/shuttle/exploration/bot,
+/obj/structure/closet/shuttle/mining{
+	dir = 1
+	},
+/turf/open/floor/iron/shuttle/exploration/uside{
+	dir = 1
+	},
+/area/shuttle/mining/large/advanced)
+"mC" = (
+/obj/effect/turf_decal/shuttle/exploration/bot,
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/shuttle/exploration/uside{
+	dir = 1
+	},
+/area/shuttle/mining/large/advanced)
+"mO" = (
+/obj/item/clothing/suit/hazardvest{
+	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
+	name = "emergency lifejacket"
+	},
+/obj/item/clothing/suit/hazardvest{
+	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
+	name = "emergency lifejacket"
+	},
+/obj/item/clothing/suit/hazardvest{
+	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
+	name = "emergency lifejacket"
+	},
+/obj/item/clothing/suit/hazardvest{
+	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
+	name = "emergency lifejacket"
+	},
+/obj/item/clothing/suit/hazardvest{
+	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
+	name = "emergency lifejacket"
+	},
+/obj/item/tank/internals/emergency_oxygen{
+	pixel_x = 3
+	},
+/obj/item/tank/internals/emergency_oxygen{
+	pixel_x = 3
+	},
+/obj/item/tank/internals/emergency_oxygen{
+	pixel_x = 3
+	},
+/obj/item/tank/internals/emergency_oxygen{
+	pixel_x = 3
+	},
+/obj/item/tank/internals/emergency_oxygen{
+	pixel_x = 3
+	},
+/obj/item/clothing/mask/breath{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/item/clothing/mask/breath{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/item/clothing/mask/breath{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/item/clothing/mask/breath{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/item/clothing/mask/breath{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/item/clothing/head/hardhat/orange{
+	name = "protective hat";
+	pixel_y = 9
+	},
+/obj/item/clothing/head/hardhat/orange{
+	name = "protective hat";
+	pixel_y = 9
+	},
+/obj/item/clothing/head/hardhat/orange{
+	name = "protective hat";
+	pixel_y = 9
+	},
+/obj/item/clothing/head/hardhat/orange{
+	name = "protective hat";
+	pixel_y = 9
+	},
+/obj/item/clothing/head/hardhat/orange{
+	name = "protective hat";
+	pixel_y = 9
+	},
+/obj/structure/closet/crate/internals,
+/obj/item/pickaxe/emergency,
+/obj/item/pickaxe/emergency,
+/turf/open/floor/iron/shuttle/exploration/corner,
+/area/shuttle/mining/large/advanced)
+"mS" = (
+/obj/effect/turf_decal/shuttle/exploration/hazardstripe,
+/obj/effect/turf_decal/shuttle/exploration/hazardstripe{
+	dir = 1
+	},
+/obj/effect/turf_decal/shuttle/exploration/airlock,
+/obj/structure/cable,
+/turf/open/floor/iron/shuttle/exploration,
+/area/shuttle/mining/large/advanced)
+"nT" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "6,5"
+	},
+/area/shuttle/mining/large/advanced)
+"oo" = (
+/obj/structure/ore_box,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/shuttle/exploration/corner{
+	dir = 8
+	},
+/area/shuttle/mining/large/advanced)
+"op" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "3,9"
+	},
+/area/shuttle/mining/large/advanced)
+"pj" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/mining_large{
+	icon_state = "5,0"
+	},
+/area/shuttle/mining/large/advanced)
+"sh" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "0,7"
+	},
+/area/shuttle/mining/large/advanced)
+"sq" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large,
+/area/shuttle/mining/large/advanced)
+"sE" = (
+/turf/open/floor/iron/shuttle/exploration/corner{
+	dir = 4
+	},
+/area/shuttle/mining/large/advanced)
+"sF" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "0,2"
+	},
+/area/shuttle/mining/large/advanced)
+"tb" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron/shuttle/exploration/side{
+	dir = 1
+	},
+/area/shuttle/mining/large/advanced)
+"tz" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "1,1"
+	},
+/area/shuttle/mining/large/advanced)
+"ww" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/mining_large{
+	icon_state = "6,0"
+	},
+/area/shuttle/mining/large/advanced)
+"wV" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "6,4"
+	},
+/area/shuttle/mining/large/advanced)
+"xy" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/shuttle/exploration/side,
+/area/shuttle/mining/large/advanced)
+"ye" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "0,9"
+	},
+/area/shuttle/mining/large/advanced)
+"yK" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "6,6"
+	},
+/area/shuttle/mining/large/advanced)
+"Ae" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "6,2"
+	},
+/area/shuttle/mining/large/advanced)
+"Ap" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/shuttle/exploration/invertcorner_side{
+	dir = 4
+	},
+/area/shuttle/mining/large/advanced)
+"At" = (
+/obj/effect/turf_decal/shuttle/exploration/hazardstripe{
+	dir = 1
+	},
+/turf/open/floor/iron/shuttle/exploration/doubleinvertcorner,
+/area/shuttle/mining/large/advanced)
+"AM" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "4,5"
+	},
+/area/shuttle/mining/large/advanced)
+"BN" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "1,9"
+	},
+/area/shuttle/mining/large/advanced)
+"CB" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "2,1"
+	},
+/area/shuttle/mining/large/advanced)
+"CQ" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "4,2"
+	},
+/area/shuttle/mining/large/advanced)
+"Em" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/ore/iron{
+	pixel_x = -2;
+	pixel_y = -8
+	},
+/obj/item/stack/ore/iron{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/turf/open/floor/iron/shuttle/exploration/corner{
+	dir = 8
+	},
+/area/shuttle/mining/large/advanced)
+"FO" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "0,8"
+	},
+/area/shuttle/mining/large/advanced)
+"Gk" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/external/ruin{
+	name = "Mining Shuttle External Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/iron/shuttle/exploration/textured_flat,
+/area/shuttle/mining/large/advanced)
+"Gn" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "0,6"
+	},
+/area/shuttle/mining/large/advanced)
+"Ju" = (
+/obj/structure/table/reinforced,
+/obj/item/folder/yellow,
+/obj/item/pen,
+/turf/open/floor/iron/shuttle/exploration/side{
+	dir = 4
+	},
+/area/shuttle/mining/large/advanced)
+"Mo" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/obj/effect/turf_decal/shuttle/exploration/bot,
+/turf/open/floor/iron/shuttle/exploration/blanktile,
+/area/shuttle/mining/large/advanced)
+"Nj" = (
+/obj/machinery/computer/shuttle/mining,
+/obj/effect/turf_decal/shuttle/exploration/hazardstripe,
+/turf/open/floor/iron/shuttle/exploration/side,
+/area/shuttle/mining/large/advanced)
+"Oi" = (
+/turf/open/floor/iron/shuttle/exploration/corner{
+	dir = 1
+	},
+/area/shuttle/mining/large/advanced)
+"Pt" = (
+/turf/open/floor/iron/shuttle/exploration/side,
+/area/shuttle/mining/large/advanced)
+"QM" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "6,8"
+	},
+/area/shuttle/mining/large/advanced)
+"QO" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/mining_large{
+	icon_state = "4-2,9"
+	},
+/area/shuttle/mining/large/advanced)
+"QR" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "6,1"
+	},
+/area/shuttle/mining/large/advanced)
+"SN" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "5,5"
+	},
+/area/shuttle/mining/large/advanced)
+"Tc" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "6,9"
+	},
+/area/shuttle/mining/large/advanced)
+"Uw" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "0,4"
+	},
+/area/shuttle/mining/large/advanced)
+"UY" = (
+/obj/machinery/light/small/directional/south,
+/obj/item/radio/intercom{
+	pixel_y = -29
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/shuttle/exploration/side{
+	dir = 1
+	},
+/area/shuttle/mining/large/advanced)
+"Xq" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "2,0"
+	},
+/area/shuttle/mining/large/advanced)
+"Zb" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "6,7"
+	},
+/area/shuttle/mining/large/advanced)
+"Zt" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
+	icon_state = "5,1"
+	},
+/area/shuttle/mining/large/advanced)
+
+(1,1,1) = {"
+ye
+FO
+sh
+Gn
+ec
+Uw
+bv
+sF
+gj
+hn
+"}
+(2,1,1) = {"
+BN
+as
+Ju
+sE
+hc
+mO
+Ap
+mp
+tz
+ej
+"}
+(3,1,1) = {"
+QO
+lf
+Mo
+tb
+fR
+Pt
+tb
+sq
+CB
+Xq
+"}
+(4,1,1) = {"
+op
+Nj
+Mo
+je
+eG
+At
+cL
+Gk
+mS
+lw
+"}
+(5,1,1) = {"
+QO
+xy
+Mo
+UY
+AM
+Pt
+cI
+CQ
+kb
+kp
+"}
+(6,1,1) = {"
+ax
+Em
+kY
+Oi
+SN
+oo
+cf
+mC
+Zt
+pj
+"}
+(7,1,1) = {"
+Tc
+QM
+Zb
+yK
+nT
+wV
+iX
+Ae
+QR
+ww
+"}
