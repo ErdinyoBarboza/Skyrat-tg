@@ -69,6 +69,12 @@
 "ay" = (
 /turf/closed/indestructible/syndicate,
 /area/ruin/space/has_grav/skyrat/interdynefob/research/xenobio)
+"aC" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark/brown/side{
+	dir = 8
+	},
+/area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "aH" = (
 /turf/open/floor/plating/elevatorshaft{
 	name = "launching pad"
@@ -262,6 +268,10 @@
 	},
 /turf/open/floor/iron/dark/smooth_edge,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/chapel)
+"bY" = (
+/obj/machinery/quantumpad,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "cb" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
@@ -1594,6 +1604,11 @@
 	},
 /turf/open/floor/carpet/donk,
 /area/ruin/space/has_grav/skyrat/interdynefob/bridge/cl)
+"kw" = (
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/brown/side,
+/area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "kA" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1740,6 +1755,10 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/skyrat/interdynefob/engineering)
+"lv" = (
+/obj/machinery/ltsrbt,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "lw" = (
 /obj/effect/turf_decal/stripes/box,
 /obj/machinery/shower{
@@ -2158,6 +2177,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/closed/indestructible/syndicate,
 /area/ruin/space/has_grav/skyrat/interdynefob)
+"nM" = (
+/mob/living/simple_animal/hostile/retaliate/trader/donkco,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "nO" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -2990,6 +3013,10 @@
 "sm" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/freezer)
+"so" = (
+/obj/structure/cable,
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/skyrat/interdynefob/halls)
 "sr" = (
 /obj/structure/table/wood,
 /obj/machinery/light/directional/north,
@@ -3107,6 +3134,10 @@
 /obj/effect/turf_decal/siding/thinplating/corner,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/skyrat/interdynefob/research)
+"sS" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "sW" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
@@ -3540,6 +3571,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/skyrat/interdynefob/research/robotics)
+"vP" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/skyrat/interdynefob/halls)
 "vQ" = (
 /obj/machinery/light/directional/north,
 /obj/structure/filingcabinet,
@@ -6384,6 +6420,10 @@
 "Mc" = (
 /turf/open/floor/mineral/titanium,
 /area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
+"Mi" = (
+/obj/item/market_uplink/blackmarket/donkco,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "Mj" = (
 /obj/structure/bed/dogbed/renault{
 	name = "Rhials' bed"
@@ -7592,6 +7632,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/skyrat/interdynefob/research/robotics)
+"SR" = (
+/obj/machinery/launchpad,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "SV" = (
 /turf/open/floor/iron/showroomfloor,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/dorms/lockerroom)
@@ -12110,7 +12154,7 @@ Gd
 HY
 HY
 Rk
-Rk
+so
 Rk
 Zl
 XY
@@ -12169,7 +12213,7 @@ IK
 RH
 HY
 Rk
-Rk
+so
 Rk
 hg
 XY
@@ -12228,7 +12272,7 @@ iw
 RH
 HY
 PK
-Rk
+so
 Py
 TD
 XY
@@ -12287,7 +12331,7 @@ IX
 RH
 HY
 Rk
-Rk
+so
 Rk
 cI
 XY
@@ -12346,7 +12390,7 @@ HY
 HY
 HY
 Hr
-Ai
+vP
 Hr
 KV
 XY
@@ -12405,7 +12449,7 @@ vb
 Od
 iB
 iB
-iB
+aC
 iB
 MZ
 XY
@@ -12462,11 +12506,11 @@ gn
 Jq
 vb
 zC
+Mi
 CH
-CH
-CH
-CH
-oW
+sS
+sS
+kw
 tg
 Cw
 jB
@@ -12521,7 +12565,7 @@ ge
 ct
 vb
 zC
-CH
+nM
 CH
 CH
 CH
@@ -12581,7 +12625,7 @@ LV
 vb
 zC
 CH
-CH
+bY
 CH
 CH
 oW
@@ -12640,7 +12684,7 @@ Mc
 vb
 zC
 CH
-CH
+lv
 CH
 CH
 oW
@@ -12699,7 +12743,7 @@ IZ
 vb
 zC
 CH
-CH
+SR
 CH
 CH
 oW
