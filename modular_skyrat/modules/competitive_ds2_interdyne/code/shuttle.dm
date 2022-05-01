@@ -32,3 +32,17 @@
 
 /area/shuttle/interdyne_shuttle
 	name = "Interdyne Transport Shuttle"
+
+/////////////////////////////////////////////INTERDYNE MINING ////////////////////////////////////////////////
+
+
+/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large/syndi
+	icon = 'modular_skyrat/modules/advanced_shuttles/icons/mining_large_syndi.dmi'
+	icon_state = "2,2"
+	dir = NORTH
+
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/mining_large/syndi
+	icon = 'modular_skyrat/modules/advanced_shuttles/icons/mining_large_syndi.dmi'
+	icon_state = "6,3"
+	dir = NORTH
+
