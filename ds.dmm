@@ -657,13 +657,6 @@
 	},
 /turf/closed/indestructible/syndicate,
 /area/skyrat/interdynefob/research/toxins)
-"ex" = (
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
-/turf/closed/indestructible/opsglass,
-/area/skyrat/interdynefob/hiddenmaints)
 "ey" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/machinery/button/door{
@@ -742,14 +735,6 @@
 "eT" = (
 /turf/open/floor/plating/elevatorshaft,
 /area/skyrat/interdynefob/security/prison)
-"eW" = (
-/obj/structure/flora/tree/pine,
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
-/turf/open/misc/asteroid/snow/atmosphere,
-/area/skyrat/interdynefob/outside)
 "eY" = (
 /obj/structure/sign/poster/contraband/syndicate_pistol{
 	pixel_y = -32
@@ -1006,10 +991,6 @@
 /turf/open/floor/iron/showroomfloor,
 /area/skyrat/interdynefob/bridge/admiral)
 "gM" = (
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
 /obj/effect/mob_spawn/ghost_role/human/ds2/syndicate{
 	dir = 1;
 	uses = 4
@@ -1501,10 +1482,6 @@
 "jH" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Teleporter Room"
-	},
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/skyrat/interdynefob/hiddenmaints)
@@ -2332,7 +2309,7 @@
 	pixel_y = 8
 	},
 /obj/item/reagent_containers/hypospray/combat{
-	desc = "A modified air-needle autoinjector, used to aid in [REDACTED] programme.";
+	desc = "A modified air-needle autoinjector, used to aid in hypnoflashing programme.";
 	list_reagents = list(/datum/reagent/toxin/mindbreaker = 90);
 	name = "MK-SUPER hallucinogen injector";
 	pixel_x = -12;
@@ -2381,15 +2358,6 @@
 "oW" = (
 /turf/open/floor/iron/dark/brown/side,
 /area/skyrat/interdynefob/cargo)
-"oY" = (
-/obj/structure/flora/tree/pine,
-/obj/structure/flora/grass/both,
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
-/turf/open/misc/asteroid/snow/atmosphere,
-/area/skyrat/interdynefob/outside)
 "oZ" = (
 /obj/structure/chair/stool{
 	dir = 4
@@ -2438,10 +2406,6 @@
 	},
 /area/skyrat/interdynefob/service/chapel)
 "pq" = (
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
 /turf/closed/indestructible/fakedoor{
 	name = "Cockpit"
 	},
@@ -2622,13 +2586,6 @@
 	},
 /turf/open/floor/engine,
 /area/skyrat/interdynefob/research/toxins)
-"qk" = (
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
-/turf/open/misc/asteroid/snow/atmosphere,
-/area/skyrat/interdynefob)
 "qm" = (
 /obj/machinery/computer/robotics{
 	dir = 1
@@ -2651,14 +2608,6 @@
 	dir = 8
 	},
 /area/skyrat/interdynefob/security)
-"qA" = (
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
-/obj/structure/flora/grass/both,
-/turf/open/misc/asteroid/snow/atmosphere,
-/area/skyrat/interdynefob/outside)
 "qC" = (
 /obj/structure/rack,
 /obj/structure/window/reinforced/survival_pod{
@@ -2824,14 +2773,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/kitchen,
 /area/skyrat/interdynefob/service/kitchen)
-"rg" = (
-/obj/structure/fence,
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
-/turf/open/misc/asteroid/snow/atmosphere,
-/area/skyrat/interdynefob)
 "ri" = (
 /obj/machinery/light/directional/south,
 /obj/effect/mob_spawn/ghost_role/human/ds2/syndicate/brigoff{
@@ -3169,13 +3110,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/skyrat/interdynefob/blacksite)
-"td" = (
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/skyrat/interdynefob/hiddenmaints)
 "tg" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/skyrat/interdynefob/service/hydroponics)
@@ -3438,10 +3372,6 @@
 "ve" = (
 /obj/structure/flora/tree/dead,
 /obj/structure/flora/grass/both,
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
 /turf/open/misc/asteroid/snow/atmosphere,
 /area/skyrat/interdynefob/outside)
 "vi" = (
@@ -3915,14 +3845,6 @@
 /obj/machinery/suit_storage_unit/syndicate,
 /turf/open/floor/iron/smooth_large,
 /area/skyrat/interdynefob/security/armory)
-"xX" = (
-/obj/structure/flora/rock/pile,
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
-/turf/open/misc/asteroid/snow/atmosphere,
-/area/skyrat/interdynefob/outside)
 "xY" = (
 /obj/item/food/burger/cheese{
 	pixel_y = 3
@@ -4205,14 +4127,6 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/skyrat/interdynefob/service/freezer)
-"zI" = (
-/obj/structure/fence/cut/large,
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
-/turf/open/misc/asteroid/snow/atmosphere,
-/area/skyrat/interdynefob)
 "zR" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 4
@@ -5155,14 +5069,6 @@
 	dir = 1
 	},
 /area/skyrat/interdynefob/halls/transfer)
-"Fh" = (
-/obj/structure/flora/grass/both,
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
-/turf/open/misc/asteroid/snow/atmosphere,
-/area/skyrat/interdynefob/outside)
 "Fp" = (
 /obj/machinery/power/rtg/advanced,
 /obj/structure/cable,
@@ -5201,10 +5107,6 @@
 /area/skyrat/interdynefob/service/chapel)
 "Fy" = (
 /obj/structure/flora/tree/pine,
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
 /turf/open/misc/asteroid/snow/atmosphere,
 /area/skyrat/interdynefob)
 "FA" = (
@@ -5295,10 +5197,6 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/skyrat/interdynefob/blacksite)
 "FZ" = (
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
 /turf/closed/indestructible/opshuttle,
 /area/skyrat/interdynefob/hiddenmaints)
 "Ga" = (
@@ -5731,14 +5629,6 @@
 "HL" = (
 /turf/closed/indestructible/rock/snow,
 /area/skyrat/interdynefob/outside)
-"HR" = (
-/obj/structure/flora/rock/pile,
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
-/turf/open/misc/asteroid/snow/atmosphere,
-/area/skyrat/interdynefob)
 "HS" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
@@ -6148,13 +6038,6 @@
 	},
 /turf/open/floor/engine,
 /area/skyrat/interdynefob/research/xenobio)
-"Ko" = (
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
-/turf/open/misc/asteroid/snow/atmosphere,
-/area/skyrat/interdynefob/outside)
 "Kp" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -6815,13 +6698,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/skyrat/interdynefob/halls)
-"Ot" = (
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
-/turf/closed/wall/r_wall/syndicate,
-/area/skyrat/interdynefob/hiddenmaints)
 "Ou" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 10
@@ -7179,11 +7055,12 @@
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/skyrat/interdynefob/service/kitchen)
 "Qw" = (
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
+/turf/closed/wall/r_wall/syndicate{
+	desc = null;
+	icon = 'icons/turf/space.dmi';
+	icon_state = "speedspace_ns_1";
+	name = "\proper hyperspace"
 	},
-/turf/open/floor/holofloor/hyperspace,
 /area/skyrat/interdynefob/hiddenmaints)
 "Qx" = (
 /obj/machinery/light/cold/no_nightlight/directional/west,
@@ -8083,16 +7960,6 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/skyrat/interdynefob/service/hydroponics)
-"Wa" = (
-/obj/structure/flora/rock/icy{
-	pixel_x = -7
-	},
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
-/turf/open/misc/asteroid/snow/atmosphere,
-/area/skyrat/interdynefob/outside)
 "Wc" = (
 /obj/effect/bump_teleporter{
 	id = "ds_blacksite-chute02";
@@ -8117,10 +7984,6 @@
 /turf/open/floor/iron/dark,
 /area/skyrat/interdynefob/security)
 "Wh" = (
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
 /obj/effect/mob_spawn/ghost_role/human/ds2/syndicate{
 	uses = 4
 	},
@@ -8154,10 +8017,6 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/skyrat/interdynefob/bridge)
 "WA" = (
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
 /obj/effect/bump_teleporter{
 	icon = 'icons/obj/telescience.dmi';
 	icon_state = "qpad-idle";
@@ -8394,14 +8253,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/skyrat/interdynefob/medbay/chem)
-"XW" = (
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
-/obj/structure/flora/tree/pine,
-/turf/open/misc/asteroid/snow/atmosphere,
-/area/skyrat/interdynefob/outside)
 "XY" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/skyrat/interdynefob/service/kitchen)
@@ -8763,10 +8614,10 @@ FZ
 pq
 FZ
 FZ
-Qw
-Qw
-Qw
-Ot
+HL
+HL
+HL
+HL
 HL
 HL
 HL
@@ -8819,13 +8670,13 @@ XK
 (2,1,1) = {"
 FZ
 Wh
-td
+cp
 gM
 FZ
 Qw
-Qw
-Qw
-Ot
+HL
+HL
+HL
 HL
 HL
 HL
@@ -8878,13 +8729,13 @@ XK
 (3,1,1) = {"
 FZ
 Wh
-td
+cp
 gM
-ex
+Pi
 Qw
-Qw
-Qw
-Ot
+HL
+HL
+HL
 HL
 HL
 HL
@@ -8937,13 +8788,13 @@ XK
 (4,1,1) = {"
 FZ
 Wh
-td
+cp
 gM
-ex
+Pi
 Qw
-Qw
-Qw
-Ot
+HL
+HL
+MI
 HL
 HL
 HL
@@ -8996,13 +8847,13 @@ XK
 (5,1,1) = {"
 FZ
 Wh
-td
+cp
 gM
-ex
+Pi
 Qw
-Qw
-Ot
-Ot
+HL
+HL
+HL
 HL
 HL
 HL
@@ -9055,12 +8906,12 @@ XK
 (6,1,1) = {"
 FZ
 Wh
-td
+cp
 gM
 FZ
 Qw
-Ot
-Ot
+HL
+HL
 HL
 HL
 HL
@@ -9114,11 +8965,11 @@ XK
 (7,1,1) = {"
 FZ
 Wh
-td
+cp
 gM
 FZ
-Ot
-Ot
+HL
+HL
 HL
 HL
 HL
@@ -9173,7 +9024,7 @@ XK
 (8,1,1) = {"
 FZ
 Wh
-td
+cp
 gM
 FZ
 HL
@@ -9183,9 +9034,9 @@ HL
 HL
 HL
 HL
-MI
-MI
-MI
+HL
+HL
+HL
 HL
 HL
 HL
@@ -9241,13 +9092,13 @@ OS
 OS
 OS
 HL
-MI
-MI
+HL
+HL
 Xt
-MI
-MI
-MI
-MI
+HL
+HL
+HL
+HL
 HL
 HL
 HL
@@ -9290,9 +9141,9 @@ XK
 "}
 (10,1,1) = {"
 FZ
-td
-td
-td
+cp
+cp
+cp
 FZ
 HL
 OS
@@ -9300,14 +9151,14 @@ OS
 Io
 OS
 OS
-MI
+HL
 va
 AP
 AP
 Po
-xX
-MI
-MI
+mD
+HL
+HL
 HL
 HL
 HL
@@ -9349,9 +9200,9 @@ XK
 "}
 (11,1,1) = {"
 FZ
-td
+cp
 WA
-td
+cp
 FZ
 OS
 OS
@@ -9364,9 +9215,9 @@ AP
 Xr
 Xt
 HW
-Ko
-eW
-MI
+Yq
+yg
+HL
 HL
 HL
 HL
@@ -9423,8 +9274,8 @@ OS
 AP
 AP
 Po
-Ko
-Ko
+Yq
+Yq
 Lq
 Lq
 Lq
@@ -9482,8 +9333,8 @@ OS
 OS
 AP
 NR
-Ko
-Ko
+Yq
+Yq
 Lq
 RS
 RS
@@ -9541,8 +9392,8 @@ Io
 OS
 AP
 Po
-Ko
-Ko
+Yq
+Yq
 Lq
 RS
 RS
@@ -9588,7 +9439,7 @@ HL
 HL
 HL
 HL
-MI
+HL
 OS
 OS
 sX
@@ -9600,8 +9451,8 @@ OS
 OS
 NQ
 Po
-Ko
-Ko
+Yq
+Yq
 Lq
 RS
 RS
@@ -9646,9 +9497,9 @@ XK
 HL
 HL
 HL
-MI
-qk
-HR
+HL
+AP
+Xt
 OS
 aL
 MQ
@@ -9659,8 +9510,8 @@ Zc
 OS
 sc
 Po
-Ko
-Ko
+Yq
+Yq
 Lq
 RS
 RS
@@ -9704,10 +9555,10 @@ XK
 (17,1,1) = {"
 HL
 HL
-MI
-qk
-HR
-qk
+HL
+AP
+Xt
+AP
 OS
 Pv
 cg
@@ -9718,8 +9569,8 @@ OS
 OS
 sc
 Po
-Ko
-Ko
+Yq
+Yq
 Lq
 RS
 RS
@@ -9762,11 +9613,11 @@ XK
 "}
 (18,1,1) = {"
 HL
-MI
-qk
-qk
+HL
+AP
+AP
 Fy
-qk
+AP
 OS
 Pi
 Pi
@@ -9777,8 +9628,8 @@ rs
 rs
 Sw
 BS
-Ko
-Ko
+Yq
+Yq
 Lq
 RS
 RS
@@ -9821,11 +9672,11 @@ XK
 "}
 (19,1,1) = {"
 HL
-MI
-rg
-zI
-rg
-rg
+HL
+RP
+Bh
+RP
+RP
 OS
 RP
 xJ
@@ -9836,8 +9687,8 @@ Bh
 RP
 RP
 Ub
-Ko
-Ko
+Yq
+Yq
 Lq
 RS
 RS
@@ -9879,24 +9730,24 @@ nn
 XK
 "}
 (20,1,1) = {"
-MI
+HL
 Yq
-eW
-xX
-Ko
-Ko
-Ko
-Ko
-Ko
-Ko
-Ko
-Ko
-Ko
-Ko
-Ko
-Ko
-Ko
-Ko
+yg
+mD
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
 Lq
 RS
 RS
@@ -9938,15 +9789,15 @@ nn
 XK
 "}
 (21,1,1) = {"
-MI
-Ko
-Fh
-Ko
-Ko
-oY
+HL
+Yq
+eO
+Yq
+Yq
+fA
 mD
 Yq
-oY
+fA
 Yq
 Yq
 Yq
@@ -9997,11 +9848,11 @@ nn
 XK
 "}
 (22,1,1) = {"
-MI
-Ko
+HL
+Yq
 ve
-Wa
-Ko
+ag
+Yq
 Yq
 eO
 Yq
@@ -10056,10 +9907,10 @@ SO
 SO
 "}
 (23,1,1) = {"
-MI
-Ko
-Ko
-Fh
+HL
+Yq
+Yq
+eO
 eO
 Yq
 yg
@@ -10115,9 +9966,9 @@ MW
 SO
 "}
 (24,1,1) = {"
-MI
-Ko
-Ko
+HL
+Yq
+Yq
 Yq
 fA
 Yq
@@ -10174,9 +10025,9 @@ vo
 SO
 "}
 (25,1,1) = {"
-MI
-Ko
-Fh
+HL
+Yq
+eO
 Yq
 Yq
 eO
@@ -10233,8 +10084,8 @@ oB
 SO
 "}
 (26,1,1) = {"
-MI
-Ko
+HL
+Yq
 mD
 Yq
 Yq
@@ -10292,9 +10143,9 @@ SO
 SO
 "}
 (27,1,1) = {"
-MI
-Ko
-Ko
+HL
+Yq
+Yq
 Yq
 ag
 Yq
@@ -10351,9 +10202,9 @@ bJ
 xa
 "}
 (28,1,1) = {"
-MI
-Ko
-Ko
+HL
+Yq
+Yq
 fA
 eO
 mD
@@ -10410,9 +10261,9 @@ KD
 xa
 "}
 (29,1,1) = {"
-MI
-Ko
-Ko
+HL
+Yq
+Yq
 Yq
 Yq
 Yq
@@ -10469,9 +10320,9 @@ pv
 xa
 "}
 (30,1,1) = {"
-MI
-qA
-Fh
+HL
+eO
+eO
 Yq
 fA
 Yq
@@ -10528,8 +10379,8 @@ KD
 xa
 "}
 (31,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -10587,8 +10438,8 @@ Ia
 xa
 "}
 (32,1,1) = {"
-MI
-XW
+HL
+yg
 Yq
 Yq
 Yq
@@ -10646,8 +10497,8 @@ DK
 xa
 "}
 (33,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -10705,8 +10556,8 @@ iK
 DE
 "}
 (34,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -10764,8 +10615,8 @@ oy
 DE
 "}
 (35,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -10823,8 +10674,8 @@ ec
 DE
 "}
 (36,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -10882,8 +10733,8 @@ Hj
 DE
 "}
 (37,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -10941,8 +10792,8 @@ VK
 DE
 "}
 (38,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -11000,8 +10851,8 @@ JR
 DE
 "}
 (39,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -11059,8 +10910,8 @@ iC
 DE
 "}
 (40,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -11118,8 +10969,8 @@ PD
 DE
 "}
 (41,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -11177,8 +11028,8 @@ pP
 DE
 "}
 (42,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -11236,8 +11087,8 @@ lo
 DE
 "}
 (43,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -11295,8 +11146,8 @@ yA
 DE
 "}
 (44,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -11354,8 +11205,8 @@ yx
 DE
 "}
 (45,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -11413,8 +11264,8 @@ YW
 DE
 "}
 (46,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -11472,8 +11323,8 @@ LK
 DE
 "}
 (47,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -11531,8 +11382,8 @@ yA
 DE
 "}
 (48,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -11590,8 +11441,8 @@ lo
 DE
 "}
 (49,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -11649,8 +11500,8 @@ AC
 Cn
 "}
 (50,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -11708,8 +11559,8 @@ AC
 Cn
 "}
 (51,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -11767,8 +11618,8 @@ AC
 Cn
 "}
 (52,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -11826,8 +11677,8 @@ AC
 Cn
 "}
 (53,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -11885,8 +11736,8 @@ AC
 Cn
 "}
 (54,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -11944,8 +11795,8 @@ AC
 Cn
 "}
 (55,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -12003,8 +11854,8 @@ AC
 Cn
 "}
 (56,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -12062,8 +11913,8 @@ AC
 Cn
 "}
 (57,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -12121,8 +11972,8 @@ AC
 Cn
 "}
 (58,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -12180,8 +12031,8 @@ AC
 Cn
 "}
 (59,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -12239,8 +12090,8 @@ AC
 Cn
 "}
 (60,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -12298,8 +12149,8 @@ AC
 Cn
 "}
 (61,1,1) = {"
-MI
-Ko
+HL
+Yq
 Yq
 Yq
 Yq
@@ -12357,9 +12208,9 @@ AC
 Cn
 "}
 (62,1,1) = {"
-MI
-Ko
-Ko
+HL
+Yq
+Yq
 Yq
 Yq
 Yq
@@ -12416,9 +12267,9 @@ AC
 Cn
 "}
 (63,1,1) = {"
-MI
-Ko
-Ko
+HL
+Yq
+Yq
 Yq
 Yq
 Yq
@@ -12475,10 +12326,10 @@ AC
 Cn
 "}
 (64,1,1) = {"
-MI
-Ko
-Ko
-Ko
+HL
+Yq
+Yq
+Yq
 Yq
 Yq
 Yq
@@ -12534,10 +12385,10 @@ AC
 Cn
 "}
 (65,1,1) = {"
-MI
-Ko
-Ko
-Ko
+HL
+Yq
+Yq
+Yq
 Yq
 Yq
 Yq
@@ -12593,11 +12444,11 @@ AC
 Cn
 "}
 (66,1,1) = {"
-MI
-MI
-Ko
-Ko
-Ko
+HL
+HL
+Yq
+Yq
+Yq
 Yq
 Yq
 Yq
@@ -12652,11 +12503,11 @@ OS
 OS
 "}
 (67,1,1) = {"
-MI
-MI
-Ko
-Ko
-Ko
+HL
+HL
+Yq
+Yq
+Yq
 Yq
 Yq
 Yq
@@ -12711,12 +12562,12 @@ mw
 OS
 "}
 (68,1,1) = {"
-MI
-MI
-eW
-xX
-Ko
-Ko
+HL
+HL
+yg
+mD
+Yq
+Yq
 Yq
 Yq
 eO
@@ -12770,14 +12621,14 @@ sz
 OS
 "}
 (69,1,1) = {"
-MI
-MI
-Fh
-Ko
-Ko
-Ko
-Ko
-Ko
+HL
+HL
+eO
+Yq
+Yq
+Yq
+Yq
+Yq
 yg
 yg
 mD
@@ -12829,18 +12680,18 @@ wj
 OS
 "}
 (70,1,1) = {"
-MI
-MI
+HL
+HL
 ve
-Wa
-Ko
-Ko
-Ko
-Ko
-Ko
-Fh
-Ko
-MI
+ag
+Yq
+Yq
+Yq
+Yq
+Yq
+eO
+Yq
+HL
 RQ
 AC
 CT
@@ -12888,18 +12739,18 @@ OS
 OS
 "}
 (71,1,1) = {"
-MI
-MI
-MI
-Ko
-Ko
-Ko
-Ko
-Fh
-Fh
-Ko
-MI
-MI
+HL
+HL
+HL
+Yq
+Yq
+Yq
+Yq
+eO
+eO
+Yq
+HL
+HL
 RQ
 AC
 AC
@@ -12947,18 +12798,18 @@ wT
 OS
 "}
 (72,1,1) = {"
-MI
-MI
-MI
-MI
-MI
-MI
-MI
-MI
-MI
-MI
-MI
-MI
+HL
+HL
+HL
+HL
+HL
+HL
+HL
+HL
+HL
+HL
+HL
+HL
 RQ
 RQ
 RQ

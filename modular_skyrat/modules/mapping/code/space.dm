@@ -10,13 +10,14 @@
 	suffix = "forgottenship_skyrat.dmm"
 	always_place = TRUE
 */
+/* //Disabled due to the existence of DS-3
 /datum/map_template/ruin/space/skyrat/interdynefob
 	name = "DS-2"
 	id = "interdynefob"
 	description = "If DS-1 was so good..."
 	suffix = "interdynefob.dmm"
 	always_place = TRUE
-
+*/
 /datum/map_template/ruin/space/skyrat/derelictferry
 	id = "derelictferry"
 	suffix = "derelictferry.dmm"

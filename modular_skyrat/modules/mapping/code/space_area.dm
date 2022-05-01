@@ -26,6 +26,7 @@
 	name = "\improper DS-2" //If DS-1 is so great...
 	icon_state = "syndie-elite"
 	area_flags = UNIQUE_AREA | NOTELEPORT
+	has_gravity = STANDARD_GRAVITY
 
 /area/skyrat/interdynefob/outside
 	name = "\improper DS-2 Outer Periphery"
