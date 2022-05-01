@@ -221,7 +221,6 @@
 	desc = "A skeleton merchant, he seems very humerus."
 	speak_emote = list("rattles")
 	speech_span = SPAN_SANS
-	sell_sound = 'sound/voice/hiss2.ogg'
 	mob_biotypes = MOB_UNDEAD|MOB_HUMANOID
 	products = list(
 		/obj/item/clothing/head/helmet/skull = 150,

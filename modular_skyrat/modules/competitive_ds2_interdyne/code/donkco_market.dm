@@ -9,3 +9,13 @@
 
 /datum/market_item/donkco
 	markets = list(/datum/market/blackmarket/donkco)
+
+/datum/market_item/donkco/consumable/pumpup
+	name = "Maintenance Pump-Up"
+	desc = "Resist any Baton stun with this handy device!"
+	item = /obj/item/reagent_containers/hypospray/medipen/pumpup
+
+	stock_max = 3
+	price_min = CARGO_CRATE_VALUE * 0.25
+	price_max = CARGO_CRATE_VALUE * 0.75
+	availability_prob = 100

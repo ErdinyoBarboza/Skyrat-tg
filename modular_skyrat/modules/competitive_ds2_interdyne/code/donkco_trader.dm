@@ -1,6 +1,6 @@
-/mob/living/simple_animal/hostile/retaliate/trader/doncko
+/mob/living/simple_animal/hostile/retaliate/trader/donkco
 	name = "Donk Co. Sales Unit"
-	desc = "A sales export unit of Donk Co. "
+	desc = "An automated sales export unit of Donk Co."
 	maxHealth = 1000
 	health = 1000
 	verb_say = "states"
@@ -34,6 +34,6 @@
 		"Have a Donktastic day!",
 		"Feeling peckish? Have a Donk!",
 		"EXTERMI-- EXCHANGE MONEY!",
-		"I'm willing to play big prices for BONES! Need materials to make merch, eh?",
-		"It's a beautiful day outside. Birds are singing, Flowers are blooming... On days like these, kids like you... Should be buying my wares!"
+		"Donk Pockets, now with 7 different flavors!",
+		"Have you tried the new Ready to Eat Donks?"
 	)

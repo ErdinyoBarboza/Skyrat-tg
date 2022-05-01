@@ -541,6 +541,11 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark/textured_edge,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/dorms/fitness)
+"dW" = (
+/turf/open/floor/iron/dark/brown/side{
+	dir = 6
+	},
+/area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "dX" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 1
@@ -1339,6 +1344,11 @@
 	dir = 8
 	},
 /area/ruin/space/has_grav/skyrat/interdynefob/security)
+"iB" = (
+/turf/open/floor/iron/dark/brown/side{
+	dir = 8
+	},
+/area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "iC" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 6
@@ -1655,6 +1665,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/skyrat/interdynefob/medbay)
+"ld" = (
+/turf/closed/indestructible/syndicate,
+/area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "lf" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -2341,6 +2354,9 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/arrivalsec)
+"oW" = (
+/turf/open/floor/iron/dark/brown/side,
+/area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "oY" = (
 /obj/structure/flora/tree/pine,
 /obj/structure/flora/grass/both,
@@ -3161,6 +3177,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/donk,
 /area/ruin/space/has_grav/skyrat/interdynefob/bridge/cl)
+"ts" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "tv" = (
 /obj/structure/chair/sofa/corp/left,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -4132,6 +4151,11 @@
 /obj/machinery/atmospherics/components/trinary/filter/flipped,
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/ruin/space/has_grav/skyrat/interdynefob/research/toxins)
+"zC" = (
+/turf/open/floor/iron/dark/brown/side{
+	dir = 1
+	},
+/area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "zD" = (
 /obj/machinery/vending/assist,
 /obj/structure/railing{
@@ -4355,6 +4379,11 @@
 "AP" = (
 /turf/open/misc/asteroid/snow/atmosphere,
 /area/ruin/space/has_grav/skyrat/interdynefob)
+"AT" = (
+/turf/open/floor/iron/dark/brown/side{
+	dir = 5
+	},
+/area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "AW" = (
 /obj/structure/chair/sofa/bench/left{
 	dir = 4
@@ -4631,6 +4660,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/skyrat/interdynefob/blacksite)
+"CH" = (
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "CJ" = (
 /turf/open/floor/iron/dark/smooth_corner,
 /area/ruin/space/has_grav/skyrat/interdynefob/security)
@@ -6382,7 +6414,7 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/research/robotics)
 "Mu" = (
 /obj/item/toy/plush/lizard_plushie/green{
-	name = "Spots-The-Operative"
+	name = "Coordinates-The-Operatives"
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/hiddenmaints)
@@ -6549,6 +6581,11 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/security)
+"MZ" = (
+/turf/open/floor/iron/dark/brown/side{
+	dir = 10
+	},
+/area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "Na" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /obj/structure/cable,
@@ -6706,6 +6743,11 @@
 /obj/machinery/light/cold/directional/east,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/skyrat/interdynefob/bridge)
+"Od" = (
+/turf/open/floor/iron/dark/brown/side{
+	dir = 9
+	},
+/area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "Oe" = (
 /obj/machinery/vending/clothing,
 /obj/effect/turf_decal/siding/thinplating/dark/end{
@@ -8447,6 +8489,11 @@
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/titanium,
 /area/ruin/space/has_grav/skyrat/interdynefob/halls/transfer)
+"YN" = (
+/turf/open/floor/iron/dark/brown/side{
+	dir = 4
+	},
+/area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "YO" = (
 /obj/machinery/atmospherics/components/binary/thermomachine/freezer,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -12355,12 +12402,12 @@ iY
 yX
 CD
 vb
-AC
-AC
-AC
-AC
-AC
-AC
+Od
+iB
+iB
+iB
+iB
+MZ
 XY
 XY
 zU
@@ -12414,12 +12461,12 @@ iY
 gn
 Jq
 vb
-AC
-AC
-AC
-AC
-AC
-AC
+zC
+CH
+CH
+CH
+CH
+oW
 tg
 Cw
 jB
@@ -12473,12 +12520,12 @@ iY
 ge
 ct
 vb
-AC
-AC
-AC
-AC
-AC
-AC
+zC
+CH
+CH
+CH
+CH
+oW
 tg
 Eg
 Ss
@@ -12532,12 +12579,12 @@ iY
 CC
 LV
 vb
-AC
-AC
-AC
-AC
-AC
-AC
+zC
+CH
+CH
+CH
+CH
+oW
 tg
 ax
 jy
@@ -12591,12 +12638,12 @@ iY
 gn
 Mc
 vb
-AC
-AC
-AC
-AC
-AC
-AC
+zC
+CH
+CH
+CH
+CH
+oW
 tg
 yp
 ho
@@ -12650,12 +12697,12 @@ iY
 rY
 IZ
 vb
-AC
-AC
-AC
-AC
-AC
-AC
+zC
+CH
+CH
+CH
+CH
+oW
 tg
 VZ
 ho
@@ -12709,12 +12756,12 @@ vS
 vb
 vb
 vb
-AC
-AC
-AC
-AC
-AC
-AC
+zC
+CH
+CH
+CH
+CH
+oW
 tg
 xQ
 ho
@@ -12765,15 +12812,15 @@ vE
 xK
 kV
 Dj
-pJ
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
+ts
+CH
+oW
+zC
+CH
+CH
+CH
+CH
+oW
 tg
 xk
 ho
@@ -12824,15 +12871,15 @@ vE
 Aw
 sH
 ZV
-pJ
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
+ts
+CH
+oW
+AT
+YN
+YN
+YN
+YN
+dW
 tg
 kR
 uq
@@ -12883,15 +12930,15 @@ vE
 hy
 hy
 hy
-RQ
-RQ
-RQ
-RQ
-RQ
-RQ
-RQ
-RQ
-RQ
+ld
+ld
+ld
+ld
+ld
+ld
+ld
+ld
+ld
 pf
 pf
 pf
