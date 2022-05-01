@@ -10,6 +10,9 @@
 /datum/market_item/donkco
 	markets = list(/datum/market/blackmarket/donkco)
 
+/datum/market_item/donkco/consumable
+	category = "Consumables"
+
 /datum/market_item/donkco/consumable/pumpup
 	name = "Maintenance Pump-Up"
 	desc = "Resist any Baton stun with this handy device!"
