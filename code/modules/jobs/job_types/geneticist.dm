@@ -17,7 +17,7 @@
 		/datum/job_department/science,
 		)
 
-	paycheck = PAYCHECK_CREW
+	paycheck = PAYCHECK_MEDIUM
 	paycheck_department = ACCOUNT_SCI
 
 	display_order = JOB_DISPLAY_ORDER_GENETICIST

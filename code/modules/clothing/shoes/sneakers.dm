@@ -4,13 +4,13 @@
 	greyscale_colors = "#545454#ffffff"
 	greyscale_config = /datum/greyscale_config/sneakers
 	greyscale_config_worn = /datum/greyscale_config/sneakers_worn
-	flags_1 = IS_PLAYER_COLORABLE_1
 	greyscale_config_worn_digi = /datum/greyscale_config/sneakers_worn/digi //SKYRAT EDIT ADDITION
+	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/clothing/shoes/sneakers/black
 	name = "black shoes"
 	desc = "A pair of black shoes."
-	custom_price = PAYCHECK_CREW
+	custom_price = PAYCHECK_ASSISTANT
 
 	cold_protection = FEET
 	min_cold_protection_temperature = SHOES_MIN_TEMP_PROTECT
@@ -24,8 +24,9 @@
 
 /obj/item/clothing/shoes/sneakers/blue
 	name = "blue shoes"
+	permeability_coefficient = 0.01
 	greyscale_colors = "#16a9eb#ffffff"
-	armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 95, FIRE = 0, ACID = 0)
+	permeability_coefficient = 0.01
 
 /obj/item/clothing/shoes/sneakers/green
 	name = "green shoes"
@@ -47,7 +48,7 @@
 /obj/item/clothing/shoes/sneakers/white
 	name = "white shoes"
 	greyscale_colors = "#ffffff#ffffff"
-	armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 95, FIRE = 0, ACID = 0)
+	permeability_coefficient = 0.01
 
 /obj/item/clothing/shoes/sneakers/rainbow
 	name = "rainbow shoes"
@@ -66,8 +67,8 @@
 	greyscale_colors = "#eb7016#ffffff"
 	greyscale_config = /datum/greyscale_config/sneakers_orange
 	greyscale_config_worn = /datum/greyscale_config/sneakers_orange_worn
-	flags_1 = NONE
 	greyscale_config_worn_digi = /datum/greyscale_config/sneakers_orange_worn/digi //SKYRAT EDIT ADDITION
+	flags_1 = NONE
 
 /obj/item/clothing/shoes/sneakers/orange/attack_self(mob/user)
 	if (chained)
@@ -117,6 +118,7 @@
 	greyscale_config_worn = null
 	strip_delay = 5
 	equip_delay_other = 50
+	permeability_coefficient = 0.9
 	can_be_tied = FALSE
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 

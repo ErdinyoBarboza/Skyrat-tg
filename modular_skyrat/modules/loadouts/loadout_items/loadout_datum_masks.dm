@@ -1,6 +1,4 @@
-/*
-*	LOADOUT ITEM DATUMS FOR THE MASK SLOT
-*/
+// --- Loadout item datums for masks ---
 
 /// Mask Slot Items (Deletes overrided items)
 GLOBAL_LIST_INIT(loadout_masks, generate_loadout_items(/datum/loadout_item/mask))
@@ -20,83 +18,42 @@ GLOBAL_LIST_INIT(loadout_masks, generate_loadout_items(/datum/loadout_item/mask)
 	else
 		outfit.mask = item_path
 
-/*
-*	BANDANAS
-*/
 
-/datum/loadout_item/mask/black_bandana
-	name = "Black Bandana"
-	item_path = /obj/item/clothing/mask/bandana/black
-
-/datum/loadout_item/mask/blue_bandana
-	name = "Blue Bandana"
-	item_path = /obj/item/clothing/mask/bandana/blue
-
-/datum/loadout_item/mask/gold_bandana
-	name = "Gold Bandana"
-	item_path = /obj/item/clothing/mask/bandana/gold
-
-/datum/loadout_item/mask/green_bandana
-	name = "Green Bandana"
-	item_path = /obj/item/clothing/mask/bandana/green
-
-/datum/loadout_item/mask/red_bandana
-	name = "Red Bandana"
-	item_path = /obj/item/clothing/mask/bandana/red
-
-/datum/loadout_item/mask/skull_bandana
-	name = "Skull Bandana"
-	item_path = /obj/item/clothing/mask/bandana/skull
-
-/*
-*	BALACLAVAS
-*/
-
-/datum/loadout_item/mask/balaclavaadj
-	name = "Adjustable Balaclava"
-	item_path = /obj/item/clothing/mask/balaclavaadjust
-
-/datum/loadout_item/mask/balaclavathree
-	name = "Three-Hole Balaclava (Black)"
-	item_path = /obj/item/clothing/mask/balaclava/threehole
-
-/datum/loadout_item/mask/balaclavagreen
-	name = "Three-Hole Balaclava (Green)"
-	item_path = /obj/item/clothing/mask/balaclava/threehole/green
-
-/*
-*	GAS MASKS
-*/
+/datum/loadout_item/mask/balaclava
+	name = "Balaclava"
+	item_path = /obj/item/clothing/mask/balaclava
 
 /datum/loadout_item/mask/gas_mask
 	name = "Gas Mask"
 	item_path = /obj/item/clothing/mask/gas
 
-/datum/loadout_item/mask/gas_glass
-	name = "Glass Gas Mask"
-	item_path = /obj/item/clothing/mask/gas/glass
+/datum/loadout_item/mask/black_bandana
+	name = "Black Bandana"
+	item_path = /obj/item/clothing/mask/bandana/color/black
 
-/*
-*	JOB-LOCKED
-*/
+/datum/loadout_item/mask/blue_bandana
+	name = "Blue Bandana"
+	item_path = /obj/item/clothing/mask/bandana/color/blue
 
-/datum/loadout_item/mask/surgical
-	name = "Sterile Mask"
+/datum/loadout_item/mask/gold_bandana
+	name = "Gold Bandana"
+	item_path = /obj/item/clothing/mask/bandana/color/gold
+
+/datum/loadout_item/mask/green_bandana
+	name = "Green Bandana"
+	item_path = /obj/item/clothing/mask/bandana/color/green
+
+/datum/loadout_item/mask/red_bandana
+	name = "Red Bandana"
+	item_path = /obj/item/clothing/mask/bandana/color/red
+
+/datum/loadout_item/mask/skull_bandana
+	name = "Skull Bandana"
+	item_path = /obj/item/clothing/mask/bandana/color/skull
+
+/datum/loadout_item/mask/surgical_mask
+	name = "Face Mask"
 	item_path = /obj/item/clothing/mask/surgical
-	restricted_roles = list(JOB_CHIEF_MEDICAL_OFFICER, JOB_MEDICAL_DOCTOR, JOB_VIROLOGIST, JOB_CHEMIST, JOB_GENETICIST, JOB_PARAMEDIC, JOB_PSYCHOLOGIST, JOB_SECURITY_MEDIC, JOB_ORDERLY)
-
-
-/*
-*	FAMILIES
-*/
-
-/datum/loadout_item/mask/driscoll
-	name = "Driscoll Mask"
-	item_path = /obj/item/clothing/mask/gas/driscoll
-
-/*
-*	MISC
-*/
 
 /datum/loadout_item/mask/fake_mustache
 	name = "Fake Moustache"
@@ -133,3 +90,34 @@ GLOBAL_LIST_INIT(loadout_masks, generate_loadout_items(/datum/loadout_item/mask)
 /datum/loadout_item/mask/balaclava
 	name = "Balaclava"
 	item_path = /obj/item/clothing/mask/balaclava
+
+/datum/loadout_item/mask/balaclavaadj
+	name = "Adjustable Balaclava"
+	item_path = /obj/item/clothing/mask/balaclavaadjust
+
+/datum/loadout_item/mask/balaclavathree
+	name = "Three Hole Balaclava"
+	item_path = /obj/item/clothing/mask/balaclava/threehole
+
+/datum/loadout_item/mask/balaclavagreen
+	name = "Three Hole Green Balaclava"
+	item_path = /obj/item/clothing/mask/balaclava/threehole/green
+
+/datum/loadout_item/mask/moustache
+	name = "Fake moustache"
+	item_path = /obj/item/clothing/mask/fakemoustache
+
+
+/datum/loadout_item/mask/gas_glass
+	name = "Glass Gas Mask"
+	item_path = /obj/item/clothing/mask/gas/glass
+
+/datum/loadout_item/mask/surgical
+	name = "Sterile Mask"
+	item_path = /obj/item/clothing/mask/surgical
+	restricted_roles = list(JOB_CHIEF_MEDICAL_OFFICER, JOB_MEDICAL_DOCTOR, JOB_VIROLOGIST, JOB_CHEMIST, JOB_GENETICIST, JOB_PARAMEDIC, JOB_PSYCHOLOGIST, JOB_SECURITY_MEDIC, JOB_ORDERLY)
+
+//Families Gear
+/datum/loadout_item/mask/driscoll
+	name = "Driscoll Mask"
+	item_path = /obj/item/clothing/mask/gas/driscoll

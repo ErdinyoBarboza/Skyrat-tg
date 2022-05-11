@@ -41,6 +41,12 @@
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/abandoned/engine)
+"ag" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible/layer2,
+/obj/machinery/portable_atmospherics/canister/tier_2,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron/smooth_large,
+/area/shuttle/abandoned/engine)
 "ah" = (
 /obj/machinery/space_heater,
 /obj/effect/turf_decal/bot_white,
@@ -69,6 +75,10 @@
 /obj/effect/turf_decal/bot_white,
 /obj/machinery/light/cold/no_nightlight/directional/east,
 /turf/open/floor/iron/smooth_large,
+/area/shuttle/abandoned/engine)
+"ak" = (
+/obj/structure/sign/warning/electricshock,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/abandoned/engine)
 "am" = (
 /obj/machinery/power/smes/engineering{
@@ -192,6 +202,10 @@
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/mineral/titanium/blue/airless,
 /area/shuttle/abandoned/cargo)
+"aD" = (
+/obj/structure/sign/warning/nosmoking/circle,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/abandoned/cargo)
 "aE" = (
 /obj/structure/cable,
 /obj/machinery/light/cold/no_nightlight/directional/east,
@@ -269,6 +283,10 @@
 /obj/effect/spawner/random/trash/food_packaging,
 /turf/open/floor/pod,
 /area/shuttle/abandoned/cargo)
+"aT" = (
+/obj/structure/sign/warning/securearea,
+/turf/closed/wall/mineral/titanium/survival/nodiagonal,
+/area/shuttle/abandoned/cargo)
 "aU" = (
 /obj/machinery/porta_turret/centcom_shuttle/weak{
 	dir = 5
@@ -296,6 +314,10 @@
 	},
 /turf/open/floor/plating/airless,
 /area/shuttle/abandoned/engine)
+"aY" = (
+/obj/structure/sign/warning/chemdiamond,
+/turf/closed/wall/mineral/titanium/survival/nodiagonal,
+/area/shuttle/abandoned/cargo)
 "aZ" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/shuttle/abandoned/engine)
@@ -551,10 +573,6 @@
 	dir = 1
 	},
 /area/shuttle/abandoned/bridge)
-"bM" = (
-/obj/structure/sign/warning/no_smoking/circle,
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/shuttle/abandoned/cargo)
 "bN" = (
 /obj/docking_port/mobile{
 	dir = 2;
@@ -934,6 +952,10 @@
 /obj/machinery/light/cold/no_nightlight/directional/east,
 /turf/open/floor/iron/dark/textured_large,
 /area/shuttle/abandoned/bridge)
+"dl" = (
+/obj/structure/sign/warning/nosmoking/circle,
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/shuttle/abandoned/bridge)
 "dm" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/white,
@@ -1224,10 +1246,6 @@
 /obj/effect/mob_spawn/corpse/human/assistant,
 /turf/open/floor/mineral/titanium/blue/airless,
 /area/shuttle/abandoned/cargo)
-"CQ" = (
-/obj/structure/sign/warning/secure_area,
-/turf/closed/wall/mineral/titanium/survival/nodiagonal,
-/area/shuttle/abandoned/cargo)
 "CS" = (
 /obj/item/reagent_containers/pill/happy,
 /obj/item/reagent_containers/pill/aranesp{
@@ -1307,12 +1325,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor,
 /area/shuttle/abandoned/bridge)
-"JY" = (
-/obj/machinery/atmospherics/components/unary/portables_connector/visible/layer2,
-/obj/machinery/portable_atmospherics/canister/tier_2,
-/obj/effect/turf_decal/bot_white,
-/turf/open/floor/iron/smooth_large,
-/area/shuttle/abandoned/engine)
 "Ki" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/blood/tracks{
@@ -1324,10 +1336,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor,
 /area/shuttle/abandoned/bridge)
-"KI" = (
-/obj/structure/sign/warning/chem_diamond,
-/turf/closed/wall/mineral/titanium/survival/nodiagonal,
-/area/shuttle/abandoned/cargo)
 "LM" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/blood/tracks{
@@ -1354,10 +1362,6 @@
 /obj/item/stack/rods,
 /turf/open/floor/mineral/titanium/airless,
 /area/shuttle/abandoned/cargo)
-"OH" = (
-/obj/structure/sign/warning/no_smoking/circle,
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/shuttle/abandoned/bridge)
 "OL" = (
 /obj/machinery/computer/shuttle/white_ship/bridge{
 	dir = 8
@@ -1462,10 +1466,6 @@
 	},
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/abandoned/bridge)
-"Zh" = (
-/obj/structure/sign/warning/electric_shock,
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/shuttle/abandoned/engine)
 "ZA" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
@@ -1537,7 +1537,7 @@ cM
 cM
 bV
 ce
-JY
+ag
 bx
 uv
 cl
@@ -1630,7 +1630,7 @@ aq
 cY
 cY
 cY
-bM
+aD
 cY
 cY
 cY
@@ -1711,24 +1711,24 @@ aZ
 cl
 cl
 cl
-Zh
+ak
 ck
 cl
 at
 cS
 aw
 aG
-CQ
+aT
 bc
 cr
 bc
-KI
+aY
 aG
 bz
 cS
 da
 dy
-OH
+dl
 dq
 dv
 dy
@@ -1834,11 +1834,11 @@ ci
 cP
 aw
 aG
-KI
+aY
 bg
 bo
 bg
-CQ
+aT
 aG
 bz
 cP

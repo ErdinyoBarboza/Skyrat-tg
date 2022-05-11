@@ -17,6 +17,7 @@
 	name = "Xenobiological Slime Hybrid"
 	id = SPECIES_SLIMESTART
 	examine_limb_id = SPECIES_SLIMEPERSON
+	default_color = "#00FFFF"
 	say_mod = "says"
 	coldmod = 3
 	heatmod = 1

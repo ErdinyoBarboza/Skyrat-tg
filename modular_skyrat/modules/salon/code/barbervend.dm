@@ -26,8 +26,8 @@
 		/obj/item/storage/box/perfume = 1,
 	)
 	refill_canister = /obj/item/vending_refill/barbervend
-	default_price = PAYCHECK_CREW
-	extra_price = PAYCHECK_COMMAND
+	default_price = PAYCHECK_ASSISTANT
+	extra_price = PAYCHECK_HARD
 	payment_department = ACCOUNT_SRV
 
 /obj/item/vending_refill/barbervend

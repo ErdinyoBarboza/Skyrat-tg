@@ -3,7 +3,7 @@
 	name = "Xenomorph Hybrid"
 	id = SPECIES_XENO
 	say_mod = "hisses"
-	family_heirlooms = list(/obj/item/toy/plush/rouny, /obj/item/toy/toy_xeno,)
+	default_color = "#00FF00"
 	species_traits = list(
 		MUTCOLORS,
 		EYECOLOR,

@@ -344,7 +344,7 @@
 
 	var/lums = holder_turf.get_lumcount()
 
-	if(lums > LIGHTING_TILE_IS_DARK)
+	if(lums > 0.2)
 		SEND_SIGNAL(quirk_holder, COMSIG_CLEAR_MOOD_EVENT, "nyctophobia")
 		return
 
@@ -828,13 +828,12 @@
 	hardcore_value = 1
 
 /datum/quirk/bad_touch/add()
-	RegisterSignal(quirk_holder, list(COMSIG_LIVING_GET_PULLED, COMSIG_CARBON_HELP_ACT), .proc/uncomfortable_touch)
+	RegisterSignal(quirk_holder, list(COMSIG_LIVING_GET_PULLED, COMSIG_CARBON_HUGGED, COMSIG_CARBON_HEADPAT, COMSIG_CARBON_TAILPULL), .proc/uncomfortable_touch)
 
 /datum/quirk/bad_touch/remove()
-	UnregisterSignal(quirk_holder, list(COMSIG_LIVING_GET_PULLED, COMSIG_CARBON_HELP_ACT))
+	UnregisterSignal(quirk_holder, list(COMSIG_LIVING_GET_PULLED, COMSIG_CARBON_HUGGED, COMSIG_CARBON_HEADPAT, COMSIG_CARBON_TAILPULL))
 
-/// Causes a negative moodlet to our quirk holder on signal
-/datum/quirk/bad_touch/proc/uncomfortable_touch(datum/source)
+/datum/quirk/bad_touch/proc/uncomfortable_touch()
 	SIGNAL_HANDLER
 
 	if(quirk_holder.stat == DEAD)

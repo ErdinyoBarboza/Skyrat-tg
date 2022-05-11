@@ -1,6 +1,4 @@
-/*
-*	LOADOUT ITEM DATUMS FOR THE BELT SLOT
-*/
+// --- Loadout item datums for belts ---
 
 /// Belt Slot Items (Moves overrided items to backpack)
 GLOBAL_LIST_INIT(loadout_belts, generate_loadout_items(/datum/loadout_item/belts))

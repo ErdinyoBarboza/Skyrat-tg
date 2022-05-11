@@ -44,6 +44,15 @@
 /obj/structure/cable,
 /turf/open/floor/iron/airless,
 /area/awaymission/bmpship/midship)
+"cE" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/command{
+	name = "E.V.A. Storage";
+	req_access_txt = "18";
+	emergency = 1
+	},
+/turf/open/floor/iron/white/corner,
+/area/awaymission/bmpship/midship)
 "cR" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/right,
@@ -135,12 +144,23 @@
 "fQ" = (
 /turf/open/floor/iron,
 /area/awaymission/bmpship/aft)
+"fW" = (
+/turf/closed/mineral/random,
+/area/template_noop)
 "fY" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
 /turf/open/floor/pod/dark,
 /area/awaymission/bmpship/aft)
+"gC" = (
+/obj/item/reagent_containers/food/drinks/bottle/beer/almost_empty{
+	pixel_y = 12;
+	pixel_x = 11
+	},
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/iron/airless,
+/area/awaymission/bmpship/fore)
 "gH" = (
 /obj/effect/turf_decal/trimline/neutral/filled/shrink_cw,
 /obj/structure/cable,
@@ -202,15 +222,6 @@
 "ja" = (
 /turf/closed/mineral/random/high_chance,
 /area/awaymission/bmpship/fore)
-"jt" = (
-/obj/structure/cable,
-/obj/machinery/door/airlock/command{
-	name = "E.V.A. Storage";
-	req_access_txt = "18";
-	emergency = 1
-	},
-/turf/open/floor/iron/white/corner,
-/area/awaymission/bmpship/midship)
 "kc" = (
 /turf/template_noop,
 /area/template_noop)
@@ -294,14 +305,6 @@
 /obj/structure/cable,
 /turf/open/floor/mineral/plastitanium,
 /area/awaymission/bmpship/aft)
-"mR" = (
-/obj/item/reagent_containers/food/drinks/bottle/beer/almost_empty{
-	pixel_y = 12;
-	pixel_x = 11
-	},
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/iron/airless,
-/area/awaymission/bmpship/fore)
 "nb" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -489,17 +492,6 @@
 /obj/item/chair,
 /turf/open/misc/asteroid/airless,
 /area/awaymission/bmpship/fore)
-"rT" = (
-/obj/structure/cable,
-/obj/machinery/door/airlock/command{
-	name = "Teleport Access";
-	req_access_txt = "17";
-	emergency = 1
-	},
-/turf/open/floor/iron/white/side{
-	dir = 6
-	},
-/area/awaymission/bmpship/midship)
 "rX" = (
 /obj/item/stack/rods,
 /obj/structure/lattice,
@@ -585,6 +577,22 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating/airless,
 /area/awaymission/bmpship/aft)
+"vJ" = (
+/obj/effect/turf_decal/trimline/white/filled/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/white/line,
+/obj/structure/chair/office/light{
+	dir = 8
+	},
+/obj/item/reagent_containers/food/drinks/bottle/beer/almost_empty{
+	pixel_y = 9;
+	pixel_x = -13
+	},
+/turf/open/floor/iron/airless{
+	icon_state = "podfloor_dark"
+	},
+/area/awaymission/bmpship/fore)
 "vX" = (
 /obj/effect/spawner/random/structure/girder,
 /turf/open/floor/plating/airless,
@@ -615,6 +623,18 @@
 	icon_state = "platingdmg2"
 	},
 /area/awaymission/bmpship/fore)
+"xy" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/delivery,
+/obj/structure/closet/crate/large,
+/obj/structure/canister_frame/machine/frame_tier_2,
+/turf/open/floor/iron/dark,
+/area/awaymission/bmpship/aft)
 "xF" = (
 /turf/closed/wall/mineral/titanium,
 /area/awaymission/bmpship/aft)
@@ -659,22 +679,6 @@
 	dir = 4
 	},
 /area/awaymission/bmpship/midship)
-"yE" = (
-/obj/effect/turf_decal/trimline/white/filled/warning{
-	dir = 1
-	},
-/obj/effect/turf_decal/trimline/white/line,
-/obj/structure/chair/office/light{
-	dir = 8
-	},
-/obj/item/reagent_containers/food/drinks/bottle/beer/almost_empty{
-	pixel_y = 9;
-	pixel_x = -13
-	},
-/turf/open/floor/iron/airless{
-	icon_state = "podfloor_dark"
-	},
-/area/awaymission/bmpship/fore)
 "yL" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -736,6 +740,17 @@
 	icon_state = "panelscorched"
 	},
 /area/awaymission/bmpship/aft)
+"Ak" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/command{
+	name = "Teleport Access";
+	req_access_txt = "17";
+	emergency = 1
+	},
+/turf/open/floor/iron/white/side{
+	dir = 6
+	},
+/area/awaymission/bmpship/midship)
 "Au" = (
 /turf/closed/mineral/random,
 /area/awaymission/bmpship)
@@ -1016,18 +1031,6 @@
 	icon_state = "platingdmg3"
 	},
 /area/awaymission/bmpship/fore)
-"Ih" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/delivery,
-/obj/structure/closet/crate/large,
-/obj/structure/canister_frame/machine/frame_tier_2,
-/turf/open/floor/iron/dark,
-/area/awaymission/bmpship/aft)
 "ID" = (
 /obj/item/stack/rods,
 /turf/template_noop,
@@ -1135,6 +1138,15 @@
 	set_obj_flags = "EMAGGED"
 	},
 /turf/open/floor/plating/airless,
+/area/awaymission/bmpship/midship)
+"Lo" = (
+/obj/machinery/door/airlock/command{
+	name = "Teleport Access";
+	req_access_txt = "17";
+	emergency = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/airless,
 /area/awaymission/bmpship/midship)
 "LX" = (
 /obj/structure/lattice,
@@ -1406,15 +1418,6 @@
 	},
 /turf/open/floor/iron/dark/side/airless,
 /area/awaymission/bmpship/aft)
-"WF" = (
-/obj/machinery/door/airlock/command{
-	name = "Teleport Access";
-	req_access_txt = "17";
-	emergency = 1
-	},
-/obj/structure/cable,
-/turf/open/floor/iron/airless,
-/area/awaymission/bmpship/midship)
 "Xu" = (
 /obj/item/shard,
 /obj/item/stack/rods,
@@ -1974,7 +1977,7 @@ rm
 uF
 Ph
 uF
-Ih
+xy
 Ff
 zO
 cR
@@ -2285,14 +2288,14 @@ tm
 fp
 lx
 ck
-jt
+cE
 lf
 Ko
-rT
+Ak
 UH
 Pu
 yb
-WF
+Lo
 Mw
 To
 pZ
@@ -2394,8 +2397,8 @@ kc
 kc
 ID
 cY
-yE
-mR
+vJ
+gC
 nl
 UA
 Yp
@@ -2787,11 +2790,11 @@ kc
 kc
 kc
 kc
-Au
-Au
-Au
-Au
-Au
+fW
+fW
+fW
+fW
+fW
 kc
 kc
 kc
@@ -2816,9 +2819,9 @@ kc
 kc
 kc
 kc
-Au
-Au
-Au
+fW
+fW
+fW
 kc
 kc
 kc

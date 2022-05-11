@@ -12,7 +12,7 @@
 	outfit = /datum/outfit/job/clown
 	plasmaman_outfit = /datum/outfit/plasmaman/clown
 
-	paycheck = PAYCHECK_CREW
+	paycheck = PAYCHECK_MINIMAL
 	paycheck_department = ACCOUNT_SRV
 
 	liver_traits = list(TRAIT_COMEDY_METABOLISM)
@@ -98,8 +98,7 @@
 	for(var/datum/mutation/human/clumsy/M in H.dna.mutations)
 		M.mutadone_proof = TRUE
 	var/datum/atom_hud/fan = GLOB.huds[DATA_HUD_FAN]
-	fan.show_to(H)
-	H.faction |= FACTION_CLOWN
+	fan.add_hud_to(H)
 
 //Skyrat Edit Start: Floor Demon
 /datum/outfit/job/clown_free
@@ -143,5 +142,5 @@
 	for(var/datum/mutation/human/clumsy/M in H.dna.mutations)
 		M.mutadone_proof = FALSE
 	var/datum/atom_hud/fan = GLOB.huds[DATA_HUD_FAN]
-	fan.show_to(H)
+	fan.add_hud_to(H)
 //Skyrat Edit Stop: Floor Demon

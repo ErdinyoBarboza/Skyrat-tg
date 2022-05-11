@@ -30,18 +30,30 @@
 	},
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/thelizardsgas)
-"bO" = (
-/obj/structure/closet/crate/secure/gear,
-/turf/closed/mineral,
-/area/ruin/space/has_grav/thelizardsgas)
-"bP" = (
+"bt" = (
 /turf/open/floor/iron/dark/smooth_corner{
 	dir = 8
 	},
 /area/ruin/space/has_grav/thelizardsgas)
+"bO" = (
+/obj/structure/closet/crate/secure/gear,
+/turf/closed/mineral,
+/area/ruin/space/has_grav/thelizardsgas)
 "bW" = (
 /obj/effect/spawner/random/structure/billboard/lizardsgas,
 /turf/open/misc/asteroid/airless,
+/area/ruin/space/has_grav/thelizardsgas)
+"cm" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/structure/sign/poster/contraband/lizards_gas_power{
+	pixel_x = 32
+	},
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/thelizardsgas)
 "ct" = (
 /turf/open/floor/iron/white/corner{
@@ -139,16 +151,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall,
 /area/ruin/space/has_grav/thelizardsgas)
-"pb" = (
-/obj/machinery/door/window,
-/obj/structure/cable,
-/obj/structure/sign/poster/contraband/lizards_gas_payment{
-	pixel_x = -32
-	},
-/turf/open/floor/iron/dark/smooth_corner{
-	dir = 4
-	},
-/area/ruin/space/has_grav/thelizardsgas)
 "qX" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/white/side{
@@ -167,16 +169,6 @@
 /area/ruin/space/has_grav/thelizardsgas)
 "rC" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/thelizardsgas)
-"rQ" = (
-/obj/structure/sign/warning/electric_shock{
-	pixel_y = 32
-	},
-/obj/machinery/suit_storage_unit/standard_unit,
-/obj/machinery/power/terminal{
-	dir = 4
-	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/thelizardsgas)
 "ss" = (
@@ -209,18 +201,6 @@
 /obj/structure/closet/secure_closet/freezer/empty/open,
 /turf/open/floor/iron/white/corner,
 /area/ruin/space/has_grav/thelizardsgas)
-"vx" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
-/obj/structure/sign/poster/contraband/lizards_gas_power{
-	pixel_x = 32
-	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/thelizardsgas)
 "wb" = (
 /turf/open/misc/asteroid/airless,
 /area/ruin/space/has_grav/thelizardsgas)
@@ -239,11 +219,28 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/thelizardsgas)
+"yU" = (
+/obj/structure/sign/warning/nosmoking{
+	desc = "An incredibly bad idea.";
+	pixel_y = 32
+	},
+/turf/template_noop,
+/area/template_noop)
 "zn" = (
 /obj/structure/rack,
 /obj/effect/spawner/random/food_or_drink/snack,
 /obj/effect/spawner/random/food_or_drink/snack,
 /turf/open/floor/iron/white,
+/area/ruin/space/has_grav/thelizardsgas)
+"zz" = (
+/obj/machinery/door/window,
+/obj/structure/cable,
+/obj/structure/sign/poster/contraband/lizards_gas_payment{
+	pixel_x = -32
+	},
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 4
+	},
 /area/ruin/space/has_grav/thelizardsgas)
 "AZ" = (
 /obj/machinery/light/directional/west,
@@ -288,15 +285,6 @@
 	},
 /turf/template_noop,
 /area/ruin/space/has_grav/thelizardsgas)
-"BM" = (
-/obj/machinery/atmospherics/pipe/smart/simple/yellow/hidden,
-/obj/structure/sign/poster/contraband/lizards_gas_payment{
-	pixel_x = -32
-	},
-/turf/open/floor/iron/white/corner{
-	dir = 4
-	},
-/area/ruin/space/has_grav/thelizardsgas)
 "Cv" = (
 /obj/machinery/door/airlock/hatch,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -306,20 +294,6 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/thelizardsgas)
 "CA" = (
-/turf/template_noop,
-/area/template_noop)
-"CZ" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/disposalpipe/segment,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/thelizardsgas)
-"Dn" = (
-/obj/structure/sign/warning/no_smoking{
-	desc = "An incredibly bad idea.";
-	pixel_y = 32
-	},
 /turf/template_noop,
 /area/template_noop)
 "DG" = (
@@ -418,6 +392,23 @@
 "LA" = (
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/thelizardsgas)
+"LT" = (
+/obj/structure/sign/warning/electricshock{
+	pixel_y = 32
+	},
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/thelizardsgas)
+"Mw" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/thelizardsgas)
 "MB" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/atmospherics/pipe/smart/simple/yellow/hidden{
@@ -472,6 +463,15 @@
 "RB" = (
 /obj/structure/marker_beacon/burgundy,
 /turf/open/misc/asteroid/airless,
+/area/ruin/space/has_grav/thelizardsgas)
+"Ss" = (
+/obj/machinery/atmospherics/pipe/smart/simple/yellow/hidden,
+/obj/structure/sign/poster/contraband/lizards_gas_payment{
+	pixel_x = -32
+	},
+/turf/open/floor/iron/white/corner{
+	dir = 4
+	},
 /area/ruin/space/has_grav/thelizardsgas)
 "Tj" = (
 /obj/machinery/atmospherics/pipe/smart/simple/yellow/visible,
@@ -694,7 +694,7 @@ Qg
 mR
 AZ
 rs
-pb
+zz
 JY
 ct
 mR
@@ -746,7 +746,7 @@ Qg
 Qg
 Qg
 mR
-bP
+bt
 FJ
 VP
 hl
@@ -806,7 +806,7 @@ Tj
 na
 sN
 iO
-BM
+Ss
 GM
 Pb
 ss
@@ -837,7 +837,7 @@ Wh
 mR
 mR
 mR
-Dn
+yU
 CA
 MB
 CA
@@ -961,7 +961,7 @@ CA
 CA
 Qg
 mR
-rQ
+LT
 xy
 Kw
 mR
@@ -989,8 +989,8 @@ CA
 Qg
 mR
 Io
-vx
-CZ
+cm
+Mw
 Cv
 nL
 gL

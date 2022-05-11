@@ -2,6 +2,7 @@
 	name = "Dwarf"
 	id = SPECIES_DWARF
 	examine_limb_id = SPECIES_HUMAN
+	default_color = "#FFFFFF"
 	say_mod = "bellows"
 	species_traits = list(
 		EYECOLOR,

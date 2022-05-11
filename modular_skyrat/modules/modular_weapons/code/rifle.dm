@@ -157,5 +157,5 @@
 	max_ammo = 10
 	multiple_sprites = 2
 
-/obj/item/ammo_box/magazine/cm68/empty
+/obj/item/ammo_box/magazine/cm762/empty
 	start_empty = 1

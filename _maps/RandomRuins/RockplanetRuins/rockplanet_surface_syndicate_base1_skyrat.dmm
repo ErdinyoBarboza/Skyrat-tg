@@ -368,16 +368,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/syndicate_lava_base/medbay)
-"eh" = (
-/obj/effect/turf_decal/tile/blue/darkblue{
-	dir = 1
-	},
-/obj/machinery/medical_kiosk,
-/obj/structure/sign/departments/maint{
-	pixel_y = 32
-	},
-/turf/open/floor/iron/white,
-/area/ruin/syndicate_lava_base/medbay)
 "ej" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 4
@@ -829,6 +819,16 @@
 /obj/structure/chair/sofa/bench/left,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron,
+/area/ruin/syndicate_lava_base/medbay)
+"jn" = (
+/obj/effect/turf_decal/tile/blue/darkblue{
+	dir = 1
+	},
+/obj/machinery/medical_kiosk,
+/obj/structure/sign/departments/examroom{
+	pixel_y = 32
+	},
+/turf/open/floor/iron/white,
 /area/ruin/syndicate_lava_base/medbay)
 "jA" = (
 /obj/structure/bed,
@@ -1395,14 +1395,6 @@
 	},
 /turf/open/chasm/sandy,
 /area/ruin/syndicate_lava_base/testlab)
-"qw" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/freezer/on{
-	dir = 4;
-	initialize_directions = 4;
-	name = "euthanization chamber freezer"
-	},
-/turf/open/floor/iron/dark,
-/area/ruin/syndicate_lava_base/testlab)
 "qz" = (
 /obj/structure/window/reinforced/survival_pod,
 /turf/open/floor/engine,
@@ -1579,6 +1571,14 @@
 "tA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
+/area/ruin/syndicate_lava_base/testlab)
+"tD" = (
+/obj/machinery/atmospherics/components/binary/thermomachine/freezer/on{
+	dir = 4;
+	initialize_directions = 4;
+	name = "euthanization chamber freezer"
+	},
+/turf/open/floor/iron/dark,
 /area/ruin/syndicate_lava_base/testlab)
 "tH" = (
 /obj/machinery/firealarm/directional/east,
@@ -4938,7 +4938,7 @@ RL
 UX
 Zd
 Ku
-qw
+tD
 ji
 ch
 Jt
@@ -6818,7 +6818,7 @@ FO
 NH
 Yp
 ZX
-eh
+jn
 Ln
 MN
 QW

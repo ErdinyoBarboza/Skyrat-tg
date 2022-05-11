@@ -61,7 +61,7 @@
 		if(prob(20))
 			L.fire_stacks += 2
 		if(L.fire_stacks)
-			L.ignite_mob()
+			L.IgniteMob()
 
 /mob/living/simple_animal/hostile/biohazard_blob/diseased_rat
 	name = "diseased rat"

@@ -4,6 +4,7 @@
 	id = SPECIES_VOX
 	eyes_icon = 'modular_skyrat/master_files/icons/mob/species/vox_eyes.dmi'
 	say_mod = "skrees"
+	default_color = "#00FF00"
 	can_augment = FALSE
 	species_traits = list(
 		MUTCOLORS,
@@ -15,6 +16,7 @@
 		FACEHAIR
 	)
 	inherent_traits = list(
+		TRAIT_RESISTCOLD,
 		TRAIT_ADVANCEDTOOLUSER,
 		TRAIT_CAN_STRIP,
 		TRAIT_CAN_USE_FLIGHT_POTION,
@@ -40,11 +42,7 @@
 	species_language_holder = /datum/language_holder/vox
 	changesource_flags = MIRROR_BADMIN | WABBAJACK | MIRROR_MAGIC | MIRROR_PRIDE | ERT_SPAWN | RACE_SWAP | SLIME_EXTRACT
 	learnable_languages = list(/datum/language/common, /datum/language/vox, /datum/language/schechi)
-
-		// Vox are cold resistant, but also heat sensitive
-	bodytemp_heat_damage_limit = (BODYTEMP_HEAT_DAMAGE_LIMIT - 15) // being cold resistant, should make you heat sensitive actual effect ingame isn't much
-	bodytemp_cold_damage_limit = (BODYTEMP_COLD_DAMAGE_LIMIT - 30)
-
+	digitigrade_customization = DIGITIGRADE_OPTIONAL
 	bodypart_overrides = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/mutant/vox,
 		BODY_ZONE_CHEST = /obj/item/bodypart/chest/mutant/vox,

@@ -1,6 +1,4 @@
-/*
-*	LOADOUT ITEM DATUMS FOR BOTH HAND SLOTS
-*/
+// --- Loadout item datums for inhand items ---
 
 /// Inhand items (Moves overrided items to backpack)
 GLOBAL_LIST_INIT(loadout_inhand_items, generate_loadout_items(/datum/loadout_item/inhand))
@@ -47,6 +45,10 @@ GLOBAL_LIST_INIT(loadout_inhand_items, generate_loadout_items(/datum/loadout_ite
 /datum/loadout_item/inhand/bouquet_rose
 	name = "Rose Bouquet"
 	item_path = /obj/item/bouquet/rose
+
+/datum/loadout_item/inhand/cane
+	name = "Cane"
+	item_path = /obj/item/cane
 
 /datum/loadout_item/inhand/smokingpipe
 	name = "Smoking Pipe"

@@ -504,12 +504,3 @@
 	emote_type = EMOTE_AUDIBLE
 	vary = TRUE
 	sound = 'modular_skyrat/modules/emotes/sound/voice/goose_honk.ogg'
-	
-/datum/emote/living/gnash
-	key = "gnash"
-	key_third_person = "gnashes"
-	message = "gnashes."
-	emote_type = EMOTE_AUDIBLE
-	vary = TRUE
-	sound = 'sound/weapons/bite.ogg'
-

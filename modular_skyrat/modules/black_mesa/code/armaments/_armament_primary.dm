@@ -55,12 +55,12 @@
 /datum/armament_entry/hecu/primary/special/sniper_rifle
 	item_type = /obj/item/gun/ballistic/automatic/cfa_rifle
 	max_purchase = 1
-	cost = 16
+	cost = 18
 
 /datum/armament_entry/hecu/primary/special/hmg
 	item_type = /obj/item/mounted_machine_gun_folded
 	max_purchase = 1
-	cost = 20
+	cost = 22
 	magazine = /obj/item/ammo_box/magazine/mmg_box
 	mags_to_spawn = 1
 	magazine_cost = 2

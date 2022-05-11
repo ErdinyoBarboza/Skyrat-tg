@@ -1,9 +1,8 @@
 /datum/species/moth
-	mutant_bodyparts = list()
 	default_mutant_bodyparts = list(
 		"fluff" = "None",
 		"wings" = ACC_RANDOM,
-		"moth_antennae" = ACC_RANDOM,
+		"moth_antennae" = ACC_RANDOM
 	)
 
 /datum/species/moth/New()

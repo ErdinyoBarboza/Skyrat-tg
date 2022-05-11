@@ -640,6 +640,16 @@
 	},
 /turf/open/floor/iron/white,
 /area/shuttle/escape)
+"cl" = (
+/obj/machinery/atmospherics/components/binary/thermomachine/freezer,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
+/area/shuttle/escape)
 "cm" = (
 /obj/structure/table,
 /obj/item/reagent_containers/glass/beaker/cryoxadone,
@@ -1021,6 +1031,16 @@
 	},
 /turf/open/floor/iron,
 /area/shuttle/escape)
+"di" = (
+/obj/structure/sign/warning/electricshock{
+	pixel_x = 32
+	},
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/shuttle/escape)
 "dj" = (
 /obj/structure/table,
 /obj/item/storage/toolbox/mechanical,
@@ -1037,6 +1057,17 @@
 /obj/structure/table,
 /obj/item/storage/toolbox/electrical,
 /obj/item/storage/toolbox/electrical,
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/shuttle/escape)
+"dl" = (
+/obj/structure/table,
+/obj/structure/sign/warning/enginesafety{
+	pixel_y = -32
+	},
 /obj/effect/turf_decal/tile/yellow,
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
@@ -1188,16 +1219,6 @@
 /obj/effect/turf_decal/tile/red/fourcorners,
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
-"yg" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/freezer,
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/turf/open/floor/iron/white,
-/area/shuttle/escape)
 "zj" = (
 /obj/structure/table,
 /obj/item/storage/medkit/regular{
@@ -1247,33 +1268,12 @@
 	},
 /turf/open/floor/iron/white,
 /area/shuttle/escape)
-"JV" = (
-/obj/structure/table,
-/obj/structure/sign/warning/engine_safety{
-	pixel_y = -32
-	},
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/shuttle/escape)
 "PD" = (
 /obj/structure/chair/comfy/beige{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /turf/open/floor/iron/dark,
-/area/shuttle/escape)
-"SB" = (
-/obj/structure/sign/warning/electric_shock{
-	pixel_x = 32
-	},
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 4
-	},
-/turf/open/floor/iron,
 /area/shuttle/escape)
 "Xo" = (
 /obj/machinery/computer/security{
@@ -1542,7 +1542,7 @@ ac
 cU
 bc
 bc
-JV
+dl
 ab
 dy
 dz
@@ -1761,7 +1761,7 @@ cg
 bc
 ab
 de
-SB
+di
 dp
 ab
 ad
@@ -2015,7 +2015,7 @@ aZ
 aZ
 bc
 ac
-yg
+cl
 cs
 cp
 cp

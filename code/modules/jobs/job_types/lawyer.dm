@@ -13,7 +13,7 @@
 	outfit = /datum/outfit/job/lawyer
 	plasmaman_outfit = /datum/outfit/plasmaman/bar
 
-	paycheck = PAYCHECK_CREW
+	paycheck = PAYCHECK_EASY
 	paycheck_department = ACCOUNT_SRV
 
 	mind_traits = list(TRAIT_DONUT_LOVER)

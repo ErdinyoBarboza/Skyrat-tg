@@ -43,7 +43,7 @@
 	/// Variable needed to determine the selected category of forms on Photocopier.js
 	var/category
 
-/obj/machinery/photocopier/Initialize(mapload)
+/obj/machinery/photocopier/Initialize()
 	. = ..()
 	AddComponent(/datum/component/payment, 5, SSeconomy.get_dep_account(ACCOUNT_CIV), PAYMENT_CLINICAL)
 	toner_cartridge = new(src)
@@ -365,6 +365,9 @@
 
 /obj/machinery/photocopier/attackby(obj/item/O, mob/user, params)
 	if(istype(O, /obj/item/paper))
+		return
+
+	else if(istype(O, /obj/item/paper))
 		if(copier_empty())
 			if(!user.temporarilyRemoveItemFromInventory(O))
 				return

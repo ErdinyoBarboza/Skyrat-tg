@@ -47,6 +47,7 @@
 	desc = "A green tennis ball. It seems to have an impermeable coating."
 	icon_state = "tennis_green"
 	inhand_icon_state = "tennis_green"
+	permeability_coefficient = 0.9
 
 /obj/item/toy/tennis/cyan	//electric
 	name = "cyan tennis ball"

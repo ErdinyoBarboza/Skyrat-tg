@@ -148,7 +148,6 @@
 	name = "ICARUS Weapons System Ignition"
 	typepath = /datum/round_event/icarus_sunbeam
 	max_occurrences = 0
-	weight = 0
 
 /datum/round_event/icarus_sunbeam
 	announceWhen = 1 // Instant announcement

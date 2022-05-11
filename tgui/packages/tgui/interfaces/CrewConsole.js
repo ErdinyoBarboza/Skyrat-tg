@@ -44,10 +44,6 @@ const jobToColor = jobId => {
   if (jobId >= 50 && jobId < 60) {
     return COLORS.department.cargo;
   }
-  // SKYRAT EDIT - Crew Monitor Updates to add Service Dept
-  if (jobId >= 60 && jobId < 80) {
-    return COLORS.department.service;
-  }
   // SKYRAT EDIT - ORIGINAL: if (jobId >= 200 && jobId < 230) {
   if (jobId >= 200 && jobId < 240) {
     return COLORS.department.centcom;
@@ -59,10 +55,9 @@ const jobToColor = jobId => {
 const healthToAttribute = (oxy, tox, burn, brute, attributeList) => {
   const healthSum = oxy + tox + burn + brute;
   const level = Math.min(Math.max(Math.ceil(healthSum / 31), 0), 5);
-  // SKYRAT EDIT END: Health bump from 25 to 31 for SR's health pool
   return attributeList[level];
 };
-
+// SKRAY EDIT - END:
 
 const HealthStat = props => {
   const { type, value } = props;
@@ -98,28 +93,28 @@ const CrewTable = (props, context) => {
     s => s.ijob
   )(data.sensors ?? []);
   return (
-  // SKYRAT EDIT START - Various adjustments to re-align columns
-    <Table cellpadding="3" >{/* SKYRAT EDIT - gives a buffer to flush text*/}
+    <Table>
       <Table.Row>
-        <Table.Cell bold colspan="2" > {/* SKYRAT EDIT - Expands the first column to account for robotic wrench*/}
+        <Table.Cell bold>
           Name
         </Table.Cell>
-        <Table.Cell bold collapsing textAlign="center"> {/* SKYRAT EDIT - Removal of false column and changes to alignment*/}
-          Status
-        </Table.Cell>
+        <Table.Cell bold collapsing />
         <Table.Cell bold collapsing textAlign="center">
           Vitals
         </Table.Cell>
-        <Table.Cell bold width="180px" collapsing textAlign="center">{/* SKYRAT EDIT - Centers the text*/}
+        <Table.Cell bold collapsing textAlign="center">{/* SKYRAT EDIT - Centers the text*/}
           Position
         </Table.Cell>
+        {(
+          <Table.Cell bold collapsing textAlign="center">{/* SKYRAT EDIT - Centers the text and removes old code blocking it from appearing*/}
+            Tracking
+          </Table.Cell>
+        )}
       </Table.Row>
       {sensors.map(sensor => (
         <CrewTableEntry sensor_data={sensor} key={sensor.ref} />
       ))}
-
     </Table>
-  // SKYRAT EDIT START - Various adjustments to re-align columns
   );
 };
 
@@ -194,7 +189,7 @@ const CrewTableEntry = (props, context) => {
         )}
       </Table.Cell>
       <Table.Cell>
-        {area !== undefined ? area : <Icon name="question" color="#ffffff" size={1} /> } {/* SKYRAT EDIT - Icon from text 'N/A'*/}
+        {area !== undefined ? area : <Icon name="question" color="#ffffff" size={1} /> } {/* SKYRAT EDIT - Icon from text 'N/A*/}
       </Table.Cell>
       {!!link_allowed && (
         <Table.Cell collapsing>

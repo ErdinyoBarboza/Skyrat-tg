@@ -1,6 +1,4 @@
-/*
-*	LOADOUT ITEM DATUMS FOR THE HAND SLOT
-*/
+// --- Loadout item datums for gloves ---
 
 /// Glove Slot Items (Deletes overrided items)
 GLOBAL_LIST_INIT(loadout_gloves, generate_loadout_items(/datum/loadout_item/gloves))
@@ -56,6 +54,10 @@ GLOBAL_LIST_INIT(loadout_gloves, generate_loadout_items(/datum/loadout_item/glov
 	name = "Purple Gloves"
 	item_path = /obj/item/clothing/gloves/color/purple
 
+/datum/loadout_item/gloves/rainbow
+	name = "Rainbow Gloves"
+	item_path = /obj/item/clothing/gloves/color/rainbow
+
 /datum/loadout_item/gloves/red
 	name = "Red Gloves"
 	item_path = /obj/item/clothing/gloves/color/red
@@ -65,13 +67,9 @@ GLOBAL_LIST_INIT(loadout_gloves, generate_loadout_items(/datum/loadout_item/glov
 	item_path = /obj/item/clothing/gloves/color/yellow
 	additional_tooltip_contents = list("NON-INSULATING - This item is purely cosmetic and provide no shock insulation.")
 
-/datum/loadout_item/gloves/white
+/datum/loadout_item/gloves/yellow
 	name = "White Gloves"
 	item_path = /obj/item/clothing/gloves/color/white
-
-/datum/loadout_item/gloves/rainbow
-	name = "Rainbow Gloves"
-	item_path = /obj/item/clothing/gloves/color/rainbow
 
 /datum/loadout_item/gloves/evening
 	name = "Evening Gloves"
@@ -81,25 +79,19 @@ GLOBAL_LIST_INIT(loadout_gloves, generate_loadout_items(/datum/loadout_item/glov
 	name = "Maid Arm Covers"
 	item_path = /obj/item/clothing/gloves/maid
 
-/*
-*	RINGS
-*/
-
-/datum/loadout_item/gloves/silverring
-	name = "Silver Ring"
-	item_path = /obj/item/clothing/gloves/ring/silver
-
 /datum/loadout_item/gloves/goldring
-	name = "Gold Ring"
+	name = "Gold ring"
 	item_path = /obj/item/clothing/gloves/ring
 
+/datum/loadout_item/gloves/silverring
+	name = "Silver ring"
+	item_path = /obj/item/clothing/gloves/ring/silver
+
 /datum/loadout_item/gloves/diamondring
-	name = "Diamond Ring"
+	name = "Diamond ring"
 	item_path = /obj/item/clothing/gloves/ring/diamond
 
-/*
-*	DONATOR
-*/
+//Donator gloves down here
 
 /datum/loadout_item/gloves/donator
 	donator_only = TRUE

@@ -484,6 +484,10 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/shuttle/sbc_starfury)
+"by" = (
+/obj/structure/sign/warning/securearea,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/sbc_starfury)
 "bB" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -733,6 +737,17 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
+/area/shuttle/sbc_starfury)
+"cy" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/machinery/atmospherics/components/unary/portables_connector/visible,
+/obj/effect/turf_decal/bot_white{
+	color = "#00A2FF"
+	},
+/obj/structure/sign/warning/coldtemp{
+	pixel_y = 32
+	},
+/turf/open/floor/iron/white/textured_large,
 /area/shuttle/sbc_starfury)
 "cz" = (
 /obj/machinery/atmospherics/components/unary/cryo_cell,
@@ -1118,6 +1133,28 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/shuttle/sbc_starfury)
+"dO" = (
+/obj/structure/sign/warning/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR: SHUTTLE BAY'";
+	icon_state = "space";
+	layer = 4;
+	name = "KEEP CLEAR: SHUTTLE BAY";
+	pixel_x = 32
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/dark,
+/area/shuttle/sbc_starfury)
+"dS" = (
+/obj/structure/sign/warning/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR: SHUTTLE BAY'";
+	icon_state = "space";
+	layer = 4;
+	name = "KEEP CLEAR: SHUTTLE BAY";
+	pixel_x = -32
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/dark,
+/area/shuttle/sbc_starfury)
 "dT" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/stripes/line,
@@ -1231,16 +1268,22 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/pod/light,
 /area/shuttle/sbc_starfury)
-"ej" = (
-/obj/structure/sign/warning/secure_area{
-	desc = "A warning sign which reads 'KEEP CLEAR: SHUTTLE BAY'";
+"ei" = (
+/obj/structure/sign/warning/securearea{
+	desc = "A warning sign which reads 'EXTERNAL AIRSHIELD'";
 	icon_state = "space";
 	layer = 4;
-	name = "KEEP CLEAR: SHUTTLE BAY";
+	name = "EXTERNAL AIRSHIELD";
 	pixel_x = -32
 	},
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/iron/dark,
+/obj/machinery/porta_turret/syndicate/energy{
+	dir = 6
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/sbc_starfury)
 "ep" = (
 /obj/machinery/light/directional/north,
@@ -1259,6 +1302,23 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/pod/dark,
+/area/shuttle/sbc_starfury)
+"eu" = (
+/obj/structure/sign/warning/securearea{
+	desc = "A warning sign which reads 'EXTERNAL AIRSHIELD'";
+	icon_state = "space";
+	layer = 4;
+	name = "EXTERNAL AIRSHIELD";
+	pixel_x = 32
+	},
+/obj/machinery/porta_turret/syndicate/energy{
+	dir = 10
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/sbc_starfury)
 "ev" = (
 /obj/effect/turf_decal/bot,
@@ -1425,6 +1485,23 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/pod/dark,
 /area/shuttle/sbc_starfury)
+"eT" = (
+/obj/structure/sign/warning/securearea{
+	desc = "A warning sign which reads 'EXTERNAL AIRSHIELD'";
+	icon_state = "space";
+	layer = 4;
+	name = "EXTERNAL AIRSHIELD";
+	pixel_x = -32
+	},
+/obj/machinery/porta_turret/syndicate/energy{
+	dir = 5
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/sbc_starfury)
 "eW" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
@@ -1481,6 +1558,23 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /turf/open/floor/pod/dark,
+/area/shuttle/sbc_starfury)
+"fd" = (
+/obj/structure/sign/warning/securearea{
+	desc = "A warning sign which reads 'EXTERNAL AIRSHIELD'";
+	icon_state = "space";
+	layer = 4;
+	name = "EXTERNAL AIRSHIELD";
+	pixel_x = 32
+	},
+/obj/machinery/porta_turret/syndicate/energy{
+	dir = 9
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/sbc_starfury)
 "fe" = (
 /obj/structure/closet/emcloset{
@@ -1741,6 +1835,19 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/shuttle/sbc_starfury)
+"gp" = (
+/obj/structure/sign/warning/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR: SHUTTLE BAY'";
+	icon_state = "space";
+	layer = 4;
+	name = "KEEP CLEAR: SHUTTLE BAY";
+	pixel_x = 32
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/shuttle/sbc_starfury)
 "gx" = (
 /obj/effect/turf_decal/tile/yellow,
 /obj/effect/turf_decal/tile/yellow{
@@ -1767,6 +1874,25 @@
 /obj/item/storage/belt/military,
 /obj/item/storage/belt/military,
 /turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/sbc_starfury)
+"gC" = (
+/obj/structure/sign/warning/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR: SHUTTLE BAY'";
+	icon_state = "space";
+	layer = 4;
+	name = "KEEP CLEAR: SHUTTLE BAY";
+	pixel_x = -32
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
 /area/shuttle/sbc_starfury)
 "gD" = (
 /obj/structure/disposalpipe/segment,
@@ -3072,6 +3198,16 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/sbc_starfury)
+"jK" = (
+/obj/structure/sign/warning/electricshock{
+	pixel_y = 32
+	},
+/obj/machinery/power/port_gen/pacman/super,
+/obj/effect/turf_decal/delivery,
+/obj/structure/cable,
+/obj/machinery/light/directional/north,
+/turf/open/floor/engine,
+/area/shuttle/sbc_starfury)
 "jM" = (
 /obj/effect/turf_decal/box/corners{
 	dir = 1
@@ -3096,6 +3232,18 @@
 /obj/structure/cable/layer1,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/mineral/plastitanium,
+/area/shuttle/sbc_starfury)
+"jY" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/mineral/uranium{
+	amount = 50
+	},
+/obj/effect/turf_decal/bot,
+/obj/structure/cable,
+/obj/structure/sign/warning/nosmoking{
+	pixel_y = 32
+	},
+/turf/open/floor/engine,
 /area/shuttle/sbc_starfury)
 "kb" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -3382,6 +3530,20 @@
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/plating,
 /area/shuttle/sbc_starfury)
+"kN" = (
+/obj/structure/sign/warning/securearea{
+	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
+	icon_state = "space";
+	layer = 4;
+	name = "EXTERNAL AIRLOCK";
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/light/small/red/directional/north,
+/turf/open/floor/plating,
+/area/shuttle/sbc_starfury)
 "kO" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/gloves/color/yellow{
@@ -3443,6 +3605,20 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
+/area/shuttle/sbc_starfury)
+"lf" = (
+/obj/structure/sign/warning/securearea{
+	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
+	icon_state = "space";
+	layer = 4;
+	name = "EXTERNAL AIRLOCK";
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/light/small/red/directional/north,
+/turf/open/floor/plating,
 /area/shuttle/sbc_starfury)
 "lg" = (
 /obj/structure/table/reinforced,
@@ -3943,20 +4119,6 @@
 	},
 /turf/open/floor/pod/dark,
 /area/shuttle/sbc_starfury)
-"ph" = (
-/obj/structure/sign/warning/secure_area{
-	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
-	icon_state = "space";
-	layer = 4;
-	name = "EXTERNAL AIRLOCK";
-	pixel_y = 32
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/machinery/light/small/red/directional/north,
-/turf/open/floor/plating,
-/area/shuttle/sbc_starfury)
 "pm" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -4016,17 +4178,6 @@
 "qm" = (
 /obj/effect/turf_decal/box/corners,
 /turf/open/floor/engine,
-/area/shuttle/sbc_starfury)
-"qt" = (
-/obj/structure/reflector/box{
-	anchored = 1;
-	dir = 1
-	},
-/obj/structure/sign/warning/electric_shock{
-	pixel_y = -32
-	},
-/obj/machinery/light/small/directional/south,
-/turf/open/floor/iron/dark,
 /area/shuttle/sbc_starfury)
 "qF" = (
 /obj/effect/turf_decal/stripes/line{
@@ -4148,6 +4299,11 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark,
 /area/shuttle/sbc_starfury)
+"uq" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/directional/south,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/sbc_starfury)
 "uJ" = (
 /obj/machinery/power/port_gen/pacman,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -4204,25 +4360,6 @@
 /obj/machinery/firealarm/directional/north,
 /turf/open/floor/pod/dark,
 /area/shuttle/sbc_starfury)
-"wa" = (
-/obj/structure/sign/warning/secure_area{
-	desc = "A warning sign which reads 'KEEP CLEAR: SHUTTLE BAY'";
-	icon_state = "space";
-	layer = 4;
-	name = "KEEP CLEAR: SHUTTLE BAY";
-	pixel_x = -32
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/shuttle/sbc_starfury)
 "wc" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/stripes/line{
@@ -4258,23 +4395,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/firealarm/directional/north,
 /turf/open/floor/pod/dark,
-/area/shuttle/sbc_starfury)
-"wH" = (
-/obj/structure/sign/warning/secure_area{
-	desc = "A warning sign which reads 'EXTERNAL AIRSHIELD'";
-	icon_state = "space";
-	layer = 4;
-	name = "EXTERNAL AIRSHIELD";
-	pixel_x = 32
-	},
-/obj/machinery/porta_turret/syndicate/energy{
-	dir = 9
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 9
-	},
-/obj/machinery/light/directional/south,
-/turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/sbc_starfury)
 "xi" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -4324,23 +4444,6 @@
 /obj/machinery/portable_atmospherics/pump,
 /turf/open/floor/iron/dark,
 /area/shuttle/sbc_starfury)
-"yH" = (
-/obj/structure/sign/warning/secure_area{
-	desc = "A warning sign which reads 'EXTERNAL AIRSHIELD'";
-	icon_state = "space";
-	layer = 4;
-	name = "EXTERNAL AIRSHIELD";
-	pixel_x = -32
-	},
-/obj/machinery/porta_turret/syndicate/energy{
-	dir = 6
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 6
-	},
-/obj/machinery/light/directional/north,
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/sbc_starfury)
 "yM" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -4362,23 +4465,6 @@
 	dir = 8
 	},
 /turf/open/floor/iron/large,
-/area/shuttle/sbc_starfury)
-"zo" = (
-/obj/structure/sign/warning/secure_area{
-	desc = "A warning sign which reads 'EXTERNAL AIRSHIELD'";
-	icon_state = "space";
-	layer = 4;
-	name = "EXTERNAL AIRSHIELD";
-	pixel_x = 32
-	},
-/obj/machinery/porta_turret/syndicate/energy{
-	dir = 10
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 10
-	},
-/obj/machinery/light/directional/north,
-/turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/sbc_starfury)
 "zz" = (
 /obj/machinery/vending/coffee{
@@ -4461,18 +4547,6 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/sbc_starfury)
-"BF" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/structure/sign/warning/no_smoking{
-	pixel_x = 32
-	},
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/mineral/plastitanium,
-/area/shuttle/sbc_starfury)
 "BK" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron,
@@ -4548,18 +4622,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/pod/dark,
-/area/shuttle/sbc_starfury)
-"Ek" = (
-/obj/structure/rack,
-/obj/item/stack/sheet/mineral/uranium{
-	amount = 50
-	},
-/obj/effect/turf_decal/bot,
-/obj/structure/cable,
-/obj/structure/sign/warning/no_smoking{
-	pixel_y = 32
-	},
-/turf/open/floor/engine,
 /area/shuttle/sbc_starfury)
 "Ex" = (
 /obj/effect/turf_decal/stripes/line{
@@ -4679,17 +4741,6 @@
 /obj/machinery/newscaster/directional/south,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/sbc_starfury)
-"FT" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/machinery/atmospherics/components/binary/thermomachine/freezer,
-/obj/effect/turf_decal/bot_white{
-	color = "#00A2FF"
-	},
-/obj/machinery/light/directional/north,
-/turf/open/floor/iron/white/textured_large,
-/area/shuttle/sbc_starfury)
 "Gm" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/centcom{
@@ -4808,44 +4859,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/shuttle/sbc_starfury)
-"Jt" = (
-/obj/structure/sign/warning/secure_area{
-	desc = "A warning sign which reads 'EXTERNAL AIRSHIELD'";
-	icon_state = "space";
-	layer = 4;
-	name = "EXTERNAL AIRSHIELD";
-	pixel_x = -32
-	},
-/obj/machinery/porta_turret/syndicate/energy{
-	dir = 5
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 5
-	},
-/obj/machinery/light/directional/south,
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/sbc_starfury)
 "Ju" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/pod/dark,
-/area/shuttle/sbc_starfury)
-"Jx" = (
-/obj/structure/table/reinforced,
-/obj/item/reagent_containers/glass/beaker/cryoxadone{
-	pixel_x = 7;
-	pixel_y = 1
-	},
-/obj/item/reagent_containers/glass/beaker/cryoxadone,
-/obj/item/wrench,
-/obj/item/crowbar/red,
-/obj/effect/turf_decal/bot,
-/obj/structure/sign/warning/chem_diamond{
-	pixel_y = 32
-	},
-/turf/open/floor/iron/white/smooth_large,
 /area/shuttle/sbc_starfury)
 "JG" = (
 /obj/effect/turf_decal/stripes/line{
@@ -4897,6 +4916,17 @@
 "KK" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/carpet,
+/area/shuttle/sbc_starfury)
+"KP" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/binary/thermomachine/freezer,
+/obj/effect/turf_decal/bot_white{
+	color = "#00A2FF"
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/white/textured_large,
 /area/shuttle/sbc_starfury)
 "KR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -4991,30 +5021,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/shuttle/sbc_starfury)
-"MZ" = (
-/obj/structure/sign/warning/electric_shock{
-	pixel_y = 32
-	},
-/obj/machinery/power/port_gen/pacman/super,
-/obj/effect/turf_decal/delivery,
-/obj/structure/cable,
-/obj/machinery/light/directional/north,
-/turf/open/floor/engine,
-/area/shuttle/sbc_starfury)
-"Nc" = (
-/obj/structure/sign/warning/secure_area{
-	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
-	icon_state = "space";
-	layer = 4;
-	name = "EXTERNAL AIRLOCK";
-	pixel_y = 32
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/machinery/light/small/red/directional/north,
-/turf/open/floor/plating,
-/area/shuttle/sbc_starfury)
 "Nq" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -5054,6 +5060,17 @@
 	},
 /turf/open/floor/iron,
 /area/shuttle/sbc_starfury)
+"Op" = (
+/obj/structure/reflector/box{
+	anchored = 1;
+	dir = 1
+	},
+/obj/structure/sign/warning/electricshock{
+	pixel_y = -32
+	},
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron/dark,
+/area/shuttle/sbc_starfury)
 "Ot" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -5075,11 +5092,6 @@
 	pixel_y = -3
 	},
 /turf/open/floor/iron/white/smooth_large,
-/area/shuttle/sbc_starfury)
-"OE" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/light/directional/south,
-/turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/sbc_starfury)
 "OG" = (
 /obj/effect/turf_decal/bot,
@@ -5128,6 +5140,10 @@
 	},
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/plating,
+/area/shuttle/sbc_starfury)
+"Pf" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/sbc_starfury)
 "Pk" = (
 /obj/effect/turf_decal/stripes/line{
@@ -5215,6 +5231,18 @@
 /obj/item/storage/toolbox/mechanical,
 /obj/item/clothing/head/welding,
 /turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/sbc_starfury)
+"QR" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/sign/warning/nosmoking{
+	pixel_x = 32
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium,
 /area/shuttle/sbc_starfury)
 "Re" = (
 /obj/effect/turf_decal/tile/red,
@@ -5325,10 +5353,6 @@
 /obj/machinery/atmospherics/components/unary/portables_connector/visible,
 /turf/open/floor/iron/dark,
 /area/shuttle/sbc_starfury)
-"SF" = (
-/obj/structure/sign/warning/secure_area,
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/shuttle/sbc_starfury)
 "SI" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/smooth,
@@ -5347,17 +5371,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/sbc_starfury)
-"Tm" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/obj/machinery/atmospherics/components/unary/portables_connector/visible,
-/obj/effect/turf_decal/bot_white{
-	color = "#00A2FF"
-	},
-/obj/structure/sign/warning/cold_temp{
-	pixel_y = 32
-	},
-/turf/open/floor/iron/white/textured_large,
 /area/shuttle/sbc_starfury)
 "Tn" = (
 /obj/effect/turf_decal/stripes/line,
@@ -5409,10 +5422,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/shuttle/sbc_starfury)
-"UA" = (
-/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden,
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/shuttle/sbc_starfury)
 "UB" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -5461,19 +5470,6 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/sbc_starfury)
-"VK" = (
-/obj/structure/sign/warning/secure_area{
-	desc = "A warning sign which reads 'KEEP CLEAR: SHUTTLE BAY'";
-	icon_state = "space";
-	layer = 4;
-	name = "KEEP CLEAR: SHUTTLE BAY";
-	pixel_x = 32
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/shuttle/sbc_starfury)
 "VS" = (
 /obj/effect/turf_decal/tile/yellow,
 /obj/effect/turf_decal/tile/yellow{
@@ -5490,6 +5486,21 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
+/area/shuttle/sbc_starfury)
+"VX" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/glass/beaker/cryoxadone{
+	pixel_x = 7;
+	pixel_y = 1
+	},
+/obj/item/reagent_containers/glass/beaker/cryoxadone,
+/obj/item/wrench,
+/obj/item/crowbar/red,
+/obj/effect/turf_decal/bot,
+/obj/structure/sign/warning/chemdiamond{
+	pixel_y = 32
+	},
+/turf/open/floor/iron/white/smooth_large,
 /area/shuttle/sbc_starfury)
 "Wc" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -5556,17 +5567,6 @@
 /obj/effect/turf_decal/delivery,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
-/area/shuttle/sbc_starfury)
-"Xi" = (
-/obj/structure/sign/warning/secure_area{
-	desc = "A warning sign which reads 'KEEP CLEAR: SHUTTLE BAY'";
-	icon_state = "space";
-	layer = 4;
-	name = "KEEP CLEAR: SHUTTLE BAY";
-	pixel_x = 32
-	},
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/iron/dark,
 /area/shuttle/sbc_starfury)
 "Xj" = (
 /obj/structure/disposalpipe/segment{
@@ -6159,7 +6159,7 @@ aa
 aa
 aa
 ae
-Nc
+kN
 ae
 MP
 aH
@@ -6191,7 +6191,7 @@ dp
 ae
 ae
 ae
-yH
+ei
 WW
 WW
 WW
@@ -6209,7 +6209,7 @@ WW
 WW
 WW
 WW
-Jt
+eT
 ae
 ae
 ae
@@ -6327,7 +6327,7 @@ ri
 ay
 ay
 XI
-Xi
+dO
 dV
 IM
 eB
@@ -6526,7 +6526,7 @@ ad
 ad
 ad
 ae
-SF
+by
 Sb
 Yg
 ae
@@ -6626,7 +6626,7 @@ hB
 ST
 ec
 fF
-VK
+gp
 mY
 df
 hm
@@ -6805,7 +6805,7 @@ bm
 bC
 ae
 ae
-Tm
+cy
 cP
 dh
 Wc
@@ -6843,7 +6843,7 @@ Xz
 iF
 NV
 ae
-Ek
+jY
 jM
 CC
 wj
@@ -6941,9 +6941,9 @@ aM
 nk
 bo
 bE
-OE
-UA
-FT
+uq
+Pf
+KP
 Sh
 df
 Uy
@@ -6981,7 +6981,7 @@ ae
 ae
 ae
 ae
-MZ
+jK
 ZR
 js
 Qf
@@ -6992,7 +6992,7 @@ ku
 lB
 lI
 mp
-qt
+Op
 ae
 lw
 ae
@@ -7012,7 +7012,7 @@ bp
 bF
 NG
 ae
-Jx
+VX
 cU
 df
 Uy
@@ -7316,7 +7316,7 @@ hB
 ST
 ec
 fF
-wa
+gC
 hs
 gO
 hv
@@ -7354,7 +7354,7 @@ ad
 ad
 ad
 ae
-SF
+by
 po
 ES
 ae
@@ -7466,7 +7466,7 @@ ae
 jd
 jy
 jQ
-BF
+QR
 kl
 Ex
 Ex
@@ -7524,12 +7524,12 @@ fb
 Qw
 ae
 ae
-SF
+by
 ae
 ZK
 hX
 ae
-SF
+by
 ae
 ae
 xG
@@ -7569,7 +7569,7 @@ xD
 ay
 ay
 PF
-ej
+dS
 dV
 EH
 eB
@@ -7709,7 +7709,7 @@ dz
 ae
 ae
 ae
-zo
+eu
 eD
 eD
 eD
@@ -7727,7 +7727,7 @@ sY
 eD
 eD
 eD
-wH
+fd
 ae
 ae
 gE
@@ -7815,7 +7815,7 @@ aa
 aa
 aa
 ae
-ph
+lf
 ae
 fB
 aH

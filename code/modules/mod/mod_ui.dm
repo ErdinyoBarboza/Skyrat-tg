@@ -91,6 +91,6 @@
 		if("remove_pai")
 			if(ishuman(usr)) // Only the MODsuit's wearer should be removing the pAI.
 				var/mob/user = usr
-				extract_pai(user)
+				remove_pai(user)
 		// SKYRAT EDIT END
 	return TRUE

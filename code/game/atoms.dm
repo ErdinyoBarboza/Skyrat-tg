@@ -7,7 +7,7 @@
 /atom
 	layer = TURF_LAYER
 	plane = GAME_PLANE
-	appearance_flags = TILE_BOUND|LONG_GLIDE
+	appearance_flags = TILE_BOUND
 
 	/// pass_flags that we are. If any of this matches a pass_flag on a moving thing, by default, we let them through.
 	var/pass_flags_self = NONE
@@ -30,12 +30,8 @@
 	///Reagents holder
 	var/datum/reagents/reagents = null
 
-	///all of this atom's HUD (med/sec, etc) images. Associative list of the form: list(hud category = hud image or images for that category).
-	///most of the time hud category is associated with a single image, sometimes its associated with a list of images.
-	///not every hud in this list is actually used. for ones available for others to see, look at active_hud_list.
+	///This atom's HUD (med/sec, etc) images. Associative list.
 	var/list/image/hud_list = null
-	///all of this atom's HUD images which can actually be seen by players with that hud
-	var/list/image/active_hud_list = null
 	///HUD images that this atom can provide.
 	var/list/hud_possible
 
@@ -304,7 +300,7 @@
 	if(alternate_appearances)
 		for(var/current_alternate_appearance in alternate_appearances)
 			var/datum/atom_hud/alternate_appearance/selected_alternate_appearance = alternate_appearances[current_alternate_appearance]
-			selected_alternate_appearance.remove_atom_from_hud(src)
+			selected_alternate_appearance.remove_from_hud(src)
 
 	if(reagents)
 		QDEL_NULL(reagents)
@@ -632,37 +628,28 @@
  * Produces a signal [COMSIG_PARENT_EXAMINE]
  */
 /atom/proc/examine(mob/user)
-	. = list("[get_examine_string(user, TRUE)].", EXAMINE_SECTION_BREAK) // SKYRAT EDIT CHANGE - original: list("[get_examine_string(user, TRUE)].")
+	. = list("[get_examine_string(user, TRUE)].<hr>")
 
 	. += get_name_chaser(user)
 	if(desc)
 		. += desc
 
 	if(custom_materials)
-		// SKYRAT EDIT ADDITION BEGIN - HR sections
-		if(length(custom_materials) > 1)
-			. += EXAMINE_SECTION_BREAK //SKYRAT EDIT ADDITION
-		//SKYRAT EDIT ADDITION END
-
+		. += "<hr>" //SKYRAT EDIT ADDITION
 		var/list/materials_list = list()
 		for(var/datum/material/current_material as anything in custom_materials)
 			materials_list += "[current_material.name]"
 		. += "<u>It is made out of [english_list(materials_list)]</u>."
-
-		// SKYRAT EDIT ADDITION BEGIN - HR sections
-		if(length(custom_materials) > 1)
-			. += EXAMINE_SECTION_BREAK //SKYRAT EDIT ADDITION
-		//SKYRAT EDIT ADDITION END
 	if(reagents)
+		. += "<hr>" //SKYRAT EDIT ADDITION
 		if(reagents.flags & TRANSPARENT)
-			. += EXAMINE_SECTION_BREAK //SKYRAT EDIT ADDITION - HR sections
 			. += "It contains:"
 			if(length(reagents.reagent_list))
 				if(user.can_see_reagents()) //Show each individual reagent
 					for(var/datum/reagent/current_reagent as anything in reagents.reagent_list)
-						. += "&bull; [round(current_reagent.volume, 0.01)] units of [current_reagent.name]" // SKYRAT EDIT CHANGE - added bullet
+						. += "[round(current_reagent.volume, 0.01)] units of [current_reagent.name]"
 					if(reagents.is_reacting)
-						. += span_warning("&nbsp;&nbsp;It is currently reacting!") // SKYRAT EDIT CHANGE - added spacing
+						. += span_warning("It is currently reacting!")
 					. += span_notice("The solution's pH is [round(reagents.ph, 0.01)] and has a temperature of [reagents.chem_temp]K.")
 				else //Otherwise, just show the total volume
 					var/total_volume = 0
@@ -671,7 +658,6 @@
 					. += "[total_volume] units of various reagents"
 			else
 				. += "Nothing."
-			. += EXAMINE_SECTION_BREAK //SKYRAT EDIT ADDITION
 		else if(reagents.flags & AMOUNT_VISIBLE)
 			if(reagents.total_volume)
 				. += span_notice("It has [reagents.total_volume] unit\s left.")

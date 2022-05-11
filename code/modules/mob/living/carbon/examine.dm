@@ -6,7 +6,7 @@
 	var/t_has = p_have()
 	var/t_is = p_are()
 
-	. = list("<span class='info'>This is [icon2html(src, user)] \a <EM>[src]</EM>!", EXAMINE_SECTION_BREAK) // SKYRAT EDIT CHANGE - HR padding
+	. = list("<span class='info'>This is [icon2html(src, user)] \a <EM>[src]</EM>!<hr>")
 	var/obscured = check_obscured_slots()
 
 	if (handcuffed)
@@ -24,9 +24,6 @@
 
 	if (back)
 		. += "[t_He] [t_has] [back.get_examine_string(user)] on [t_his] back."
-
-	. += EXAMINE_SECTION_BREAK // SKYRAT EDIT ADDITION - hr sections
-
 	var/appears_dead = FALSE
 	if (stat == DEAD)
 		appears_dead = TRUE
@@ -99,9 +96,9 @@
 	if(HAS_TRAIT(src, TRAIT_DUMB))
 		msg += "[t_He] seem[p_s()] to be clumsy and unable to think.\n"
 
-	if(has_status_effect(/datum/status_effect/fire_handler/fire_stacks))
+	if(fire_stacks > 0)
 		msg += "[t_He] [t_is] covered in something flammable.\n"
-	if(has_status_effect(/datum/status_effect/fire_handler/wet_stacks))
+	if(fire_stacks < 0)
 		msg += "[t_He] look[p_s()] a little soaked.\n"
 
 	if(pulledby?.grab_state)

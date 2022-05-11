@@ -223,14 +223,6 @@
 /obj/effect/turf_decal/arrows,
 /turf/open/floor/iron,
 /area/ruin/syndicate_lava_base/cargo)
-"bE" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/freezer/on{
-	dir = 4;
-	initialize_directions = 4;
-	name = "euthanization chamber freezer"
-	},
-/turf/open/floor/iron/dark,
-/area/ruin/syndicate_lava_base/testlab)
 "bG" = (
 /obj/structure/closet/crate/internals,
 /obj/item/tank/internals/oxygen/yellow,
@@ -2664,6 +2656,24 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/ruin/syndicate_lava_base/testlab)
+"El" = (
+/obj/effect/turf_decal/tile/blue/darkblue{
+	dir = 1
+	},
+/obj/machinery/medical_kiosk,
+/obj/structure/sign/departments/examroom{
+	pixel_y = 32
+	},
+/turf/open/floor/iron/white,
+/area/ruin/syndicate_lava_base/medbay)
+"En" = (
+/obj/machinery/atmospherics/components/binary/thermomachine/freezer/on{
+	dir = 4;
+	initialize_directions = 4;
+	name = "euthanization chamber freezer"
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/syndicate_lava_base/testlab)
 "Er" = (
 /obj/structure/lattice/catwalk,
 /turf/open/lava/plasma/ice_moon,
@@ -3709,16 +3719,6 @@
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/plating/icemoon,
 /area/ruin/syndicate_lava_base/cargo)
-"Rj" = (
-/obj/effect/turf_decal/tile/blue/darkblue{
-	dir = 1
-	},
-/obj/machinery/medical_kiosk,
-/obj/structure/sign/departments/maint{
-	pixel_y = 32
-	},
-/turf/open/floor/iron/white,
-/area/ruin/syndicate_lava_base/medbay)
 "Rl" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/loading_area,
@@ -5012,7 +5012,7 @@ kU
 my
 kr
 kw
-bE
+En
 MD
 Xc
 zu
@@ -6892,7 +6892,7 @@ PW
 Vk
 jR
 yQ
-Rj
+El
 to
 Oe
 Fi

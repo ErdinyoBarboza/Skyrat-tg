@@ -72,6 +72,7 @@
 
 	var/logging_data
 	if(usr)
+		message_admins("usr is true")
 		logging_data = "[time] <B>:</B> [usr.key] used [computer] @ location ([T.x],[T.y],[T.z]) <B>:</B> [format_frequency(signal_frequency)]/[signal_code]"
 		GLOB.lastsignalers.Add(logging_data)
 
