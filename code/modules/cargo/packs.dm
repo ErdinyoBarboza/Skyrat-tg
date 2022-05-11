@@ -76,8 +76,8 @@
 					/obj/item/clothing/suit/jacket/leather/overcoat,
 					/obj/item/clothing/gloves/color/black,
 					/obj/item/clothing/head/soft,
-					/obj/item/clothing/mask/bandana/color/skull)//so you can properly #cargoniabikergang
-	crate_name = "Biker Kit"
+					/obj/item/clothing/mask/bandana/skull/black)//so you can properly #cargoniabikergang
+	crate_name = "biker kit"
 	crate_type = /obj/structure/closet/crate/large
 
 /datum/supply_pack/emergency/bio
@@ -280,6 +280,7 @@
 	access = ACCESS_SECURITY
 	crate_type = /obj/structure/closet/crate/secure/gear
 
+/* //SKYRAT EDIT START - CARGO ARMAMENTS
 /datum/supply_pack/security/ammo
 	name = "Ammo Crate"
 	desc = "Contains three boxes of beanbag shotgun shells, three boxes of rubbershot shotgun shells and one of each special .38 speedloarders. Requires Security access to open."
@@ -295,7 +296,7 @@
 					/obj/item/ammo_box/c38/hotshot,
 					/obj/item/ammo_box/c38/iceblox)
 	crate_name = "ammo crate"
-
+*/ //SKYRAT EDIT END
 /* SKYRAT EDIT: Moved to Bloat.dm	name = "Armor Crate"
 /datum/supply_pack/security/armor
 	name = "Armor Crate"
@@ -305,19 +306,18 @@
 	contains = list(/obj/item/clothing/suit/armor/vest,
 					/obj/item/clothing/suit/armor/vest,
 					/obj/item/clothing/suit/armor/vest)
-	crate_name = "armor crate" */
-
+	crate_name = "armor crate"
+*/ //SKYRAT EDIT END
 
 /datum/supply_pack/security/disabler
 	name = "Disabler Crate"
 	desc = "Three stamina-draining disabler weapons. Requires Security access to open."
-	cost = CARGO_CRATE_VALUE * 3
+	cost = CARGO_CRATE_VALUE * 5 //SKYRAT EDIT 3 -> 5
 	access_view = ACCESS_SECURITY
 	contains = list(/obj/item/gun/energy/disabler,
 					/obj/item/gun/energy/disabler,
 					/obj/item/gun/energy/disabler)
 	crate_name = "disabler crate"
-
 
 /datum/supply_pack/security/forensics
 	name = "Forensics Crate"
@@ -341,7 +341,7 @@
 					/obj/item/clothing/head/helmet/sec)
 	crate_name = "helmet crate"
 
-
+/* //SKYRAT EDIT START - CARGO ARMAMENTS
 /datum/supply_pack/security/laser
 	name = "Lasers Crate"
 	desc = "Contains three lethal, high-energy laser guns. Requires Security access to open."
@@ -351,7 +351,7 @@
 					/obj/item/gun/energy/laser,
 					/obj/item/gun/energy/laser)
 	crate_name = "laser crate"
-
+*/ //SKYRAT EDIT END
 
 /datum/supply_pack/security/securitybarriers
 	name = "Security Barrier Grenades"
@@ -496,7 +496,7 @@
 	cost = CARGO_CRATE_VALUE * 3.5
 	contains = list(/obj/item/storage/box/chemimp)
 	crate_name = "chemical implant crate"
-
+/* //SKYRAT EDIT START - CARGO ARMAMENTS
 /datum/supply_pack/security/armory/ballistic
 	name = "Combat Shotguns Crate"
 	desc = "For when the enemy absolutely needs to be replaced with lead. Contains three Aussec-designed Combat Shotguns, and three Shotgun Bandoliers. Requires Armory access to open."
@@ -527,7 +527,7 @@
 					/obj/item/gun/energy/e_gun)
 	crate_name = "energy gun crate"
 	crate_type = /obj/structure/closet/crate/secure/plasma
-
+*/ //SKYRAT EDIT END
 
 /datum/supply_pack/security/armory/exileimp
 	name = "Exile Implants Crate"
@@ -651,7 +651,7 @@
 					/obj/item/clothing/gloves/tackler/combat,
 					/obj/item/clothing/gloves/tackler/combat)
 	crate_name = "swat crate"
-
+/* //SKYRAT EDIT START - CARGO ARMAMENTS
 /datum/supply_pack/security/armory/thermal
 	name = "Thermal Pistol Crate"
 	desc = "Contains a pair of holsters each with two experimental thermal pistols, using nanites as the basis for their ammo. Requires Armory access to open."
@@ -659,7 +659,7 @@
 	contains = list(/obj/item/storage/belt/holster/thermal,
 					/obj/item/storage/belt/holster/thermal)
 	crate_name = "thermal pistol crate"
-
+*/ //SKYRAT EDIT END
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////// Engineering /////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
@@ -1353,6 +1353,16 @@
 	crate_name = "raw flux anomaly"
 	crate_type = /obj/structure/closet/crate/secure/science
 
+/datum/supply_pack/science/raw_hallucination_anomaly
+	name = "Raw Hallucination Anomaly"
+	desc = "The raw core of a hallucination anomaly, ready to be implosion-compressed into a powerful artifact."
+	cost = CARGO_CRATE_VALUE * 10
+	access = ACCESS_ORDNANCE
+	access_view = ACCESS_ORDNANCE
+	contains = list(/obj/item/raw_anomaly_core/hallucination)
+	crate_name = "raw hallucination anomaly"
+	crate_type = /obj/structure/closet/crate/secure/science
+
 /datum/supply_pack/science/raw_grav_anomaly
 	name = "Raw Gravitational Anomaly"
 	desc = "The raw core of a gravitational anomaly, ready to be implosion-compressed into a powerful artifact."
@@ -1392,6 +1402,17 @@
 	contains = list(/obj/item/raw_anomaly_core/pyro)
 	crate_name = "raw pyro anomaly"
 	crate_type = /obj/structure/closet/crate/secure/science
+
+/datum/supply_pack/science/raw_delimber_anomaly
+	name = "Raw Delimber Anomaly"
+	desc = "The raw core of a delimber anomaly, ready to be implosion-compressed into a powerful artifact."
+	cost = CARGO_CRATE_VALUE * 10
+	access = ACCESS_ORDNANCE
+	access_view = ACCESS_ORDNANCE
+	contains = list(/obj/item/raw_anomaly_core/delimber)
+	crate_name = "raw delimber anomaly"
+	crate_type = /obj/structure/closet/crate/secure/science
+
 
 /datum/supply_pack/science/robotics
 	name = "Robotics Assembly Crate"

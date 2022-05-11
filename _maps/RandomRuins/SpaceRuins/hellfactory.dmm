@@ -8,12 +8,6 @@
 "ac" = (
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/hellfactory)
-"ad" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/freezer/on{
-	dir = 4
-	},
-/turf/open/floor/plastic,
-/area/ruin/space/has_grav/hellfactory)
 "ae" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/visible{
 	dir = 4
@@ -327,12 +321,6 @@
 /obj/structure/plasticflaps,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hellfactory)
-"bd" = (
-/obj/structure/sign/warning/coldtemp{
-	name = "\improper BLAST FREEZER"
-	},
-/turf/closed/wall/r_wall,
-/area/ruin/space/has_grav/hellfactory)
 "be" = (
 /obj/structure/table,
 /obj/item/paper_bin/carbon,
@@ -615,10 +603,6 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hellfactory)
-"bX" = (
-/obj/structure/sign/warning/chemdiamond,
-/turf/closed/wall,
-/area/ruin/space/has_grav/hellfactory)
 "bY" = (
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/plating,
@@ -724,13 +708,6 @@
 "cs" = (
 /obj/structure/fermenting_barrel,
 /obj/effect/turf_decal/box/white,
-/turf/open/floor/iron,
-/area/ruin/space/has_grav/hellfactory)
-"ct" = (
-/obj/machinery/light/built/directional/south,
-/obj/structure/marker_beacon{
-	icon_state = "markerburgundy-on"
-	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hellfactory)
 "cu" = (
@@ -883,25 +860,10 @@
 /obj/structure/lattice/catwalk,
 /turf/template_noop,
 /area/ruin/space/has_grav/hellfactory)
-"cR" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/marker_beacon{
-	icon_state = "markerburgundy-on"
-	},
-/turf/template_noop,
-/area/ruin/space/has_grav/hellfactory)
 "cS" = (
 /obj/structure/lattice/catwalk,
 /obj/item/keycard/entry,
 /turf/template_noop,
-/area/ruin/space/has_grav/hellfactory)
-"cT" = (
-/obj/machinery/light/broken/directional/south,
-/obj/structure/marker_beacon{
-	icon_state = "markerburgundy-on"
-	},
-/obj/structure/cable,
-/turf/open/floor/iron,
 /area/ruin/space/has_grav/hellfactory)
 "cV" = (
 /obj/structure/table,
@@ -918,6 +880,11 @@
 "hv" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plastic,
+/area/ruin/space/has_grav/hellfactory)
+"ih" = (
+/obj/machinery/light/built/directional/south,
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/hellfactory)
 "iE" = (
 /obj/structure/closet/crate,
@@ -937,6 +904,11 @@
 /obj/structure/sign/warning/vacuum,
 /turf/closed/wall,
 /area/ruin/space/has_grav/hellfactory)
+"nI" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/marker_beacon/burgundy,
+/turf/template_noop,
+/area/ruin/space/has_grav/hellfactory)
 "oH" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/small/directional/west,
@@ -950,9 +922,21 @@
 /obj/structure/sign/poster/random/directional/west,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hellfactory)
+"pD" = (
+/obj/structure/sign/warning/cold_temp{
+	name = "\improper BLAST FREEZER"
+	},
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/hellfactory)
 "qK" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/exotic/languagebook,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/hellfactory)
+"rd" = (
+/obj/machinery/light/broken/directional/south,
+/obj/structure/marker_beacon/burgundy,
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hellfactory)
 "ry" = (
@@ -1010,6 +994,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/checker,
 /area/ruin/space/has_grav/hellfactory)
+"Nm" = (
+/obj/machinery/atmospherics/components/binary/thermomachine/freezer/on{
+	dir = 4
+	},
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/hellfactory)
 "Ns" = (
 /obj/structure/closet/crate,
 /obj/machinery/conveyor/auto{
@@ -1047,6 +1037,10 @@
 "Sz" = (
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/plating,
+/area/ruin/space/has_grav/hellfactory)
+"Uj" = (
+/obj/structure/sign/warning/chem_diamond,
+/turf/closed/wall,
 /area/ruin/space/has_grav/hellfactory)
 "UK" = (
 /obj/effect/decal/cleanable/oil/streak,
@@ -1163,7 +1157,7 @@ aa
 aa
 aa
 aW
-ad
+Nm
 au
 aC
 aM
@@ -1276,22 +1270,22 @@ ah
 ah
 ah
 ah
-bd
+pD
 aA
 aA
 aA
 bD
 bJ
 bP
-bX
+Uj
 aA
 aA
 bL
 aA
-ct
+ih
 cE
 aW
-cR
+nI
 cQ
 "}
 (9,1,1) = {"
@@ -1450,10 +1444,10 @@ aL
 ca
 aL
 cq
-cT
+rd
 cE
 ac
-cR
+nI
 cQ
 "}
 (15,1,1) = {"

@@ -2648,11 +2648,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/cafeteria,
 /area/ruin/space/has_grav/ancientstation/charlie/kitchen)
-"hu" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/iron/cafeteria,
-/area/ruin/space/has_grav/ancientstation/charlie/kitchen)
 "hv" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -2865,28 +2860,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/ancientstation/delta/rnd)
-"hT" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
-/obj/item/kitchen/rollingpin,
-/turf/open/floor/iron/cafeteria,
-/area/ruin/space/has_grav/ancientstation/charlie/kitchen)
-"hU" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
-/obj/item/reagent_containers/food/condiment/enzyme{
-	layer = 5
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron/cafeteria,
-/area/ruin/space/has_grav/ancientstation/charlie/kitchen)
-"hV" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
-/obj/machinery/reagentgrinder,
-/turf/open/floor/iron/cafeteria,
-/area/ruin/space/has_grav/ancientstation/charlie/kitchen)
 "hW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/directional/west,
@@ -6147,12 +6120,6 @@
 /obj/effect/spawner/random/maintenance,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/ancientstation/delta/hall)
-"pM" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/floor/iron/cafeteria,
-/area/ruin/space/has_grav/ancientstation/charlie/kitchen)
 "qf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
@@ -6209,6 +6176,12 @@
 /obj/effect/spawner/structure/window/hollow/reinforced,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/ancientstation/beta/medbay)
+"qM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/north,
+/obj/machinery/oven,
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/ancientstation/charlie/kitchen)
 "rg" = (
 /obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/dirt,
@@ -6315,6 +6288,14 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/ancientstation/charlie/hall)
+"ut" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/table,
+/obj/item/kitchen/rollingpin,
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/ancientstation/charlie/kitchen)
 "uB" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
@@ -6347,15 +6328,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/ancientstation/charlie/sec)
-"vu" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
-	dir = 9
-	},
-/turf/open/floor/iron/cafeteria,
-/area/ruin/space/has_grav/ancientstation/charlie/kitchen)
 "vM" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
@@ -6585,12 +6557,6 @@
 "Cq" = (
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/ancientstation/beta/hall)
-"Cr" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron/cafeteria,
-/area/ruin/space/has_grav/ancientstation/charlie/kitchen)
 "Cs" = (
 /obj/structure/grille/broken,
 /turf/open/floor/plating/airless,
@@ -6617,6 +6583,11 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/ancientstation/beta/atmos)
+"Dt" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/turf/template_noop,
+/area/template_noop)
 "Dw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -6652,12 +6623,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/ancientstation/delta/rnd)
-"DS" = (
-/obj/machinery/power/rtg/old_station,
-/obj/structure/lattice/catwalk,
-/obj/structure/cable,
-/turf/template_noop,
-/area/template_noop)
 "DT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
@@ -6668,6 +6633,25 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/ancientstation/beta/atmos)
+"Ev" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light_switch/directional/north,
+/obj/machinery/griddle,
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/ancientstation/charlie/kitchen)
+"EL" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 9
+	},
+/obj/structure/table,
+/obj/item/reagent_containers/food/condiment/enzyme{
+	layer = 5
+	},
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/ancientstation/charlie/kitchen)
 "EP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -6704,6 +6688,14 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/ancientstation/charlie/dorms)
+"Fw" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/structure/table,
+/obj/machinery/reagentgrinder,
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/ancientstation/charlie/kitchen)
 "FH" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -6718,6 +6710,12 @@
 	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/has_grav/ancientstation/beta/hall)
+"FP" = (
+/obj/machinery/power/rtg/old_station,
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/turf/template_noop,
+/area/template_noop)
 "FV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -6879,11 +6877,6 @@
 /obj/item/paper/fluff/ruins/oldstation/protosupermatter,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/ancientstation/delta/proto)
-"KJ" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable,
-/turf/template_noop,
-/area/template_noop)
 "KO" = (
 /obj/item/stack/rods,
 /turf/open/floor/plating/airless{
@@ -7064,6 +7057,12 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/ancientstation/charlie/hall)
+"Pi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/ancientstation/charlie/kitchen)
 "Pn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/red{
@@ -7197,11 +7196,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/ancientstation/charlie/hall)
-"Su" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light_switch/directional/north,
-/turf/open/floor/iron/cafeteria,
-/area/ruin/space/has_grav/ancientstation/charlie/kitchen)
 "SI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -8389,8 +8383,8 @@ aa
 aa
 aa
 aa
-DS
-DS
+FP
+FP
 aa
 dF
 aa
@@ -8439,7 +8433,7 @@ aa
 aa
 aa
 aa
-KJ
+Dt
 aa
 dF
 aa
@@ -9369,7 +9363,7 @@ dp
 ey
 gr
 gI
-hu
+qM
 ht
 EP
 ly
@@ -9418,9 +9412,9 @@ fj
 ey
 gr
 gY
-Su
-hT
-Cr
+Ev
+ht
+ut
 ly
 ht
 iZ
@@ -9468,8 +9462,8 @@ fm
 gt
 gl
 gs
-hU
-vu
+Pi
+EL
 ly
 iL
 iZ
@@ -9517,8 +9511,8 @@ cQ
 aU
 gY
 gv
-hV
-pM
+ht
+Fw
 ht
 ht
 iZ

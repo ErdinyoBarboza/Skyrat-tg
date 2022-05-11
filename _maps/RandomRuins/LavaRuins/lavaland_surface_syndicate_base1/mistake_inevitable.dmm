@@ -62,10 +62,10 @@
 /obj/item/pen,
 /turf/open/floor/iron/dark,
 /area/ruin/syndicate_lava_base/testlab)
-"fY" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
-/obj/machinery/power/energy_accumulator/grounding_rod/anchored,
-/obj/structure/cable,
+"go" = (
+/obj/machinery/atmospherics/components/binary/thermomachine/freezer/on{
+	dir = 1
+	},
 /turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/testlab)
 "gJ" = (
@@ -255,6 +255,10 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark,
 /area/ruin/syndicate_lava_base/testlab)
+"AI" = (
+/obj/structure/cable,
+/turf/open/floor/engine,
+/area/ruin/syndicate_lava_base/testlab)
 "AS" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
 /turf/open/floor/engine,
@@ -272,6 +276,11 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 1
 	},
+/turf/open/floor/engine,
+/area/ruin/syndicate_lava_base/testlab)
+"DN" = (
+/obj/machinery/power/energy_accumulator/grounding_rod/anchored,
+/obj/structure/cable,
 /turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/testlab)
 "EC" = (
@@ -316,11 +325,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/syndicate_lava_base/testlab)
-"Rn" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
-/obj/structure/cable,
-/turf/open/floor/engine,
-/area/ruin/syndicate_lava_base/testlab)
 "Rp" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -345,12 +349,6 @@
 	dir = 6
 	},
 /turf/open/floor/iron/dark,
-/area/ruin/syndicate_lava_base/testlab)
-"XS" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/freezer/on{
-	dir = 1
-	},
-/turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/testlab)
 "Yj" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
@@ -450,8 +448,8 @@ aA
 (6,1,1) = {"
 hK
 me
-XS
-fY
+go
+DN
 GD
 oV
 js
@@ -465,8 +463,8 @@ aA
 (7,1,1) = {"
 EC
 me
-XS
-Rn
+go
+AI
 js
 yO
 js

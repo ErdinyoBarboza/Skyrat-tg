@@ -5,6 +5,10 @@
 "ad" = (
 /turf/open/space,
 /area/space)
+"ak" = (
+/obj/structure/sign/warning/no_smoking,
+/turf/closed/indestructible/riveted,
+/area/tdome/observation)
 "ar" = (
 /obj/effect/turf_decal/tile/yellow/half,
 /obj/effect/turf_decal/tile/yellow/half{
@@ -2040,13 +2044,6 @@
 	},
 /turf/open/floor/wood/tile,
 /area/centcom/holding)
-"gw" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/heater,
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 4
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/syndicate_mothership/expansion_bombthreat)
 "gx" = (
 /turf/open/floor/carpet,
 /area/syndicate_mothership/control)
@@ -2191,6 +2188,10 @@
 /obj/item/soap/syndie,
 /turf/open/floor/carpet/black,
 /area/centcom/holding)
+"ha" = (
+/obj/structure/sign/warning/secure_area,
+/turf/closed/indestructible/riveted,
+/area/centcom/control)
 "hb" = (
 /turf/open/floor/wood,
 /area/centcom/courtroom)
@@ -2277,6 +2278,10 @@
 /obj/structure/fluff/tram_rail,
 /turf/open/lava/plasma/ice_moon,
 /area/syndicate_mothership/control)
+"hq" = (
+/obj/structure/sign/warning/secure_area,
+/turf/closed/indestructible/riveted,
+/area/centcom/admin/storage)
 "hr" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -2700,10 +2705,6 @@
 /obj/structure/sign/nanotrasen,
 /turf/closed/indestructible/riveted,
 /area/centcom/prison)
-"iI" = (
-/obj/structure/sign/warning/securearea,
-/turf/closed/indestructible/riveted,
-/area/centcom/prison/cells)
 "iJ" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -4506,10 +4507,6 @@
 "nz" = (
 /turf/closed/indestructible/opsglass,
 /area/syndicate_mothership/control)
-"nA" = (
-/obj/structure/sign/warning/nosmoking,
-/turf/closed/indestructible/riveted,
-/area/centcom/admin)
 "nB" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 6
@@ -5298,22 +5295,6 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/centcom/courtroom)
-"px" = (
-/obj/structure/chair{
-	dir = 8
-	},
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = -28
-	},
-/obj/structure/sign/warning/securearea{
-	pixel_x = 32
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 6
-	},
-/obj/machinery/light,
-/turf/open/floor/iron,
-/area/centcom/ferry)
 "pz" = (
 /obj/machinery/light{
 	dir = 1
@@ -5744,6 +5725,10 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron,
 /area/centcom/supplypod/loading/ert)
+"qH" = (
+/obj/structure/sign/warning/secure_area,
+/turf/closed/indestructible/riveted,
+/area/centcom/prison/cells)
 "qI" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -5981,10 +5966,6 @@
 	},
 /turf/open/floor/iron/grimy,
 /area/centcom/admin)
-"rz" = (
-/obj/structure/sign/warning/securearea,
-/turf/closed/indestructible/riveted,
-/area/centcom/ferry)
 "rA" = (
 /obj/machinery/power/smes/magical,
 /obj/effect/turf_decal/stripes/line,
@@ -6838,10 +6819,6 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/centcom/control)
-"tP" = (
-/obj/structure/sign/warning/securearea,
-/turf/closed/indestructible/riveted,
 /area/centcom/control)
 "tR" = (
 /obj/effect/turf_decal/stripes/line{
@@ -11608,10 +11585,6 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron,
 /area/tdome/observation)
-"Gw" = (
-/obj/structure/sign/warning/nosmoking,
-/turf/closed/indestructible/riveted,
-/area/tdome/observation)
 "Gx" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Thunderdome";
@@ -12187,6 +12160,22 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron,
 /area/tdome/observation)
+"HL" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/machinery/computer/security/telescreen/entertainment{
+	pixel_y = -28
+	},
+/obj/structure/sign/warning/secure_area{
+	pixel_x = 32
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/machinery/light,
+/turf/open/floor/iron,
+/area/centcom/ferry)
 "HM" = (
 /obj/structure/chair,
 /obj/effect/landmark/thunderdome/observe,
@@ -14286,6 +14275,10 @@
 	},
 /turf/open/floor/iron/textured_large,
 /area/syndicate_mothership/control)
+"NS" = (
+/obj/structure/sign/warning/no_smoking,
+/turf/closed/indestructible/riveted,
+/area/centcom/admin)
 "NT" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -14379,10 +14372,6 @@
 	},
 /turf/open/floor/plating/icemoon,
 /area/syndicate_mothership/control)
-"Od" = (
-/obj/structure/sign/warning/securearea,
-/turf/closed/indestructible/riveted,
-/area/centcom/armory)
 "Of" = (
 /obj/machinery/light/cold/directional/east,
 /turf/open/floor/plating,
@@ -15502,6 +15491,13 @@
 	},
 /turf/open/misc/asteroid/snow/icemoon,
 /area/syndicate_mothership/control)
+"RP" = (
+/obj/machinery/atmospherics/components/binary/thermomachine/freezer,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/syndicate_mothership/expansion_bombthreat)
 "RQ" = (
 /obj/machinery/chem_heater/withbuffer,
 /turf/open/floor/mineral/titanium/tiled/yellow,
@@ -15715,6 +15711,13 @@
 	},
 /turf/open/lava/plasma/ice_moon,
 /area/syndicate_mothership/control)
+"Sz" = (
+/obj/machinery/atmospherics/components/binary/thermomachine/heater,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/syndicate_mothership/expansion_bombthreat)
 "SA" = (
 /obj/structure/bookcase/random/adult,
 /turf/open/floor/carpet/black,
@@ -15957,10 +15960,6 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/supplypod)
-"Tk" = (
-/obj/structure/sign/warning/securearea,
-/turf/closed/indestructible/riveted,
-/area/centcom/admin/storage)
 "Tl" = (
 /obj/structure/table/wood/fancy/royalblue,
 /obj/item/clothing/mask/animal/pig,
@@ -16063,6 +16062,10 @@
 	name = "Guest House Entrance"
 	},
 /area/centcom/holding)
+"TF" = (
+/obj/structure/sign/warning/secure_area,
+/turf/closed/indestructible/riveted,
+/area/centcom/ferry)
 "TG" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -16853,6 +16856,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/hidden/layer5,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/syndicate_mothership/control)
+"VX" = (
+/obj/structure/sign/warning/secure_area,
+/turf/closed/indestructible/riveted,
+/area/centcom/armory)
 "VY" = (
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_smooth,
@@ -17373,13 +17380,6 @@
 "Xw" = (
 /turf/open/floor/plating/icemoon,
 /area/syndicate_mothership/control)
-"Xx" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/freezer,
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 8
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/syndicate_mothership/expansion_bombthreat)
 "Xy" = (
 /turf/open/floor/iron,
 /area/centcom/ferry)
@@ -25427,7 +25427,7 @@ bZ
 RJ
 Or
 NY
-Xx
+RP
 wX
 Xj
 QR
@@ -25684,7 +25684,7 @@ my
 RJ
 YK
 YT
-gw
+Sz
 gs
 ZY
 OX
@@ -53957,7 +53957,7 @@ vE
 wt
 xg
 wt
-px
+HL
 mD
 pD
 pX
@@ -55499,7 +55499,7 @@ mD
 ss
 ws
 tr
-rz
+TF
 xD
 zA
 UX
@@ -55739,7 +55739,7 @@ aa
 aa
 Rv
 Rv
-nA
+NS
 Rv
 oj
 oE
@@ -56266,7 +56266,7 @@ sA
 tA
 oB
 uV
-rz
+TF
 wz
 GZ
 xR
@@ -56527,7 +56527,7 @@ mD
 su
 ws
 gA
-rz
+TF
 zd
 Ue
 Ag
@@ -57300,11 +57300,11 @@ ws
 ts
 mD
 XF
-Od
+VX
 Ai
 OC
 Ai
-Od
+VX
 XF
 XF
 aa
@@ -58062,7 +58062,7 @@ Rv
 et
 et
 sH
-Tk
+hq
 et
 oe
 qR
@@ -58350,7 +58350,7 @@ FK
 Ep
 Ep
 Ep
-Gw
+ak
 Ep
 Ep
 Ep
@@ -59099,11 +59099,11 @@ xh
 wu
 mD
 XF
-Od
+VX
 XF
 XF
 XF
-Od
+VX
 XF
 XF
 Dq
@@ -59872,7 +59872,7 @@ ys
 mR
 zF
 Am
-tP
+ha
 iu
 io
 rN
@@ -61171,7 +61171,7 @@ EO
 EO
 EO
 Gl
-Gw
+ak
 GM
 GM
 Hs
@@ -62917,7 +62917,7 @@ aa
 QJ
 ir
 iB
-iI
+qH
 ir
 iB
 QJ
@@ -62929,7 +62929,7 @@ iB
 QJ
 ir
 iB
-iI
+qH
 ir
 iB
 QJ
@@ -63202,7 +63202,7 @@ io
 io
 io
 io
-tP
+ha
 UO
 io
 io
@@ -65487,7 +65487,7 @@ aa
 QJ
 ir
 iB
-iI
+qH
 ir
 iB
 QJ
@@ -65499,7 +65499,7 @@ iB
 QJ
 ir
 iB
-iI
+qH
 ir
 iB
 QJ

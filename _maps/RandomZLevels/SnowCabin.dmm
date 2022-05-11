@@ -705,13 +705,6 @@
 /obj/structure/cable,
 /turf/open/floor/wood,
 /area/awaymission/cabin)
-"cu" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/freezer/on{
-	dir = 1
-	},
-/obj/machinery/light/directional/east,
-/turf/open/floor/iron/white,
-/area/awaymission/cabin)
 "cv" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/white,
@@ -1316,10 +1309,6 @@
 /obj/item/stack/sheet/mineral/wood,
 /turf/open/floor/wood/freezing,
 /area/awaymission/cabin/lumbermill)
-"ey" = (
-/obj/structure/sign/warning/nosmoking/circle,
-/turf/closed/wall/mineral/wood,
-/area/awaymission/cabin/snowforest)
 "ez" = (
 /obj/structure/fence,
 /obj/effect/turf_decal/weather/snow/corner{
@@ -2895,26 +2884,6 @@
 	name = "soviet floor"
 	},
 /area/awaymission/cabin/caves/sovietcave)
-"jO" = (
-/obj/structure/sign/warning/nosmoking{
-	pixel_x = 32
-	},
-/turf/open/floor/wood/freezing,
-/area/awaymission/cabin/lumbermill)
-"jP" = (
-/obj/structure/sign/warning/nosmoking{
-	pixel_x = -32
-	},
-/turf/open/floor/wood/freezing,
-/area/awaymission/cabin/lumbermill)
-"jQ" = (
-/obj/structure/table/wood,
-/obj/structure/sign/warning/nosmoking/circle{
-	pixel_x = -16;
-	pixel_y = 32
-	},
-/turf/open/floor/wood/freezing,
-/area/awaymission/cabin/lumbermill)
 "jR" = (
 /obj/structure/table/wood,
 /obj/item/hatchet{
@@ -3101,48 +3070,6 @@
 	icon_state = "wood-broken7"
 	},
 /area/awaymission/cabin/caves)
-"kD" = (
-/obj/structure/table/wood,
-/obj/item/hatchet{
-	desc = "A decent axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.";
-	force = 4;
-	name = "weak hatchet";
-	pixel_x = 7;
-	throwforce = 4
-	},
-/obj/item/hatchet{
-	desc = "A decent axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.";
-	force = 4;
-	name = "weak hatchet";
-	throwforce = 4
-	},
-/obj/item/hatchet{
-	desc = "A decent axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.";
-	force = 4;
-	name = "weak hatchet";
-	pixel_x = -7;
-	throwforce = 4
-	},
-/obj/item/hatchet{
-	desc = "A decent axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.";
-	force = 4;
-	name = "weak hatchet";
-	pixel_x = -3;
-	throwforce = 4
-	},
-/obj/item/hatchet{
-	desc = "A decent axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.";
-	force = 4;
-	name = "weak hatchet";
-	pixel_x = 3;
-	throwforce = 4
-	},
-/obj/structure/sign/warning/nosmoking/circle{
-	pixel_x = 16;
-	pixel_y = -32
-	},
-/turf/open/floor/wood/freezing,
-/area/awaymission/cabin/lumbermill)
 "kE" = (
 /obj/structure/closet,
 /obj/item/clothing/suit/hooded/wintercoat,
@@ -3311,13 +3238,6 @@
 	},
 /turf/closed/wall/ice,
 /area/awaymission/cabin/caves)
-"lQ" = (
-/obj/structure/sign/warning/enginesafety{
-	desc = "A sign detailing the various safety protocols when working on-site to ensure a safe shift. It seems to particularly focus on how dangerous the sawblade is.";
-	name = "\improper LUMBERMILL SAFETY"
-	},
-/turf/closed/wall/mineral/wood,
-/area/awaymission/cabin/lumbermill)
 "lS" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/spider/stickyweb,
@@ -3734,6 +3654,55 @@
 	},
 /turf/open/floor/plating,
 /area/awaymission/cabin)
+"oc" = (
+/obj/structure/table/wood,
+/obj/item/hatchet{
+	desc = "A decent axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.";
+	force = 4;
+	name = "weak hatchet";
+	pixel_x = 7;
+	throwforce = 4
+	},
+/obj/item/hatchet{
+	desc = "A decent axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.";
+	force = 4;
+	name = "weak hatchet";
+	throwforce = 4
+	},
+/obj/item/hatchet{
+	desc = "A decent axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.";
+	force = 4;
+	name = "weak hatchet";
+	pixel_x = -7;
+	throwforce = 4
+	},
+/obj/item/hatchet{
+	desc = "A decent axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.";
+	force = 4;
+	name = "weak hatchet";
+	pixel_x = -3;
+	throwforce = 4
+	},
+/obj/item/hatchet{
+	desc = "A decent axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.";
+	force = 4;
+	name = "weak hatchet";
+	pixel_x = 3;
+	throwforce = 4
+	},
+/obj/structure/sign/warning/no_smoking/circle{
+	pixel_x = 16;
+	pixel_y = -32
+	},
+/turf/open/floor/wood/freezing,
+/area/awaymission/cabin/lumbermill)
+"ot" = (
+/obj/machinery/atmospherics/components/binary/thermomachine/freezer/on{
+	dir = 1
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/white,
+/area/awaymission/cabin)
 "oC" = (
 /obj/effect/light_emitter{
 	name = "outdoor light";
@@ -3763,6 +3732,14 @@
 	},
 /turf/open/misc/asteroid/snow/snow_cabin,
 /area/awaymission/cabin/caves)
+"pz" = (
+/obj/structure/table/wood,
+/obj/structure/sign/warning/no_smoking/circle{
+	pixel_x = -16;
+	pixel_y = 32
+	},
+/turf/open/floor/wood/freezing,
+/area/awaymission/cabin/lumbermill)
 "pE" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/misc/asteroid/snow/snow_cabin,
@@ -4011,6 +3988,13 @@
 /obj/effect/decal/cleanable/plasma,
 /turf/open/misc/asteroid/snow/snow_cabin,
 /area/awaymission/cabin/caves)
+"wf" = (
+/obj/structure/sign/warning/engine_safety{
+	desc = "A sign detailing the various safety protocols when working on-site to ensure a safe shift. It seems to particularly focus on how dangerous the sawblade is.";
+	name = "\improper LUMBERMILL SAFETY"
+	},
+/turf/closed/wall/mineral/wood,
+/area/awaymission/cabin/lumbermill)
 "wI" = (
 /obj/item/toy/figure/borg{
 	desc = "The robot that was manufactured just for this exploration team.";
@@ -4753,6 +4737,12 @@
 	},
 /turf/open/floor/wood,
 /area/awaymission/cabin)
+"SN" = (
+/obj/structure/sign/warning/no_smoking{
+	pixel_x = 32
+	},
+/turf/open/floor/wood/freezing,
+/area/awaymission/cabin/lumbermill)
 "SS" = (
 /obj/effect/decal/cleanable/glitter/blue{
 	desc = "It looks like fancy glitter to me.";
@@ -4870,6 +4860,10 @@
 	},
 /turf/open/misc/ice/smooth,
 /area/awaymission/cabin/caves)
+"VG" = (
+/obj/structure/sign/warning/no_smoking/circle,
+/turf/closed/wall/mineral/wood,
+/area/awaymission/cabin/snowforest)
 "Wd" = (
 /obj/structure/statue/snow/snowman{
 	anchored = 1
@@ -4969,6 +4963,12 @@
 	},
 /turf/open/misc/asteroid/snow/snow_cabin,
 /area/awaymission/cabin/caves)
+"YQ" = (
+/obj/structure/sign/warning/no_smoking{
+	pixel_x = -32
+	},
+/turf/open/floor/wood/freezing,
+/area/awaymission/cabin/lumbermill)
 "ZY" = (
 /obj/structure/fence/door,
 /turf/open/misc/asteroid/snow/snow_cabin,
@@ -33921,7 +33921,7 @@ nS
 an
 bF
 bQ
-cu
+ot
 hp
 Wz
 hp
@@ -35928,13 +35928,13 @@ RC
 RC
 ad
 ad
-jP
+YQ
 af
 af
 af
 af
 af
-jP
+YQ
 ad
 ad
 RC
@@ -37477,7 +37477,7 @@ af
 ak
 af
 af
-kD
+oc
 ad
 RC
 RC
@@ -37726,7 +37726,7 @@ Sd
 RC
 RC
 ad
-jQ
+pz
 af
 ak
 jX
@@ -39269,13 +39269,13 @@ RC
 ae
 ad
 ad
-jO
+SN
 af
 af
 af
 af
 af
-jO
+SN
 ad
 ad
 fb
@@ -39529,7 +39529,7 @@ ad
 ad
 eH
 eG
-lQ
+wf
 eG
 eH
 ad
@@ -42607,7 +42607,7 @@ RC
 RC
 Sd
 RC
-ey
+VG
 ez
 eC
 eC
@@ -42619,7 +42619,7 @@ eC
 eC
 eC
 fa
-ey
+VG
 RC
 RC
 RC

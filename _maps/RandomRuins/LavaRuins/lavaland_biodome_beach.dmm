@@ -167,18 +167,6 @@
 /obj/structure/flora/ausbushes/stalkybush,
 /turf/open/water/beach/biodome,
 /area/ruin/powered/beach)
-"cV" = (
-/obj/structure/closet/secure_closet/freezer/meat{
-	req_access = null
-	},
-/obj/item/food/meat/rawbacon,
-/obj/item/food/meat/rawbacon,
-/obj/item/food/meat/rawcutlet,
-/obj/item/food/meat/rawcutlet,
-/obj/item/food/meat/rawcrab,
-/obj/item/food/meat/rawcrab,
-/turf/open/floor/wood,
-/area/ruin/powered/beach)
 "dc" = (
 /obj/item/toy/seashell,
 /obj/effect/turf_decal/sand,
@@ -190,12 +178,6 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/beach)
-"dj" = (
-/obj/structure/sign/warning/gasmask{
-	pixel_y = 32
-	},
-/turf/open/misc/beach/sand,
 /area/ruin/powered/beach)
 "ek" = (
 /obj/machinery/shower{
@@ -214,6 +196,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4{
 	dir = 4
 	},
+/turf/closed/wall/mineral/sandstone,
+/area/ruin/powered/beach)
+"fa" = (
+/obj/structure/sign/warning/secure_area,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /turf/closed/wall/mineral/sandstone,
 /area/ruin/powered/beach)
 "fB" = (
@@ -385,6 +373,18 @@
 /obj/item/toy/seashell,
 /turf/open/misc/beach/sand,
 /area/ruin/powered/beach)
+"kI" = (
+/obj/structure/closet/secure_closet/freezer/meat{
+	req_access = null
+	},
+/obj/item/food/meat/rawbacon,
+/obj/item/food/meat/rawbacon,
+/obj/item/food/meat/rawcutlet,
+/obj/item/food/meat/rawcutlet,
+/obj/item/food/meat/rawcrab,
+/obj/item/food/meat/rawcrab,
+/turf/open/floor/wood,
+/area/ruin/powered/beach)
 "li" = (
 /obj/machinery/door/airlock/sandstone{
 	name = "Bar Access"
@@ -403,12 +403,6 @@
 	dir = 1
 	},
 /turf/closed/wall/mineral/sandstone,
-/area/ruin/powered/beach)
-"lT" = (
-/obj/structure/sign/warning/gasmask{
-	pixel_y = 32
-	},
-/turf/open/floor/plating,
 /area/ruin/powered/beach)
 "me" = (
 /obj/effect/overlay/palmtree_r,
@@ -467,13 +461,6 @@
 /area/ruin/powered/beach)
 "pz" = (
 /turf/open/water/beach/biodome,
-/area/ruin/powered/beach)
-"pE" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
-/obj/structure/sign/warning/gasmask{
-	pixel_x = -32
-	},
-/turf/open/floor/plating,
 /area/ruin/powered/beach)
 "pS" = (
 /obj/machinery/light/directional/east,
@@ -572,6 +559,13 @@
 	},
 /turf/closed/wall/mineral/wood/nonmetal,
 /area/ruin/powered/beach)
+"sv" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
+/obj/structure/sign/warning/gas_mask{
+	pixel_x = -32
+	},
+/turf/open/floor/plating,
+/area/ruin/powered/beach)
 "sA" = (
 /mob/living/simple_animal/crab{
 	name = "Jon"
@@ -639,6 +633,13 @@
 	},
 /turf/closed/wall/mineral/wood/nonmetal,
 /area/ruin/powered/beach)
+"uo" = (
+/obj/effect/turf_decal/sand,
+/obj/structure/sign/warning/no_smoking/circle{
+	pixel_x = 32
+	},
+/turf/open/misc/beach/sand,
+/area/ruin/powered/beach)
 "uz" = (
 /turf/open/floor/light/colour_cycle/dancefloor_a,
 /area/ruin/powered/beach)
@@ -667,12 +668,6 @@
 /area/lavaland/surface/outdoors/explored)
 "wY" = (
 /turf/open/floor/pod/light,
-/area/ruin/powered/beach)
-"xa" = (
-/obj/structure/sign/warning/securearea,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
-/turf/closed/wall/mineral/sandstone,
 /area/ruin/powered/beach)
 "xe" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4{
@@ -871,6 +866,12 @@
 	dir = 4
 	},
 /turf/closed/wall/mineral/sandstone,
+/area/ruin/powered/beach)
+"CY" = (
+/obj/structure/sign/warning/gas_mask{
+	pixel_y = 32
+	},
+/turf/open/misc/beach/sand,
 /area/ruin/powered/beach)
 "CZ" = (
 /obj/machinery/hydroponics/constructable,
@@ -1136,13 +1137,6 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/beach)
-"Mb" = (
-/obj/effect/turf_decal/sand,
-/obj/structure/sign/warning/nosmoking/circle{
-	pixel_x = 32
-	},
-/turf/open/misc/beach/sand,
 /area/ruin/powered/beach)
 "Md" = (
 /obj/structure/urinal/directional/north,
@@ -1497,6 +1491,12 @@
 	},
 /turf/closed/wall/mineral/wood/nonmetal,
 /area/ruin/powered/beach)
+"Yt" = (
+/obj/structure/sign/warning/gas_mask{
+	pixel_y = 32
+	},
+/turf/open/floor/plating,
+/area/ruin/powered/beach)
 "Zi" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 6
@@ -1612,7 +1612,7 @@ Cs
 Cs
 aj
 Zi
-xa
+fa
 BE
 Mf
 FO
@@ -1642,7 +1642,7 @@ aj
 as
 Wa
 as
-pE
+sv
 mh
 Ui
 gs
@@ -1672,7 +1672,7 @@ aC
 aj
 aj
 aj
-lT
+Yt
 as
 yk
 Jv
@@ -1933,7 +1933,7 @@ aC
 aC
 aC
 aC
-cV
+kI
 RE
 VI
 VI
@@ -2018,7 +2018,7 @@ MZ
 Bp
 wL
 MZ
-dj
+CY
 me
 aE
 VI
@@ -2355,7 +2355,7 @@ zK
 Lm
 Lm
 Lm
-Mb
+uo
 wY
 ZZ
 wY
