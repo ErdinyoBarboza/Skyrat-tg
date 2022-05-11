@@ -15,8 +15,8 @@
 	)
 
 	refill_canister = /obj/item/vending_refill/sustenance
-	default_price = PAYCHECK_PRISONER
-	extra_price = PAYCHECK_PRISONER * 0.6
+	default_price = PAYCHECK_LOWER
+	extra_price = PAYCHECK_LOWER * 0.6
 	payment_department = NO_FREEBIES
 
 /obj/item/food/tofu/whey
@@ -34,6 +34,6 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment/protein = 10, /datum/reagent/growthserum = 5, /datum/reagent/consumable/vanilla = 3)
 	foodtype = DAIRY
 	isGlass = FALSE
-	custom_price = PAYCHECK_ASSISTANT * 0.9
+	custom_price = PAYCHECK_LOWER * 0.9
 	gulp_size = 9
 	volume = 18

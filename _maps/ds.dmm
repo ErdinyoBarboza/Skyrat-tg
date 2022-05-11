@@ -390,21 +390,6 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=180"
 	},
 /area/skyrat/interdynefob/outside)
-"cV" = (
-/obj/machinery/door/airlock/security/old{
-	hackProof = 1;
-	id_tag = "Armory";
-	name = "Armory";
-	req_access_txt = "151"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/cutaiwire,
-/obj/effect/mapping_helpers/airlock/locked,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron/dark/textured_large,
-/area/space)
 "cX" = (
 /obj/structure/sign/poster/contraband/random/directional/south,
 /obj/effect/turf_decal/siding/wideplating{
@@ -747,6 +732,21 @@
 	dir = 8
 	},
 /area/skyrat/interdynefob/service/chapel)
+"eM" = (
+/obj/machinery/door/airlock/security/old{
+	hackProof = 1;
+	id_tag = "Armory";
+	name = "Armory";
+	req_access_txt = "151"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/closed/indestructible/syndicate,
+/area/space)
 "eO" = (
 /turf/open/floor/mineral/plastitanium/red,
 /area/skyrat/interdynefob/hiddenmaints)
@@ -4689,10 +4689,10 @@
 /turf/open/floor/iron/textured_large,
 /area/skyrat/interdynefob/halls)
 "Bc" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/heater,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 4
 	},
+/obj/machinery/atmospherics/components/unary/thermomachine/heater,
 /turf/open/floor/mineral/plastitanium/red,
 /area/skyrat/interdynefob/research/toxins)
 "Bg" = (
@@ -5771,12 +5771,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/skyrat/interdynefob/medbay/chem)
-"Hz" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/floor/iron/dark,
-/area/space)
 "HA" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -6918,6 +6912,14 @@
 /obj/structure/cable,
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/skyrat/interdynefob/research)
+"Nh" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "Nl" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
@@ -7801,10 +7803,10 @@
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/skyrat/interdynefob/service/freezer)
 "Sq" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/freezer,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
 	},
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer,
 /turf/open/floor/mineral/plastitanium/red,
 /area/skyrat/interdynefob/research/toxins)
 "Ss" = (
@@ -11013,7 +11015,7 @@ Zm
 Cn
 Cn
 QR
-RG
+Xc
 QR
 QR
 "}
@@ -11105,7 +11107,7 @@ Zm
 Cn
 Cn
 QR
-JU
+Xc
 QR
 AC
 "}
@@ -11197,7 +11199,7 @@ Zm
 Cn
 Cn
 QR
-QR
+Xc
 QR
 AC
 "}
@@ -11358,13 +11360,13 @@ GX
 qc
 Bn
 se
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+Tb
+Tb
+Tb
+Cn
+Cn
+Cn
+Cn
 QR
 QR
 Ut
@@ -11380,9 +11382,9 @@ nn
 Zm
 Cn
 Cn
-tg
-yn
-ps
+Xc
+Xc
+Xc
 AC
 "}
 (24,1,1) = {"
@@ -11450,15 +11452,15 @@ ID
 Sd
 se
 se
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+Tb
+Tb
+Tb
+Tb
+Cn
+Cn
+Cn
+Cn
+Cn
 Ut
 nn
 nn
@@ -11472,9 +11474,9 @@ nn
 Zm
 Cn
 Cn
-tg
-bE
-RA
+Xc
+Xc
+Xc
 AC
 "}
 (25,1,1) = {"
@@ -11542,15 +11544,15 @@ kZ
 kZ
 Ng
 mp
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+Tb
+Tb
+Tb
+Tb
+Cn
+Cn
+Cn
+Cn
+Cn
 Ut
 nn
 nn
@@ -11564,9 +11566,9 @@ nn
 Zm
 Cn
 Cn
-tg
-xc
-ps
+Xc
+Xc
+Xc
 LH
 "}
 (26,1,1) = {"
@@ -11634,15 +11636,15 @@ kZ
 qN
 bU
 mp
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+Tb
+Tb
+Tb
+Tb
+Cn
+Cn
+Cn
+Cn
+Cn
 Ut
 nn
 nn
@@ -11656,9 +11658,9 @@ nn
 Zm
 Cn
 Cn
-mC
-rg
-rg
+Xc
+Xc
+Xc
 ap
 "}
 (27,1,1) = {"
@@ -11726,15 +11728,15 @@ qN
 qN
 bU
 mp
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+Tb
+Tb
+Tb
+Tb
+Tb
+Cn
+Cn
+Cn
+Cn
 Ut
 nn
 nn
@@ -11748,9 +11750,9 @@ nn
 Zm
 Cn
 Cn
-Oh
-jG
-px
+Xc
+Xc
+Xc
 LH
 "}
 (28,1,1) = {"
@@ -11818,15 +11820,15 @@ UG
 sA
 Ng
 mp
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+Tb
+Tb
+Tb
+Tb
+Tb
+Cn
+Cn
+Cn
+Cn
 Ut
 nn
 nn
@@ -11840,9 +11842,9 @@ nn
 Zm
 Cn
 Cn
-bK
-yn
-fM
+Xc
+Xc
+Xc
 AC
 "}
 (29,1,1) = {"
@@ -11910,15 +11912,15 @@ DJ
 GQ
 Ng
 mp
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+Tb
+Tb
+Tb
+Tb
+Tb
+Cn
+Cn
+Cn
+Cn
 Ut
 ns
 nn
@@ -12002,16 +12004,16 @@ qN
 yP
 bU
 mp
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+Tb
+Tb
+Tb
+Tb
+Tb
+Cn
+Cn
+Cn
+Cn
+Cn
 Ut
 nn
 nn
@@ -12023,11 +12025,11 @@ nn
 nn
 Zm
 Cn
-iU
-tN
-iS
-ai
-Hz
+Xc
+Xc
+Xc
+Xc
+Xc
 "}
 (31,1,1) = {"
 HL
@@ -12094,16 +12096,16 @@ qN
 yP
 bU
 mp
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+Tb
+Tb
+Tb
+Tb
+Tb
+Cn
+Cn
+Cn
+Cn
+Cn
 Ut
 nn
 nn
@@ -12115,11 +12117,11 @@ nn
 nn
 Zm
 Cn
-Gt
-yn
-yn
-yn
-fB
+Xc
+Xc
+Xc
+Xc
+Xc
 "}
 (32,1,1) = {"
 HL
@@ -12186,16 +12188,16 @@ nE
 te
 Ng
 mp
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+Tb
+Tb
+Tb
+Tb
+Tb
+Cn
+Cn
+Cn
+Cn
+Cn
 Ut
 nn
 nn
@@ -12207,11 +12209,11 @@ nn
 nn
 Zm
 Cn
-Gt
-yn
-Mj
-KM
-kp
+Xc
+Xc
+Xc
+Xc
+Xc
 "}
 (33,1,1) = {"
 HL
@@ -12278,16 +12280,16 @@ UG
 xe
 Ng
 mp
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+Tb
+Tb
+Tb
+Tb
+Tb
+Cn
+Cn
+Cn
+Cn
+Cn
 ns
 nn
 nn
@@ -12299,11 +12301,11 @@ nn
 nn
 Zm
 Cn
-uJ
-yn
-tC
-pl
-kp
+Xc
+Xc
+Xc
+Xc
+Xc
 "}
 (34,1,1) = {"
 HL
@@ -12370,16 +12372,16 @@ qN
 yP
 bU
 mp
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+Tb
+Tb
+Tb
+Tb
+Tb
+Cn
+Cn
+Cn
+Cn
+Cn
 ns
 nn
 nn
@@ -12391,11 +12393,11 @@ nn
 nn
 Zm
 Cn
-Zj
-xc
-kp
-kp
-kp
+Xc
+Xc
+Xc
+Xc
+Xc
 "}
 (35,1,1) = {"
 HL
@@ -12462,16 +12464,16 @@ qN
 yP
 bU
 mp
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+Tb
+Tb
+Tb
+Tb
+Tb
+Cn
+Cn
+Cn
+Cn
+Cn
 ns
 nn
 nn
@@ -12483,11 +12485,11 @@ nn
 nn
 Zm
 Cn
-SF
-mO
-Kh
-Pn
-wS
+Xc
+Xc
+Xc
+Xc
+Xc
 "}
 (36,1,1) = {"
 HL
@@ -12554,16 +12556,16 @@ qN
 yP
 Ng
 mp
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+Tb
+Tb
+Tb
+Tb
+Cn
+Cn
+Cn
+Cn
+Cn
+Cn
 ns
 nn
 nn
@@ -12579,7 +12581,7 @@ Cn
 Cn
 Cn
 Cn
-cV
+Xc
 "}
 (37,1,1) = {"
 HL
@@ -12646,16 +12648,16 @@ UG
 xe
 Ng
 mp
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+Tb
+Tb
+Tb
+Tb
+Cn
+Cn
+Cn
+Cn
+Cn
+Cn
 ns
 nn
 nn
@@ -12738,16 +12740,16 @@ qN
 yP
 bU
 mp
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+Tb
+Tb
+Tb
+Tb
+Cn
+Cn
+Cn
+Cn
+Cn
+Cn
 ns
 nn
 nn
@@ -12830,16 +12832,16 @@ qN
 yP
 bU
 mp
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+Tb
+Tb
+Tb
+Cn
+Cn
+Cn
+Cn
+Cn
+Cn
+Cn
 ns
 nn
 nn
@@ -12930,8 +12932,8 @@ RO
 RO
 RO
 RO
-Xc
-Xc
+Cn
+Cn
 RC
 NY
 NY
@@ -13958,7 +13960,7 @@ Cn
 Cn
 Xc
 Xc
-Xc
+QR
 Xc
 "}
 (52,1,1) = {"
@@ -14050,7 +14052,7 @@ Cn
 Cn
 Xc
 Xc
-Xc
+Wy
 Xc
 "}
 (53,1,1) = {"
@@ -14142,7 +14144,7 @@ Cn
 Cn
 Xc
 Xc
-Xc
+No
 Xc
 "}
 (54,1,1) = {"
@@ -14968,7 +14970,7 @@ nV
 ZN
 iu
 QR
-Wy
+JU
 QR
 Xc
 Xc
@@ -15060,7 +15062,7 @@ TR
 ZN
 gD
 QR
-No
+RG
 QR
 Xc
 Xc
@@ -15334,12 +15336,12 @@ Uw
 Uw
 Uw
 ZN
-QR
 nI
 QR
 QR
-Xc
-Xc
+QR
+QR
+QR
 "}
 (67,1,1) = {"
 HL
@@ -15427,11 +15429,11 @@ Kw
 Xc
 Xc
 Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+QR
+tg
+yn
+ps
+QR
 "}
 (68,1,1) = {"
 HL
@@ -15519,11 +15521,11 @@ Fm
 Xc
 Xc
 Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+QR
+tg
+bE
+RA
+QR
 "}
 (69,1,1) = {"
 HL
@@ -15611,11 +15613,11 @@ Kw
 Xc
 Xc
 Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+QR
+tg
+xc
+ps
+QR
 "}
 (70,1,1) = {"
 HL
@@ -15703,11 +15705,11 @@ AC
 Xc
 Xc
 Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+eM
+rg
+rg
+mC
+QR
 "}
 (71,1,1) = {"
 HL
@@ -15795,11 +15797,11 @@ AC
 Xc
 Xc
 Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+QR
+Oh
+jG
+px
+QR
 "}
 (72,1,1) = {"
 HL
@@ -15887,11 +15889,11 @@ AC
 Xc
 Xc
 Xc
-Xc
-Cn
-Cn
-Cn
-Cn
+QR
+bK
+yn
+fM
+QR
 "}
 (73,1,1) = {"
 HL
@@ -15979,11 +15981,11 @@ dx
 Xc
 Xc
 Xc
-Xc
-Cn
-Cn
-Cn
-Cn
+QR
+QR
+QR
+QR
+QR
 "}
 (74,1,1) = {"
 HL
@@ -16157,11 +16159,11 @@ Ms
 Sf
 XI
 AC
-lO
-lO
-lO
-lO
-Xc
+iU
+tN
+iS
+ai
+Nh
 Cn
 Cn
 Cn
@@ -16249,11 +16251,11 @@ XI
 Sf
 XI
 AC
-lO
-lO
-lO
-lO
-Xc
+Gt
+yn
+yn
+yn
+fB
 Cn
 Cn
 Cn
@@ -16341,11 +16343,11 @@ XI
 Sf
 XI
 AC
-lO
-lO
-lO
-lO
-Xc
+Gt
+yn
+Mj
+KM
+kp
 Cn
 Cn
 Cn
@@ -16433,11 +16435,11 @@ XI
 Sf
 XI
 AC
-lO
-lO
-lO
-lO
-Xc
+uJ
+yn
+tC
+pl
+kp
 Cn
 Cn
 Cn
@@ -16525,11 +16527,11 @@ XI
 Sf
 XI
 AC
-lO
-lO
-lO
-lO
-Xc
+Zj
+xc
+kp
+kp
+kp
 Cn
 Cn
 Cn
@@ -16617,11 +16619,11 @@ XI
 Sf
 XI
 AC
-lO
-lO
-lO
-lO
-Xc
+SF
+mO
+Kh
+Pn
+wS
 Cn
 Cn
 Cn
@@ -16668,7 +16670,7 @@ Yq
 Yq
 Yq
 Yq
-Yq
+az
 jo
 lo
 nd
@@ -16709,10 +16711,10 @@ XI
 Sf
 XI
 AC
-lO
-lO
-lO
-lO
+Xc
+Xc
+Xc
+Xc
 Xc
 Cn
 Cn
@@ -16760,7 +16762,7 @@ Yq
 Yq
 Yq
 Yq
-Yq
+az
 ju
 lr
 nd
@@ -16801,10 +16803,10 @@ Ms
 Sf
 XI
 AC
-lO
-lO
-lO
-lO
+Xc
+Xc
+Xc
+Xc
 Xc
 Cn
 Cn
@@ -16893,17 +16895,17 @@ wK
 Sf
 Dy
 AC
-lO
-lO
-lO
-lO
 Xc
-Cn
-Cn
-Cn
-Cn
-Cn
-Cn
+Xc
+Xc
+Xc
+QR
+QR
+QR
+QR
+QR
+yn
+QR
 "}
 (84,1,1) = {"
 HL
@@ -16990,12 +16992,12 @@ yg
 yg
 yg
 yg
-Cn
-Cn
-Cn
-Cn
-Cn
-Cn
+Xc
+Xc
+Xc
+Xc
+Xc
+QR
 "}
 (85,1,1) = {"
 HL
@@ -17082,12 +17084,12 @@ yg
 us
 mi
 yg
-Cn
-Cn
-Cn
-Cn
-Cn
-Cn
+Xc
+Xc
+Xc
+Xc
+Xc
+QR
 "}
 (86,1,1) = {"
 HL
@@ -17174,12 +17176,12 @@ yg
 yr
 vw
 yg
-Cn
-Cn
-Cn
-Cn
-Cn
-Cn
+Xc
+Xc
+Xc
+Xc
+Xc
+QR
 "}
 (87,1,1) = {"
 HL
@@ -17266,12 +17268,12 @@ YM
 Yi
 gW
 yg
-Cn
-Cn
-Cn
-Cn
-Cn
-Cn
+Xc
+Xc
+Xc
+Xc
+Xc
+QR
 "}
 (88,1,1) = {"
 HL
@@ -17358,12 +17360,12 @@ yg
 yg
 yg
 yg
-Cn
-Cn
-Cn
-Cn
-Cn
-Cn
+Xc
+Xc
+Xc
+Xc
+Xc
+QR
 "}
 (89,1,1) = {"
 HL
@@ -17450,12 +17452,12 @@ mQ
 uz
 gG
 yg
-Cn
-Cn
-Cn
-Cn
-Cn
-Cn
+Xc
+Xc
+Xc
+Xc
+Xc
+QR
 "}
 (90,1,1) = {"
 HL
@@ -17542,10 +17544,10 @@ yg
 yg
 yg
 yg
-Cn
-Cn
-Cn
-Cn
-Cn
-Cn
+QR
+QR
+QR
+QR
+QR
+QR
 "}

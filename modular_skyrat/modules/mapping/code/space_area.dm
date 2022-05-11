@@ -24,18 +24,21 @@
 ///Interdyne, Forward Operating Base
 /area/skyrat/interdynefob
 	name = "\improper DS-2" //If DS-1 is so great...
+	icon = 'icons/area/areas_centcom.dmi'
 	icon_state = "syndie-elite"
 	area_flags = UNIQUE_AREA | NOTELEPORT
 	has_gravity = STANDARD_GRAVITY
 
 /area/skyrat/interdynefob/outside
 	name = "\improper DS-2 Outer Periphery"
-	icon_state = "green"
+	icon = 'icons/area/areas_misc.dmi'
+	icon_state = "yellow"
 	ambience_index = AMBIENCE_MINING
 
 //Cargo
 /area/skyrat/interdynefob/cargo
 	name = "\improper DS-2 Cargo"
+	icon = 'icons/area/areas_station.dmi'
 	icon_state = "cargo_bay"
 
 /area/skyrat/interdynefob/cargo/hangar
@@ -57,6 +60,7 @@
 //Bridge
 /area/skyrat/interdynefob/bridge
 	name = "\improper DS-2 Bridge"
+	icon = 'icons/area/areas_station.dmi'
 	icon_state = "bridge"
 
 /area/skyrat/interdynefob/bridge/cl
@@ -79,6 +83,7 @@
 //Security
 /area/skyrat/interdynefob/security
 	name = "\improper DS-2 Security"
+	icon = 'icons/area/areas_station.dmi'
 	icon_state = "security"
 	ambience_index = AMBIENCE_DANGER
 
@@ -109,6 +114,7 @@
 //Service
 /area/skyrat/interdynefob/service
 	name = "\improper DS-2 Service Wing"
+	icon = 'icons/area/areas_station.dmi'
 	icon_state = "crew_quarters"
 
 /area/skyrat/interdynefob/service/diner
@@ -150,6 +156,7 @@
 //Hallways
 /area/skyrat/interdynefob/halls
 	name = "\improper DS-2 Central Halls"
+	icon = 'icons/area/areas_station.dmi'
 	icon_state = "hallC"
 
 /area/skyrat/interdynefob/halls/transfer
@@ -159,6 +166,7 @@
 //Engineering
 /area/skyrat/interdynefob/engineering
 	name = "\improper DS-2 Engineering"
+	icon = 'icons/area/areas_station.dmi'
 	icon_state = "engine"
 
 /area/skyrat/interdynefob/toolstorage
@@ -180,6 +188,7 @@
 //Maintenance
 /area/skyrat/interdynefob/maintenance
 	name = "\improper DS-2 Maintenance"
+	icon = 'icons/area/areas_station.dmi'
 	icon_state = "maintcentral"
 
 /area/skyrat/interdynefob/maintenance/southwest
@@ -201,6 +210,7 @@
 //Research
 /area/skyrat/interdynefob/research
 	name = "\improper DS-2 Research"
+	icon = 'icons/area/areas_station.dmi'
 	icon_state = "research"
 
 /area/skyrat/interdynefob/research/robotics
@@ -219,6 +229,7 @@
 //Medbay
 /area/skyrat/interdynefob/medbay
 	name = "\improper DS-2 Medical Bay"
+	icon = 'icons/area/areas_station.dmi'
 	icon_state = "medbay1"
 
 /area/skyrat/interdynefob/medbay/chem
@@ -228,12 +239,13 @@
 //Special Areas
 /area/skyrat/interdynefob/hiddenmaints
 	name = "//ERR:NULL_ENTRY"
-	icon_state = "red2"
+	icon_state = "unknown"
 	requires_power = FALSE
 	area_flags = HIDDEN_AREA | BLOBS_ALLOWED | UNIQUE_AREA | NO_ALERTS | NOTELEPORT
 
 /area/skyrat/interdynefob/blacksite
 	name = "//ERR:NULL_ENTRY"
+	icon = 'icons/area/areas_station.dmi'
 	icon_state = "interrogation"
 	requires_power = FALSE
 //End Of DS2

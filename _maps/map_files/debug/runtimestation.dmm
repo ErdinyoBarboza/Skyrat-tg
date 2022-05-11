@@ -2108,6 +2108,10 @@
 /obj/item/storage/box/shipping,
 /turf/open/floor/iron,
 /area/station/commons/storage/primary)
+"tn" = (
+/obj/effect/mob_spawn/ghost_role/robot/interdyne,
+/turf/open/floor/iron,
+/area/station/commons/storage/primary)
 "tE" = (
 /obj/machinery/door/airlock/research,
 /turf/open/floor/iron/dark,
@@ -7482,7 +7486,7 @@ cS
 fx
 dq
 dJ
-dJ
+tn
 dJ
 dI
 dJ

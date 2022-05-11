@@ -28,6 +28,37 @@
 
 /obj/item/robot_model/syndicatejack/interdyne
 	name = "Interdyne"
+	basic_modules = list(
+		/obj/item/assembly/flash/cyborg,
+		/obj/item/borg/sight/thermal,
+		/obj/item/extinguisher,
+		/obj/item/weldingtool/electric,
+		/obj/item/screwdriver/cyborg/power,
+		/obj/item/crowbar/cyborg/power,
+		/obj/item/multitool/cyborg,
+		/obj/item/construction/rcd/borg/syndicate,
+		/obj/item/lightreplacer/cyborg,
+		/obj/item/stack/sheet/iron,
+		/obj/item/stack/sheet/glass,
+		/obj/item/stack/sheet/rglass/cyborg,
+		/obj/item/stack/rods/cyborg,
+		/obj/item/stack/tile/iron,
+		/obj/item/stack/cable_coil,
+		/obj/item/restraints/handcuffs/cable/zipties,
+		/obj/item/stack/medical/gauze,
+		/obj/item/shockpaddles/cyborg,
+		/obj/item/healthanalyzer/advanced,
+		/obj/item/surgical_drapes,
+		/obj/item/retractor/advanced,
+		/obj/item/cautery/advanced,
+		/obj/item/scalpel/advanced,
+		/obj/item/gun/medbeam,
+		/obj/item/reagent_containers/borghypo/syndicate,
+		/obj/item/borg/lollipop,
+		/obj/item/holosign_creator/cyborg,
+		/obj/item/stamp/chameleon,
+		/obj/item/borg_shapeshifter,
+		)
 
 /obj/effect/mob_spawn/ghost_role/robot/interdyne
 	name = "\improper Syndicate Robotic Storage"
