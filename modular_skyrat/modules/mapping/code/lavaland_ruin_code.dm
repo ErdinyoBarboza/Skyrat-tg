@@ -12,15 +12,23 @@
 	you_are_text = "You are a syndicate shaft miner, employed in a top secret research facility developing biological weapons."
 	outfit = /datum/outfit/lavaland_syndicate/shaftminer/ice
 
-/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/ice
-	name = "Syndicate Bioweapon Scientist"
-	you_are_text = "You are a syndicate science technician, employed in a top secret research facility developing biological weapons."
-	outfit = /datum/outfit/lavaland_syndicate/ice
+/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/medic
+	name = "Syndicate Medical Officer"
+	you_are_text = "You are a syndicate medical specialist, employed in a top secret research facility developing biological weapons."
+	outfit = /datum/outfit/ds2/syndicate/stationmed
+
+/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/virologist
+	name = "Syndicate Virologist"
+	you_are_text = "You are a syndicate virologist, employed in a top secret research facility developing biological weapons."
+	outfit = /datum/outfit/ds2/syndicate/researcher
+
+
 
 //OUTFITS//
 /datum/outfit/lavaland_syndicate
 	uniform = /obj/item/clothing/under/rank/rnd/scientist/skyrat/utility/syndicate
 	ears = /obj/item/radio/headset/interdyne
+	implants = list(/obj/item/implant/weapons_auth)
 
 /datum/outfit/lavaland_syndicate/post_equip(mob/living/carbon/human/syndicate, visualsOnly = FALSE)
 	syndicate.faction |= ROLE_SYNDICATE
@@ -34,9 +42,7 @@
 	return ..()
 
 /datum/outfit/lavaland_syndicate/ice
-	uniform = /obj/item/clothing/under/syndicate
 	suit = /obj/item/clothing/suit/hooded/wintercoat/syndicate
-	ears = /obj/item/radio/headset/interdyne
 
 /datum/outfit/lavaland_syndicate/comms
 	uniform = /obj/item/clothing/under/utility/sec/old/syndicate
