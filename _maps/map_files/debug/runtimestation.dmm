@@ -2239,6 +2239,10 @@
 /obj/machinery/power/rtg/debug,
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
+"zk" = (
+/obj/machinery/porta_turret/syndicate/toolbox,
+/turf/open/floor/iron,
+/area/station/commons/storage/primary)
 "zo" = (
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable,
@@ -8038,7 +8042,7 @@ by
 fE
 dw
 dJ
-dJ
+zk
 dJ
 dI
 dJ
