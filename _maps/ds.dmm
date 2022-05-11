@@ -903,6 +903,13 @@
 	dir = 4
 	},
 /area/skyrat/interdynefob/service/chapel)
+"gm" = (
+/obj/effect/light_emitter{
+	set_cap = 1;
+	set_luminosity = 4
+	},
+/turf/open/misc/asteroid/snow/atmosphere,
+/area/space)
 "gn" = (
 /obj/effect/turf_decal/delivery,
 /obj/machinery/door/airlock/titanium{
@@ -1334,6 +1341,10 @@
 	dir = 4
 	},
 /area/skyrat/interdynefob/service/chapel)
+"in" = (
+/obj/structure/flora/rock/pile,
+/turf/open/misc/asteroid/snow/atmosphere,
+/area/space)
 "io" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1359,6 +1370,10 @@
 /obj/item/soap/syndie,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/skyrat/interdynefob/halls)
+"iA" = (
+/obj/structure/flora/tree/pine,
+/turf/open/misc/asteroid/snow/atmosphere,
+/area/space)
 "iC" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1590,6 +1605,10 @@
 "jv" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/skyrat/interdynefob/service/freezer)
+"jy" = (
+/obj/item/toy/plush/nukeplushie,
+/turf/open/misc/asteroid/snow/atmosphere,
+/area/space)
 "jC" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -2235,6 +2254,10 @@
 "mJ" = (
 /turf/open/floor/iron/grimy,
 /area/skyrat/interdynefob/service/chapel)
+"mK" = (
+/obj/structure/flora/tree/dead,
+/turf/open/misc/asteroid/snow/atmosphere,
+/area/space)
 "mO" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
@@ -3062,7 +3085,9 @@
 	dir = 1
 	},
 /obj/machinery/cryopod/quiet{
-	dir = 8
+	dir = 8;
+	color = "#FFFFFF";
+	icon = 'modular_skyrat/modules/competitive_ds2_interdyne/icons/cryogenics_alt.dmi'
 	},
 /turf/open/floor/iron/smooth_large,
 /area/skyrat/interdynefob/service/dorms)
@@ -3184,6 +3209,10 @@
 	dir = 8
 	},
 /area/skyrat/interdynefob/halls)
+"sn" = (
+/obj/structure/flora/rock/icy,
+/turf/open/misc/asteroid/snow/atmosphere,
+/area/space)
 "so" = (
 /obj/structure/chair/comfy/black{
 	dir = 4
@@ -4187,7 +4216,8 @@
 	},
 /obj/machinery/computer/cryopod{
 	pixel_y = 28;
-	req_one_access = list(150)
+	req_one_access = list(150);
+	icon = 'modular_skyrat/modules/competitive_ds2_interdyne/icons/cryogenics_alt.dmi'
 	},
 /obj/structure/railing/corner{
 	dir = 1
@@ -4426,6 +4456,10 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/skyrat/interdynefob/research)
+"zr" = (
+/obj/structure/statue/uranium/nuke,
+/turf/open/misc/asteroid/snow/atmosphere,
+/area/space)
 "zt" = (
 /obj/machinery/computer/mech_bay_power_console{
 	dir = 1
@@ -4804,6 +4838,11 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/grass,
 /area/skyrat/interdynefob/halls)
+"BU" = (
+/obj/structure/flora/tree/pine,
+/obj/structure/flora/rock/pile,
+/turf/open/misc/asteroid/snow/atmosphere,
+/area/space)
 "BW" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/skyrat/interdynefob/service/chapel)
@@ -7389,11 +7428,13 @@
 /turf/open/floor/iron/dark,
 /area/skyrat/interdynefob/cargo)
 "OE" = (
-/obj/machinery/cryopod/quiet{
-	dir = 4
-	},
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
+	},
+/obj/machinery/cryopod/quiet{
+	dir = 4;
+	color = "#FFFFFF";
+	icon = 'modular_skyrat/modules/competitive_ds2_interdyne/icons/cryogenics_alt.dmi'
 	},
 /turf/open/floor/iron/smooth_large,
 /area/skyrat/interdynefob/service/dorms)
@@ -7405,7 +7446,6 @@
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/skyrat/interdynefob/halls)
 "OK" = (
-/obj/structure/table/reinforced,
 /obj/item/storage/box/prisoner{
 	pixel_y = 9
 	},
@@ -7413,6 +7453,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/structure/table/reinforced/plastitaniumglass,
 /turf/open/floor/iron/dark/red,
 /area/skyrat/interdynefob/security/prison)
 "OL" = (
@@ -7741,6 +7782,13 @@
 	dir = 1
 	},
 /area/skyrat/interdynefob/security)
+"QD" = (
+/obj/effect/light_emitter{
+	set_cap = 1;
+	set_luminosity = 4
+	},
+/turf/closed/indestructible/rock/snow,
+/area/space)
 "QG" = (
 /obj/machinery/light/directional/east,
 /obj/structure/cable,
@@ -8489,7 +8537,8 @@
 /obj/machinery/computer/cryopod{
 	dir = 1;
 	pixel_y = -28;
-	req_one_access = list(150)
+	req_one_access = list(150);
+	icon = 'modular_skyrat/modules/competitive_ds2_interdyne/icons/cryogenics_alt.dmi'
 	},
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
@@ -9088,6 +9137,10 @@
 	dir = 10
 	},
 /area/skyrat/interdynefob/bridge/vault)
+"Yn" = (
+/obj/structure/flora/grass/both,
+/turf/open/misc/asteroid/snow/atmosphere,
+/area/space)
 "Yo" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -11504,9 +11557,9 @@ qc
 Bn
 se
 Tb
+Yn
 Tb
-Tb
-Cn
+QD
 Cn
 Cn
 Cn
@@ -11596,10 +11649,10 @@ Sd
 se
 se
 Tb
+iA
+in
 Tb
-Tb
-Tb
-Cn
+QD
 Cn
 Cn
 Cn
@@ -11687,11 +11740,11 @@ kZ
 kZ
 Ng
 mp
+Yn
 Tb
-Tb
-Tb
-Tb
-Cn
+gm
+iA
+QD
 Cn
 Cn
 Cn
@@ -11781,9 +11834,9 @@ bU
 mp
 Tb
 Tb
+Yn
 Tb
-Tb
-Cn
+QD
 Cn
 Cn
 Cn
@@ -11872,11 +11925,11 @@ qN
 bU
 mp
 Tb
+mK
 Tb
+in
 Tb
-Tb
-Tb
-Cn
+QD
 Cn
 Cn
 Cn
@@ -11965,10 +12018,10 @@ Ng
 mp
 Tb
 Tb
+gm
 Tb
-Tb
-Tb
-Cn
+Yn
+QD
 Cn
 Cn
 Cn
@@ -12055,12 +12108,12 @@ DJ
 GQ
 Ng
 mp
+in
 Tb
+jy
 Tb
-Tb
-Tb
-Tb
-Cn
+mK
+QD
 Cn
 Cn
 Cn
@@ -12148,11 +12201,11 @@ yP
 bU
 mp
 Tb
+jy
+zr
+jy
 Tb
-Tb
-Tb
-Tb
-Cn
+QD
 Cn
 Cn
 Cn
@@ -12241,10 +12294,10 @@ bU
 mp
 Tb
 Tb
+jy
 Tb
 Tb
-Tb
-Cn
+QD
 Cn
 Cn
 Cn
@@ -12333,10 +12386,10 @@ Ng
 mp
 Tb
 Tb
+gm
 Tb
-Tb
-Tb
-Cn
+iA
+QD
 Cn
 Cn
 Cn
@@ -12423,12 +12476,12 @@ UG
 xe
 Ng
 mp
+Yn
 Tb
+Yn
 Tb
-Tb
-Tb
-Tb
-Cn
+in
+QD
 Cn
 Cn
 Cn
@@ -12518,9 +12571,9 @@ mp
 Tb
 Tb
 Tb
-Tb
-Tb
-Cn
+sn
+Yn
+QD
 Cn
 Cn
 Cn
@@ -12607,12 +12660,12 @@ qN
 yP
 bU
 mp
+in
+Tb
+gm
 Tb
 Tb
-Tb
-Tb
-Tb
-Cn
+QD
 Cn
 Cn
 Cn
@@ -12700,10 +12753,10 @@ yP
 Ng
 mp
 Tb
+iA
 Tb
-Tb
-Tb
-Cn
+mK
+QD
 Cn
 Cn
 Cn
@@ -12794,8 +12847,8 @@ mp
 Tb
 Tb
 Tb
-Tb
-Cn
+Yn
+QD
 Cn
 Cn
 Cn
@@ -12884,10 +12937,10 @@ yP
 bU
 mp
 Tb
+Yn
+gm
 Tb
-Tb
-Tb
-Cn
+QD
 Cn
 Cn
 Cn
@@ -12977,8 +13030,8 @@ bU
 mp
 Tb
 Tb
-Tb
-Cn
+BU
+QD
 Cn
 Cn
 Cn
