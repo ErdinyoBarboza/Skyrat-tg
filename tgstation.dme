@@ -4946,6 +4946,7 @@
 #include "modular_skyrat\modules\command_vendor\code\vending.dm"
 #include "modular_skyrat\modules\competitive_ds2_interdyne\code\defenses.dm"
 #include "modular_skyrat\modules\competitive_ds2_interdyne\code\donkco_market.dm"
+#include "modular_skyrat\modules\competitive_ds2_interdyne\code\donkco_specialitems.dm"
 #include "modular_skyrat\modules\competitive_ds2_interdyne\code\donkco_trader.dm"
 #include "modular_skyrat\modules\competitive_ds2_interdyne\code\shuttle.dm"
 #include "modular_skyrat\modules\connecting_computer\code\_computer.dm"
