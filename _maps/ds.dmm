@@ -196,12 +196,8 @@
 /area/skyrat/interdynefob/service/hydroponics)
 "bs" = (
 /obj/effect/turf_decal/bot,
-/obj/structure/closet/crate/large,
-/obj/item/disk{
-	desc = "A cheap, plastic hard-disk labelled 'good tunes to assault ops to'. It looks disused... wait, is that a 'THE WEAPONIZED' logo?";
-	icon_state = "nucleardisk";
-	name = "dat fukken disk"
-	},
+/obj/structure/closet/crate/wooden,
+/obj/effect/spawner/random/maintenance/eight,
 /turf/open/floor/iron/dark/brown/side,
 /area/skyrat/interdynefob/cargo)
 "bx" = (
@@ -640,7 +636,10 @@
 /turf/open/misc/asteroid/snow/atmosphere,
 /area/skyrat/interdynefob/outside)
 "eC" = (
-/obj/item/storage/cans/sixbeer,
+/obj/item/storage/cans/sixbeer{
+	pixel_y = -4;
+	pixel_x = 8
+	},
 /turf/open/misc/asteroid/snow/atmosphere,
 /area/skyrat/interdynefob/outside)
 "eD" = (
@@ -5050,6 +5049,12 @@
 /area/skyrat/interdynefob/blacksite)
 "Dc" = (
 /obj/effect/turf_decal/delivery,
+/obj/structure/closet/crate/large,
+/obj/item/disk{
+	desc = "A cheap, plastic hard-disk labelled 'good tunes to assault ops to'. It looks disused... wait, is that a 'THE WEAPONIZED' logo?";
+	icon_state = "nucleardisk";
+	name = "dat fukken disk"
+	},
 /turf/open/floor/iron/dark/brown/side,
 /area/skyrat/interdynefob/cargo)
 "Dg" = (
@@ -15709,7 +15714,7 @@ yd
 Eg
 XI
 Sf
-XI
+Sf
 Fm
 fH
 KI
