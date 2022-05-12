@@ -2606,9 +2606,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/closed/indestructible/syndicate,
 /area/skyrat/interdynefob/security/prison/quarters)
-"nt" = (
-/turf/closed/indestructible/syndicate,
-/area/skyrat/interdynefob/outside)
 "nv" = (
 /obj/effect/decal/cleanable/blood/gibs/limb,
 /turf/open/floor/mineral/plastitanium,
@@ -3311,9 +3308,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/skyrat/interdynefob/halls)
-"rf" = (
-/turf/open/floor/plating,
-/area/skyrat/interdynefob/outside)
 "rg" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -4540,16 +4534,17 @@
 /turf/open/floor/iron/dark,
 /area/skyrat/interdynefob/engineering)
 "xw" = (
+/obj/effect/decal/cleanable/cobweb,
 /obj/effect/bump_teleporter{
-	desc = "Leads to the Sub-Maintenance Tunnels. A dark and abandoned set of tunnels. Walk into the hatch to move.";
+	desc = "Leads to the Station. Walk into the hatch to move.";
 	icon = 'icons/obj/turrets.dmi';
 	icon_state = "turretCover";
-	id = "ds_deepmaint_entry";
-	id_target = "ds_deepmaint_exit";
+	id = "ds_deepmaint_exit";
+	id_target = "ds_deepmaint_entry";
 	invisibility = 0;
 	name = "Sub-Maintenance Tunnels Hatch"
 	},
-/turf/open/space/basic,
+/turf/open/floor/plating,
 /area/skyrat/interdynefob/maintenance)
 "xy" = (
 /obj/machinery{
@@ -5709,10 +5704,6 @@
 	dir = 4
 	},
 /area/skyrat/interdynefob/service/dorms/fitness)
-"DM" = (
-/obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/plating,
-/area/skyrat/interdynefob/maintenance)
 "DP" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
@@ -7562,7 +7553,7 @@
 "LV" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/hidden/layer5,
 /turf/closed/indestructible/rock/snow,
-/area/skyrat/interdynefob/outside)
+/area/skyrat/interdynefob)
 "LW" = (
 /obj/effect/bump_teleporter{
 	id = "ds_longtermstorage_transfer";
@@ -7674,6 +7665,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/textured_large,
 /area/skyrat/interdynefob/service/dorms/lockerroom)
+"ML" = (
+/turf/open/floor/iron/textured_large,
+/area/skyrat/interdynefob)
 "MO" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
@@ -10365,39 +10359,39 @@ No
 Sr
 Sr
 No
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
 No
 Sr
 Sr
 No
-fv
-fv
-fv
-fv
-nt
-nt
-HL
-HL
-HL
-HL
-HL
-HL
-HL
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
 vp
 Re
 Re
@@ -10458,30 +10452,30 @@ ny
 vY
 sl
 LV
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
+Yb
 No
 ny
 ny
 No
-fv
-fv
-fv
-fv
-rf
+Yb
+Yb
+Yb
+Yb
+Yb
 Ls
 Ls
 Ls
@@ -10489,7 +10483,7 @@ Ls
 Ls
 Ls
 Ls
-HL
+Yb
 Re
 Zw
 EW
@@ -10581,7 +10575,7 @@ OO
 SK
 WV
 Ls
-HL
+Yb
 Re
 Re
 Re
@@ -11762,8 +11756,8 @@ ny
 ny
 PC
 No
-DM
-Fv
+No
+No
 Fv
 Fv
 Fv
@@ -11855,7 +11849,7 @@ ny
 PC
 No
 xw
-Fv
+No
 Fv
 Fv
 Fv
@@ -18381,16 +18375,16 @@ Yq
 ay
 Yq
 HL
-QR
-lO
+Sa
+ML
 jJ
 jJ
 jJ
 jJ
 jJ
-lO
-lO
-lO
+ML
+ML
+ML
 xJ
 DZ
 xJ
@@ -18473,16 +18467,16 @@ ay
 Yq
 HL
 HL
-QR
-lO
-lO
-lO
-lO
-lO
-lO
-lO
-lO
-lO
+Sa
+ML
+ML
+ML
+ML
+ML
+ML
+ML
+ML
+ML
 xJ
 Ee
 xJ
@@ -18565,16 +18559,16 @@ HL
 HL
 HL
 HL
-QR
-QR
-QR
-QR
-QR
-QR
-QR
-QR
-QR
-QR
+Sa
+Sa
+Sa
+Sa
+Sa
+Sa
+Sa
+Sa
+Sa
+Sa
 xJ
 xJ
 xJ
