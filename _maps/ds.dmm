@@ -200,6 +200,10 @@
 /obj/effect/spawner/random/maintenance/eight,
 /turf/open/floor/iron/dark/brown/side,
 /area/skyrat/interdynefob/cargo)
+"bv" = (
+/obj/structure/shuttle/engine/router,
+/turf/open/floor/iron/smooth_large,
+/area/skyrat/interdynefob/outside)
 "bx" = (
 /turf/open/misc/asteroid/snow/atmosphere,
 /area/skyrat/interdynefob)
@@ -227,6 +231,11 @@
 /obj/structure/flora/rock/pile,
 /turf/open/misc/asteroid/snow/atmosphere,
 /area/skyrat/interdynefob/outside)
+"bL" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/skyrat/interdynefob/outside)
 "bO" = (
 /obj/machinery/door/poddoor/shutters/indestructible{
 	name = "Subterrainian Cargo Lift"
@@ -244,6 +253,20 @@
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/skyrat/interdynefob/research)
+"bW" = (
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/skyrat/interdynefob/service/kitchen)
+"bY" = (
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/indestructible/syndicate,
+/area/skyrat/interdynefob/engineering)
 "ce" = (
 /obj/structure/fence/cut/large,
 /turf/open/misc/asteroid/snow/atmosphere,
@@ -512,6 +535,15 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/skyrat/interdynefob/research/toxins)
+"dF" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/indestructible/syndicate,
+/area/skyrat/interdynefob/blacksite)
 "dG" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /turf/open/floor/mineral/plastitanium,
@@ -531,6 +563,10 @@
 	},
 /turf/open/floor/engine,
 /area/skyrat/interdynefob/research/xenobio)
+"dM" = (
+/obj/machinery/atmospherics/components/tank,
+/turf/open/floor/iron/smooth_large,
+/area/skyrat/interdynefob/outside)
 "dO" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -628,6 +664,23 @@
 	},
 /turf/open/misc/asteroid/snow/atmosphere,
 /area/skyrat/interdynefob/outside)
+"ez" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/box/donkpockets/donkpocketteriyaki{
+	pixel_y = 7;
+	pixel_x = 5
+	},
+/obj/item/storage/box/donkpockets/donkpockethonk{
+	pixel_y = 3;
+	pixel_x = 2
+	},
+/obj/item/storage/box/donkpockets/donkpocketberry{
+	pixel_y = -1;
+	pixel_x = -1
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/smooth_large,
+/area/skyrat/interdynefob/security/prison)
 "eA" = (
 /obj/item/chair/stool{
 	pixel_x = 13;
@@ -705,6 +758,9 @@
 	dir = 4
 	},
 /area/skyrat/interdynefob/security)
+"eN" = (
+/turf/closed/indestructible/opsglass,
+/area/skyrat/interdynefob/outside)
 "eO" = (
 /turf/open/floor/mineral/plastitanium/red,
 /area/skyrat/interdynefob/hiddenmaints)
@@ -914,10 +970,10 @@
 /obj/machinery/door/airlock/titanium{
 	name = "Experiments Wing Decontamination"
 	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 4
-	},
 /obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "ds2-sci"
+	},
 /turf/open/floor/mineral/titanium,
 /area/skyrat/interdynefob/research)
 "go" = (
@@ -1141,6 +1197,16 @@
 	},
 /turf/open/misc/asteroid/snow/atmosphere,
 /area/skyrat/interdynefob/outside)
+"hk" = (
+/obj/effect/forcefield{
+	timeleft = 0;
+	desc = "A chain link fence.";
+	name = "fence";
+	icon = 'icons/obj/fence.dmi';
+	icon_state = "straight"
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/skyrat/interdynefob/outside)
 "hl" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -1156,12 +1222,6 @@
 	},
 /turf/open/floor/plating,
 /area/skyrat/interdynefob/research/toxins)
-"hp" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/closed/indestructible/syndicate,
-/area/skyrat/interdynefob/research)
 "hq" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark/smooth_edge{
@@ -1363,6 +1423,13 @@
 	},
 /turf/open/floor/plating,
 /area/skyrat/interdynefob/security)
+"iw" = (
+/obj/effect/bump_teleporter{
+	id = "ds_longtermquarters";
+	id_target = "ds_longtermquarters_transfer"
+	},
+/turf/open/floor/plating/elevatorshaft,
+/area/skyrat/interdynefob/security/prison/quarters)
 "iy" = (
 /obj/structure/mopbucket,
 /obj/item/mop,
@@ -1389,13 +1456,13 @@
 /obj/machinery/door/airlock/titanium{
 	name = "Experiments Wing Decontamination"
 	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 4
-	},
 /obj/structure/cable,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "ds2-sci"
+	},
 /turf/open/floor/mineral/titanium,
 /area/skyrat/interdynefob/research)
 "iG" = (
@@ -1608,6 +1675,10 @@
 /obj/item/toy/plush/nukeplushie,
 /turf/open/misc/asteroid/snow/atmosphere,
 /area/space)
+"jz" = (
+/obj/structure/shuttle/engine/heater,
+/turf/open/floor/iron/smooth_large,
+/area/skyrat/interdynefob/outside)
 "jC" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -1687,6 +1758,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/mineral/plastitanium,
 /area/skyrat/interdynefob/blacksite)
+"kd" = (
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/indestructible/syndicate,
+/area/skyrat/interdynefob/hiddenmaints)
 "kf" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
@@ -1697,6 +1775,13 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/skyrat/interdynefob/research/robotics)
+"kn" = (
+/obj/structure/table,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth_large,
+/area/skyrat/interdynefob/security/prison)
 "ko" = (
 /obj/item/ammo_box/c9mm{
 	pixel_x = -2
@@ -1761,6 +1846,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/kitchen,
 /area/skyrat/interdynefob/service/kitchen)
+"kz" = (
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/skyrat/interdynefob/research/robotics)
 "kA" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 9
@@ -1779,6 +1871,9 @@
 	pixel_y = -32;
 	name = "prisoner locker"
 	},
+/obj/item/clothing/under/rank/prisoner/syndicate,
+/obj/item/clothing/under/rank/prisoner/skirt/syndicate,
+/obj/item/clothing/shoes/sneakers/red,
 /turf/open/floor/iron/dark/red/side{
 	dir = 10
 	},
@@ -1815,6 +1910,13 @@
 /turf/open/floor/plating,
 /area/skyrat/interdynefob/engineering)
 "kQ" = (
+/obj/structure/closet/secure_closet/wall{
+	pixel_y = -32;
+	name = "prisoner locker"
+	},
+/obj/item/clothing/under/rank/prisoner/syndicate,
+/obj/item/clothing/under/rank/prisoner/skirt/syndicate,
+/obj/item/clothing/shoes/sneakers/red,
 /turf/open/floor/iron/dark/red/side{
 	dir = 6
 	},
@@ -1857,6 +1959,13 @@
 "ll" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/skyrat/interdynefob/security/arrivalsec)
+"lm" = (
+/obj/structure/chair/stool/directional/west,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 5
+	},
+/turf/open/floor/iron/smooth_large,
+/area/skyrat/interdynefob/security/prison)
 "lo" = (
 /obj/effect/turf_decal/siding/wideplating{
 	dir = 1
@@ -1869,6 +1978,13 @@
 	dir = 4
 	},
 /area/skyrat/interdynefob/security/arrivalsec)
+"lp" = (
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/skyrat/interdynefob/cargo)
 "lq" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/structure/extinguisher_cabinet/directional/south,
@@ -1966,18 +2082,8 @@
 /obj/item/borg/upgrade/transform/syndicatejack{
 	name = "borg module picker (Interdyne)";
 	new_model = /obj/item/robot_model/syndicatejack/interdyne;
-	pixel_x = -4;
-	pixel_y = -4
-	},
-/obj/item/borg/upgrade/transform/syndicatejack{
-	name = "borg module picker (Interdyne)";
-	new_model = /obj/item/robot_model/syndicatejack/interdyne;
 	pixel_x = -2;
 	pixel_y = -2
-	},
-/obj/item/borg/upgrade/transform/syndicatejack{
-	name = "borg module picker (Interdyne)";
-	new_model = /obj/item/robot_model/syndicatejack/interdyne
 	},
 /obj/item/borg/upgrade/transform/syndicatejack{
 	name = "borg module picker (Interdyne)";
@@ -2113,6 +2219,13 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/skyrat/interdynefob/hiddenmaints)
+"mj" = (
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/indestructible/syndicate,
+/area/skyrat/interdynefob/halls/transfer)
 "ml" = (
 /obj/structure/window/reinforced/survival_pod{
 	dir = 4
@@ -2371,6 +2484,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/closed/indestructible/syndicate,
 /area/skyrat/interdynefob/security/prison/quarters)
+"nt" = (
+/turf/closed/indestructible/syndicate,
+/area/skyrat/interdynefob/outside)
 "nv" = (
 /obj/effect/decal/cleanable/blood/gibs/limb,
 /turf/open/floor/mineral/plastitanium,
@@ -2396,6 +2512,16 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/white,
 /area/skyrat/interdynefob/service/hydroponics)
+"nB" = (
+/obj/effect/forcefield{
+	timeleft = 0;
+	desc = "A chain link fence.";
+	name = "fence";
+	icon = 'icons/obj/fence.dmi';
+	icon_state = "corner"
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/skyrat/interdynefob/outside)
 "nC" = (
 /obj/effect/turf_decal/siding/thinplating/dark/end{
 	dir = 8
@@ -2412,6 +2538,13 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/skyrat/interdynefob/hiddenmaints)
+"nD" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/machinery/vending/cigarette{
+	pixel_y = 4
+	},
+/turf/open/floor/iron/smooth_large,
+/area/skyrat/interdynefob/security/prison)
 "nE" = (
 /obj/structure/sign/poster/contraband/gorlex_recruitment{
 	pixel_y = 32
@@ -2473,6 +2606,13 @@
 	},
 /turf/closed/indestructible/syndicate,
 /area/skyrat/interdynefob/blacksite)
+"nQ" = (
+/obj/structure/chair/stool/directional/east,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth_large,
+/area/skyrat/interdynefob/security/prison)
 "nR" = (
 /obj/structure/table/wood,
 /obj/machinery/light/directional/north,
@@ -2549,12 +2689,23 @@
 /obj/structure/fans/tiny,
 /turf/open/floor/iron/dark,
 /area/skyrat/interdynefob/service/dorms)
+"oj" = (
+/obj/structure/decorative/shelf/crates,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/skyrat/interdynefob/outside)
 "ok" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
 /turf/open/floor/wood,
 /area/skyrat/interdynefob/bridge/admiral)
+"om" = (
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/skyrat/interdynefob/service/diner)
 "on" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
@@ -2665,6 +2816,12 @@
 	dir = 1
 	},
 /area/skyrat/interdynefob/service/chapel)
+"pb" = (
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/turf/closed/indestructible/rock/snow,
+/area/skyrat/interdynefob/outside)
 "pe" = (
 /obj/machinery/computer/security{
 	network = list("fsci","fsc")
@@ -2693,6 +2850,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/carpet/neon/simple/red/nodots,
 /area/skyrat/interdynefob/service/chapel)
+"pk" = (
+/obj/structure/closet/crate/wooden,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/skyrat/interdynefob/outside)
 "pl" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -2782,6 +2943,12 @@
 	},
 /turf/open/floor/iron/grimy,
 /area/skyrat/interdynefob/service/chapel)
+"pI" = (
+/obj/structure/flora/scrap,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/skyrat/interdynefob/outside)
 "pP" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/bottle/beer{
@@ -2819,6 +2986,13 @@
 /turf/open/floor/mineral/plastitanium,
 /area/skyrat/interdynefob/halls)
 "pX" = (
+/obj/structure/closet/secure_closet/wall{
+	pixel_y = -32;
+	name = "prisoner locker"
+	},
+/obj/item/clothing/under/rank/prisoner/syndicate,
+/obj/item/clothing/under/rank/prisoner/skirt/syndicate,
+/obj/item/clothing/shoes/sneakers/red,
 /turf/open/floor/iron/dark/red/side,
 /area/skyrat/interdynefob/security/prison)
 "pZ" = (
@@ -2875,6 +3049,13 @@
 	},
 /turf/open/floor/iron,
 /area/skyrat/interdynefob/security/arrivalsec)
+"qo" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/machinery/vending/snack{
+	pixel_y = 4
+	},
+/turf/open/floor/iron/smooth_large,
+/area/skyrat/interdynefob/security/prison)
 "qr" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 6
@@ -3032,6 +3213,13 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/skyrat/interdynefob/research/toxins)
+"rx" = (
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/skyrat/interdynefob/bridge/cl)
 "ry" = (
 /obj/structure/decorative/shelf/soda_milk,
 /obj/effect/turf_decal/bot,
@@ -3490,6 +3678,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron/kitchen,
 /area/skyrat/interdynefob/service/kitchen)
+"tH" = (
+/obj/structure/showcase/machinery/signal_decrypter,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/skyrat/interdynefob/outside)
 "tJ" = (
 /obj/machinery/chem_heater/withbuffer,
 /turf/open/floor/mineral/titanium/tiled/yellow,
@@ -3634,6 +3826,15 @@
 	},
 /turf/open/misc/asteroid,
 /area/skyrat/interdynefob/service/diner)
+"up" = (
+/obj/structure/table/reinforced,
+/obj/structure/reagent_dispensers/servingdish{
+	pixel_y = 1;
+	pixel_x = 6
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/smooth_large,
+/area/skyrat/interdynefob/security/prison)
 "uq" = (
 /obj/structure/chair/stool{
 	dir = 8
@@ -3666,6 +3867,9 @@
 /obj/machinery/conveyor/auto,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/skyrat/interdynefob/hiddenmaints)
+"uA" = (
+/turf/open/space/basic,
+/area/skyrat/interdynefob/outside)
 "uB" = (
 /obj/effect/turf_decal/siding/wideplating{
 	dir = 1
@@ -3678,7 +3882,10 @@
 /obj/machinery/door/airlock/titanium{
 	name = "Long Term Storage"
 	},
-/turf/open/floor/iron/textured_large,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/noslip{
+	color = "#8777FF"
+	},
 /area/skyrat/interdynefob/security/prison)
 "uD" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -3730,6 +3937,13 @@
 /obj/effect/spawner/random/food_or_drink/refreshing_beverage,
 /turf/open/floor/iron/dark,
 /area/skyrat/interdynefob/service/dorms)
+"uP" = (
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/indestructible/syndicate,
+/area/skyrat/interdynefob/security/prison)
 "uQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/hidden/layer5,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
@@ -3780,13 +3994,6 @@
 	dir = 8
 	},
 /area/skyrat/interdynefob/service/dorms)
-"ve" = (
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
-/turf/closed/indestructible/rock/snow,
-/area/skyrat/interdynefob/outside)
 "vh" = (
 /obj/structure/rack,
 /obj/item/cultivator,
@@ -3838,6 +4045,13 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/skyrat/interdynefob/service/dorms/fitness)
+"vp" = (
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/indestructible/syndicate,
+/area/skyrat/interdynefob/security/prison/deep)
 "vq" = (
 /obj/machinery/smartfridge/food,
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
@@ -3991,6 +4205,15 @@
 	},
 /turf/open/space/basic,
 /area/skyrat/interdynefob)
+"wy" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/indestructible/syndicate,
+/area/skyrat/interdynefob/security/prison/quarters)
 "wA" = (
 /obj/structure/chair/office{
 	dir = 8
@@ -4012,6 +4235,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/skyrat/interdynefob/service/dorms/fitness)
+"wE" = (
+/obj/structure/closet/crate/large,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/skyrat/interdynefob/outside)
 "wG" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -4240,6 +4467,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark/smooth_large,
 /area/skyrat/interdynefob/service/diner)
+"yc" = (
+/obj/structure/table,
+/turf/open/floor/iron/smooth_large,
+/area/skyrat/interdynefob/security/prison)
 "yd" = (
 /obj/structure/sign/poster/contraband/syndicate_pistol{
 	pixel_y = -32
@@ -4415,6 +4646,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark/textured_large,
 /area/skyrat/interdynefob/halls)
+"yY" = (
+/obj/effect/bump_teleporter{
+	id = "ds_longtermquarters_transfer";
+	id_target = "ds_longtermquarter"
+	},
+/turf/open/floor/plating/elevatorshaft,
+/area/skyrat/interdynefob/security/prison)
 "zf" = (
 /obj/structure/chair/sofa/bench{
 	dir = 4
@@ -4646,6 +4884,10 @@
 	},
 /turf/open/floor/wood,
 /area/skyrat/interdynefob/service/dorms/lockerroom)
+"Az" = (
+/obj/effect/spawner/liquids_spawner/acid_waist,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/skyrat/interdynefob/outside)
 "AB" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /turf/open/floor/mineral/titanium,
@@ -4758,9 +5000,6 @@
 	},
 /obj/structure/extinguisher_cabinet/directional/east,
 /obj/structure/rack,
-/obj/item/storage/bag/plants,
-/obj/item/clothing/suit/apron,
-/obj/item/hatchet,
 /turf/open/floor/mineral/plastitanium,
 /area/skyrat/interdynefob/research)
 "Bo" = (
@@ -4933,6 +5172,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/skyrat/interdynefob/service/diner)
+"Cx" = (
+/obj/structure/shuttle/engine/heater{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth_large,
+/area/skyrat/interdynefob/outside)
 "Cz" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
@@ -4966,6 +5211,23 @@
 	},
 /turf/open/floor/iron/textured_large,
 /area/skyrat/interdynefob/halls)
+"CI" = (
+/obj/machinery/door/airlock/security/old/glass{
+	name = "Security";
+	req_access_txt = "151"
+	},
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "ds2-sec"
+	},
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/open/floor/iron/dark/red/side{
+	dir = 1
+	},
+/area/skyrat/interdynefob/security)
 "CJ" = (
 /obj/structure/window/reinforced/plasma/plastitanium,
 /obj/machinery/door/firedoor/heavy,
@@ -5063,6 +5325,13 @@
 	},
 /turf/open/floor/plating,
 /area/skyrat/interdynefob/engineering)
+"Dh" = (
+/obj/effect/light_emitter{
+	set_cap = 1;
+	set_luminosity = 4
+	},
+/turf/closed/indestructible/syndicate,
+/area/skyrat/interdynefob/hiddenmaints)
 "Dj" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Fitness"
@@ -5089,6 +5358,15 @@
 	},
 /turf/open/space/basic,
 /area/skyrat/interdynefob)
+"Do" = (
+/obj/machinery/door/airlock/titanium{
+	name = "Living Quarters"
+	},
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/noslip{
+	color = "#8777FF"
+	},
+/area/skyrat/interdynefob/security/prison)
 "Dq" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Diner"
@@ -5291,6 +5569,9 @@
 	dir = 1
 	},
 /area/skyrat/interdynefob/cargo)
+"Eo" = (
+/turf/closed/indestructible/rock,
+/area/skyrat/interdynefob/outside)
 "Eq" = (
 /obj/structure/cable,
 /turf/open/floor/iron/dark/smooth_large,
@@ -5397,6 +5678,13 @@
 /obj/structure/window/reinforced/survival_pod,
 /turf/open/floor/mineral/plastitanium,
 /area/skyrat/interdynefob/bridge)
+"EO" = (
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/skyrat/interdynefob/research)
 "EP" = (
 /obj/structure/table,
 /obj/item/book/manual/wiki/infections{
@@ -5446,13 +5734,19 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/skyrat/interdynefob/service/dorms/lockerroom)
+"EU" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/closed/indestructible/rock/snow,
+/area/skyrat/interdynefob/outside)
 "EV" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /turf/open/floor/plating,
 /area/skyrat/interdynefob/service/dorms/fitness)
 "EW" = (
 /obj/machinery/door/airlock/titanium{
-	name = "Long Term Storage"
+	name = "Long Term Brig"
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/skyrat/interdynefob/security/prison/deep)
@@ -5471,6 +5765,13 @@
 	},
 /turf/open/floor/plating,
 /area/skyrat/interdynefob/engineering)
+"Fg" = (
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/skyrat/interdynefob/bridge/admiral)
 "Fi" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/end,
 /obj/structure/chair/office/light{
@@ -5511,18 +5812,6 @@
 	dir = 1
 	},
 /area/skyrat/interdynefob/halls/transfer)
-"Fu" = (
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
-/turf/closed/indestructible/syndicate,
-/area/skyrat/interdynefob/medbay/chem)
-"Fy" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/closed/indestructible/syndicate,
-/area/skyrat/interdynefob/medbay/chem)
 "FE" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -5953,6 +6242,13 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/skyrat/interdynefob/medbay/chem)
+"Ic" = (
+/obj/structure/chair/stool/directional/west,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth_large,
+/area/skyrat/interdynefob/security/prison)
 "Ie" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -5960,6 +6256,13 @@
 	},
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/skyrat/interdynefob/service/freezer)
+"Ig" = (
+/obj/structure/chair/stool/directional/east,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 9
+	},
+/turf/open/floor/iron/smooth_large,
+/area/skyrat/interdynefob/security/prison)
 "Ih" = (
 /obj/effect/turf_decal/siding/purple{
 	dir = 1
@@ -6022,6 +6325,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/closed/indestructible/syndicate,
 /area/skyrat/interdynefob/research/xenobio)
+"Iv" = (
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/skyrat/interdynefob/bridge)
 "Iw" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
@@ -6067,10 +6377,10 @@
 /obj/machinery/door/airlock/titanium{
 	name = "Experiments Wing Decontamination"
 	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
 /obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "ds2-sci"
+	},
 /turf/open/floor/iron/smooth_half{
 	dir = 8
 	},
@@ -6109,6 +6419,12 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/skyrat/interdynefob/research/toxins)
+"IP" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/closed/indestructible/rock/snow,
+/area/skyrat/interdynefob/outside)
 "IQ" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
@@ -6130,6 +6446,15 @@
 /obj/item/soap/syndie,
 /turf/open/floor/iron/showroomfloor,
 /area/skyrat/interdynefob/bridge/admiral)
+"IW" = (
+/obj/structure/table/reinforced,
+/obj/machinery/microwave{
+	pixel_x = 4;
+	pixel_y = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/smooth_large,
+/area/skyrat/interdynefob/security/prison)
 "IX" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/skyrat/interdynefob/halls)
@@ -6203,6 +6528,10 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/dark/smooth_large,
 /area/skyrat/interdynefob/service/hydroponics)
+"Jo" = (
+/obj/structure/chair/stool/directional/west,
+/turf/open/floor/iron/smooth_large,
+/area/skyrat/interdynefob/security/prison)
 "Jp" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -6248,6 +6577,11 @@
 /obj/structure/cable,
 /turf/open/floor/mineral/plastitanium/red,
 /area/skyrat/interdynefob/bridge)
+"Jy" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/skyrat/interdynefob/outside)
 "Jz" = (
 /obj/structure/rack,
 /obj/item/shield/riot{
@@ -6334,6 +6668,13 @@
 	dir = 4
 	},
 /area/skyrat/interdynefob/cargo)
+"JK" = (
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/skyrat/interdynefob/halls)
 "JM" = (
 /obj/machinery/button/door{
 	id = "TESDaggerfall";
@@ -6408,6 +6749,13 @@
 	},
 /turf/open/floor/wood,
 /area/skyrat/interdynefob/service/dorms)
+"Ka" = (
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/skyrat/interdynefob/service/freezer)
 "Kb" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Pool"
@@ -6502,6 +6850,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/mineral/plastitanium,
 /area/skyrat/interdynefob/medbay)
+"KB" = (
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/skyrat/interdynefob/service/chapel)
 "KC" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
@@ -6727,6 +7082,17 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/mineral/plastitanium/red,
 /area/skyrat/interdynefob/research/xenobio)
+"Lp" = (
+/obj/effect/forcefield{
+	timeleft = 0;
+	desc = "A chain link fence.";
+	name = "fence";
+	icon = 'icons/obj/fence.dmi';
+	icon_state = "straight";
+	dir = 4
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/skyrat/interdynefob/outside)
 "Lr" = (
 /obj/machinery/smartfridge,
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
@@ -6923,6 +7289,9 @@
 	},
 /turf/open/floor/plating/elevatorshaft,
 /area/skyrat/interdynefob/security/prison)
+"LX" = (
+/turf/closed/wall/ice,
+/area/skyrat/interdynefob/outside)
 "LY" = (
 /obj/structure/chair/sofa/corp,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -6930,6 +7299,13 @@
 	},
 /turf/open/floor/carpet/red,
 /area/skyrat/interdynefob/research/robotics)
+"LZ" = (
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/skyrat/interdynefob/service/dorms)
 "Mc" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/carpet,
@@ -7237,6 +7613,15 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/skyrat/interdynefob/medbay/chem)
+"NN" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/structure/cable,
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/open/floor/plating,
+/area/skyrat/interdynefob/service/dorms/fitness)
 "NO" = (
 /obj/machinery/door/firedoor,
 /obj/structure/table/reinforced,
@@ -7332,6 +7717,16 @@
 /obj/machinery/ammo_workbench/unlocked,
 /turf/open/floor/iron/dark,
 /area/skyrat/interdynefob/security)
+"Om" = (
+/obj/structure/fluff/oldturret{
+	icon_state = "syndie_broken"
+	},
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/skyrat/interdynefob/security/arrivalsec)
 "On" = (
 /obj/machinery/hydroponics/constructable,
 /obj/machinery/door/window/survival_pod{
@@ -7450,6 +7845,13 @@
 	},
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/skyrat/interdynefob/halls)
+"OJ" = (
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/skyrat/interdynefob/service/hydroponics)
 "OK" = (
 /obj/item/storage/box/prisoner{
 	pixel_y = 9
@@ -7511,6 +7913,22 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/skyrat/interdynefob/medbay/chem)
+"OX" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/closet/crate/bin{
+	pixel_y = 6
+	},
+/obj/effect/spawner/random/trash/food_packaging,
+/obj/effect/spawner/random/trash/food_packaging,
+/obj/effect/spawner/random/trash/food_packaging,
+/obj/effect/spawner/random/trash/cigbutt,
+/obj/effect/spawner/random/trash/cigbutt,
+/obj/effect/spawner/random/trash/cigbutt,
+/obj/effect/spawner/random/contraband/prison,
+/turf/open/floor/noslip{
+	color = "#8777FF"
+	},
+/area/skyrat/interdynefob/security/prison)
 "OY" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -7549,6 +7967,13 @@
 /obj/effect/turf_decal/siding/yellow,
 /turf/open/floor/iron/large,
 /area/skyrat/interdynefob/engineering)
+"Pm" = (
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/skyrat/interdynefob/security/armory)
 "Pn" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/armor/vest/alt{
@@ -7815,6 +8240,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/kitchen,
 /area/skyrat/interdynefob/service/kitchen)
+"QM" = (
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/skyrat/interdynefob/outside)
 "QR" = (
 /turf/closed/indestructible/syndicate,
 /area/space)
@@ -7851,6 +8279,12 @@
 	dir = 8
 	},
 /area/skyrat/interdynefob/halls)
+"Rc" = (
+/obj/machinery/door/airlock/titanium{
+	name = "Long Term Brig"
+	},
+/turf/open/floor/iron/textured_large,
+/area/skyrat/interdynefob/security/prison/quarters)
 "Re" = (
 /turf/closed/indestructible/syndicate,
 /area/skyrat/interdynefob/security/prison/deep)
@@ -8032,10 +8466,10 @@
 	name = "Experiments Wing Decontamination"
 	},
 /obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
 /obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "ds2-sci"
+	},
 /turf/open/floor/iron/smooth_half{
 	dir = 8
 	},
@@ -8151,6 +8585,15 @@
 /obj/machinery/suit_storage_unit/syndicate,
 /turf/open/floor/iron/smooth_large,
 /area/skyrat/interdynefob/security/armory)
+"SH" = (
+/obj/machinery/vending/sovietsoda{
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 10
+	},
+/turf/open/floor/iron/smooth_large,
+/area/skyrat/interdynefob/security/prison)
 "SK" = (
 /obj/structure/table/glass/plasmaglass,
 /obj/item/pen{
@@ -8239,6 +8682,15 @@
 	},
 /turf/open/floor/iron/dark,
 /area/skyrat/interdynefob/service/diner)
+"Tj" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 6
+	},
+/obj/machinery/vending/coffee{
+	pixel_y = 4
+	},
+/turf/open/floor/iron/smooth_large,
+/area/skyrat/interdynefob/security/prison)
 "To" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/supply/hidden,
 /turf/open/floor/iron/dark,
@@ -8355,6 +8807,14 @@
 /obj/item/stack/sheet/iron/fifty,
 /turf/open/floor/mineral/plastitanium/red,
 /area/skyrat/interdynefob/research)
+"TQ" = (
+/obj/structure/flora/scrap{
+	icon_state = "scrap1"
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/skyrat/interdynefob/outside)
 "TR" = (
 /obj/machinery/computer/mechpad{
 	dir = 1
@@ -8405,9 +8865,7 @@
 /turf/open/floor/plating,
 /area/skyrat/interdynefob/service/dorms)
 "Ub" = (
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
+/obj/structure/disposalpipe/segment,
 /turf/closed/indestructible/syndicate,
 /area/skyrat/interdynefob/research)
 "Ug" = (
@@ -8498,6 +8956,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/mineral/plastitanium,
 /area/skyrat/interdynefob/research)
+"UK" = (
+/turf/open/space/basic,
+/area/skyrat/interdynefob/hiddenmaints)
 "UO" = (
 /obj/structure/window/reinforced/survival_pod{
 	dir = 4
@@ -8580,7 +9041,10 @@
 /turf/open/floor/mineral/plastitanium,
 /area/skyrat/interdynefob/bridge)
 "Vv" = (
-/turf/open/floor/iron/textured_large,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/noslip{
+	color = "#8777FF"
+	},
 /area/skyrat/interdynefob/security/prison)
 "Vw" = (
 /obj/machinery/light/directional/north,
@@ -8667,6 +9131,13 @@
 	},
 /turf/open/floor/iron/textured_large,
 /area/skyrat/interdynefob/halls)
+"VR" = (
+/obj/structure/chair/stool/directional/west,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth_large,
+/area/skyrat/interdynefob/security/prison)
 "VS" = (
 /obj/machinery/computer{
 	dir = 1;
@@ -8742,6 +9213,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/textured_large,
 /area/skyrat/interdynefob/service/dorms/lockerroom)
+"Wj" = (
+/obj/effect/baseturf_helper/asteroid/snow{
+	baseturf = /turf/open/misc/asteroid/snow/atmosphere;
+	name = "atmos snow baseturf editor"
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/skyrat/interdynefob/service/dorms/lockerroom)
 "Wl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/remains/human,
@@ -8759,6 +9237,16 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/closed/indestructible/syndicate,
 /area/skyrat/interdynefob/research/toxins)
+"Wz" = (
+/obj/machinery/conveyor/auto{
+	alpha = 0;
+	invisibility = 101
+	},
+/turf/open/water{
+	name = "running sewage water";
+	desc = "Gross."
+	},
+/area/skyrat/interdynefob/outside)
 "WA" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
@@ -9357,6 +9845,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark/textured_large,
 /area/skyrat/interdynefob/bridge/vault)
+"Zt" = (
+/obj/structure/shuttle/engine/router,
+/turf/closed/indestructible/syndicate,
+/area/skyrat/interdynefob/outside)
 "Zv" = (
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
@@ -9519,11 +10011,11 @@ HL
 HL
 HL
 HL
-yg
-yg
-yg
-yg
-yg
+UK
+UK
+UK
+UK
+UK
 yg
 yg
 HL
@@ -9533,7 +10025,7 @@ HL
 HL
 HL
 HL
-Re
+vp
 Re
 Re
 Re
@@ -9578,6 +10070,11 @@ Yq
 bJ
 aL
 HL
+nt
+nt
+nt
+nt
+nt
 HL
 HL
 HL
@@ -9606,16 +10103,11 @@ HL
 HL
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-yg
-nL
-dp
-Sw
-Su
+UK
+UK
+UK
+UK
+UK
 Sw
 Ls
 Ls
@@ -9669,6 +10161,26 @@ Yq
 aI
 Yq
 Yq
+LX
+LX
+QM
+QM
+QM
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+uA
+uA
+uA
+uA
+uA
+uA
 HL
 HL
 HL
@@ -9683,31 +10195,11 @@ HL
 HL
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-yg
-LP
-qA
-Sw
-yg
+UK
+UK
+UK
+UK
+UK
 Ls
 Hj
 KD
@@ -9761,45 +10253,45 @@ aL
 Yq
 Yq
 Yq
+az
+az
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+nt
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
 HL
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-yg
-ha
-jq
-eE
-yg
+UK
+UK
+UK
+UK
+UK
 Ls
 Hv
 gf
@@ -9853,45 +10345,45 @@ Yq
 Yq
 Yq
 Yq
+LX
+LX
+QM
+QM
+QM
+nt
+QM
+QM
+QM
+QM
+nt
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
 HL
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-yg
-Mi
-zU
-cJ
-yg
+UK
+UK
+UK
+UK
+UK
 Ls
 Hy
 KF
@@ -9900,7 +10392,7 @@ KF
 SQ
 Xg
 Ls
-yg
+kd
 yg
 yg
 yg
@@ -9946,44 +10438,44 @@ Yq
 Yq
 Yq
 HL
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+QM
+QM
+nt
+nt
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
 HL
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-yg
-GT
-Cs
-wc
-yg
+UK
+UK
+UK
+UK
+UK
 Ls
 HD
 KO
@@ -10041,42 +10533,42 @@ HL
 HL
 HL
 HL
+nt
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+nt
+QM
+QM
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+QM
+QM
+nt
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-yg
-Cd
-ih
-ih
-ih
-Fu
+UK
+UK
+UK
+UK
+UK
+Ls
 HW
 Lc
 ND
@@ -10133,6 +10625,34 @@ HL
 HL
 HL
 HL
+nt
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+nt
+QM
+QM
+nt
+QM
+QM
+QM
+QM
+QM
+Lp
+tH
+pk
+wE
+wE
+nt
+QM
+QM
+nt
 HL
 HL
 HL
@@ -10140,35 +10660,7 @@ HL
 HL
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-Fy
+Ls
 Ia
 Ld
 NL
@@ -10225,6 +10717,34 @@ HL
 HL
 HL
 HL
+nt
+QM
+QM
+nt
+nt
+nt
+nt
+nt
+QM
+QM
+nt
+QM
+QM
+nt
+QM
+QM
+QM
+QM
+QM
+Lp
+QM
+QM
+pk
+wE
+nt
+QM
+QM
+nt
 HL
 HL
 HL
@@ -10232,35 +10752,7 @@ HL
 HL
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-Fy
+Ls
 Ih
 Lk
 NP
@@ -10317,6 +10809,34 @@ HL
 HL
 HL
 HL
+nt
+bL
+QM
+QM
+QM
+QM
+QM
+nt
+QM
+QM
+nt
+QM
+QM
+nt
+eN
+eN
+eN
+QM
+QM
+Lp
+QM
+QM
+QM
+oj
+nt
+QM
+QM
+nt
 HL
 HL
 HL
@@ -10324,35 +10844,7 @@ HL
 HL
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-Fy
+Ls
 tJ
 gf
 NQ
@@ -10379,11 +10871,11 @@ Cn
 Cn
 Cn
 Cn
-Cn
-Cn
-Cn
-Cn
-Cn
+UK
+UK
+UK
+UK
+UK
 Cn
 XK
 XK
@@ -10409,6 +10901,34 @@ HL
 HL
 HL
 HL
+Eo
+pI
+Jy
+nt
+QM
+QM
+QM
+nt
+QM
+QM
+nt
+QM
+QM
+nt
+Az
+Az
+eN
+QM
+QM
+nB
+hk
+hk
+hk
+hk
+nt
+QM
+QM
+nt
 HL
 HL
 HL
@@ -10416,35 +10936,7 @@ HL
 HL
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-Fy
+Ls
 eT
 Lv
 pZ
@@ -10471,11 +10963,11 @@ AS
 Cn
 Cn
 Cn
-Cn
-Cn
-Cn
-Cn
-Cn
+UK
+UK
+UK
+UK
+UK
 Cn
 Cn
 Cn
@@ -10501,6 +10993,34 @@ HL
 HL
 HL
 HL
+Eo
+Eo
+Eo
+nt
+QM
+QM
+QM
+nt
+QM
+QM
+nt
+QM
+QM
+nt
+Az
+Az
+eN
+QM
+QM
+QM
+QM
+QM
+dM
+dM
+nt
+QM
+QM
+nt
 HL
 HL
 HL
@@ -10508,42 +11028,14 @@ HL
 HL
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-hp
+se
 Zk
 Zk
 Zk
 Zk
 Zk
 Zk
-Zk
+EO
 TX
 IJ
 fP
@@ -10563,11 +11055,11 @@ AS
 Cn
 Cn
 Cn
-Cn
-Cn
-Cn
-Cn
-Cn
+UK
+UK
+UK
+UK
+UK
 Cn
 Cn
 Cn
@@ -10593,6 +11085,34 @@ HL
 HL
 HL
 HL
+Eo
+TQ
+bL
+nt
+QM
+QM
+QM
+nt
+QM
+QM
+nt
+QM
+QM
+nt
+Az
+Az
+eN
+QM
+QM
+QM
+QM
+QM
+dM
+dM
+nt
+QM
+QM
+nt
 HL
 HL
 HL
@@ -10600,35 +11120,7 @@ HL
 HL
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-hp
+se
 ER
 HX
 yi
@@ -10655,11 +11147,11 @@ AS
 Cn
 Cn
 Cn
-Cn
-Cn
-Cn
-Cn
-Cn
+UK
+UK
+UK
+UK
+UK
 Cn
 Cn
 Cn
@@ -10685,6 +11177,34 @@ Yq
 HL
 HL
 HL
+nt
+bL
+QM
+QM
+QM
+QM
+QM
+nt
+QM
+QM
+nt
+QM
+QM
+nt
+Az
+Az
+eN
+jz
+bv
+Cx
+QM
+QM
+dM
+dM
+nt
+QM
+QM
+nt
 HL
 HL
 HL
@@ -10692,35 +11212,7 @@ HL
 HL
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-hp
+se
 hU
 Ly
 IJ
@@ -10747,11 +11239,11 @@ AS
 Cn
 Cn
 Cn
-Cn
-Cn
-Cn
-Cn
-Cn
+UK
+UK
+UK
+UK
+UK
 Cn
 Cn
 Cn
@@ -10777,6 +11269,34 @@ aI
 HL
 HL
 HL
+nt
+QM
+QM
+nt
+nt
+nt
+nt
+nt
+QM
+QM
+nt
+QM
+QM
+nt
+Az
+Az
+eN
+jz
+bv
+Cx
+QM
+QM
+QM
+QM
+nt
+QM
+QM
+nt
 HL
 HL
 HL
@@ -10784,35 +11304,7 @@ HL
 HL
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-hp
+se
 Io
 IJ
 IJ
@@ -10839,11 +11331,11 @@ Wv
 Cn
 Cn
 Cn
-Cn
-Cn
-Cn
-Cn
-Cn
+UK
+UK
+UK
+UK
+UK
 Cn
 Cn
 Cn
@@ -10869,6 +11361,34 @@ Yq
 HL
 HL
 HL
+nt
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+nt
+QM
+QM
+nt
+Az
+Az
+eN
+jz
+bv
+Cx
+QM
+QM
+QM
+QM
+nt
+QM
+QM
+nt
 HL
 HL
 HL
@@ -10876,35 +11396,7 @@ HL
 HL
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-hp
+se
 Ix
 LC
 IJ
@@ -10931,11 +11423,11 @@ Wv
 Cn
 Cn
 Cn
-Cn
-Cn
-Cn
-Cn
-Cn
+UK
+UK
+UK
+UK
+UK
 Cn
 Cn
 Cn
@@ -10961,6 +11453,34 @@ Yq
 Yq
 ah
 HL
+nt
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+nt
+QM
+QM
+nt
+nt
+nt
+nt
+nt
+Zt
+nt
+nt
+nt
+nt
+nt
+nt
+QM
+QM
+nt
 HL
 HL
 HL
@@ -10968,35 +11488,7 @@ HL
 HL
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-hp
+se
 CS
 CS
 CS
@@ -11053,42 +11545,42 @@ gU
 Yq
 Yq
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-hp
+nt
+nt
+QM
+QM
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+QM
+QM
+uA
+uA
+uA
+uA
+uA
+uA
+uA
+uA
+uA
+uA
+uA
+nt
+QM
+QM
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+se
 lf
 LK
 Hi
@@ -11146,41 +11638,41 @@ Yq
 Yq
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-hp
+nt
+QM
+QM
+nt
+uA
+uA
+uA
+uA
+uA
+nt
+QM
+QM
+uA
+uA
+uA
+uA
+uA
+uA
+uA
+uA
+uA
+uA
+uA
+nt
+QM
+QM
+nt
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+se
 IA
 LN
 RY
@@ -11238,41 +11730,41 @@ Yq
 bJ
 Yq
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-hp
+nt
+QM
+QM
+nt
+uA
+uA
+uA
+uA
+uA
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+uA
+uA
+uA
+uA
+uA
+uA
+nt
+QM
+QM
+nt
+QM
+kd
+yg
+yg
+yg
+yg
+QM
+se
 Dw
 CX
 wM
@@ -11330,41 +11822,41 @@ aL
 Yq
 Yq
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-hp
+nt
+QM
+QM
+nt
+uA
+uA
+uA
+uA
+uA
+nt
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+uA
+uA
+uA
+uA
+uA
+uA
+nt
+QM
+QM
+nt
+QM
+yg
+nL
+dp
+Sw
+Su
+QM
+se
 Dw
 CX
 IJ
@@ -11422,41 +11914,41 @@ Yq
 aI
 Yq
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-ve
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-hp
+nt
+QM
+QM
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+uA
+uA
+uA
+uA
+uA
+uA
+nt
+QM
+QM
+nt
+QM
+yg
+LP
+qA
+Sw
+yg
+nt
+se
 Dw
 CX
 OB
@@ -11514,40 +12006,40 @@ Yq
 Yq
 ah
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
+nt
+QM
+QM
+nt
+QM
+QM
+QM
+QM
+QM
+nt
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+uA
+uA
+uA
+uA
+uA
+uA
+nt
+QM
+QM
+QM
+QM
+yg
+ha
+jq
+eE
+yg
+pb
 Ub
 IL
 QZ
@@ -11605,41 +12097,41 @@ Yq
 Yq
 Yq
 Yq
-Yq
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
+nt
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+QM
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+yg
+Mi
+zU
+cJ
+yg
+IP
 se
 se
 se
@@ -11696,42 +12188,42 @@ Yq
 Yq
 Yq
 Yq
-Yq
 EB
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
+nt
+nt
+nt
+nt
+QM
+QM
+QM
+QM
+QM
+nt
+Wz
+Wz
+Wz
+Wz
+Wz
+Wz
+Wz
+Wz
+Wz
+Wz
+Wz
+Wz
+Wz
+Wz
+Wz
+Wz
+Wz
+Wz
+yg
+GT
+Cs
+wc
+yg
+IP
 HL
 HL
 HL
@@ -11752,8 +12244,8 @@ iA
 QD
 Cn
 Cn
-Cn
-Cn
+Ut
+Ut
 Ut
 nn
 nn
@@ -11789,41 +12281,41 @@ Yq
 ay
 Yq
 Yq
-Yq
 HL
 HL
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
+nt
+QM
+QM
+QM
+QM
+QM
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+nt
+yg
+Cd
+ih
+ih
+ih
+EU
 HL
 Yq
 Yq
@@ -11844,9 +12336,9 @@ Tb
 QD
 Cn
 Cn
-Cn
-Cn
 Ut
+iw
+Rc
 nn
 nn
 nn
@@ -11885,13 +12377,13 @@ EB
 HL
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
+nt
+QM
+QM
+QM
+QM
+QM
+nt
 HL
 HL
 HL
@@ -11900,12 +12392,12 @@ HL
 HL
 HL
 yg
+Dh
 yg
-yg
 HL
 HL
 HL
-cy
+HL
 HL
 HL
 HL
@@ -11936,8 +12428,8 @@ in
 Tb
 QD
 Cn
-Cn
-Cn
+Ut
+Ut
 Ut
 nn
 nn
@@ -11977,13 +12469,13 @@ Yq
 Yq
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
+nt
+QM
+QM
+QM
+QM
+QM
+nt
 HL
 HL
 HL
@@ -11996,10 +12488,10 @@ eO
 yg
 yg
 HL
-hV
-bx
-bx
-nx
+HL
+cy
+HL
+HL
 bJ
 HL
 HL
@@ -12069,13 +12561,13 @@ bJ
 EB
 HL
 HL
-HL
-HL
-HL
-HL
-HL
-HL
-HL
+nt
+nt
+nt
+nt
+nt
+nt
+nt
 HL
 HL
 HL
@@ -12088,8 +12580,8 @@ eO
 eO
 yg
 yg
+hV
 bx
-jP
 cy
 nH
 Yq
@@ -12162,11 +12654,11 @@ Yq
 HL
 HL
 HL
-HL
-HL
-HL
-HL
-HL
+uA
+uA
+uA
+uA
+uA
 HL
 HL
 HL
@@ -12181,7 +12673,7 @@ eO
 eO
 yg
 yg
-bx
+jP
 bx
 nx
 Yq
@@ -13043,7 +13535,7 @@ Cn
 Cn
 Cn
 Cn
-ns
+wy
 nn
 nn
 nn
@@ -13135,7 +13627,7 @@ RO
 RO
 Cn
 Cn
-RC
+dF
 NY
 NY
 NY
@@ -13225,7 +13717,7 @@ Xj
 gL
 qV
 XJ
-UB
+bY
 UB
 RC
 aE
@@ -13584,7 +14076,7 @@ WE
 wK
 Oe
 Dy
-RO
+rx
 RO
 Rs
 RO
@@ -14151,7 +14643,7 @@ xY
 XL
 Jp
 rS
-Uw
+kz
 FS
 wq
 zL
@@ -14688,7 +15180,7 @@ Zq
 XI
 Oe
 XI
-Va
+Iv
 Va
 Va
 WW
@@ -14780,7 +15272,7 @@ Zq
 XI
 Oe
 yR
-IX
+JK
 IB
 iy
 WW
@@ -14848,7 +15340,7 @@ BW
 BW
 BW
 BW
-BW
+KB
 jW
 BW
 oy
@@ -14948,7 +15440,7 @@ BW
 sW
 uV
 tc
-Zq
+LZ
 WD
 BS
 iW
@@ -15059,7 +15551,7 @@ XI
 IX
 oF
 IX
-WW
+Fg
 WW
 WW
 WW
@@ -15425,7 +15917,7 @@ XI
 Oe
 XI
 IX
-Eg
+om
 Eg
 Ss
 Eg
@@ -15623,7 +16115,7 @@ Eg
 XI
 Sf
 XI
-ES
+CI
 nW
 go
 Kw
@@ -15880,7 +16372,7 @@ xK
 sH
 Mu
 xK
-sH
+Wj
 Dj
 ts
 CH
@@ -16253,7 +16745,7 @@ mT
 ZV
 mT
 vk
-FL
+bW
 zl
 IQ
 vq
@@ -16418,7 +16910,7 @@ mX
 Yq
 Yq
 Yq
-vo
+NN
 wT
 yD
 Am
@@ -16442,7 +16934,7 @@ uY
 ky
 Fo
 tf
-jv
+Ka
 jv
 jv
 jv
@@ -16543,13 +17035,13 @@ jv
 XI
 Sf
 XI
-Mj
+Pm
 Mj
 Mj
 Mj
 KM
 kp
-kT
+uP
 kT
 Vv
 Vv
@@ -16825,8 +17317,8 @@ mO
 Kh
 Pn
 kp
-Vv
-Vv
+yY
+Do
 Vv
 Vv
 Vv
@@ -16891,7 +17383,7 @@ CO
 Ot
 RD
 WP
-YW
+lp
 ZU
 dJ
 gE
@@ -16917,8 +17409,8 @@ Kh
 tC
 Jz
 kp
-Vv
-Vv
+kT
+kT
 Vv
 Vv
 Vv
@@ -16989,7 +17481,7 @@ ch
 OD
 tO
 qE
-MD
+OJ
 mf
 Eq
 gV
@@ -17009,7 +17501,7 @@ Br
 tC
 Rx
 kp
-Vv
+nD
 Vv
 Vv
 Vv
@@ -17056,7 +17548,7 @@ Yq
 Yq
 Yq
 Yq
-jl
+Om
 ll
 jH
 qm
@@ -17101,11 +17593,11 @@ iL
 Jw
 DD
 kp
+Tj
 Vv
 Vv
-Vv
-Vv
-Vv
+Ig
+nQ
 kT
 "}
 (84,1,1) = {"
@@ -17193,11 +17685,11 @@ yg
 yg
 yg
 yg
+OX
 Vv
 Vv
-Vv
-Vv
-Vv
+kn
+yc
 kT
 "}
 (85,1,1) = {"
@@ -17285,11 +17777,11 @@ yg
 us
 mi
 yg
+SH
 Vv
 Vv
-Vv
-Vv
-Vv
+lm
+Ic
 kT
 "}
 (86,1,1) = {"
@@ -17377,7 +17869,7 @@ yg
 yr
 vw
 yg
-Vv
+qo
 Vv
 Vv
 Vv
@@ -17434,13 +17926,13 @@ jJ
 xJ
 xJ
 xJ
-xJ
+mj
 xJ
 xJ
 GB
 Ki
 GB
-yg
+kd
 Su
 yg
 YW
@@ -17460,7 +17952,7 @@ nf
 Gj
 Jn
 Ze
-yg
+kd
 cP
 yg
 yg
@@ -17469,11 +17961,11 @@ YM
 Yi
 gW
 yg
+up
 Vv
 Vv
-Vv
-Vv
-Vv
+Ig
+nQ
 kT
 "}
 (88,1,1) = {"
@@ -17561,11 +18053,11 @@ yg
 yg
 yg
 yg
+IW
 Vv
 Vv
-Vv
-Vv
-Vv
+kn
+yc
 kT
 "}
 (89,1,1) = {"
@@ -17653,11 +18145,11 @@ mQ
 uz
 gG
 yg
+ez
 Vv
 Vv
-Vv
-Vv
-Vv
+VR
+Jo
 kT
 "}
 (90,1,1) = {"
