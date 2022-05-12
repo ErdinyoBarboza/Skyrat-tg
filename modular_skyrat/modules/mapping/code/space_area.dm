@@ -189,23 +189,12 @@
 /area/skyrat/interdynefob/maintenance
 	name = "\improper DS-2 Maintenance"
 	icon = 'icons/area/areas_station.dmi'
-	icon_state = "maintcentral"
+	icon_state = "centralmaint"
 
-/area/skyrat/interdynefob/maintenance/southwest
-	name = "\improper DS-2 Port Quarter Maintenance"
-	icon_state = "apmaint"
-
-/area/skyrat/interdynefob/maintenance/northwest
-	name = "\improper DS-2 Port Fore Maintenance"
-	icon_state = "fpmaint"
-
-/area/skyrat/interdynefob/maintenance/northeast
-	name = "\improper DS-2 Starboard Bow Maintenance"
-	icon_state = "smaint"
-
-/area/skyrat/interdynefob/maintenance/southeast
-	name = "\improper DS-2 Starboard Quarter Maintenance"
-	icon_state = "smaint_2"
+/area/skyrat/interdynefob/maintenance/combat
+	name = "\improper DS-2 Outer Maintenance"
+	icon_state = "centralmaint"
+	requires_power = FALSE
 
 //Research
 /area/skyrat/interdynefob/research
