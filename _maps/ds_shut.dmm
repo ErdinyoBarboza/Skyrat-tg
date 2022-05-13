@@ -1,7 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "as" = (
-/obj/structure/table/reinforced,
-/obj/item/storage/medkit/regular,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/storage/medkit/advanced,
 /turf/open/floor/iron/shuttle/exploration/corner,
 /area/shuttle/mining/large/advanced)
 "ax" = (
@@ -45,13 +45,12 @@
 	},
 /area/shuttle/mining/large/advanced)
 "eG" = (
-/obj/machinery/door/airlock/mining{
-	name = "Mining Shuttle Cockpit"
+/obj/machinery/door/airlock/survival_pod{
+	name = "Shuttle Cockpit"
 	},
 /turf/open/floor/iron/shuttle/exploration/textured_flat,
 /area/shuttle/mining/large/advanced)
 "fR" = (
-/obj/machinery/status_display/evac,
 /turf/closed/wall/mineral/titanium/shuttle_wall/mining_large/syndi{
 	icon_state = "2,5"
 	},
@@ -91,18 +90,15 @@
 	},
 /area/shuttle/mining/large/advanced)
 "kY" = (
-/obj/structure/table/reinforced,
-/obj/item/screwdriver{
-	pixel_y = 18
-	},
-/obj/item/stock_parts/cell/high,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/stock_parts/cell/lead,
 /turf/open/floor/iron/shuttle/exploration/side{
 	dir = 8
 	},
 /area/shuttle/mining/large/advanced)
 "lf" = (
-/obj/structure/table/reinforced,
-/obj/item/storage/toolbox/emergency,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/storage/toolbox/syndicate,
 /turf/open/floor/iron/shuttle/exploration/side,
 /area/shuttle/mining/large/advanced)
 "lw" = (
@@ -290,7 +286,7 @@
 	},
 /area/shuttle/mining/large/advanced)
 "xy" = (
-/obj/structure/table/reinforced,
+/obj/structure/table/reinforced/plastitaniumglass,
 /turf/open/floor/iron/shuttle/exploration/side,
 /area/shuttle/mining/large/advanced)
 "ye" = (
@@ -341,7 +337,6 @@
 	},
 /area/shuttle/mining/large/advanced)
 "Em" = (
-/obj/structure/table/reinforced,
 /obj/item/stack/ore/iron{
 	pixel_x = -2;
 	pixel_y = -8
@@ -349,6 +344,10 @@
 /obj/item/stack/ore/iron{
 	pixel_x = 6;
 	pixel_y = 4
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/screwdriver/nuke{
+	pixel_y = -15
 	},
 /turf/open/floor/iron/shuttle/exploration/corner{
 	dir = 8
@@ -373,8 +372,8 @@
 	},
 /area/shuttle/mining/large/advanced)
 "Ju" = (
-/obj/structure/table/reinforced,
-/obj/item/folder/yellow,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/folder/red,
 /obj/item/pen,
 /turf/open/floor/iron/shuttle/exploration/side{
 	dir = 4
@@ -432,9 +431,6 @@
 /area/shuttle/mining/large/advanced)
 "UY" = (
 /obj/machinery/light/small/directional/south,
-/obj/item/radio/intercom{
-	pixel_y = -29
-	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/shuttle/exploration/side{
 	dir = 1

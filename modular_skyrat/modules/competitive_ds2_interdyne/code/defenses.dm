@@ -5,4 +5,4 @@
 	name = "hidden mine spawner"
 	icon_state = "questionmark"
 	spawn_loot_chance = 20
-	loot = list(/obj/structure/closet/crate/secure/loot)
+	loot = list(/obj/effect/mine/explosive/hidden)
