@@ -7422,7 +7422,8 @@
 /area/skyrat/interdynefob/medbay/chem)
 "Lu" = (
 /obj/effect/mob_spawn/ghost_role/human/ds2/prisoner{
-	dir = 8
+	dir = 8;
+	uses = 4
 	},
 /obj/effect/spawner/liquids_spawner,
 /turf/open/floor/iron/pool{
@@ -9247,7 +9248,8 @@
 	desc = "For when it all gets too much to bear. Do not taunt.";
 	icon = 'icons/obj/machines/nuke_terminal.dmi';
 	icon_state = "nuclearbomb_base";
-	name = "station self-destruct terminal"
+	name = "station self-destruct terminal";
+	density = 1
 	},
 /turf/open/floor/circuit,
 /area/skyrat/interdynefob/bridge/vault)
@@ -12339,7 +12341,7 @@ ea
 cF
 ny
 ny
-No
+bg
 ny
 PC
 No
